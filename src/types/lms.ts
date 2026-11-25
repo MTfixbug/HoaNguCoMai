@@ -188,6 +188,8 @@ export interface ExamAttemptRecord {
   created_at: string
 }
 
+export type PetMotionMode = 'still' | 'slow' | 'off'
+
 export interface ClientSettings {
   theme: 'system' | 'light' | 'dark'
   hanziSize: 'md' | 'lg' | 'xl'
@@ -199,5 +201,11 @@ export interface ClientSettings {
   showMeaning: boolean
   petType: PetType
   petEnabled: boolean
+  petMotion?: PetMotionMode
   stickersEnabled: boolean
+  hskStandard?: '3.0' | '2.0'
+  dailyNewLimit?: 5 | 10 | 15 | 20
+  leaderboardOptIn?: boolean
+  approvedContentIds?: string[]
+  contentOverrides?: Record<string, { title?: string; explanationVi?: string; meaningVi?: string; trap?: string; tip?: string }>
 }

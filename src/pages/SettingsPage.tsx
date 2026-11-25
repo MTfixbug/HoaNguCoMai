@@ -92,6 +92,66 @@ export default function SettingsPage() {
       </section>
 
       <section className="glass-panel p-5 space-y-4">
+        <div>
+          <h2 className="text-sm font-bold text-ink">Chuẩn HSK &amp; Mục tiêu từ mới mỗi ngày</h2>
+          <p className="text-xs text-muted">
+            Kỳ thi HSK 3.0 áp dụng từ 13/12/2026 (300/500/1.000/2.000/3.600/5.400 từ). Học viên thi trước 13/12/2026 có thể chọn chuẩn 2.0.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-2">
+          {(
+            [
+              ['3.0', 'Chuẩn HSK 3.0 (Mặc định)'],
+              ['2.0', 'Chuẩn HSK 2.0 (Trước 13/12/2026)'],
+            ] as ['3.0' | '2.0', string][]
+          ).map(([std, label]) => (
+            <button
+              key={std}
+              type="button"
+              onClick={() => {
+                updateSettings({ hskStandard: std })
+                toast.success(`Đã chuyển sang ${label}`)
+              }}
+              className={`glass-pill-btn min-h-11 text-xs ${(settings.hskStandard ?? '3.0') === std ? 'glass-primary-btn' : ''}`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        <div className="space-y-1.5">
+          <div className="text-xs font-bold text-ink">Số từ mới mỗi ngày (Mặc định 10 từ · Giới hạn 100 thẻ ôn/ngày)</div>
+          <div className="grid grid-cols-4 gap-2">
+            {([5, 10, 15, 20] as const).map((cnt) => (
+              <button
+                key={cnt}
+                type="button"
+                onClick={() => updateSettings({ dailyNewLimit: cnt })}
+                className={`glass-pill-btn min-h-10 text-xs ${(settings.dailyNewLimit ?? 10) === cnt ? 'glass-primary-btn' : ''}`}
+              >
+                {cnt} từ
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-line">
+          <div className="text-xs">
+            <div className="font-bold text-ink">Bảng xếp hạng lớp học</div>
+            <div className="text-muted">Mặc định tắt để học thoải mái không áp lực</div>
+          </div>
+          <button
+            type="button"
+            onClick={() => updateSettings({ leaderboardOptIn: !settings.leaderboardOptIn })}
+            className={`glass-pill-btn !min-h-9 !px-4 text-xs ${settings.leaderboardOptIn ? 'glass-primary-btn' : ''}`}
+          >
+            {settings.leaderboardOptIn ? 'Đang tham gia' : 'Đã tắt'}
+          </button>
+        </div>
+      </section>
+
+      <section className="glass-panel p-5 space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
             <h2 className="text-sm font-bold text-ink flex items-center gap-1.5">
@@ -99,14 +159,26 @@ export default function SettingsPage() {
             </h2>
             <p className="text-xs text-muted">Chọn 1 trong 7 linh vật đi cùng khi luyện tập (có thể tắt bất cứ lúc nào)</p>
           </div>
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => void updatePetPreferences(settings.petType, !settings.petEnabled)}
-              className={`glass-pill-btn !min-h-8 !px-3 text-xs ${settings.petEnabled ? 'glass-primary-btn' : ''}`}
-            >
-              {settings.petEnabled ? 'Đang bật thú cưng' : 'Đã tắt thú cưng'}
-            </button>
+          <div className="flex flex-wrap items-center gap-2">
+            {(
+              [
+                ['still', 'Đứng yên'],
+                ['slow', 'Đi chậm'],
+                ['off', 'Tắt'],
+              ] as const
+            ).map(([m, lbl]) => (
+              <button
+                key={m}
+                type="button"
+                onClick={() => {
+                  updateSettings({ petMotion: m, petEnabled: m !== 'off' })
+                  void updatePetPreferences(settings.petType, m !== 'off')
+                }}
+                className={`glass-pill-btn !min-h-8 !px-3 text-xs ${(settings.petEnabled ? (settings.petMotion ?? 'still') : 'off') === m ? 'glass-primary-btn' : ''}`}
+              >
+                {lbl}
+              </button>
+            ))}
             <button
               type="button"
               onClick={() => updateSettings({ stickersEnabled: !settings.stickersEnabled })}
@@ -236,6 +308,7 @@ export default function SettingsPage() {
         >
           <RotateCcw size={15} /> Xóa bộ nhớ tạm trình duyệt
         </button>
+        <div className="text-center text-[11px] text-muted pt-1">Hoa Ngữ Cô Mai · Phiên bản 1.2 (HSK 3.0)</div>
       </section>
     </div>
   )

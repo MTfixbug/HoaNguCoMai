@@ -1,5 +1,18 @@
-import { BookOpen, FileSpreadsheet, Flame, Home, Layers, LogOut, PawPrint, Search, Settings, Sparkles } from 'lucide-react'
-import { NavLink, Outlet } from 'react-router-dom'
+import {
+  BookOpen,
+  FileSpreadsheet,
+  Flame,
+  Home,
+  Layers,
+  LogOut,
+  PawPrint,
+  Settings,
+  Sparkles,
+  UserCircle2,
+  WifiOff,
+} from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { Toaster } from 'sonner'
 import { useAuth } from '../../hooks/AuthContext'
 import { useLms } from '../../hooks/LmsContext'
@@ -8,15 +21,42 @@ import PetCompanion from '../gamification/PetCompanion'
 import StickerBurst from '../gamification/StickerBurst'
 
 const STUDENT_TABS = [
-  { to: '/', label: 'Trang chủ', icon: Home, end: true },
-  { to: '/flashcards', label: 'Luyện tập', icon: Layers, end: false },
+  { to: '/', label: 'Hôm nay', icon: Home, end: true },
+  { to: '/vocab', label: 'Từ vựng', icon: BookOpen, end: false },
+  { to: '/practice', label: 'Luyện tập', icon: Layers, end: false },
   { to: '/exams', label: 'Thi thử', icon: FileSpreadsheet, end: false },
-  { to: '/vocab', label: 'Từ điển', icon: Search, end: false },
 ]
 
 export default function AppShell() {
   const { configured, profile, signOut } = useAuth()
-  const { dataLoading, profiles, settings, updatePetPreferences } = useLms()
+  const { dataLoading, profiles, settings, updatePetPreferences, updateSettings } = useLms()
+  const navigate = useNavigate()
+
+  const [menuOpen, setMenuOpen] = useState(false)
+  const [online, setOnline] = useState(() => (typeof navigator === 'undefined' ? true : navigator.onLine))
+  const menuRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const onOnline = () => setOnline(true)
+    const onOffline = () => setOnline(false)
+    window.addEventListener('online', onOnline)
+    window.addEventListener('offline', onOffline)
+    return () => {
+      window.removeEventListener('online', onOnline)
+      window.removeEventListener('offline', onOffline)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!menuOpen) return
+    const close = (e: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false)
+      }
+    }
+    window.addEventListener('mousedown', close)
+    return () => window.removeEventListener('mousedown', close)
+  }, [menuOpen])
 
   const liveProfile = profiles.find((p) => p.id === profile?.id) ?? profile
   const activeLevel = liveProfile ? Math.max(1, liveProfile.current_hsk_level || 1) : 1
@@ -26,9 +66,9 @@ export default function AppShell() {
   return (
     <div className="min-h-dvh pb-24 md:pb-12 bg-canvas">
       <header className="sticky top-0 z-30 border-b border-line bg-glass/95 backdrop-blur-md">
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-4 py-2.5">
+        <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-3 sm:px-4 py-2">
           <div className="flex items-center gap-3 min-w-0">
-            <NavLink to="/" className="flex items-center gap-2 shrink-0">
+            <NavLink to="/" className="flex items-center gap-2 shrink-0 min-h-11">
               <span className="hanzi flex h-9 w-9 items-center justify-center rounded-xl bg-jade text-sm font-bold text-white shadow-sm">
                 华
               </span>
@@ -44,7 +84,7 @@ export default function AppShell() {
                   to={to}
                   end={end}
                   className={({ isActive }) =>
-                    `flex items-center gap-1.5 whitespace-nowrap rounded-full px-3.5 py-1.5 text-xs font-semibold transition ${
+                    `flex items-center gap-1.5 whitespace-nowrap rounded-full px-3.5 py-2 text-xs font-semibold transition min-h-10 ${
                       isActive ? 'bg-jade-soft text-jade' : 'text-muted hover:text-ink hover:bg-glass-subtle'
                     }`
                   }
@@ -57,58 +97,98 @@ export default function AppShell() {
           </div>
 
           <div className="flex items-center gap-1.5 shrink-0">
-            <span className="soft-chip !bg-ochre-soft !text-ochre whitespace-nowrap" title="Chuỗi ngày học liên tiếp">
-              <Flame size={13} /> <span className="tabular-nums">{streakDays}</span>
-              <span className="hidden sm:inline"> ngày</span>
-            </span>
-
-            <span className="soft-chip whitespace-nowrap" title="Điểm tích lũy XP">
-              <Sparkles size={13} /> <span className="tabular-nums">{xpPoints} XP</span>
-            </span>
-
-            {liveProfile && (
-              <span className="soft-chip hidden lg:inline-flex whitespace-nowrap">
-                <BookOpen size={12} /> HSK {activeLevel} · {liveProfile.full_name}
+            {!online && (
+              <span className="soft-chip !bg-ochre-soft !text-ochre text-[11px]" title="Đang học ngoại tuyến">
+                <WifiOff size={12} /> <span className="hidden sm:inline">Offline</span>
               </span>
             )}
 
-            <button
-              type="button"
-              onClick={() => void updatePetPreferences(settings.petType, !settings.petEnabled)}
-              className={`glass-pill-btn !min-h-9 !px-2.5 ${settings.petEnabled ? '!border-jade !bg-jade-soft !text-jade' : ''}`}
-              aria-label="Bật hoặc tắt thú cưng đồng hành"
-              title={settings.petEnabled ? 'Đang bật bạn đồng hành (bấm để tắt)' : 'Đang tắt bạn đồng hành (bấm để bật)'}
-            >
-              <PawPrint size={15} />
-            </button>
+            <span className="soft-chip !bg-ochre-soft !text-ochre whitespace-nowrap" title="Chuỗi ngày học liên tiếp">
+              <Flame size={13} /> <span className="tabular-nums">{streakDays}</span>
+            </span>
 
-            <NavLink
-              to="/settings"
-              className={({ isActive }) =>
-                `glass-pill-btn !min-h-9 !px-2.5 ${isActive ? '!border-jade !bg-jade-soft !text-jade' : ''}`
-              }
-              aria-label="Cài đặt"
-              title="Cài đặt"
-            >
-              <Settings size={16} />
-            </NavLink>
-            <ThemeToggle />
-            {configured && profile && (
+            <span className="soft-chip whitespace-nowrap" title="Điểm tích lũy XP">
+              <Sparkles size={13} /> <span className="tabular-nums">{xpPoints}</span>
+            </span>
+
+            <span className="soft-chip hidden sm:inline-flex whitespace-nowrap">
+              HSK {activeLevel} ({settings.hskStandard ?? '3.0'})
+            </span>
+
+            <div className="relative" ref={menuRef}>
               <button
                 type="button"
-                onClick={() => void signOut()}
-                className="glass-pill-btn !min-h-9 !px-2.5"
-                aria-label="Đăng xuất"
-                title="Đăng xuất"
+                onClick={() => setMenuOpen((v) => !v)}
+                className="glass-pill-btn !min-h-11 !px-3 gap-1.5"
+                aria-label="Menu cá nhân và cài đặt"
+                aria-expanded={menuOpen}
               >
-                <LogOut size={15} />
+                <UserCircle2 size={18} />
+                <span className="hidden sm:inline text-xs font-semibold max-w-[100px] truncate">
+                  {liveProfile?.full_name ?? 'Tài khoản'}
+                </span>
               </button>
-            )}
+
+              {menuOpen && (
+                <div className="absolute right-0 mt-2 w-64 rounded-2xl border border-line bg-glass-strong p-3 shadow-xl space-y-2.5 z-50">
+                  <div className="border-b border-line pb-2 text-xs">
+                    <div className="font-bold text-ink truncate">{liveProfile?.full_name ?? 'Học viên'}</div>
+                    <div className="text-muted truncate">{liveProfile?.email}</div>
+                  </div>
+
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="text-muted">Giao diện</span>
+                    <ThemeToggle />
+                  </div>
+
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="text-muted flex items-center gap-1.5">
+                      <PawPrint size={13} /> Thú cưng
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        const nextEnabled = !settings.petEnabled
+                        updateSettings({ petMotion: nextEnabled ? 'still' : 'off' })
+                        void updatePetPreferences(settings.petType, nextEnabled)
+                      }}
+                      className="glass-pill-btn !min-h-8 !px-3 text-[11px]"
+                    >
+                      {settings.petEnabled ? 'Đang bật' : 'Đã tắt'}
+                    </button>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMenuOpen(false)
+                      navigate('/settings')
+                    }}
+                    className="glass-pill-btn w-full justify-start !min-h-11 px-3 text-xs"
+                  >
+                    <Settings size={15} /> Cài đặt học &amp; Lộ trình
+                  </button>
+
+                  {configured && profile && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setMenuOpen(false)
+                        void signOut()
+                      }}
+                      className="glass-pill-btn w-full justify-start !min-h-11 px-3 text-xs !border-terracotta/40 !text-terracotta"
+                    >
+                      <LogOut size={15} /> Đăng xuất
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 py-5 sm:py-6">
+      <main className="mx-auto max-w-5xl px-3 sm:px-4 py-4 sm:py-6">
         {dataLoading ? (
           <div className="glass-panel p-10 text-center text-sm text-muted" role="status">
             Đang tải dữ liệu học tập...
@@ -121,20 +201,23 @@ export default function AppShell() {
       <StickerBurst />
       <PetCompanion />
 
-      <nav className="fixed bottom-0 inset-x-0 z-30 border-t border-line bg-glass md:hidden" aria-label="Điều hướng di động">
-        <div className="mx-auto grid max-w-md grid-cols-4 px-2 py-1.5">
+      <nav
+        className="fixed bottom-0 inset-x-0 z-30 border-t border-line bg-glass/95 backdrop-blur-md md:hidden pb-[env(safe-area-inset-bottom)]"
+        aria-label="Điều hướng di động"
+      >
+        <div className="mx-auto grid max-w-md grid-cols-4 px-1.5 py-1">
           {STUDENT_TABS.map(({ to, label, icon: Icon, end }) => (
             <NavLink
               key={to}
               to={to}
               end={end}
               className={({ isActive }) =>
-                `flex flex-col items-center justify-center rounded-xl py-1.5 text-[11px] font-semibold transition ${
+                `flex flex-col items-center justify-center rounded-xl py-1.5 min-h-12 text-[11px] font-semibold transition ${
                   isActive ? 'bg-jade-soft text-jade' : 'text-muted'
                 }`
               }
             >
-              <Icon size={17} />
+              <Icon size={18} />
               <span className="mt-0.5 truncate max-w-full">{label}</span>
             </NavLink>
           ))}

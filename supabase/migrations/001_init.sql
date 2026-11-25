@@ -1,4 +1,4 @@
--- ZHWeb LMS (Cô Khánh Mai) — HSK 1-9 Student + Admin Platform
+-- Hoa Ngữ LMS — HSK 1-9 Student + Admin Platform
 -- RLS chặt chẽ:
 --   1. private.is_admin() & private.is_approved_user() với SECURITY DEFINER + search_path rỗng
 --   2. Khóa cứng account_status ('pending' | 'approved' | 'locked') & role trên profiles_update_self

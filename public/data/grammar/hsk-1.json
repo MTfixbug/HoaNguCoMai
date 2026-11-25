@@ -1,0 +1,3008 @@
+[
+  {
+    "id": "g1-01",
+    "hskLevel": 1,
+    "category": "Từ loại & Cấu tạo từ",
+    "topic": "Đại từ nhân xưng & Số nhiều —们",
+    "title": "Đại từ nhân xưng và hậu tố số nhiều —们 (men)",
+    "formula": "Đại từ nhân xưng / Danh từ chỉ người + 们",
+    "explanationVi": "Tiếng Trung dùng 我 (tôi), 你 (bạn), 您 (ngài - kính trọng), 他 (anh ấy), 她 (cô ấy), 它 (nó) để chỉ ngôi. Khi thêm hậu tố 们 (men) vào sau đại từ hoặc danh từ chỉ người (như 同学们, 朋友们), từ chuyển thành số nhiều. Từ 大家 (mọi người) bản thân đã chỉ số đông nên không cộng thêm 们.",
+    "viComparison": "Tiếng Việt dùng \"chúng tôi, các bạn, các anh ấy\" bằng cách thêm \"chúng/các\" ở phía trước, còn tiếng Trung gắn 们 vào phía sau từ. Tuyệt đối không đặt số từ cụ thể trước danh từ đã có 们 (không nói 三个朋友们).",
+    "confusablePairs": [
+      {
+        "pair": "你 vs 您",
+        "distinction": "你 dùng với bạn bè, người ngang hàng hoặc nhỏ tuổi hơn; 您 dùng để xưng hô lịch sự với thầy cô, người lớn tuổi hoặc khách hàng (và 您 không ghép thành 您们)."
+      },
+      {
+        "pair": "他 vs 她 vs 它",
+        "distinction": "Cả ba đều đọc là tā: 他 dùng cho nam (hoặc chung), 她 dùng cho nữ, còn 它 dùng cho đồ vật, con vật."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我们都是大学生。",
+        "pinyin": "Wǒmen dōu shì dàxuéshēng.",
+        "vi": "Chúng tôi đều là sinh viên đại học."
+      },
+      {
+        "zh": "您好，请问您叫什么名字？",
+        "pinyin": "Nín hǎo, qǐngwèn nín jiào shénme míngzi?",
+        "vi": "Xin chào ngài, xin hỏi ngài tên là gì ạ?"
+      },
+      {
+        "zh": "同学们，大家早上好！",
+        "pinyin": "Tóngxuémen, dàjiā zǎoshang hǎo!",
+        "vi": "Các bạn học sinh, chào buổi sáng mọi người!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-01-q1",
+        "type": "mcq",
+        "prompt": "Khi chào hỏi giáo viên hoặc người lớn tuổi một cách lễ phép, bạn nên dùng đại từ nào?",
+        "options": [
+          "您",
+          "你",
+          "他",
+          "它"
+        ],
+        "answer": "您",
+        "explanation": "您 (nín) là đại từ ngôi thứ hai số ít mang sắc thái kính trọng, dùng với thầy cô hoặc người lớn tuổi."
+      },
+      {
+        "id": "g1-01-q2",
+        "type": "fill",
+        "prompt": "Chọn từ phù hợp điền vào chỗ trống: ___ 都是我的好朋友。(Các cô ấy đều là bạn tốt của tôi.)",
+        "options": [
+          "她们",
+          "他们",
+          "它们",
+          "我们"
+        ],
+        "answer": "她们",
+        "explanation": "Từ chỉ \"các cô ấy\" (toàn nữ) trong tiếng Trung là 她们 (tāmen)."
+      },
+      {
+        "id": "g1-01-q3",
+        "type": "mcq",
+        "prompt": "Câu nào sau đây dùng hậu tố 们 đúng ngữ pháp?",
+        "options": [
+          "朋友们都来了。",
+          "三个朋友们来了。",
+          "大家们都高兴。",
+          "它是一只猫们。"
+        ],
+        "answer": "朋友们都来了。",
+        "explanation": "Danh từ chỉ người có thể thêm 们 để chỉ số nhiều, nhưng không đi kèm số từ cụ thể và 大家 không cộng 们."
+      },
+      {
+        "id": "g1-01-q4",
+        "type": "fill",
+        "prompt": "Điền đại từ phù hợp: ___ 很喜欢学习汉语。(Mọi người đều rất thích học tiếng Hán.)",
+        "options": [
+          "大家",
+          "您们",
+          "它们",
+          "我"
+        ],
+        "answer": "大家",
+        "explanation": "大家 (dàjiā) có nghĩa là \"mọi người\", là đại từ chỉ tập thể."
+      },
+      {
+        "id": "g1-01-q5",
+        "type": "order",
+        "prompt": "Sắp xếp các từ thành câu hoàn chỉnh: \"Các bạn đều biết cô ấy.\"",
+        "tokens": [
+          "你们",
+          "都",
+          "认识",
+          "她",
+          "。"
+        ],
+        "answer": "你们都认识她。",
+        "explanation": "Trật tự chuẩn: Chủ ngữ số nhiều (你们) + phó từ (都) + động từ (认识) + tân ngữ (她)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-02",
+    "hskLevel": 1,
+    "category": "Từ loại & Cấu tạo từ",
+    "topic": "Đại từ chỉ thị & Phương vị từ",
+    "title": "Đại từ chỉ thị (这/那) và Phương vị từ (上/下/里/外/前/后 + —边)",
+    "formula": "这 / 那 (+ Lượng từ) + Danh từ | Danh từ + 上/下/里/外/前/后(边)",
+    "explanationVi": "这 (này, đây) chỉ người hoặc vật ở gần; 那 (kia, đó) chỉ người hoặc vật ở xa. Để mô tả vị trí, tiếng Trung đặt phương vị từ 上 (trên), 下 (dưới), 里 (trong), 外 (ngoài), 前 (trước), 后 (sau) vào sau danh từ, và thường ghép hậu tố —边 (bên/phía) như 这边, 外边.",
+    "viComparison": "Ngược hẳn trật tự tiếng Việt! Tiếng Việt nói \"trên bàn, trong phòng\", còn tiếng Trung đặt danh từ trước rồi mới đến phương vị từ: 桌子上 (bàn + trên), 房间里 (phòng + trong).",
+    "confusablePairs": [
+      {
+        "pair": "这儿/这里 vs 那儿/那里",
+        "distinction": "这儿 và 这里 đều nghĩa là \"ở đây\" (这儿 thiên về khẩu ngữ); 那儿 và 那里 đều nghĩa là \"ở kia/đó\". Không ghép đôi thành 在这儿里."
+      },
+      {
+        "pair": "这个/那个 vs 这些/那些 vs 有的/有些",
+        "distinction": "这个/那个 dùng cho số ít; 这些/那些 dùng cho số nhiều (những... này/kia); 有的/有些 nghĩa là \"có một số/một vài\"."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "这本书在桌子上。",
+        "pinyin": "Zhè běn shū zài zhuōzi shàng.",
+        "vi": "Quyển sách này ở trên bàn."
+      },
+      {
+        "zh": "外边下雨了，我们在房间里休息吧。",
+        "pinyin": "Wàibian xià yǔ le, wǒmen zài fángjiān lǐ xiūxi ba.",
+        "vi": "Bên ngoài trời mưa rồi, chúng ta nghỉ ngơi trong phòng đi."
+      },
+      {
+        "zh": "这些苹果很好吃，有的有点儿小。",
+        "pinyin": "Zhèxiē píngguǒ hěn hǎochī, yǒude yǒudiǎnr xiǎo.",
+        "vi": "Những quả táo này rất ngon, có một số quả hơi nhỏ."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-02-q1",
+        "type": "mcq",
+        "prompt": "Cách nói \"trong trường học\" trong tiếng Trung là gì?",
+        "options": [
+          "学校里",
+          "里学校",
+          "学校上",
+          "在里学校"
+        ],
+        "answer": "学校里",
+        "explanation": "Phương vị từ 里 (trong) luôn đứng sau danh từ chỉ địa điểm (学校 + 里)."
+      },
+      {
+        "id": "g1-02-q2",
+        "type": "fill",
+        "prompt": "Điền đại từ chỉ thị số nhiều: ___ 衣服都很漂亮。(Những bộ quần áo này đều rất đẹp.)",
+        "options": [
+          "这些",
+          "这个",
+          "这儿",
+          "这里"
+        ],
+        "answer": "这些",
+        "explanation": "这些 (zhèxiē) mang nghĩa \"những... này\", đứng trực tiếp trước danh từ mà không cần lượng từ."
+      },
+      {
+        "id": "g1-02-q3",
+        "type": "mcq",
+        "prompt": "Cụm từ nào có nghĩa là \"một vài học sinh\"?",
+        "options": [
+          "有些学生",
+          "那个学生",
+          "那里学生",
+          "这边学生"
+        ],
+        "answer": "有些学生",
+        "explanation": "有些 (hoặc 有的) đứng trước danh từ để chỉ một bộ phận, một vài người/vật."
+      },
+      {
+        "id": "g1-02-q4",
+        "type": "fill",
+        "prompt": "Chọn từ chỉ vị trí phù hợp: 医院在商店 ___。(Bệnh viện ở phía sau cửa hàng.)",
+        "options": [
+          "后边",
+          "这里",
+          "这些",
+          "有的"
+        ],
+        "answer": "后边",
+        "explanation": "后边 (hòubian) nghĩa là \"phía sau\", đứng sau danh từ 商店 để chỉ vị trí."
+      },
+      {
+        "id": "g1-02-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Con mèo ở dưới cái ghế.\"",
+        "tokens": [
+          "猫",
+          "在",
+          "椅子",
+          "下边",
+          "。"
+        ],
+        "answer": "猫在椅子下边。",
+        "explanation": "Trật tự: Chủ ngữ (猫) + 在 + Danh từ + Phương vị từ (椅子下边)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-03",
+    "hskLevel": 1,
+    "category": "Từ loại & Cấu tạo từ",
+    "topic": "Tiền tố 小— & Số thứ tự 第—",
+    "title": "Tiền tố 小— (xiǎo) và cách lập số thứ tự với 第— (dì)",
+    "formula": "小 + Họ/Danh từ | 第 + Số từ (+ Lượng từ + Danh từ)",
+    "explanationVi": "Tiền tố 小— đứng trước họ (như 小王) để gọi thân mật người ngang hàng hoặc trẻ tuổi hơn, hoặc tạo danh từ như 小朋友 (bạn nhỏ). Tiền tố 第— kết hợp với số từ (第一, 第二, 第三...) để tạo số thứ tự (thứ nhất, thứ hai, thứ ba...).",
+    "viComparison": "Giống tiếng Việt đặt chữ \"thứ\" trước số đếm, tiếng Trung đặt 第 (dì) trước số từ. Tuy nhiên khi gọi thân mật với tiền tố 小, người Trung gắn 小 trước Họ (ví dụ 小张) chứ không gắn bừa trước tên riêng.",
+    "confusablePairs": [
+      {
+        "pair": "二 vs 第二",
+        "distinction": "二 là số đếm \"hai\"; thêm tiền tố 第 thành 第二 là số thứ tự \"thứ hai\". Khi đi với lượng từ luôn dùng 第二 (không dùng 第两)."
+      },
+      {
+        "pair": "小 + Họ vs 小 (tính từ)",
+        "distinction": "Trong 小王 (tiểu Vương), 小 là tiền tố xưng hô thân mật; trong 小狗 (chó nhỏ), 小 là tính từ chỉ kích thước."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天是我学汉语的第一天。",
+        "pinyin": "Jīntiān shì wǒ xué Hànyǔ de dì-yī tiān.",
+        "vi": "Hôm nay là ngày đầu tiên tôi học tiếng Hán."
+      },
+      {
+        "zh": "小王，你今天上午去医院看病了吗？",
+        "pinyin": "Xiǎo Wáng, nǐ jīntiān shàngwǔ qù yīyuàn kànbìng le ma?",
+        "vi": "Tiểu Vương, sáng nay cậu đã đi bệnh viện khám bệnh chưa?"
+      },
+      {
+        "zh": "这是我买的第二本中文书。",
+        "pinyin": "Zhè shì wǒ mǎi de dì-èr běn Zhōngwén shū.",
+        "vi": "Đây là quyển sách tiếng Trung thứ hai tôi mua."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-03-q1",
+        "type": "mcq",
+        "prompt": "Cách nói \"người thứ hai\" đúng ngữ pháp là gì?",
+        "options": [
+          "第二个人",
+          "第两个人",
+          "二个人",
+          "小二个人"
+        ],
+        "answer": "第二个人",
+        "explanation": "Số thứ tự luôn dùng 第 + 二 (tuyệt đối không dùng 两 sau 第), rồi đến lượng từ 个 và danh từ 人."
+      },
+      {
+        "id": "g1-03-q2",
+        "type": "fill",
+        "prompt": "Điền tiền tố tạo số thứ tự: 这是我买的 ___ 三件衣服。(Đây là chiếc áo thứ ba tôi mua.)",
+        "options": [
+          "第",
+          "小",
+          "个",
+          "两"
+        ],
+        "answer": "第",
+        "explanation": "第 đứng trước số từ 三 để biểu thị thứ tự \"thứ ba\"."
+      },
+      {
+        "id": "g1-03-q3",
+        "type": "mcq",
+        "prompt": "Cách gọi thân mật một đồng nghiệp trẻ hơn mang họ 张 (Trương) là gì?",
+        "options": [
+          "小张",
+          "第张",
+          "张们",
+          "张边"
+        ],
+        "answer": "小张",
+        "explanation": "Tiền tố 小 đặt trước họ dùng để gọi thân mật người trẻ tuổi hơn hoặc bạn đồng trang lứa."
+      },
+      {
+        "id": "g1-03-q4",
+        "type": "fill",
+        "prompt": "Điền vào chỗ trống: ___ 朋友都很喜欢吃苹果。(Các bạn nhỏ đều rất thích ăn táo.)",
+        "options": [
+          "小",
+          "第",
+          "们",
+          "边"
+        ],
+        "answer": "小",
+        "explanation": "小朋友 (xiǎopéngyou) là từ chỉ các bạn nhỏ, trẻ em."
+      },
+      {
+        "id": "g1-03-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Đây là quyển sách đầu tiên của tôi.\"",
+        "tokens": [
+          "这",
+          "是",
+          "我",
+          "的",
+          "第一",
+          "本",
+          "书",
+          "。"
+        ],
+        "answer": "这是我的第一本书。",
+        "explanation": "Trật tự: 这 + 是 + 我的 (định ngữ) + 第一本书 (số thứ tự + lượng từ + danh từ)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-04",
+    "hskLevel": 1,
+    "category": "Số từ, Lượng từ & Thời gian",
+    "topic": "Số đếm, Tiền tệ & 二 vs 两",
+    "title": "Số đếm (零 đến 千, 半), Cách nói tiền tệ và phân biệt 二 vs 两",
+    "formula": "Số đếm + 元 / 块 (+ 钱) | 两 + Lượng từ + Danh từ",
+    "explanationVi": "Số đếm HSK 1 gồm 零 (0), 一 đến 十 (1-10), 百 (trăm), 千 (ngàn) và 半 (nửa/rưỡi). Khi nói giá tiền, dùng đơn vị 元 (trang trọng) hoặc 块 (khẩu ngữ), có thể thêm 钱 ở cuối. Số 2 dùng 二 khi đếm hoặc ghép hàng chục/đơn vị, dùng 两 khi đứng trước lượng từ.",
+    "viComparison": "Tiếng Việt chỉ dùng một chữ \"hai\", nhưng tiếng Trung tách bạch 二 và 两. Lỗi hay gặp là nói 二个苹果 hoặc 两十二 — đúng phải là 两个苹果 và 二十二.",
+    "confusablePairs": [
+      {
+        "pair": "二 vs 两",
+        "distinction": "Dùng 二 khi đếm (一、二、三), số thứ tự (第二) hoặc trong 十二, 二十; dùng 两 khi đứng trước lượng từ đơn lẻ (两本书, 两个人, 两块钱, 两百/两千)."
+      },
+      {
+        "pair": "元 vs 块",
+        "distinction": "Cả hai đều là đồng Nhân dân tệ: 元 trang trọng (thường viết trên hóa đơn, bảng giá), 块 dùng phổ biến trong giao tiếp nói."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我买了两个苹果，一共十二块钱。",
+        "pinyin": "Wǒ mǎi le liǎng gè píngguǒ, yígòng shí'èr kuài qián.",
+        "vi": "Tôi đã mua hai quả táo, tổng cộng mười hai tệ."
+      },
+      {
+        "zh": "这件衣服一百零五元。",
+        "pinyin": "Zhè jiàn yīfu yìbǎi líng wǔ yuán.",
+        "vi": "Chiếc áo này một trăm linh năm tệ."
+      },
+      {
+        "zh": "他每天喝半杯牛奶。",
+        "pinyin": "Tā měitiān hē bàn bēi niúnǎi.",
+        "vi": "Mỗi ngày cậu ấy uống nửa cốc sữa."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-04-q1",
+        "type": "mcq",
+        "prompt": "Cách nói \"hai cốc trà\" chuẩn xác là gì?",
+        "options": [
+          "两杯茶",
+          "二杯茶",
+          "半杯茶",
+          "第两杯茶"
+        ],
+        "answer": "两杯茶",
+        "explanation": "Trước lượng từ (杯) để chỉ số lượng 2 phải dùng 两, không dùng 二."
+      },
+      {
+        "id": "g1-04-q2",
+        "type": "fill",
+        "prompt": "Điền từ nối số 0 ở giữa: 这台电脑三千 ___ 八十块。(3080 tệ)",
+        "options": [
+          "零",
+          "半",
+          "两",
+          "十"
+        ],
+        "answer": "零",
+        "explanation": "Khi bị khuyết hàng trăm ở giữa hàng nghìn và hàng chục, đọc thêm 零 (líng) một lần."
+      },
+      {
+        "id": "g1-04-q3",
+        "type": "mcq",
+        "prompt": "Đơn vị tiền tệ nào mang sắc thái trang trọng, hay dùng trên hóa đơn?",
+        "options": [
+          "元",
+          "个",
+          "本",
+          "口"
+        ],
+        "answer": "元",
+        "explanation": "元 (yuán) là đơn vị tiền tệ chuẩn trong văn viết/bảng giá; khẩu ngữ thường dùng 块 (kuài)."
+      },
+      {
+        "id": "g1-04-q4",
+        "type": "fill",
+        "prompt": "Chọn cách viết đúng cho số 22: ___ 十 ___。",
+        "options": [
+          "二 / 二",
+          "两 / 两",
+          "两 / 二",
+          "二 / 两"
+        ],
+        "answer": "二 / 二",
+        "explanation": "Trong số có hai chữ số như 22, cả hàng chục và hàng đơn vị đều dùng 二: 二十二."
+      },
+      {
+        "id": "g1-04-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Chiếc điện thoại này hai nghìn tệ.\"",
+        "tokens": [
+          "这个",
+          "手机",
+          "两千",
+          "块",
+          "钱",
+          "。"
+        ],
+        "answer": "这个手机两千块钱。",
+        "explanation": "Trật tự: Chủ ngữ (这个手机) + số lượng tiền (两千块钱)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-05",
+    "hskLevel": 1,
+    "category": "Số từ, Lượng từ & Thời gian",
+    "topic": "Lượng từ & Cụm số lượng",
+    "title": "Lượng từ danh từ (个, 本, 家, 口, 块, 件, 只, 杯) và Cụm số lượng",
+    "formula": "Số từ / 这 / 那 / 几 + Lượng từ + Danh từ",
+    "explanationVi": "Trong tiếng Trung, khi đếm hoặc chỉ định (这/那/哪/几), bạn không thể nối thẳng số từ vào danh từ mà phải chèn lượng từ ở giữa, tạo thành cụm số lượng (数量短语). HSK 1 gồm lượng từ chuyên dụng (个, 本, 家, 口, 块, 件, 只, 元) và lượng từ mượn từ danh từ vật chứa như 杯 (cốc/ly).",
+    "viComparison": "Tiếng Việt cũng có \"quyển, cái, chiếc, con\", nhưng thường lược bỏ hoặc nói \"hai người, một nhà\". Tiếng Trung bắt buộc có lượng từ: 两个人, 一家饭店, 三口人.",
+    "confusablePairs": [
+      {
+        "pair": "本 vs 件 vs 只 vs 口",
+        "distinction": "本 dùng cho sách vở (一本书); 件 dùng cho quần áo/sự việc (一件衣服); 只 dùng cho động vật nhỏ (一只猫/狗); 口 dùng để đếm thành viên trong gia đình (三口人)."
+      },
+      {
+        "pair": "个 vs 家",
+        "distinction": "个 là lượng từ phổ thông nhất (dùng cho người, táo, cốc...); 家 dùng cho công ty, cửa hàng, bệnh viện, nhà hàng hoặc gia đình (一家公司/医院/商店)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我家有四口人，我还有一只小狗。",
+        "pinyin": "Wǒ jiā yǒu sì kǒu rén, wǒ hái yǒu yì zhī xiǎo gǒu.",
+        "vi": "Nhà tôi có bốn người, tôi còn có một chú chó nhỏ."
+      },
+      {
+        "zh": "我想喝一杯热茶，再买两块面包。",
+        "pinyin": "Wǒ xiǎng hē yì bēi rè chá, zài mǎi liǎng kuài miànbāo.",
+        "vi": "Tôi muốn uống một cốc trà nóng, rồi mua thêm hai miếng bánh mì."
+      },
+      {
+        "zh": "哥哥在一家大公司工作。",
+        "pinyin": "Gēge zài yì jiā dà gōngsī gōngzuò.",
+        "vi": "Anh trai làm việc tại một công ty lớn."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-05-q1",
+        "type": "mcq",
+        "prompt": "Lượng từ nào dùng để hỏi số thành viên trong gia đình (你家有几___人？)?",
+        "options": [
+          "口",
+          "本",
+          "件",
+          "只"
+        ],
+        "answer": "口",
+        "explanation": "Lượng từ 口 (kǒu) chuyên dùng để đếm nhân khẩu/thành viên trong gia đình."
+      },
+      {
+        "id": "g1-05-q2",
+        "type": "fill",
+        "prompt": "Điền lượng từ đúng: 桌子上有一 ___ 书和两 ___ 茶。(Trên bàn có 1 quyển sách và 2 cốc trà.)",
+        "options": [
+          "本 / 杯",
+          "只 / 块",
+          "件 / 口",
+          "家 / 个"
+        ],
+        "answer": "本 / 杯",
+        "explanation": "Sách dùng lượng từ 本 (běn); đồ uống đựng trong cốc dùng lượng từ mượn 杯 (bēi)."
+      },
+      {
+        "id": "g1-05-q3",
+        "type": "mcq",
+        "prompt": "Chọn cụm danh từ đúng ngữ pháp cho \"một bộ quần áo\":",
+        "options": [
+          "一件衣服",
+          "一只衣服",
+          "一本衣服",
+          "一口衣服"
+        ],
+        "answer": "一件衣服",
+        "explanation": "Lượng từ chuyên dùng cho quần áo (衣服) là 件 (jiàn)."
+      },
+      {
+        "id": "g1-05-q4",
+        "type": "fill",
+        "prompt": "Điền lượng từ phù hợp: 这 ___ 超市的水果很便宜。(Hoa quả ở siêu thị này rất rẻ.)",
+        "options": [
+          "家",
+          "口",
+          "本",
+          "杯"
+        ],
+        "answer": "家",
+        "explanation": "Cửa hàng, siêu thị, công ty, bệnh viện dùng lượng từ 家 (jiā)."
+      },
+      {
+        "id": "g1-05-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Tôi có ba người bạn Trung Quốc.\"",
+        "tokens": [
+          "我",
+          "有",
+          "三个",
+          "中国",
+          "朋友",
+          "。"
+        ],
+        "answer": "我有三个中国朋友。",
+        "explanation": "Cụm số lượng (三个) đứng làm định ngữ trước danh từ (中国朋友)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-06",
+    "hskLevel": 1,
+    "category": "Số từ, Lượng từ & Thời gian",
+    "topic": "Thời gian: Ngày tháng & Giờ giấc",
+    "title": "Cách nói Năm, Tháng, Ngày, Thứ, Tuổi và Giờ giấc",
+    "formula": "XXXX年 + X月 + X日/号 + 星期X | X点 (+ X分 / 半)",
+    "explanationVi": "Thời gian trong tiếng Trung luôn xếp từ đơn vị lớn đến nhỏ: Năm (年) → Tháng (月) → Ngày (日/号) → Thứ (星期). Giờ dùng 点 (giờ) và 分 (phút), rưỡi là 半; tuổi dùng 岁. Các từ 年, 天, 日, 号, 岁, 点, 分 đóng vai trò lượng từ thời gian (时量词), nên không thêm 个 trước chúng (trừ 小时).",
+    "viComparison": "Ngược hẳn tiếng Việt! Tiếng Việt nói \"8 giờ tối thứ Hai ngày 5 tháng 10 năm 2026\" (nhỏ → lớn), còn tiếng Trung đi từ lớn → nhỏ: 2026年10月5日星期一晚上8点.",
+    "confusablePairs": [
+      {
+        "pair": "号 vs 日",
+        "distinction": "Đều chỉ ngày trong tháng: 号 dùng nhiều trong văn nói (十月五号); 日 dùng trong văn viết, lịch, báo chí (十月五日). Riêng thứ dùng 星期日/星期天 cho Chủ nhật."
+      },
+      {
+        "pair": "点 vs 小时",
+        "distinction": "两点 là \"2 giờ\" (mốc thời gian); 两个小时 là \"2 tiếng đồng hồ\" (khoảng thời gian). Nhớ dùng 两 trước 点/小时."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天是十月八号，星期三。",
+        "pinyin": "Jīntiān shì shí yuè bā hào, xīngqīsān.",
+        "vi": "Hôm nay là ngày 8 tháng 10, thứ Tư."
+      },
+      {
+        "zh": "我每天早上七点半起床，晚上十点二十分睡觉。",
+        "pinyin": "Wǒ měitiān zǎoshang qī diǎn bàn qǐchuáng, wǎnshang shí diǎn èrshí fēn shuìjiào.",
+        "vi": "Mỗi ngày tôi thức dậy lúc 7 giờ 30 sáng, đi ngủ lúc 10 giờ 20 tối."
+      },
+      {
+        "zh": "我的妹妹今年六岁，明年上小学。",
+        "pinyin": "Wǒ de mèimei jīnnián liù suì, míngnián shàng xiǎoxué.",
+        "vi": "Em gái tôi năm nay 6 tuổi, sang năm vào tiểu học."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-06-q1",
+        "type": "mcq",
+        "prompt": "Cách nói \"2 giờ 30 chiều\" chuẩn tiếng Trung là gì?",
+        "options": [
+          "下午两点半",
+          "两点半下午",
+          "下午二点半",
+          "下午两个半点"
+        ],
+        "answer": "下午两点半",
+        "explanation": "Buổi (下午) đặt trước giờ; 2 giờ phải dùng 两点 và rưỡi là 半."
+      },
+      {
+        "id": "g1-06-q2",
+        "type": "fill",
+        "prompt": "Điền từ chỉ ngày trong văn viết/lịch: 2025年9 ___ 1 ___ 。(Ngày 1 tháng 9 năm 2025)",
+        "options": [
+          "月 / 日",
+          "号 / 月",
+          "天 / 号",
+          "星期 / 日"
+        ],
+        "answer": "月 / 日",
+        "explanation": "Trật tự chuẩn từ lớn đến nhỏ: Năm (年) + Tháng (月) + Ngày (日/号)."
+      },
+      {
+        "id": "g1-06-q3",
+        "type": "mcq",
+        "prompt": "Cách nói \"Chủ nhật\" nào đúng trong HSK 1?",
+        "options": [
+          "星期天 / 星期日",
+          "星期七",
+          "七星期",
+          "天星期"
+        ],
+        "answer": "星期天 / 星期日",
+        "explanation": "Thứ Hai đến thứ Bảy là 星期一 đến 星期六; riêng Chủ nhật bắt buộc dùng 星期天 hoặc 星期日 (không dùng 星期七)."
+      },
+      {
+        "id": "g1-06-q4",
+        "type": "fill",
+        "prompt": "Điền lượng từ thời gian: 我今年二十 ___，在北京学汉语一 ___ 了。(Tôi năm nay 20 tuổi, đã học tiếng Hán ở Bắc Kinh 1 năm rồi.)",
+        "options": [
+          "岁 / 年",
+          "年 / 岁",
+          "天 / 日",
+          "点 / 分"
+        ],
+        "answer": "岁 / 年",
+        "explanation": "Tuổi dùng 岁 (suì), số năm dùng trực tiếp 年 (nián) không cần thêm 个."
+      },
+      {
+        "id": "g1-06-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Ngày mai là thứ Sáu ngày 12 tháng 5.\"",
+        "tokens": [
+          "明天",
+          "是",
+          "五月",
+          "十二号",
+          "星期五",
+          "。"
+        ],
+        "answer": "明天是五月十二号星期五。",
+        "explanation": "Xếp theo thứ tự từ đơn vị lớn đến nhỏ: Tháng (五月) -> Ngày (十二号) -> Thứ (星期五)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-07",
+    "hskLevel": 1,
+    "category": "Cấu trúc câu cơ bản",
+    "topic": "Chủ ngữ, Vị ngữ, Tân ngữ & Các câu đơn",
+    "title": "Thành phần câu (Chủ ngữ - Vị ngữ - Tân ngữ) và Câu trần thuật đơn",
+    "formula": "Chủ ngữ (Danh/Đại từ) + Vị ngữ (Động/Tính/Danh từ) (+ Tân ngữ)",
+    "explanationVi": "Một câu đơn trần thuật (陈述句) cơ bản gồm Chủ ngữ + Vị ngữ (+ Tân ngữ). Vị ngữ trong tiếng Trung rất linh hoạt: có thể là động từ (动词谓语句), tính từ (形容词谓语句), hoặc danh từ/số lượng (名词谓语句 như nói tuổi, ngày tháng, giá tiền mà không cần 是). Ngoài ra còn có câu không chủ ngữ (非主谓句) như 下雨了! (Trời mưa rồi!).",
+    "viComparison": "Tiếng Việt khi nói tuổi hoặc giá cả thường phải thêm \"là\" (\"Áo này là 50 tệ\"), nhưng câu vị ngữ danh từ tiếng Trung cho phép nói thẳng 这件衣服五十块 hoặc 我二十岁 không cần 是.",
+    "confusablePairs": [
+      {
+        "pair": "Câu vị ngữ động từ vs Câu vị ngữ danh từ",
+        "distinction": "Câu vị ngữ động từ có hành động (我喝茶); câu vị ngữ danh từ dùng danh từ/số lượng làm vị ngữ trực tiếp khi nói ngày, giờ, tuổi, giá tiền (今天星期一, 我妹妹五岁)."
+      },
+      {
+        "pair": "Câu chủ-vị vs Câu phi chủ-vị (非主谓句)",
+        "distinction": "Câu phi chủ-vị không có hoặc lược hẳn chủ ngữ, hay gặp khi nói thời tiết hoặc chào hỏi: 下雪了! (Tuyết rơi rồi!), 好! (Được!)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "爸爸看书，妈妈做饭。",
+        "pinyin": "Bàba kàn shū, māma zuò fàn.",
+        "vi": "Bố đọc sách, mẹ nấu cơm."
+      },
+      {
+        "zh": "今天星期二，天气很好。",
+        "pinyin": "Jīntiān xīngqī'èr, tiānqì hěn hǎo.",
+        "vi": "Hôm nay thứ Ba, thời tiết rất đẹp."
+      },
+      {
+        "zh": "下雨了，快回家吧！",
+        "pinyin": "Xià yǔ le, kuài huí jiā ba!",
+        "vi": "Trời mưa rồi, mau về nhà thôi!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-07-q1",
+        "type": "mcq",
+        "prompt": "Trong câu \"我妹妹十岁。\", thành phần nào đóng vai trò là vị ngữ (谓语)?",
+        "options": [
+          "十岁",
+          "我",
+          "妹妹",
+          "我妹妹"
+        ],
+        "answer": "十岁",
+        "explanation": "Đây là câu vị ngữ danh từ/số lượng (名词谓语句), trong đó cụm số lượng 十岁 làm vị ngữ cho chủ ngữ 我妹妹."
+      },
+      {
+        "id": "g1-07-q2",
+        "type": "fill",
+        "prompt": "Chọn câu phi chủ-vị (非主谓句) diễn tả thời tiết: 外边 ___。(Bên ngoài trời đang mưa.)",
+        "options": [
+          "下雨了",
+          "天气是下雨",
+          "雨在下面",
+          "有天雨"
+        ],
+        "answer": "下雨了",
+        "explanation": "下雨了 là câu mô tả hiện tượng tự nhiên không cần chủ ngữ đứng trước động từ 下."
+      },
+      {
+        "id": "g1-07-q3",
+        "type": "mcq",
+        "prompt": "Trong câu \"老师教我们汉语。\", từ nào là chủ ngữ?",
+        "options": [
+          "老师",
+          "我们",
+          "汉语",
+          "教"
+        ],
+        "answer": "老师",
+        "explanation": "老师 (danh từ) đứng đầu câu thực hiện hành động 教, đóng vai trò chủ ngữ."
+      },
+      {
+        "id": "g1-07-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu vị ngữ động từ: 弟弟喜欢 ___ 。(Em trai thích ăn sủi cảo.)",
+        "options": [
+          "吃饺子",
+          "饺子吃",
+          "很饺子",
+          "是饺子"
+        ],
+        "answer": "吃饺子",
+        "explanation": "Trật tự Động từ + Tân ngữ trong tiếng Trung là 吃 (ăn) + 饺子 (sủi cảo)."
+      },
+      {
+        "id": "g1-07-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu vị ngữ danh từ nói giá tiền: \"Cốc nước này năm tệ.\"",
+        "tokens": [
+          "这",
+          "杯",
+          "水",
+          "五",
+          "块",
+          "。"
+        ],
+        "answer": "这杯水五块。",
+        "explanation": "Câu vị ngữ số lượng không cần 是: Chủ ngữ (这杯水) + Vị ngữ giá tiền (五块)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-08",
+    "hskLevel": 1,
+    "category": "Cấu trúc câu cơ bản",
+    "topic": "Câu vị ngữ tính từ & Phó từ mức độ",
+    "title": "Câu vị ngữ tính từ, Phó từ mức độ (很, 非常, 太, 真, 有点儿) & Câu cảm thán",
+    "formula": "Chủ ngữ + 很 / 非常 / 有(一)点儿 + Tính từ | 太 + Tính từ + 了！",
+    "explanationVi": "Khi tính từ làm vị ngữ (形容词谓语句), không dùng 是 mà thường đặt phó từ chỉ mức độ như 很 (rất), 非常 (vô cùng) trước tính từ. Mẫu 太 + Tính từ + 了 hoặc 真 + Tính từ dùng tạo câu cảm thán (感叹句). Còn 有(一)点儿 đứng trước tính từ mang nghĩa \"hơi... một chút\", thường dùng cho điều chưa ưng ý.",
+    "viComparison": "Lỗi kinh điển của người Việt là dịch từ chữ \"là\" sang 是: nói 我是很高兴 là SAI! Phải nói 我很高兴 (很 trong câu trần thuật thường chỉ có tác dụng làm câu cân bằng nhịp điệu, không nhất thiết dịch quá nặng là \"rất\").",
+    "confusablePairs": [
+      {
+        "pair": "很 + Tính từ vs 是 + Tính từ",
+        "distinction": "Tuyệt đối KHÔNG dùng 是 để nối chủ ngữ với tính từ vị ngữ. Sai: 今天是冷; Đúng: 今天很冷."
+      },
+      {
+        "pair": "有点儿 vs 一点儿",
+        "distinction": "有点儿 đứng TRƯỚC tính từ (有点儿冷 - hơi lạnh một chút); 一点儿 đứng SAU động từ hoặc tính từ (喝一点儿水 - uống chút nước, 大一点儿 - to hơn chút)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天天气真好，我非常高兴！",
+        "pinyin": "Jīntiān tiānqì zhēn hǎo, wǒ fēicháng gāoxìng!",
+        "vi": "Thời tiết hôm nay thật đẹp, tôi vô cùng vui!"
+      },
+      {
+        "zh": "这件衣服太贵了，而且有点儿大。",
+        "pinyin": "Zhè jiàn yīfu tài guì le, érqiě yǒudiǎnr dà.",
+        "vi": "Chiếc áo này đắt quá, hơn nữa lại hơi rộng một chút."
+      },
+      {
+        "zh": "妈妈做的菜很好吃。",
+        "pinyin": "Māma zuò de cài hěn hǎochī.",
+        "vi": "Món ăn mẹ nấu rất ngon."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-08-q1",
+        "type": "mcq",
+        "prompt": "Câu nào sau đây ĐÚNG ngữ pháp tiếng Trung?",
+        "options": [
+          "汉字很难写。",
+          "汉字是难写。",
+          "汉字有一点儿太难。",
+          "汉字了很难。"
+        ],
+        "answer": "汉字很难写。",
+        "explanation": "Tính từ làm vị ngữ cần phó từ mức độ (như 很) đứng trước và không dùng 是."
+      },
+      {
+        "id": "g1-08-q2",
+        "type": "fill",
+        "prompt": "Điền vào câu cảm thán: 这个电影 ___ 好看了！(Bộ phim này hay quá trời!)",
+        "options": [
+          "太",
+          "有点儿",
+          "是",
+          "吗"
+        ],
+        "answer": "太",
+        "explanation": "Cấu trúc cảm thán cố định là 太 + Tính từ + 了! (quá... rồi!)."
+      },
+      {
+        "id": "g1-08-q3",
+        "type": "mcq",
+        "prompt": "Khi muốn chê \"cà phê/trà hơi lạnh\", dùng cụm nào đúng?",
+        "options": [
+          "有点儿冷",
+          "冷有点儿",
+          "很有点儿冷",
+          "一点儿冷"
+        ],
+        "answer": "有点儿冷",
+        "explanation": "有点儿 (hơi) luôn đứng trước tính từ (有点儿 + 冷) để diễn đạt mức độ nhẹ theo hướng không như ý."
+      },
+      {
+        "id": "g1-08-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu cảm thán với 真: 你的房间 ___ 漂亮！(Phòng của bạn thật đẹp!)",
+        "options": [
+          "真",
+          "太",
+          "一点儿",
+          "是"
+        ],
+        "answer": "真",
+        "explanation": "真 + Tính từ biểu thị sự khen ngợi, cảm thán chân thành (không bắt buộc có 了 ở cuối như 太...了)."
+      },
+      {
+        "id": "g1-08-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Hôm nay thời tiết vô cùng nóng.\"",
+        "tokens": [
+          "今天",
+          "天气",
+          "非常",
+          "热",
+          "。"
+        ],
+        "answer": "今天天气非常热。",
+        "explanation": "Trật tự: Thời gian (今天) + Chủ ngữ (天气) + Phó từ mức độ (非常) + Tính từ (热)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-09",
+    "hskLevel": 1,
+    "category": "Cấu trúc câu cơ bản",
+    "topic": "Câu chữ 是 (Đồng nhất & Phân loại)",
+    "title": "Câu chữ 是 (shì) — Biểu thị sự đồng nhất hoặc phân loại",
+    "formula": "A + 是 + B | Phủ định: A + 不是 + B",
+    "explanationVi": "Câu chữ 是 dùng để khẳng định A là B (quan hệ đồng nhất như tên, chức danh) hoặc A thuộc nhóm/loại B (nghề nghiệp, quốc tịch). Phủ định của 是 luôn là 不是 (không dùng 没是). Câu hỏi dùng 是不是...? hoặc ...是...吗?.",
+    "viComparison": "Tiếng Việt dùng \"là\" cho cả danh từ (\"Tôi là học sinh\") lẫn một số tính từ (\"Cái này là đúng\"). Trong tiếng Trung, 是 chỉ đứng giữa Chủ ngữ và Danh từ/Cụm danh từ; không dùng 是 trước tính từ vị ngữ thông thường.",
+    "confusablePairs": [
+      {
+        "pair": "是 vs 在",
+        "distinction": "是 dùng để định nghĩa \"là ai/cái gì\" (我是学生); 在 dùng để chỉ vị trí \"ở đâu\" (我在学校). Sai: 我是学校."
+      },
+      {
+        "pair": "不是 vs 没(有)",
+        "distinction": "Phủ định của 是 bắt buộc là 不是 (bú shì), tuyệt đối không nói 没是."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "李老师是中国人，不是美国人。",
+        "pinyin": "Lǐ lǎoshī shì Zhōngguórén, bú shì Měiguórén.",
+        "vi": "Thầy Lý là người Trung Quốc, không phải người Mỹ."
+      },
+      {
+        "zh": "那个人是我爸爸。",
+        "pinyin": "Nàge rén shì wǒ bàba.",
+        "vi": "Người kia là bố của tôi."
+      },
+      {
+        "zh": "这只小猫是白色的吗？",
+        "pinyin": "Zhè zhī xiǎo māo shì báisè de ma?",
+        "vi": "Chú mèo con này là màu trắng phải không?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-09-q1",
+        "type": "mcq",
+        "prompt": "Phủ định đúng của câu \"他是医生。\" là gì?",
+        "options": [
+          "他不是医生。",
+          "他没是医生。",
+          "他没有是医生。",
+          "他不医生。"
+        ],
+        "answer": "他不是医生。",
+        "explanation": "Động từ 是 luôn phủ định bằng 不 thành 不是 (đọc biến điệu là bú shì)."
+      },
+      {
+        "id": "g1-09-q2",
+        "type": "fill",
+        "prompt": "Điền động từ đúng: 我姐姐 ___ 大学生。(Chị gái tôi là sinh viên đại học.)",
+        "options": [
+          "是",
+          "在",
+          "有",
+          "很"
+        ],
+        "answer": "是",
+        "explanation": "Biểu thị phân loại/nghề nghiệp (chị gái = sinh viên) dùng động từ 是."
+      },
+      {
+        "id": "g1-09-q3",
+        "type": "mcq",
+        "prompt": "Câu nào sau đây dùng sai chữ 是?",
+        "options": [
+          "我今天是很高兴。",
+          "这是我朋友的手机。",
+          "王先生是男老师。",
+          "她不是我的同学。"
+        ],
+        "answer": "我今天是很高兴。",
+        "explanation": "很高兴 là tính từ vị ngữ nên không được thêm 是 phía trước; chỉ cần nói 我今天很高兴."
+      },
+      {
+        "id": "g1-09-q4",
+        "type": "fill",
+        "prompt": "Điền cụm phủ định: 这 ___ 我的包，我的包在桌子上。(Đây không phải túi của tôi.)",
+        "options": [
+          "不是",
+          "没有",
+          "不要",
+          "不在"
+        ],
+        "answer": "不是",
+        "explanation": "Phủ định quan hệ đồng nhất \"đây không phải...\" dùng 不是."
+      },
+      {
+        "id": "g1-09-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Anh ấy là bạn học tiếng Hán của tôi.\"",
+        "tokens": [
+          "他",
+          "是",
+          "我",
+          "的",
+          "汉语",
+          "同学",
+          "。"
+        ],
+        "answer": "他是我的汉语同学。",
+        "explanation": "Trật tự: Chủ ngữ (他) + 是 + Định ngữ (我的汉语) + Danh từ trung tâm (同学)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-10",
+    "hskLevel": 1,
+    "category": "Câu hỏi & Câu đặc biệt",
+    "topic": "Câu chữ 有 & Câu tồn hiện",
+    "title": "Câu chữ 有 (Sở hữu) và Câu tồn hiện (Nơi chốn + 是 / 有 + Danh từ)",
+    "formula": "Chủ thể + 有/没有 + Tân ngữ | Nơi chốn + 有 + Số lượng + Danh từ | Nơi chốn + 是 + Danh từ",
+    "explanationVi": "Động từ 有 (có) dùng để chỉ sự sở hữu (我有一本书), dạng phủ định luôn là 没有 (không dùng 不有). Khi muốn nói \"ở nơi nào đó có cái gì\" (câu tồn hiện - 存现句), đặt từ chỉ nơi chốn/cụm phương vị (方位短语) lên đầu câu: Nơi chốn + 有 + Số lượng + Danh từ (vật chưa xác định), hoặc Nơi chốn + 是 + Danh từ (vật xác định/đầy khắp).",
+    "viComparison": "Tiếng Việt có thể nói \"Trên bàn có 1 quyển sách\" (giống Nơi chốn + 有) nhưng cũng hay nói \"Có một quyển sách ở trên bàn\". Trong tiếng Trung, câu tồn hiện ưu tiên đưa Nơi chốn lên đầu câu làm chủ đề: 桌子上有一本书.",
+    "confusablePairs": [
+      {
+        "pair": "在 vs 有 (trong câu chỉ vị trí)",
+        "distinction": "Đồ vật xác định đặt đầu câu dùng 在 (书在桌子上 - Quyển sách ở trên bàn); nơi chốn đặt đầu câu giới thiệu sự tồn tại của vật dùng 有 (桌子上有一本书 - Trên bàn có một quyển sách)."
+      },
+      {
+        "pair": "没有 vs 不有",
+        "distinction": "Động từ 有 chỉ có một dạng phủ định duy nhất là 没有 (hoặc 没), tuyệt đối không bao giờ viết 不有."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我有两个哥哥，没有妹妹。",
+        "pinyin": "Wǒ yǒu liǎng gè gēge, méiyǒu mèimei.",
+        "vi": "Tôi có hai anh trai, không có em gái."
+      },
+      {
+        "zh": "桌子上有一台电脑和两本书。",
+        "pinyin": "Zhuōzi shàng yǒu yì tái diànnǎo hé liǎng běn shū.",
+        "vi": "Trên bàn có một chiếc máy tính và hai quyển sách."
+      },
+      {
+        "zh": "学校前边是一家大书店。",
+        "pinyin": "Xuéxiào qiánbian shì yì jiā dà shūdiàn.",
+        "vi": "Phía trước trường học là một hiệu sách lớn."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-10-q1",
+        "type": "mcq",
+        "prompt": "Phủ định đúng của câu \"我有中国朋友。\" là gì?",
+        "options": [
+          "我没有中国朋友。",
+          "我不有中国朋友。",
+          "我不要中国朋友。",
+          "我不是中国朋友。"
+        ],
+        "answer": "我没有中国朋友。",
+        "explanation": "Phủ định của động từ 有 bắt buộc dùng 没 (没有), không bao giờ dùng 不."
+      },
+      {
+        "id": "g1-10-q2",
+        "type": "fill",
+        "prompt": "Hoàn thành câu tồn hiện: 房间 ___ 有两把椅子。(Trong phòng có hai cái ghế.)",
+        "options": [
+          "里",
+          "在",
+          "是",
+          "的"
+        ],
+        "answer": "里",
+        "explanation": "Nơi chốn ở đầu câu tồn hiện thường kết hợp phương vị từ (房间里 = trong phòng)."
+      },
+      {
+        "id": "g1-10-q3",
+        "type": "mcq",
+        "prompt": "Câu nào miêu tả đúng cấu trúc tồn hiện \"Nơi chốn + 是 + Danh từ\"?",
+        "options": [
+          "医院后边是公园。",
+          "公园在医院后边。",
+          "医院后边有两只猫。",
+          "我前面没有老师。"
+        ],
+        "answer": "医院后边是公园。",
+        "explanation": "Nơi chốn (医院后边) + 是 + Danh từ (公园) xác định đối tượng đang nằm ở vị trí đó."
+      },
+      {
+        "id": "g1-10-q4",
+        "type": "fill",
+        "prompt": "Chọn từ điền vào chỗ trống: 我的手机 ___ 桌子上，桌子下边 ___ 一只小狗。",
+        "options": [
+          "在 / 有",
+          "有 / 在",
+          "是 / 在",
+          "在 / 不有"
+        ],
+        "answer": "在 / 有",
+        "explanation": "我的手机 (vật xác định ở đầu) dùng 在; 桌子下边 (nơi chốn ở đầu giới thiệu sự tồn tại) dùng 有."
+      },
+      {
+        "id": "g1-10-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu tồn hiện: \"Bên ngoài cửa hàng có một chiếc taxi.\"",
+        "tokens": [
+          "商店",
+          "外边",
+          "有",
+          "一辆",
+          "出租车",
+          "。"
+        ],
+        "answer": "商店外边有一辆出租车。",
+        "explanation": "Trật tự câu tồn hiện: Cụm phương vị (商店外边) + 有 + Cụm số lượng & danh từ (一辆出租车)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-11",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Phủ định 不, 没(有) & Câu cầu khiến 不要",
+    "title": "Phó từ phủ định 不, 没(有) và Câu cầu khiến khuyên ngăn với 不要",
+    "formula": "不 + Động/Tính từ | 没(有) + Động từ/Danh từ | 不要 + Động từ (+ 了)",
+    "explanationVi": "不 phủ định hành động ở hiện tại/tương lai, thói quen, ý muốn hoặc tính chất (我不吃, 不冷). 没(有) phủ định hành động đã xảy ra trong quá khứ hoặc phủ định sự sở hữu của 有 (我没去, 我没有钱). 不要 (đừng) đặt trước động từ để tạo câu cầu khiến (祈使句) khuyên ngăn hoặc cấm đoán.",
+    "viComparison": "Tiếng Việt dùng chung chữ \"không\" cho cả hiện tại và quá khứ (\"Tôi không đi\" / \"Hôm qua tôi không đi\"), nên người Việt rất hay nói nhầm 昨天我不去. Trong tiếng Trung, việc đã qua trong quá khứ phải dùng 没(有): 昨天我没去.",
+    "confusablePairs": [
+      {
+        "pair": "不 vs 没(有)",
+        "distinction": "不 phủ định thói quen, ý định, tính từ và 是 (不喝茶, 不去, 不贵, 不是); 没(有) phủ định sự việc đã xảy ra ở quá khứ và chữ 有 (昨天没来, 没有书). Lưu ý: không dùng 没 trước tính từ ở HSK 1 để chỉ tính chất."
+      },
+      {
+        "pair": "不要 (đừng) vs 不想 (không muốn)",
+        "distinction": "不要 + V dùng để yêu cầu/cấm người khác làm gì (不要说话! - Đừng nói chuyện!) hoặc từ chối thẳng; 不想 + V diễn tả tâm lý cá nhân không muốn làm."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "他昨天没来上课，因为他生病了。",
+        "pinyin": "Tā zuótiān méi lái shàngkè, yīnwèi tā shēngbìng le.",
+        "vi": "Hôm qua cậu ấy không đến lớp vì cậu ấy bị ốm rồi."
+      },
+      {
+        "zh": "我不喝咖啡，也不喝茶，我喝水。",
+        "pinyin": "Wǒ bù hē kāfēi, yě bù hē chá, wǒ hē shuǐ.",
+        "vi": "Tôi không uống cà phê, cũng không uống trà, tôi uống nước lọc."
+      },
+      {
+        "zh": "上课了，大家不要说话！",
+        "pinyin": "Shàngkè le, dàjiā búyào shuōhuà!",
+        "vi": "Vào tiết học rồi, mọi người đừng nói chuyện!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-11-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu đúng cho nghĩa \"Hôm qua tôi không xem tivi.\":",
+        "options": [
+          "昨天我没看电视。",
+          "昨天我不看电视。",
+          "昨天我不要看电视。",
+          "昨天我没看了电视。"
+        ],
+        "answer": "昨天我没看电视。",
+        "explanation": "Phủ định hành động trong quá khứ (昨天) dùng 没 (không thêm 了 sau động từ)."
+      },
+      {
+        "id": "g1-11-q2",
+        "type": "fill",
+        "prompt": "Điền từ cầu khiến khuyên ngăn: 外边很冷，___ 穿太少的衣服。(Bên ngoài rất lạnh, đừng mặc quá ít quần áo.)",
+        "options": [
+          "不要",
+          "没有",
+          "不是",
+          "没"
+        ],
+        "answer": "不要",
+        "explanation": "不要 + động từ tạo câu cầu khiến mang nghĩa \"đừng/không nên làm gì\"."
+      },
+      {
+        "id": "g1-11-q3",
+        "type": "mcq",
+        "prompt": "Phó từ nào dùng để phủ định sở thích hoặc thói quen (Tôi không thích ăn bánh bao)?",
+        "options": [
+          "不",
+          "没",
+          "没有",
+          "不要"
+        ],
+        "answer": "不",
+        "explanation": "Phủ định trạng thái tâm lý (喜欢) và thói quen ở hiện tại dùng 不: 我不喜欢吃包子."
+      },
+      {
+        "id": "g1-11-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 今天 ___ 热，我们出去玩儿吧。(Hôm nay không nóng, chúng ta ra ngoài chơi đi.)",
+        "options": [
+          "不",
+          "没",
+          "没有",
+          "不要"
+        ],
+        "answer": "不",
+        "explanation": "Phủ định tính từ chỉ tính chất/trạng thái ở hiện tại dùng 不 (不热)."
+      },
+      {
+        "id": "g1-11-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu cầu khiến: \"Xin đừng gọi điện thoại ở đây.\"",
+        "tokens": [
+          "请",
+          "不要",
+          "在",
+          "这里",
+          "打电话",
+          "。"
+        ],
+        "answer": "请不要在这里打电话。",
+        "explanation": "Câu cầu khiến lịch sự: 请 + 不要 + Trạng ngữ nơi chốn (在这里) + Động từ (打电话)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-12",
+    "hskLevel": 1,
+    "category": "Câu hỏi & Câu đặc biệt",
+    "topic": "Câu hỏi 吗, Chính phản, 吧 & Thán từ 喂",
+    "title": "Câu hỏi Có/Không (吗), Câu hỏi Chính phản (V不V), Trợ từ 吧 và 喂",
+    "formula": "Câu trần thuật + 吗？ | Chủ ngữ + Động/Tính từ + 不 + Động/Tính từ？ | ... + 吧。",
+    "explanationVi": "Câu hỏi Có/Không (是非问句) tạo bằng cách thêm trợ từ 吗 vào cuối câu trần thuật. Câu hỏi chính phản (正反问句) lặp lại động/tính từ ở dạng khẳng định-phủ định (như 去不去, 好不好, 有没有). Trợ từ 吧 đặt cuối câu biểu thị gợi ý, thương lượng hoặc suy đoán nhẹ; thán từ 喂 (wéi) dùng khi nhấc máy nghe điện thoại (Alo).",
+    "viComparison": "Khác tiếng Việt hay ghép \"có phải... không?\", khi đã dùng câu hỏi chính phản (如 你去不去？) thì tuyệt đối KHÔNG thêm 吗 ở cuối câu! Tương tự, 吗 không đi chung với câu gợi ý 吧.",
+    "confusablePairs": [
+      {
+        "pair": "吗 vs 吧",
+        "distinction": "吗 dùng để hỏi thuần túy (khi chưa biết đáp án: 你喝茶吗？); 吧 dùng để đề nghị/rủ rê (我们喝茶吧!) hoặc hỏi khi đã đoán chừng 70-80% (你是小王吧？)."
+      },
+      {
+        "pair": "你去吗？ vs 你去不去？",
+        "distinction": "Cả hai đều hỏi \"Bạn có đi không?\". Tuy nhiên tuyệt đối không ghép hai dạng làm một thành 你去不去吗？."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "喂，请问您是王先生吗？",
+        "pinyin": "Wéi, qǐngwèn nín shì Wáng xiānsheng ma?",
+        "vi": "Alo, xin hỏi ngài có phải là ông Vương không ạ?"
+      },
+      {
+        "zh": "明天你去不去超市买东西？",
+        "pinyin": "Míngtiān nǐ qù bú qù chāoshì mǎi dōngxi?",
+        "vi": "Ngày mai cậu có đi siêu thị mua đồ không?"
+      },
+      {
+        "zh": "时间不早了，我们回家休息吧。",
+        "pinyin": "Shíjiān bù zǎo le, wǒmen huí jiā xiūxi ba.",
+        "vi": "Không còn sớm nữa rồi, chúng ta về nhà nghỉ ngơi đi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-12-q1",
+        "type": "mcq",
+        "prompt": "Câu hỏi chính phản nào viết ĐÚNG ngữ pháp?",
+        "options": [
+          "这本书好不好看？",
+          "这本书好不好看吗？",
+          "你去不去北京吗？",
+          "他有不有电脑？"
+        ],
+        "answer": "这本书好不好看？",
+        "explanation": "Tính từ 2 âm tiết ghép chính phản dạng A不AB (好不好看), và không kèm 吗; động từ 有 phải hỏi là 有没有."
+      },
+      {
+        "id": "g1-12-q2",
+        "type": "fill",
+        "prompt": "Điền thán từ khi bắt máy điện thoại: ___ ，爸爸，我现在在学校呢。",
+        "options": [
+          "喂",
+          "吧",
+          "吗",
+          "啊"
+        ],
+        "answer": "喂",
+        "explanation": "喂 (wéi) là thán từ chuyên dùng để mở đầu cuộc gọi điện thoại (Alo)."
+      },
+      {
+        "id": "g1-12-q3",
+        "type": "mcq",
+        "prompt": "Khi rủ bạn cùng đi uống trà sữa/trà, trợ từ cuối câu nào tự nhiên nhất? \"我们去喝茶___！\"",
+        "options": [
+          "吧",
+          "吗",
+          "的",
+          "了"
+        ],
+        "answer": "吧",
+        "explanation": "Trợ từ ngữ khí 吧 ở cuối câu cầu khiến biểu thị lời rủ rê, đề nghị nhẹ nhàng (\"nhé / đi\")."
+      },
+      {
+        "id": "g1-12-q4",
+        "type": "fill",
+        "prompt": "Chuyển thành câu hỏi chính phản cho 有: 你今天下午 ___ 时间？(Chiều nay cậu có thời gian không?)",
+        "options": [
+          "有没有",
+          "有不有",
+          "有没有吗",
+          "是不有"
+        ],
+        "answer": "有没有",
+        "explanation": "Vì phủ định của 有 là 没有 nên câu hỏi chính phản của 有 bắt buộc là 有没有."
+      },
+      {
+        "id": "g1-12-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hỏi Có/Không: \"Em gái bạn thích ăn táo không?\"",
+        "tokens": [
+          "你",
+          "妹妹",
+          "喜欢",
+          "吃",
+          "苹果",
+          "吗",
+          "？"
+        ],
+        "answer": "你妹妹喜欢吃苹果吗？",
+        "explanation": "Câu trần thuật (你妹妹喜欢吃苹果) + trợ từ nghi vấn 吗 ở cuối câu."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-13",
+    "hskLevel": 1,
+    "category": "Câu hỏi & Câu đặc biệt",
+    "topic": "Đại từ nghi vấn & Câu hỏi đặc biệt",
+    "title": "Đại từ nghi vấn (什么, 谁, 哪, 几, 多少, 怎么, 怎么样, 多) và Câu hỏi đặc biệt",
+    "formula": "Trật tự giữ nguyên như câu trần thuật — thay phần cần hỏi bằng Đại từ nghi vấn",
+    "explanationVi": "Câu hỏi có từ để hỏi (特指问句) không đảo ngữ lên đầu câu như tiếng Anh mà giữ nguyên trật tự câu trần thuật, chỉ đặt đại từ nghi vấn (什么, 谁, 哪, 哪儿/哪里, 哪些, 几, 多少, 怎么, 怎么样, 多) đúng vào vị trí thông tin cần hỏi. Cuối câu KHÔNG thêm 吗.",
+    "viComparison": "Khá giống tiếng Việt ở chỗ đặt từ hỏi ngay tại vị trí câu trả lời (\"Bạn ăn gì?\" = 你吃什么？), nhưng tiếng Việt hay hỏi \"Bao nhiêu tiền?\" (đặt ở cuối) trong khi hỏi tuổi/chiều cao dùng 多 + Tính từ ở vị trí vị ngữ (你多大？).",
+    "confusablePairs": [
+      {
+        "pair": "几 vs 多少",
+        "distinction": "几 hỏi số lượng nhỏ (thường dưới 10) và BẮT BUỘC có lượng từ phía sau (几本书, 几岁, 几个人); 多少 hỏi số lượng lớn hoặc giá tiền và có thể bỏ lượng từ (多少钱, 多少学生)."
+      },
+      {
+        "pair": "怎么 vs 怎么样",
+        "distinction": "怎么 + Động từ hỏi cách thức hoặc lý do (怎么去 - đi bằng cách nào?, 怎么不吃 - sao không ăn?); 怎么样 đứng cuối câu hoặc vị ngữ để hỏi tính chất, tình hình, xin ý kiến (今天天气怎么样？)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "请问，这件衣服多少钱？",
+        "pinyin": "Qǐngwèn, zhè jiàn yīfu duōshao qián?",
+        "vi": "Xin hỏi, chiếc áo này bao nhiêu tiền?"
+      },
+      {
+        "zh": "你儿子今年多大了？他上几年级？",
+        "pinyin": "Nǐ érzi jīnnián duō dà le? Tā shàng jǐ niánjí?",
+        "vi": "Con trai anh năm nay bao nhiêu tuổi rồi? Cháu học lớp mấy?"
+      },
+      {
+        "zh": "我们坐出租车去火车站，怎么样？",
+        "pinyin": "Wǒmen zuò chūzūchē qù huǒchēzhàn, zěnmeyàng?",
+        "vi": "Chúng ta đi taxi đến ga tàu hỏa, thấy sao?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-13-q1",
+        "type": "mcq",
+        "prompt": "Hỏi \"Ở đây có bao nhiêu học sinh?\" (số lượng lớn hơn 10), dùng từ nào?",
+        "options": [
+          "多少",
+          "几",
+          "多",
+          "怎么样"
+        ],
+        "answer": "多少",
+        "explanation": "多少 (duōshao) dùng để hỏi số lượng không giới hạn (thường trên 10) và không bắt buộc có lượng từ ở giữa."
+      },
+      {
+        "id": "g1-13-q2",
+        "type": "fill",
+        "prompt": "Điền đại từ nghi vấn hỏi cách đi: 我们 ___ 去北京？坐飞机去吗？",
+        "options": [
+          "怎么",
+          "怎么样",
+          "什么",
+          "谁"
+        ],
+        "answer": "怎么",
+        "explanation": "怎么 + động từ (怎么去) dùng để hỏi phương thức/cách thức thực hiện hành động."
+      },
+      {
+        "id": "g1-13-q3",
+        "type": "mcq",
+        "prompt": "Câu hỏi nào sau đây viết ĐÚNG ngữ pháp?",
+        "options": [
+          "你叫什么名字？",
+          "你叫什么名字吗？",
+          "谁是她吗？",
+          "你家有几口人吗？"
+        ],
+        "answer": "你叫什么名字？",
+        "explanation": "Câu hỏi đã có đại từ nghi vấn (什么, 谁, 几...) thì tuyệt đối không dùng thêm trợ từ 吗 ở cuối câu."
+      },
+      {
+        "id": "g1-13-q4",
+        "type": "fill",
+        "prompt": "Điền đại từ hỏi nơi chốn: 请问，电影院在 ___ ？(Xin hỏi, rạp chiếu phim ở đâu?)",
+        "options": [
+          "哪儿",
+          "哪些",
+          "哪",
+          "怎么"
+        ],
+        "answer": "哪儿",
+        "explanation": "哪儿 (hoặc 哪里) có nghĩa là \"ở đâu\", dùng sau động từ 在 để hỏi vị trí."
+      },
+      {
+        "id": "g1-13-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hỏi: \"Cậu mua những quyển sách nào?\"",
+        "tokens": [
+          "你",
+          "买",
+          "了",
+          "哪些",
+          "书",
+          "？"
+        ],
+        "answer": "你买了哪些书？",
+        "explanation": "哪些 (những cái nào) đứng ngay trước danh từ 书 ở vị trí tân ngữ của động từ 买."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-14",
+    "hskLevel": 1,
+    "category": "Trợ từ & Thì của động từ",
+    "topic": "Các cách dùng trợ từ 呢 (呢1, 呢2, 呢3)",
+    "title": "Trợ từ ngữ khí 呢 (ne): Hỏi tỉnh lược, Hỏi vị trí và Hành động đang diễn ra",
+    "formula": "Danh/Đại từ + 呢？ | (在/正在 +) Động từ + ... + 呢",
+    "explanationVi": "Chữ 呢 ở HSK 1 có 3 chức năng chính: (1) 呢1 đặt sau danh/đại từ khi có ngữ cảnh trước đó để hỏi lại \"Còn ... thì sao?\" (我很好，你呢？); (2) 呢2 đứng cuối câu hỏi vị trí người/vật đang ở đâu (我的手机呢？); (3) 呢3 đặt cuối câu trần thuật (có thể đi cùng 在/正在 hoặc đứng một mình) để nhấn mạnh hành động đang tiếp diễn.",
+    "viComparison": "Trong tiếng Việt ta dịch 呢 thành \"còn... thì sao?\", \"đâu rồi?\", hoặc \"đang... đấy/nhé\". Khi hỏi vị trí bằng 呢 (như 书呢？), tuyệt đối không chèn thêm 吗 hay 在哪儿 vào cùng một câu.",
+    "confusablePairs": [
+      {
+        "pair": "呢 (hỏi lại) vs 吗 (hỏi Có/Không)",
+        "distinction": "吗 biến câu trần thuật thành câu hỏi Có/Không (你去吗？); 呢 dùng sau danh từ/đại từ để hỏi tiếp nối ngữ cảnh hoặc hỏi vị trí (你呢？ / 书呢？)."
+      },
+      {
+        "pair": "A呢？ vs A在哪儿？",
+        "distinction": "我的茶呢？ (Trà của tôi đâu?) mang sắc thái khẩu ngữ, ngắn gọn hơn 我的茶在哪儿？ (Trà của tôi ở đâu?) nhưng cùng mục đích hỏi vị trí."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我是中国人，你呢？",
+        "pinyin": "Wǒ shì Zhōngguórén, nǐ ne?",
+        "vi": "Tôi là người Trung Quốc, còn bạn thì sao?"
+      },
+      {
+        "zh": "请问，我的书包呢？怎么不在桌子上？",
+        "pinyin": "Qǐngwèn, wǒ de shūbāo ne? Zěnme bú zài zhuōzi shàng?",
+        "vi": "Xin hỏi, cặp sách của tôi đâu rồi? Sao lại không ở trên bàn?"
+      },
+      {
+        "zh": "妈妈做晚饭呢，你等一下吧。",
+        "pinyin": "Māma zuò wǎnfàn ne, nǐ děng yíxià ba.",
+        "vi": "Mẹ đang nấu bữa tối đấy, bạn đợi một chút nhé."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-14-q1",
+        "type": "mcq",
+        "prompt": "Trong câu \"我喝茶，你呢？\", trợ từ 呢 có tác dụng gì?",
+        "options": [
+          "Hỏi ngược lại theo ngữ cảnh (Còn bạn thì sao?)",
+          "Hỏi Có/Không",
+          "Biểu thị sự việc đã hoàn thành",
+          "Ra lệnh cho người nghe"
+        ],
+        "answer": "Hỏi ngược lại theo ngữ cảnh (Còn bạn thì sao?)",
+        "explanation": "呢1 gắn sau đại từ/danh từ (你呢) để hỏi thông tin tương tự câu vừa nêu."
+      },
+      {
+        "id": "g1-14-q2",
+        "type": "fill",
+        "prompt": "Chọn trợ từ hỏi ngắn gọn vị trí vật bị thất lạc: 妈妈，我的衣服 ___ ？(Mẹ ơi, quần áo của con đâu rồi?)",
+        "options": [
+          "呢",
+          "吗",
+          "吧",
+          "的"
+        ],
+        "answer": "呢",
+        "explanation": "Danh từ + 呢？ (呢2) dùng để hỏi người hoặc vật đang ở đâu."
+      },
+      {
+        "id": "g1-14-q3",
+        "type": "mcq",
+        "prompt": "Câu \"他在房间里睡觉呢。\" diễn tả điều gì?",
+        "options": [
+          "Cậu ấy đang ngủ trong phòng.",
+          "Cậu ấy đã ngủ xong rồi.",
+          "Cậu ấy sắp đi ngủ.",
+          "Hỏi cậu ấy ngủ ở đâu."
+        ],
+        "answer": "Cậu ấy đang ngủ trong phòng.",
+        "explanation": "呢3 ở cuối câu trần thuật (kết hợp với 在 hoặc đứng độc lập sau động từ) chỉ trạng thái đang tiếp diễn."
+      },
+      {
+        "id": "g1-14-q4",
+        "type": "fill",
+        "prompt": "Điền từ phù hợp: 哥哥看电视 ___ ，别打扰他。(Anh trai đang xem tivi đấy.)",
+        "options": [
+          "呢",
+          "吗",
+          "了",
+          "的"
+        ],
+        "answer": "呢",
+        "explanation": "Cuối câu trần thuật không có từ để hỏi dùng 呢3 để nhấn mạnh hành động đang diễn ra."
+      },
+      {
+        "id": "g1-14-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Thầy giáo Vương đâu rồi?\"",
+        "tokens": [
+          "王",
+          "老师",
+          "呢",
+          "？"
+        ],
+        "answer": "王老师呢？",
+        "explanation": "Cấu trúc hỏi vị trí tỉnh lược: Danh từ chỉ người (王老师) + 呢？"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-15",
+    "hskLevel": 1,
+    "category": "Trợ từ & Thì của động từ",
+    "topic": "Trợ từ kết cấu 的 & Định ngữ",
+    "title": "Trợ từ kết cấu 的 (de) và Định ngữ trong cụm danh từ (偏正短语)",
+    "formula": "Định ngữ (Sở hữu / Tính chất / Hành động) + 的 + Danh từ trung tâm",
+    "explanationVi": "Trợ từ kết cấu 的 dùng để nối định ngữ (bổ nghĩa) với danh từ trung tâm (中心语) đứng sau nó, tạo thành cụm chính-phụ (偏正短语). Định ngữ luôn đứng TRƯỚC danh từ. Khi nói về người thân hoặc mối quan hệ thân thiết (như 我爸爸, 我学校), có thể lược bỏ 的; tính từ một âm tiết (như 新书, 好朋友) cũng thường bỏ 的.",
+    "viComparison": "NGƯỢC HOÀN TOÀN với tiếng Việt! Tiếng Việt nói \"sách của tôi / áo mới / thầy giáo tiếng Trung\" (Danh từ trước, bổ nghĩa sau), còn tiếng Trung đặt tất cả thành phần bổ nghĩa lên TRƯỚC danh từ: 我的书, 新衣服, 中文老师.",
+    "confusablePairs": [
+      {
+        "pair": "我爸爸 vs 我的书",
+        "distinction": "Với người thân hoặc tổ chức gắn bó (爸爸, 妈妈, 朋友, 学校), 的 có thể lược bỏ; với đồ vật sở hữu (书, 手机, 电脑), thường giữ 的."
+      },
+      {
+        "pair": "新书 vs 很新的书",
+        "distinction": "Tính từ 1 âm tiết đứng trực tiếp trước danh từ không cần 的 (新书, 大苹果); khi có phó từ mức độ như 很, 非常 đi kèm thì BẮT BUỘC có 的 (很新的书, 非常漂亮的衣服)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "这是我哥哥的电脑。",
+        "pinyin": "Zhè shì wǒ gēge de diànnǎo.",
+        "vi": "Đây là máy tính của anh trai tôi."
+      },
+      {
+        "zh": "我想买一件很漂亮的衣服。",
+        "pinyin": "Wǒ xiǎng mǎi yí jiàn hěn piàoliang de yīfu.",
+        "vi": "Tôi muốn mua một chiếc áo rất đẹp."
+      },
+      {
+        "zh": "今天下午的课很有意思。",
+        "pinyin": "Jīntiān xiàwǔ de kè hěn yǒuyìsi.",
+        "vi": "Tiết học chiều nay rất thú vị."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-15-q1",
+        "type": "mcq",
+        "prompt": "Cách dịch đúng của \"giáo viên tiếng Hán rất tốt\" là gì?",
+        "options": [
+          "很好的汉语老师",
+          "汉语老师很好的",
+          "老师汉语很好的",
+          "很好的老师汉语"
+        ],
+        "answer": "很好的汉语老师",
+        "explanation": "Trong cụm danh từ tiếng Trung, danh từ trung tâm (老师) luôn đứng cuối cùng; các định ngữ (很好的, 汉语) xếp phía trước."
+      },
+      {
+        "id": "g1-15-q2",
+        "type": "fill",
+        "prompt": "Điền từ vào chỗ trống khi tính từ có 很 đi kèm: 他是一个非常聪明 ___ 学生。(Cậu ấy là một học sinh vô cùng thông minh.)",
+        "options": [
+          "的",
+          "了",
+          "吗",
+          "在"
+        ],
+        "answer": "的",
+        "explanation": "Khi định ngữ là cụm tính từ có phó từ mức độ (非常聪明), bắt buộc dùng 的 nối với danh từ."
+      },
+      {
+        "id": "g1-15-q3",
+        "type": "mcq",
+        "prompt": "Cụm nào sau đây được phép lược bỏ chữ 的 tự nhiên nhất?",
+        "options": [
+          "我妈妈",
+          "我昨天买书",
+          "非常大房间",
+          "我老师电脑"
+        ],
+        "answer": "我妈妈",
+        "explanation": "Quan hệ gia đình/thân thích (我妈妈, 我爸爸) thường lược bỏ chữ 的; cụm dài hoặc sở hữu đồ vật không bỏ."
+      },
+      {
+        "id": "g1-15-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 桌子上放着谁 ___ 手机？(Trên bàn đặt điện thoại của ai vậy?)",
+        "options": [
+          "的",
+          "呢",
+          "在",
+          "个"
+        ],
+        "answer": "的",
+        "explanation": "谁的手机 nghĩa là \"điện thoại của ai\", dùng 的 để nối định ngữ sở hữu 谁."
+      },
+      {
+        "id": "g1-15-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành cụm câu hoàn chỉnh: \"Những món ăn mẹ nấu đều rất ngon.\"",
+        "tokens": [
+          "妈妈",
+          "做",
+          "的",
+          "菜",
+          "都",
+          "很好吃",
+          "。"
+        ],
+        "answer": "妈妈做的菜都很好吃。",
+        "explanation": "Cụm động-tân 妈妈做的 đóng vai trò định ngữ đứng trước danh từ trung tâm 菜."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-16",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Giới từ 在 & Trạng ngữ Thời gian, Nơi chốn",
+    "title": "Giới từ 在 (zài) và Vị trí Trạng ngữ Thời gian, Nơi chốn",
+    "formula": "Chủ ngữ + (Thời gian) + 在 + Nơi chốn + Động từ (+ Tân ngữ)",
+    "explanationVi": "Trạng ngữ (状语) bổ nghĩa cho động từ và luôn đứng TRƯỚC động từ. Thời gian có thể đứng đầu câu hoặc ngay sau chủ ngữ. Cụm giới-tân (介宾短语) tạo bởi giới từ 在 + Địa điểm biểu thị nơi diễn ra hành động, và BẮT BUỘC đứng trước động từ chính.",
+    "viComparison": "Đây là lỗi sai phổ biến nhất của người Việt! Tiếng Việt nói \"Tôi học tiếng Trung ở trường\" (nơi chốn ở cuối), còn tiếng Trung bắt buộc đưa nơi chốn lên trước động từ: 我在学校学习汉语 (tuyệt đối không nói 我学习汉语在学校).",
+    "confusablePairs": [
+      {
+        "pair": "在 + Nơi chốn (động từ) vs 在 + Nơi chốn + V (giới từ)",
+        "distinction": "Khi câu không có động từ khác, 在 là động từ vị ngữ nghĩa là \"ở tại\" (我在家); khi có hành động phía sau, 在 + Nơi chốn là cụm giới từ làm trạng ngữ (我在家吃饭)."
+      },
+      {
+        "pair": "Vị trí Thời gian vs Nơi chốn",
+        "distinction": "Khi câu có cả thời gian và nơi chốn, Thời gian luôn đứng trước Nơi chốn: 我明天在学校上课 (Ngày mai tôi học ở trường)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我爸爸在医院工作。",
+        "pinyin": "Wǒ bàba zài yīyuàn gōngzuò.",
+        "vi": "Bố tôi làm việc ở bệnh viện."
+      },
+      {
+        "zh": "明天上午九点，我们在教室上课。",
+        "pinyin": "Míngtiān shàngwǔ jiǔ diǎn, wǒmen zài jiàoshì shàngkè.",
+        "vi": "9 giờ sáng mai, chúng tôi học ở phòng học."
+      },
+      {
+        "zh": "姐姐晚上常常在房间里听音乐。",
+        "pinyin": "Jiějie wǎnshang chángcháng zài fángjiān lǐ tīng yīnyuè.",
+        "vi": "Buổi tối chị gái thường nghe nhạc trong phòng."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-16-q1",
+        "type": "mcq",
+        "prompt": "Câu nào sắp xếp đúng trật tự câu tiếng Trung cho nghĩa \"Anh ấy ăn cơm ở nhà hàng.\":",
+        "options": [
+          "他在饭店吃饭。",
+          "他吃饭在饭店。",
+          "在饭店吃饭他。",
+          "他饭店在吃饭。"
+        ],
+        "answer": "他在饭店吃饭。",
+        "explanation": "Cụm giới-tân chỉ nơi chốn (在饭店) đóng vai trò trạng ngữ, phải đứng trước động từ 吃饭."
+      },
+      {
+        "id": "g1-16-q2",
+        "type": "fill",
+        "prompt": "Điền giới từ thích hợp: 小王每天 ___ 图书馆看书。(Mỗi ngày Tiểu Vương đọc sách ở thư viện.)",
+        "options": [
+          "在",
+          "到",
+          "和",
+          "是"
+        ],
+        "answer": "在",
+        "explanation": "Giới từ 在 đứng trước danh từ chỉ địa điểm để dẫn ra nơi diễn ra hành động."
+      },
+      {
+        "id": "g1-16-q3",
+        "type": "mcq",
+        "prompt": "Nếu câu có cả \"hôm nay\" (今天) và \"ở nhà\" (在家), trật tự chuẩn là gì?",
+        "options": [
+          "我今天在家做饭。",
+          "我在家今天做饭。",
+          "我做饭今天在家。",
+          "在家我做饭今天。"
+        ],
+        "answer": "我今天在家做饭。",
+        "explanation": "Trật tự trạng ngữ chuẩn: Chủ ngữ + Thời gian (今天) + Nơi chốn (在家) + Động từ (做饭)."
+      },
+      {
+        "id": "g1-16-q4",
+        "type": "fill",
+        "prompt": "Chọn câu đúng vị trí thời gian: ___ 我去商店买水果。(Chiều nay tôi đi cửa hàng mua hoa quả.)",
+        "options": [
+          "今天下午",
+          "下午今天",
+          "去今天下午",
+          "买水果今天"
+        ],
+        "answer": "今天下午",
+        "explanation": "Thời gian xếp từ lớn đến nhỏ (今天 + 下午) và đặt đầu câu hoặc ngay sau chủ ngữ."
+      },
+      {
+        "id": "g1-16-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Hôm qua tôi uống trà ở nhà bạn.\"",
+        "tokens": [
+          "昨天",
+          "我",
+          "在",
+          "朋友",
+          "家",
+          "喝茶",
+          "。"
+        ],
+        "answer": "昨天我在朋友家喝茶。",
+        "explanation": "Thời gian (昨天) -> Chủ ngữ (我) -> Cụm giới-tân nơi chốn (在朋友家) -> Động từ (喝茶)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-17",
+    "hskLevel": 1,
+    "category": "Trợ từ & Thì của động từ",
+    "topic": "Thì Hiện tại tiếp diễn (在 / 正在 + V + 呢)",
+    "title": "Thì Hiện tại tiếp diễn: Phó từ 在 / 正在 (+ Động từ + 呢)",
+    "formula": "Chủ ngữ + 在 / 正在 + Động từ (+ Tân ngữ) (+ 呢) | Phủ định: 没(在) + V",
+    "explanationVi": "Để diễn tả hành động đang diễn ra tại thời điểm nói (进行态), tiếng Trung dùng phó từ thời gian 在 hoặc 正在 đứng ngay trước động từ. Có thể thêm trợ từ ngữ khí 呢 ở cuối câu để câu tự nhiên hơn. Dạng phủ định dùng 没(有) (hoặc 没在), không dùng 不在 để phủ định việc đang làm.",
+    "viComparison": "Tương đồng với \"đang...\" trong tiếng Việt. Lưu ý không dùng 正在 với các động từ trạng thái hoặc động từ không kéo dài như 是, 有, 认识, 知道, 喜欢.",
+    "confusablePairs": [
+      {
+        "pair": "在/正在 (Phó từ) vs 在 + Địa điểm (Giới từ)",
+        "distinction": "我在吃饭 (Tôi đang ăn cơm - 在 đứng ngay trước động từ); 我在家里吃饭 (Tôi ăn cơm ở nhà). Khi câu có cả hai, không nói 在家在吃饭 mà gộp thành 正在家里吃饭 hoặc 在家里吃饭呢."
+      },
+      {
+        "pair": "正在 vs 没(在)",
+        "distinction": "Phủ định của hành động đang diễn ra là 没(在) + V (我没看电视，我在看书呢), không dùng 不正在."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "哥哥正在写汉字呢。",
+        "pinyin": "Gēge zhèngzài xiě Hànzì ne.",
+        "vi": "Anh trai đang viết chữ Hán đấy."
+      },
+      {
+        "zh": "外面在下雨，我们等一会儿再走吧。",
+        "pinyin": "Wàimiàn zài xià yǔ, wǒmen děng yíhuìr zài zǒu ba.",
+        "vi": "Bên ngoài trời đang mưa, chúng ta đợi một lát rồi đi nhé."
+      },
+      {
+        "zh": "我没睡觉，我在听老师说话呢。",
+        "pinyin": "Wǒ méi shuìjiào, wǒ zài tīng lǎoshī shuōhuà ne.",
+        "vi": "Tôi không có đang ngủ đâu, tôi đang nghe thầy giáo nói đấy."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-17-q1",
+        "type": "mcq",
+        "prompt": "Câu nào diễn tả đúng \"Cô ấy đang gọi điện thoại\"?",
+        "options": [
+          "她正在打电话呢。",
+          "她打正在电话呢。",
+          "她在是打电话。",
+          "她打电话正在了。"
+        ],
+        "answer": "她正在打电话呢。",
+        "explanation": "Phó từ thời gian 正在 luôn đứng ngay trước động từ (打电话), cuối câu có thể kết hợp 呢."
+      },
+      {
+        "id": "g1-17-q2",
+        "type": "fill",
+        "prompt": "Điền từ phủ định hành động đang diễn ra: 弟弟 ___ 看电视，他在做作业呢。",
+        "options": [
+          "没在",
+          "不正在",
+          "不是",
+          "不要"
+        ],
+        "answer": "没在",
+        "explanation": "Phủ định câu tiếp diễn dùng 没 hoặc 没在, không dùng 不正在."
+      },
+      {
+        "id": "g1-17-q3",
+        "type": "mcq",
+        "prompt": "Động từ nào sau đây KHÔNG thể dùng với 正在 để diễn tả hành động đang diễn ra?",
+        "options": [
+          "认识",
+          "吃",
+          "看",
+          "写"
+        ],
+        "answer": "认识",
+        "explanation": "认识 (quen biết), 是, 有, 喜欢 là động từ trạng thái/tâm lý, không dùng với 正在."
+      },
+      {
+        "id": "g1-17-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 妈妈 ___ 厨房里做午饭 ___。(Mẹ đang nấu bữa trưa trong bếp.)",
+        "options": [
+          "正在 / 呢",
+          "在 / 吗",
+          "了 / 呢",
+          "正在 / 了"
+        ],
+        "answer": "正在 / 呢",
+        "explanation": "Khi trong câu có cả địa điểm (厨房里), dùng 正在 trước địa điểm và 呢 ở cuối câu để tránh lặp hai chữ 在."
+      },
+      {
+        "id": "g1-17-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Các bạn học sinh đang đọc sách.\"",
+        "tokens": [
+          "同学们",
+          "正在",
+          "读书",
+          "呢",
+          "。"
+        ],
+        "answer": "同学们正在读书呢。",
+        "explanation": "Trật tự chuẩn: Chủ ngữ (同学们) + 正在 + Động từ (读书) + 呢."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-18",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Động từ năng nguyện: 会 vs 能 vs 可以",
+    "title": "Động từ năng nguyện chỉ khả năng và sự cho phép: 会, 能, 可以",
+    "formula": "Chủ ngữ + 会 / 能 / 可以 + Động từ (+ Tân ngữ)",
+    "explanationVi": "Ba động từ năng nguyện này đều đứng trước động từ chính: 会 (biết) chỉ kỹ năng cần học mới có (như nói tiếng Hán, lái xe) hoặc khả năng sắp xảy ra (trời sẽ mưa); 能 (có thể) chỉ năng lực bản thân hoặc điều kiện khách quan cho phép; 可以 (có thể/được phép) nhấn mạnh sự cho phép hoặc đề xuất.",
+    "viComparison": "Tiếng Việt dịch chung cả 能 và 可以 là \"có thể\", và hay nhầm \"biết\" của 会 với 认识/知道. Nhớ: biết kỹ năng (biết bơi, biết nấu cơm) dùng 会; quen biết người dùng 认识; biết tin tức dùng 知道.",
+    "confusablePairs": [
+      {
+        "pair": "会 vs 能",
+        "distinction": "会 chỉ kỹ năng do học tập mà có (我会说汉语 - Tôi biết nói tiếng Hán); 能 chỉ khả năng đạt mức độ hoặc điều kiện cho phép (我今天生病了，不能去上课 - Hôm nay tôi ốm, không thể đi học)."
+      },
+      {
+        "pair": "能 vs 可以 (trong câu xin phép)",
+        "distinction": "Trong câu xin phép (Tôi có thể ngồi đây không?), cả 我可以坐这儿吗？ và 我能坐这儿吗？ đều dùng được. Nhưng phủ định để từ chối/cấm lịch sự thường dùng 不可以 hoặc 不能."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我会说汉语，也会写一点儿汉字。",
+        "pinyin": "Wǒ huì shuō Hànyǔ, yě huì xiě yìdiǎnr Hànzì.",
+        "vi": "Tôi biết nói tiếng Hán, cũng biết viết một chút chữ Hán."
+      },
+      {
+        "zh": "请问，我可以坐在这儿吗？",
+        "pinyin": "Qǐngwèn, wǒ kěyǐ zuò zài zhèr ma?",
+        "vi": "Xin hỏi, tôi có thể ngồi ở đây không?"
+      },
+      {
+        "zh": "我今天有很多事，晚上不能去看电影。",
+        "pinyin": "Wǒ jīntiān yǒu hěn duō shì, wǎnshang bù néng qù kàn diànyǐng.",
+        "vi": "Hôm nay tôi có rất nhiều việc, buổi tối không thể đi xem phim."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-18-q1",
+        "type": "mcq",
+        "prompt": "Để nói \"Anh ấy biết lái xe ô tô\" (kỹ năng đã học), dùng từ nào?",
+        "options": [
+          "会",
+          "可以",
+          "想",
+          "认识"
+        ],
+        "answer": "会",
+        "explanation": "Kỹ năng phải qua rèn luyện/học tập như lái xe (开车), nấu ăn, nói ngoại ngữ dùng 会."
+      },
+      {
+        "id": "g1-18-q2",
+        "type": "fill",
+        "prompt": "Điền từ xin phép lịch sự: 老师，我 ___ 问您一个问题吗？",
+        "options": [
+          "可以",
+          "会",
+          "知道",
+          "是"
+        ],
+        "answer": "可以",
+        "explanation": "我可以...吗？ là mẫu câu xin phép chuẩn mực và lịch sự nhất."
+      },
+      {
+        "id": "g1-18-q3",
+        "type": "mcq",
+        "prompt": "Trời đang mưa to nên điều kiện khách quan không cho phép ra ngoài. Câu nào tự nhiên nhất?",
+        "options": [
+          "外边下雨，我们不能出去。",
+          "外边下雨，我们不会出去。",
+          "外边下雨，我们不认识出去。",
+          "外边下雨，我们不出去吗。"
+        ],
+        "answer": "外边下雨，我们不能出去。",
+        "explanation": "不能 diễn tả điều kiện khách quan không cho phép thực hiện hành động."
+      },
+      {
+        "id": "g1-18-q4",
+        "type": "fill",
+        "prompt": "Chọn từ đúng để dự đoán thời tiết: 今天很冷，明天 ___ 下雪吗？(Ngày mai liệu có tuyết rơi không?)",
+        "options": [
+          "会",
+          "可以",
+          "能",
+          "想"
+        ],
+        "answer": "会",
+        "explanation": "Ngoài chỉ kỹ năng, 会 còn dùng để dự đoán khả năng xảy ra một sự việc trong tương lai (\"sẽ/liệu có\")."
+      },
+      {
+        "id": "g1-18-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Em gái tôi biết hát tiếng Trung.\"",
+        "tokens": [
+          "我",
+          "妹妹",
+          "会",
+          "唱",
+          "中文",
+          "歌",
+          "。"
+        ],
+        "answer": "我妹妹会唱中文歌。",
+        "explanation": "Chủ ngữ (我妹妹) + Động từ năng nguyện (会) + Động từ (唱) + Tân ngữ (中文歌)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-19",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Động từ năng nguyện: 想 vs 要",
+    "title": "Động từ năng nguyện chỉ ý muốn và nhu cầu: 想 (xiǎng) vs 要 (yào)",
+    "formula": "Chủ ngữ + 想 / 要 + Động từ (+ Tân ngữ) | Phủ định: 不想 / 不要",
+    "explanationVi": "想 (muốn/nghĩ) biểu thị mong muốn nhẹ nhàng trong tâm trí, chưa chắc đã làm ngay (我想去北京). 要 (muốn/cần/phải) biểu thị ý chí quyết tâm, nhu cầu cấp thiết hoặc yêu cầu trực tiếp (我要喝水, 我要去上班了). Lưu ý khi từ chối lời mời của người khác, người Trung dùng 不想 hoặc 不用 thay vì 不要 để tránh thô lỗ.",
+    "viComparison": "Cả hai đều có thể dịch là \"muốn\", nhưng 要 mạnh và trực tiếp hơn 想 rất nhiều. Khi gọi món ở nhà hàng, dùng 我要一杯茶 (Cho tôi 1 cốc trà); khi tâm sự dự định nhẹ nhàng, dùng 我想去中国.",
+    "confusablePairs": [
+      {
+        "pair": "想 vs 要",
+        "distinction": "想 thiên về mong ước, dự định mềm mỏng; 要 thiên về quyết tâm, sắp làm ngay hoặc yêu cầu trực tiếp (cũng có thể dùng với danh từ như 我要这个 - Tôi lấy cái này)."
+      },
+      {
+        "pair": "不想 vs 不要",
+        "distinction": "不想 + V nghĩa là \"không muốn làm\" (cảm xúc cá nhân); 不要 + V thường mang nghĩa khuyên ngăn/ra lệnh \"đừng làm\" (不要说话!)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天是星期天，我想在家好好休息。",
+        "pinyin": "Jīntiān shì xīngqītiān, wǒ xiǎng zài jiā hǎohāo xiūxi.",
+        "vi": "Hôm nay là Chủ nhật, tôi muốn ở nhà nghỉ ngơi cho khỏe."
+      },
+      {
+        "zh": "我要买两张去上海的火车票。",
+        "pinyin": "Wǒ yào mǎi liǎng zhāng qù Shànghǎi de huǒchēpiào.",
+        "vi": "Tôi muốn mua hai vé tàu đi Thượng Hải."
+      },
+      {
+        "zh": "天气太冷了，我不想出去吃晚饭。",
+        "pinyin": "Tiānqì tài lěng le, wǒ bù xiǎng chūqù chī wǎnfàn.",
+        "vi": "Thời tiết lạnh quá rồi, tôi không muốn ra ngoài ăn tối."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-19-q1",
+        "type": "mcq",
+        "prompt": "Khi muốn nói nhẹ nhàng \"Mình không muốn uống cà phê đâu\", chọn câu nào?",
+        "options": [
+          "我不想喝咖啡。",
+          "我不要喝咖啡！",
+          "我没要喝咖啡。",
+          "我不会喝咖啡。"
+        ],
+        "answer": "我不想喝咖啡。",
+        "explanation": "不想 diễn đạt ý không muốn một cách tự nhiên và lịch sự, tránh cảm giác gắt gỏng như 不要."
+      },
+      {
+        "id": "g1-19-q2",
+        "type": "fill",
+        "prompt": "Chọn từ để gọi đồ uống ở quán: 请问，您 ___ 喝点儿什么？(Xin hỏi, quý khách muốn uống gì ạ?)",
+        "options": [
+          "想",
+          "会",
+          "可以",
+          "能"
+        ],
+        "answer": "想",
+        "explanation": "Khi hỏi mong muốn lịch sự của khách (您想喝什么 / 您要喝什么), 想 là lựa chọn rất lịch sự và tự nhiên."
+      },
+      {
+        "id": "g1-19-q3",
+        "type": "mcq",
+        "prompt": "Khi cần thể hiện việc sắp phải làm ngay (Tôi sắp phải đi làm rồi): \"我 ___ 去上班了。\"",
+        "options": [
+          "要",
+          "想",
+          "会",
+          "知道"
+        ],
+        "answer": "要",
+        "explanation": "要...了 biểu thị việc sắp sửa xảy ra hoặc cần phải làm ngay."
+      },
+      {
+        "id": "g1-19-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 明年我 ___ 去中国大学学习。(Sang năm tôi muốn đi học ở đại học Trung Quốc.)",
+        "options": [
+          "想",
+          "不要",
+          "能",
+          "有"
+        ],
+        "answer": "想",
+        "explanation": "Diễn tả ước muốn, dự định trong tương lai dùng 想."
+      },
+      {
+        "id": "g1-19-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Tôi muốn mua một chiếc máy tính mới.\"",
+        "tokens": [
+          "我",
+          "想",
+          "买",
+          "一台",
+          "新",
+          "电脑",
+          "。"
+        ],
+        "answer": "我想买一台新电脑。",
+        "explanation": "Chủ ngữ (我) + 想 + Động từ (买) + Cụm danh từ (一台新电脑)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-20",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Động từ ly hợp (离合词) & Cụm Động-Tân",
+    "title": "Động từ ly hợp (离合词): 看病, 睡觉, 说话, 上课, 上班, 生病",
+    "formula": "Động từ + (Thành phần chèn: 了 / Bổ ngữ / Định ngữ) + Tân ngữ",
+    "explanationVi": "Động từ ly hợp là những động từ có cấu tạo Động-Tân (动宾短语) như 看病 (khám bệnh), 睡觉 (ngủ), 说话 (nói chuyện), 上课/下课 (vào học/tan học), 上班/下班 (đi làm/tan làm), 生病 (bị ốm). Chúng có thể đứng liền như một từ, hoặc tách đôi (ly) để chèn 了, định ngữ, số lượng vào giữa — và KHÔNG bao giờ mang thêm tân ngữ trực tiếp phía sau.",
+    "viComparison": "Người Việt hay dịch thẳng \"tôi ngủ 8 tiếng\" thành 我睡觉八个小时 hoặc \"nói chuyện với anh ấy\" thành 我说话他 — cả hai đều SAI! Phải chèn vào giữa: 睡八个小时觉 và 和他说话.",
+    "confusablePairs": [
+      {
+        "pair": "睡觉 vs 睡 + Thời lượng + 觉",
+        "distinction": "Không đặt thời lượng hay tân ngữ sau 睡觉; phải tách ra: 睡了八个小时觉 (ngủ 8 tiếng)."
+      },
+      {
+        "pair": "上课 / 上班 vs 下课 / 下班",
+        "distinction": "上 chỉ bắt đầu (vào lớp / đi làm), 下 chỉ kết thúc (tan học / tan làm). Ví dụ: 八点上课，十一点下课."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我昨天晚上睡了九个小时觉。",
+        "pinyin": "Wǒ zuótiān wǎnshang shuì le jiǔ gè xiǎoshí jiào.",
+        "vi": "Tối hôm qua tôi đã ngủ chín tiếng đồng hồ."
+      },
+      {
+        "zh": "我们上午八点上班，下午五点下班。",
+        "pinyin": "Wǒmen shàngwǔ bā diǎn shàngbān, xiàwǔ wǔ diǎn xiàbān.",
+        "vi": "Chúng tôi đi làm lúc 8 giờ sáng và tan làm lúc 5 giờ chiều."
+      },
+      {
+        "zh": "我在跟朋友说话，别吵！",
+        "pinyin": "Wǒ zài gēn péngyou shuōhuà, bié chǎo!",
+        "vi": "Tôi đang nói chuyện với bạn, đừng ồn!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-20-q1",
+        "type": "mcq",
+        "prompt": "Câu nào nói \"Tôi đã ngủ một giấc rồi\" (hoặc có chèn yếu tố vào động từ ly hợp) đúng ngữ pháp?",
+        "options": [
+          "我睡了一会儿觉。",
+          "我睡觉了一会儿。",
+          "我睡觉了他。",
+          "我看见了病。"
+        ],
+        "answer": "我睡了一会儿觉。",
+        "explanation": "睡觉 là động từ ly hợp nên trợ từ 了 và thời lượng 一会儿 phải chèn vào giữa 睡 và 觉."
+      },
+      {
+        "id": "g1-20-q2",
+        "type": "fill",
+        "prompt": "Điền động từ ly hợp phù hợp: 他今天 ___ 了，要去医院 ___ 。(Hôm nay anh ấy ốm rồi, phải đi bệnh viện khám bệnh.)",
+        "options": [
+          "生病 / 看病",
+          "看病 / 生病",
+          "下课 / 上班",
+          "说话 / 睡觉"
+        ],
+        "answer": "生病 / 看病",
+        "explanation": "生病 là bị ốm; đi bệnh viện khám bệnh là 看病."
+      },
+      {
+        "id": "g1-20-q3",
+        "type": "mcq",
+        "prompt": "Cách nói \"Tôi nói chuyện với thầy giáo\" nào ĐÚNG?",
+        "options": [
+          "我和老师说话。",
+          "我说话老师。",
+          "我和说话老师。",
+          "我老师说话。"
+        ],
+        "answer": "我和老师说话。",
+        "explanation": "说话 là động từ ly hợp không nhận tân ngữ trực tiếp phía sau; đối tượng giao tiếp phải đưa ra trước bằng giới từ 和 (hoặc 跟)."
+      },
+      {
+        "id": "g1-20-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 早上八点半，学生们都去教室 ___。(8 giờ rưỡi sáng, học sinh đều đến lớp vào học.)",
+        "options": [
+          "上课",
+          "下课",
+          "下班",
+          "看病"
+        ],
+        "answer": "上课",
+        "explanation": "上课 nghĩa là lên lớp / bắt đầu tiết học; 下课 là tan học."
+      },
+      {
+        "id": "g1-20-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Hôm nay anh trai tan làm lúc 6 giờ.\"",
+        "tokens": [
+          "哥哥",
+          "今天",
+          "六点",
+          "下班",
+          "。"
+        ],
+        "answer": "哥哥今天六点下班。",
+        "explanation": "Trật tự: Chủ ngữ (哥哥) + Thời gian (今天六点) + Động từ ly hợp (下班)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-21",
+    "hskLevel": 1,
+    "category": "Cấu trúc câu cơ bản",
+    "topic": "Bổ ngữ động lượng (Động từ + Số lần)",
+    "title": "Bổ ngữ động lượng: Động từ + 一下 / 一次 / 两遍",
+    "formula": "Động từ (+ 了) + Bổ ngữ động lượng (一下 / 一次...) (+ Tân ngữ)",
+    "explanationVi": "Bổ ngữ động lượng (动量补语) đứng sau động từ để cho biết hành động xảy ra bao nhiêu lần hoặc diễn ra nhanh, nhẹ nhàng (như 一下 - một chút/một lát, 一次 - một lần). Nếu tân ngữ là đại từ nhân xưng (我, 他...), đặt đại từ trước bổ ngữ động lượng (như 看他一下); nếu là danh từ chỉ vật/nơi chốn, đặt sau bổ ngữ (như 看一下书, 去过一次北京).",
+    "viComparison": "Tiếng Việt nói \"xem quyển sách này một chút\" (đặt \"một chút\" ở cuối câu), nhưng tiếng Trung ưu tiên đặt bổ ngữ động lượng ngay sau động từ: 看一下这本书 (hoặc 看一下).",
+    "confusablePairs": [
+      {
+        "pair": "一下 vs 一点儿",
+        "distinction": "一下 đặt sau động từ để làm hành động nhẹ nhàng/thử xem (看一下, 问一下, 听一下); 一点儿 đặt sau động từ trước danh từ không đếm được để chỉ số lượng ít (喝一点儿水)."
+      },
+      {
+        "pair": "V + 一次 + Danh từ vs V + Đại từ + 一次",
+        "distinction": "Với danh từ thông thường: 看一次电影 (xem phim 1 lần); với đại từ nhân xưng: 找他一次 (tìm anh ấy 1 lần)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "请问，我可以看一下你的手机吗？",
+        "pinyin": "Qǐngwèn, wǒ kěyǐ kàn yíxià nǐ de shǒujī ma?",
+        "vi": "Xin hỏi, tôi có thể xem qua điện thoại của bạn một chút không?"
+      },
+      {
+        "zh": "去年我去了一次北京。",
+        "pinyin": "Qùnián wǒ qù le yí cì Běijīng.",
+        "vi": "Năm ngoái tôi đã đi Bắc Kinh một lần."
+      },
+      {
+        "zh": "大家休息一下，喝杯水吧。",
+        "pinyin": "Dàjiā xiūxi yíxià, hē bēi shuǐ ba.",
+        "vi": "Mọi người nghỉ ngơi một lát, uống cốc nước đi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-21-q1",
+        "type": "mcq",
+        "prompt": "Cách nói \"Cho tôi hỏi thăm một chút\" tự nhiên nhất là gì?",
+        "options": [
+          "我问一下。",
+          "我问一点儿。",
+          "我一下问。",
+          "我问一岁。"
+        ],
+        "answer": "我问一下。",
+        "explanation": "Động từ + 一下 biểu thị hành động diễn ra nhanh, nhẹ nhàng, tạo ngữ khí lịch sự."
+      },
+      {
+        "id": "g1-21-q2",
+        "type": "fill",
+        "prompt": "Chọn vị trí đúng khi có đại từ nhân xưng: 老师叫 ___ 一下。(Thầy giáo gọi anh ấy một chút.)",
+        "options": [
+          "他",
+          "的",
+          "了",
+          "着"
+        ],
+        "answer": "他",
+        "explanation": "Khi tân ngữ là đại từ (他, 我, 你), đại từ đứng giữa động từ và bổ ngữ động lượng: 叫他一下."
+      },
+      {
+        "id": "g1-21-q3",
+        "type": "mcq",
+        "prompt": "Câu nào nói đúng ý \"Tôi đã xem bộ phim này hai lần\"?",
+        "options": [
+          "这个电影我看了两次。",
+          "这个电影我两次看了。",
+          "我看了电影两次这。",
+          "我两次看这个电影。"
+        ],
+        "answer": "这个电影我看了两次。",
+        "explanation": "Bổ ngữ số lần (两次) đứng ngay sau động từ + 了 (看了两次)."
+      },
+      {
+        "id": "g1-21-q4",
+        "type": "fill",
+        "prompt": "Điền bổ ngữ phù hợp: 你等我 ___ ，我马上就出来。(Bạn đợi tôi một lát nhé.)",
+        "options": [
+          "一下",
+          "一点儿",
+          "一次",
+          "一半"
+        ],
+        "answer": "一下",
+        "explanation": "等我一下 (đợi tôi một lát) dùng 一下 đứng sau đại từ 我."
+      },
+      {
+        "id": "g1-21-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Hãy nghe bài hát này một lần nhé.\"",
+        "tokens": [
+          "我们",
+          "听",
+          "一次",
+          "这",
+          "首",
+          "歌",
+          "吧",
+          "。"
+        ],
+        "answer": "我们听一次这首歌吧。",
+        "explanation": "Chủ ngữ (我们) + Động từ (听) + Bổ ngữ động lượng (一次) + Tân ngữ (这首歌) + 吧."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-22",
+    "hskLevel": 1,
+    "category": "Trợ từ & Thì của động từ",
+    "topic": "Trợ từ 了1 (Hoàn thành) & 了2 (Thay đổi trạng thái)",
+    "title": "Trợ từ động thái 了1 (Hoàn thành) và Trợ từ ngữ khí 了2 (Thay đổi trạng thái)",
+    "formula": "Chủ ngữ + Động từ + 了1 + (Số lượng) + Tân ngữ | Câu + 了2",
+    "explanationVi": "了1 đứng ngay sau động từ biểu thị hành động đã hoàn thành (nếu có tân ngữ đơn giản, thường kèm số lượng hoặc định ngữ như 买了两本书). 了2 đứng ở cuối câu để thông báo một tình huống mới hoặc sự thay đổi trạng thái (như 下雨了 - Trời mưa rồi; 我二十岁了 - Tôi 20 tuổi rồi). Dạng phủ định của cả hai là 没(有) + Động từ (BỎ 了1).",
+    "viComparison": "Người Việt hay nghĩ 了 = thì quá khứ, nên câu nào có \"hôm qua\" cũng gắn 了, hoặc nói 昨天我没去了. Nhớ hai quy tắc vàng: (1) Thói quen quá khứ không dùng 了; (2) Trong câu phủ định với 没(有), tuyệt đối BỎ 了1 sau động từ!",
+    "confusablePairs": [
+      {
+        "pair": "了1 (sau động từ) vs 了2 (cuối câu)",
+        "distinction": "了1 nhấn mạnh động tác đã xong (我喝了一杯茶); 了2 nhấn mạnh trạng thái đã thay đổi so với trước (天气冷了 - Trời trở lạnh rồi / 不冷了 - Hết lạnh rồi)."
+      },
+      {
+        "pair": "没 + V vs V + 了",
+        "distinction": "Khẳng định hoàn thành: 我买了苹果; Phủ định: 我没买苹果 (tuyệt đối KHÔNG giữ 了 thành 我没买了苹果)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天早上我吃了两个包子，喝了一杯牛奶。",
+        "pinyin": "Jīntiān zǎoshang wǒ chī le liǎng gè bāozi, hē le yì bēi niúnǎi.",
+        "vi": "Sáng nay tôi đã ăn hai cái bánh bao, uống một cốc sữa."
+      },
+      {
+        "zh": "现在十点了，我们要去睡觉了。",
+        "pinyin": "Xiànzài shí diǎn le, wǒmen yào qù shuìjiào le.",
+        "vi": "Bây giờ 10 giờ rồi, chúng ta phải đi ngủ rồi."
+      },
+      {
+        "zh": "昨天我没去商店，我在家休息。",
+        "pinyin": "Zuótiān wǒ méi qù shāngdiàn, wǒ zài jiā xiūxi.",
+        "vi": "Hôm qua tôi không đi cửa hàng, tôi nghỉ ngơi ở nhà."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-22-q1",
+        "type": "mcq",
+        "prompt": "Câu nào sau đây phủ định ĐÚNG câu \"我买了新衣服。\"?",
+        "options": [
+          "我没买新衣服。",
+          "我没买了新衣服。",
+          "我不买了新衣服。",
+          "我买了没新衣服。"
+        ],
+        "answer": "我没买新衣服。",
+        "explanation": "Khi phủ định một hành động chưa thực hiện/chưa hoàn thành ở quá khứ, dùng 没 + Động từ và bỏ 了1."
+      },
+      {
+        "id": "g1-22-q2",
+        "type": "fill",
+        "prompt": "Hoàn thành câu diễn tả sự thay đổi thời tiết: 八月过了，天气慢慢热 ___ 。(Tháng 8 qua rồi, thời tiết nóng lên rồi.)",
+        "options": [
+          "了",
+          "呢",
+          "吗",
+          "过"
+        ],
+        "answer": "了",
+        "explanation": "了2 đặt ở cuối câu sau tính từ để diễn tả sự chuyển biến trạng thái (trở nên nóng rồi)."
+      },
+      {
+        "id": "g1-22-q3",
+        "type": "mcq",
+        "prompt": "Vì sao câu \"去年我每天都在家吃早饭了。\" không tự nhiên?",
+        "options": [
+          "Hành động lặp lại như thói quen (每天都) không dùng 了1.",
+          "Không được dùng 在家 với 了.",
+          "去年 phải đứng sau chủ ngữ.",
+          "吃早饭 không được tách ra."
+        ],
+        "answer": "Hành động lặp lại như thói quen (每天都) không dùng 了1.",
+        "explanation": "了1 chỉ dùng cho hành động cụ thể đã hoàn tất, không dùng cho hành động mang tính thói quen lặp lại thường xuyên."
+      },
+      {
+        "id": "g1-22-q4",
+        "type": "fill",
+        "prompt": "Chọn vị trí đúng của 了1: 姐姐买 ___ 三本汉语书。",
+        "options": [
+          "了",
+          "着",
+          "吗",
+          "呢"
+        ],
+        "answer": "了",
+        "explanation": "了1 đứng ngay sau động từ 买 để chỉ việc mua 3 quyển sách đã hoàn thành."
+      },
+      {
+        "id": "g1-22-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu thông báo sự thay đổi: \"Chị gái tôi bây giờ hết bệnh rồi (không còn ốm nữa).\"",
+        "tokens": [
+          "我",
+          "姐姐",
+          "现在",
+          "不",
+          "生病",
+          "了",
+          "。"
+        ],
+        "answer": "我姐姐现在不生病了。",
+        "explanation": "Cấu trúc 不 + V/Adj + 了2 diễn tả một trạng thái cũ đã chấm dứt (không còn... nữa)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-23",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Phó từ phạm vi 都 & Phó từ 也, 还, 再",
+    "title": "Phó từ phạm vi 都 (dōu) và các phó từ liên kết 也, 还, 再",
+    "formula": "Chủ ngữ số nhiều + 都 + Động/Tính từ | Chủ ngữ + 也 / 还 / 再 + Động từ",
+    "explanationVi": "Phó từ 都 (đều) tổng hợp toàn bộ đối tượng số nhiều đứng phía TRƯỚC nó (我们都是学生). 也 (cũng) bổ sung sự giống nhau; 还 (còn/vẫn) bổ sung thêm hạng mục hoặc tiếp tục hành động; 再 (lại/nữa) chỉ hành động lặp lại hoặc xảy ra tiếp theo trong tương lai. Tất cả phó từ đều đứng trước động/tính từ (và đứng sau chủ ngữ).",
+    "viComparison": "Lỗi kinh điển của người Việt với 都: nói \"Đều là bạn tôi\" mà đặt 都 đầu câu (都是我的朋友 khi chưa rõ chủ ngữ) hoặc nói \"Tôi thích tất cả mọi người\" là 我喜欢都大家 — SAI! Danh từ được tổng hợp bởi 都 bắt buộc đứng TRƯỚC 都: 我大家都不喜欢 hoặc 苹果我都喜欢吃.",
+    "confusablePairs": [
+      {
+        "pair": "都不 vs 不都",
+        "distinction": "我们都不去 (Tất cả chúng tôi đều không đi - phủ định hoàn toàn); 我们不都去 (Chúng tôi không phải ai cũng đi - phủ định bộ phận)."
+      },
+      {
+        "pair": "还 vs 再",
+        "distinction": "还 nối thêm nội dung cùng lúc hoặc trạng thái vẫn tiếp diễn (我买苹果，还买香蕉); 再 chỉ hành động lặp lại ở tương lai hoặc làm sau đó (明天再来 - Ngày mai lại đến nhé)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "爸爸和妈妈都是老师，他们都很忙。",
+        "pinyin": "Bàba hé māma dōu shì lǎoshī, tāmen dōu hěn máng.",
+        "vi": "Bố và mẹ đều là giáo viên, họ đều rất bận."
+      },
+      {
+        "zh": "我喜欢喝茶，也喜欢喝牛奶，还喜欢吃水果。",
+        "pinyin": "Wǒ xǐhuan hē chá, yě xǐhuan hē niúnǎi, hái xǐhuan chī shuǐguǒ.",
+        "vi": "Tôi thích uống trà, cũng thích uống sữa, còn thích ăn hoa quả nữa."
+      },
+      {
+        "zh": "今天太晚了，我们明天再看这本书吧。",
+        "pinyin": "Jīntiān tài wǎn le, wǒmen míngtiān zài kàn zhè běn shū ba.",
+        "vi": "Hôm nay muộn quá rồi, ngày mai chúng ta xem tiếp quyển sách này nhé."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-23-q1",
+        "type": "mcq",
+        "prompt": "Câu nào dùng đúng vị trí chữ 也 (cũng)?",
+        "options": [
+          "他也是大学生。",
+          "也他是大学生。",
+          "他是也大学生。",
+          "他是大学生也。"
+        ],
+        "answer": "他也是大学生。",
+        "explanation": "Phó từ 也 bắt buộc đứng sau chủ ngữ (他) và trước động từ (是)."
+      },
+      {
+        "id": "g1-23-q2",
+        "type": "fill",
+        "prompt": "Điền phó từ chia tay hẹn gặp lại: 今天不早了，我先回去了，明天 ___ 见！",
+        "options": [
+          "再",
+          "都",
+          "很",
+          "太"
+        ],
+        "answer": "再",
+        "explanation": "再 + động từ (再见 / 明天再见) biểu thị hành động lặp lại trong tương lai."
+      },
+      {
+        "id": "g1-23-q3",
+        "type": "mcq",
+        "prompt": "Câu \"这些书我都不喜欢。\" có nghĩa là gì?",
+        "options": [
+          "Tất cả những quyển sách này tôi đều không thích.",
+          "Tôi thích một vài quyển trong số này.",
+          "Những quyển sách này không phải tôi mua.",
+          "Không quyển sách nào hay cả."
+        ],
+        "answer": "Tất cả những quyển sách này tôi đều không thích.",
+        "explanation": "都不 biểu thị phủ định hoàn toàn tất cả đối tượng (这些书) đứng trước 都."
+      },
+      {
+        "id": "g1-23-q4",
+        "type": "fill",
+        "prompt": "Điền từ bổ sung thêm hành động: 哥哥买了一个手机，___ 买了一台电脑。(Anh trai mua 1 cái điện thoại, còn mua thêm 1 cái máy tính.)",
+        "options": [
+          "还",
+          "都",
+          "再",
+          "太"
+        ],
+        "answer": "还",
+        "explanation": "还 (hái) dùng để bổ sung thêm một hành động hoặc sự vật vào chuỗi đã nêu."
+      },
+      {
+        "id": "g1-23-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Các bạn học sinh đều biết nói tiếng Hán.\"",
+        "tokens": [
+          "同学们",
+          "都",
+          "会",
+          "说",
+          "汉语",
+          "。"
+        ],
+        "answer": "同学们都会说汉语。",
+        "explanation": "Chủ ngữ số nhiều (同学们) + Phó từ phạm vi (都) + Động từ năng nguyện (会) + Động từ (说汉语)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-24",
+    "hskLevel": 1,
+    "category": "Động từ, Phó từ & Giới từ",
+    "topic": "Liên từ 和 & Giới từ 和, 对",
+    "title": "Liên từ 和 (và), Giới từ 和 (với) và Giới từ 对 (đối với)",
+    "formula": "Danh từ A + 和 + Danh từ B | Chủ ngữ + 和/对 + Đối tượng + Động/Tính từ",
+    "explanationVi": "Từ 和 vừa là liên từ (和2) nối hai danh từ hoặc đại từ bình đẳng (tạo cụm đẳng lập 联合短语 như 爸爸和妈妈, 我和他), vừa là giới từ (和1) dẫn ra đối tượng cùng thực hiện hành động (我和朋友去学校). Giới từ 对 (duì) dẫn ra đối tượng tiếp nhận tác động hoặc thái độ (như 对我很好, 对汉语感兴趣).",
+    "viComparison": "CẢNH BÁO LỖI LỚN: Tiếng Việt dùng \"và\" để nối hai mệnh đề/hai động từ (\"Tôi ăn cơm và xem tivi\"), nhưng tiếng Trung KHÔNG dùng 和 để nối hai câu hay hai động từ dài! Hãy dùng dấu phẩy hoặc 还/也 thay cho 和 khi nối hai vế câu.",
+    "confusablePairs": [
+      {
+        "pair": "和 (Liên từ) vs 和 (Giới từ)",
+        "distinction": "我和妈妈都喜欢喝茶 (和 nối 2 chủ ngữ); 我和妈妈去超市 (和 là giới từ \"cùng với\" mẹ đi siêu thị, có thể chèn phó từ thời gian vào trước 和 như 我明天和妈妈去)."
+      },
+      {
+        "pair": "对 + Đối tượng + V/Adj",
+        "distinction": "Cụm 对 + Đối tượng luôn đứng TRƯỚC động từ hoặc tính từ: 老师对我们很好 (Thầy giáo rất tốt với chúng tôi) — không nói 老师很好对我们."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我买了苹果和西瓜，还买了面包。",
+        "pinyin": "Wǒ mǎi le píngguǒ hé xīguā, hái mǎi le miànbāo.",
+        "vi": "Tôi đã mua táo và dưa hấu, còn mua thêm bánh mì."
+      },
+      {
+        "zh": "周末我常常和同学一起去打球。",
+        "pinyin": "Zhōumò wǒ chángcháng hé tóngxué yìqǐ qù dǎqiú.",
+        "vi": "Cuối tuần tôi thường đi đánh bóng cùng bạn học."
+      },
+      {
+        "zh": "王医生对病人非常好。",
+        "pinyin": "Wáng yīshēng duì bìngrén fēicháng hǎo.",
+        "vi": "Bác sĩ Vương đối xử với bệnh nhân vô cùng tốt."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-24-q1",
+        "type": "mcq",
+        "prompt": "Câu nào sau đây dùng chữ 和 ĐÚNG ngữ pháp?",
+        "options": [
+          "我喜欢茶和牛奶。",
+          "我回家和吃饭。",
+          "今天很冷和下雨了。",
+          "我学习汉语和写汉字。"
+        ],
+        "answer": "我喜欢茶和牛奶。",
+        "explanation": "和 chỉ nối danh từ/đại từ hoặc cụm danh từ (茶和牛奶), không dùng để nối hai động từ vị ngữ hoặc hai phân câu độc lập."
+      },
+      {
+        "id": "g1-24-q2",
+        "type": "fill",
+        "prompt": "Điền giới từ chỉ thái độ đối với người khác: 爸爸 ___ 我很严格，也很爱我。",
+        "options": [
+          "对",
+          "和",
+          "在",
+          "到"
+        ],
+        "answer": "对",
+        "explanation": "对 + Đối tượng + Tính từ (对我很严格 / 对我很好) biểu thị thái độ hướng tới ai đó."
+      },
+      {
+        "id": "g1-24-q3",
+        "type": "mcq",
+        "prompt": "Cách dịch đúng của \"Bác sĩ nói với tôi rằng cần uống nhiều nước\" là gì?",
+        "options": [
+          "医生对我说要多喝水。",
+          "医生说对我要多喝水。",
+          "医生很对我说喝水。",
+          "我和医生对说喝水。"
+        ],
+        "answer": "医生对我说要多喝水。",
+        "explanation": "Cụm giới-tân 对我 (với tôi) là trạng ngữ nên bắt buộc đứng trước động từ 说."
+      },
+      {
+        "id": "g1-24-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 明天上午我 ___ 姐姐一起去买衣服。",
+        "options": [
+          "和",
+          "对",
+          "在",
+          "是"
+        ],
+        "answer": "和",
+        "explanation": "Giới từ 和 (cùng với) kết hợp với 一起 (cùng nhau) diễn tả hai người cùng làm việc gì."
+      },
+      {
+        "id": "g1-24-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Thầy giáo Lý rất tốt với học sinh.\"",
+        "tokens": [
+          "李",
+          "老师",
+          "对",
+          "学生",
+          "很",
+          "好",
+          "。"
+        ],
+        "answer": "李老师对学生很好。",
+        "explanation": "Chủ ngữ (李老师) + Giới từ đối tượng (对学生) + Vị ngữ tính từ (很好)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-25",
+    "hskLevel": 1,
+    "category": "Câu hỏi & Câu đặc biệt",
+    "topic": "Câu liên động (连动句)",
+    "title": "Câu liên động (连动句): Chỉ mục đích (去/来 + Làm gì) và Phương thức (Làm gì bằng cách nào)",
+    "formula": "Chủ ngữ + 去/来 (+ Địa điểm) + Động từ 2 | Chủ ngữ + Động từ 1 (Phương thức) + Động từ 2",
+    "explanationVi": "Câu liên động là câu có từ hai cụm động từ trở lên cùng chia sẻ một chủ ngữ, xếp liên tiếp không cần từ nối. Hai dạng phổ biến ở HSK 1 là: (1) Hành động 2 là mục đích của hành động 1 (như 去超市买东西 - đi siêu thị mua đồ); (2) Hành động 1 là phương tiện/cách thức của hành động 2 (như 坐飞机去北京 - đi máy bay đến Bắc Kinh).",
+    "viComparison": "Cực kỳ dễ nhớ nếu giữ đúng trật tự thời gian: Việc nào xảy ra trước hoặc là phương tiện đi lại thì viết trước! Sai nếu dịch ngược kiểu Anh \"đi đến Bắc Kinh bằng máy bay\" thành 去北京坐飞机 (ý nghĩa sẽ biến thành \"đến Bắc Kinh để đi máy bay\").",
+    "confusablePairs": [
+      {
+        "pair": "坐车去学校 vs 去学校坐车",
+        "distinction": "坐车去学校: Ngồi xe để đến trường (phương thức); 去学校坐车: Đến trường để bắt xe (mục đích). Trật tự quyết định ý nghĩa!"
+      },
+      {
+        "pair": "Phủ định câu liên động",
+        "distinction": "Phó từ phủ định (不/没) hoặc năng nguyện (想/要) đặt trước động từ 1: 我坐飞机去 -> 我不想坐飞机去."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我明天坐火车去北京看朋友。",
+        "pinyin": "Wǒ míngtiān zuò huǒchē qù Běijīng kàn péngyou.",
+        "vi": "Ngày mai tôi đi tàu hỏa đến Bắc Kinh thăm bạn."
+      },
+      {
+        "zh": "妈妈去超市买菜了。",
+        "pinyin": "Māma qù chāoshì mǎi cài le.",
+        "vi": "Mẹ đã đi siêu thị mua thức ăn rồi."
+      },
+      {
+        "zh": "老师用手机给我们打电话。",
+        "pinyin": "Lǎoshī yòng shǒujī gěi wǒmen dǎ diànhuà.",
+        "vi": "Thầy giáo dùng điện thoại gọi cho chúng tôi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-25-q1",
+        "type": "mcq",
+        "prompt": "Cách nói \"Tôi đi máy bay về Trung Quốc\" đúng trật tự liên động là gì?",
+        "options": [
+          "我坐飞机回中国。",
+          "我回中国坐飞机。",
+          "我坐回中国飞机。",
+          "回中国我坐飞机去。"
+        ],
+        "answer": "我坐飞机回中国。",
+        "explanation": "Động tác phương thức (坐飞机 - đi máy bay) đứng trước động tác đích (回中国 - về Trung Quốc)."
+      },
+      {
+        "id": "g1-25-q2",
+        "type": "fill",
+        "prompt": "Hoàn thành câu liên động chỉ mục đích: 爸爸今天 ___ 医院看病。(Hôm nay bố đi bệnh viện khám bệnh.)",
+        "options": [
+          "去",
+          "坐",
+          "在",
+          "是"
+        ],
+        "answer": "去",
+        "explanation": "Động từ di chuyển 去 (đi) đứng trước hành động mục đích 看病 (khám bệnh)."
+      },
+      {
+        "id": "g1-25-q3",
+        "type": "mcq",
+        "prompt": "Khi muốn phủ định \"Tôi không đi cửa hàng mua sách\", đặt 没 ở đâu?",
+        "options": [
+          "我没去商店买书。",
+          "我去商店没买书。",
+          "我去没商店买书。",
+          "我去商店买没书。"
+        ],
+        "answer": "我没去商店买书。",
+        "explanation": "Phó từ phủ định trong câu liên động đứng trước động từ đầu tiên (去)."
+      },
+      {
+        "id": "g1-25-q4",
+        "type": "fill",
+        "prompt": "Chọn phương thức phù hợp: 哥哥每天 ___ 出租车去上班。(Mỗi ngày anh trai đi taxi đi làm.)",
+        "options": [
+          "坐",
+          "开",
+          "去",
+          "在"
+        ],
+        "answer": "坐",
+        "explanation": "Đi bằng phương tiện công cộng (xe buýt, tàu, taxi, máy bay) dùng động từ 坐 (ngồi)."
+      },
+      {
+        "id": "g1-25-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu liên động: \"Tôi đến nhà cô ấy uống trà.\"",
+        "tokens": [
+          "我",
+          "去",
+          "她",
+          "家",
+          "喝",
+          "茶",
+          "。"
+        ],
+        "answer": "我去她家喝茶。",
+        "explanation": "Trật tự hành động nối tiếp: 去她家 (đến nhà cô ấy) rồi mới 喝茶 (uống trà)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-26",
+    "hskLevel": 1,
+    "category": "Câu hỏi & Câu đặc biệt",
+    "topic": "Câu song tân ngữ (双宾语句)",
+    "title": "Câu song tân ngữ: Chủ ngữ + Động từ + Tân ngữ 1 (Người) + Tân ngữ 2 (Vật)",
+    "formula": "Chủ ngữ + 给 / 问 / 找 / 教 + Người (O1) + Vật / Thông tin (O2)",
+    "explanationVi": "Một số động từ mang nghĩa cho, tặng, hỏi, dạy (như 给 - đưa/tặng, 问 - hỏi, 找 - tìm/trả lại, 教 - dạy) có thể nhận cùng lúc hai tân ngữ theo đúng trật tự: Tân ngữ gián tiếp chỉ NGƯỜI (O1) đứng ngay sau động từ, tiếp theo là Tân ngữ trực tiếp chỉ VẬT/NỘI DUNG (O2).",
+    "viComparison": "Rất giống cấu trúc tiếng Việt: \"Tôi hỏi thầy giáo một câu hỏi\" (我问老师一个问题) hoặc \"Bố cho tôi 100 tệ\" (爸爸给我一百块钱). Chỉ cần nhớ tuyệt đối không đảo Vật lên trước Người nếu không dùng từ nối khác.",
+    "confusablePairs": [
+      {
+        "pair": "给我一本书 vs 给 + Người + V",
+        "distinction": "Trong 给我一本书 (đưa cho tôi 1 quyển sách), 给 là động từ chính nhận 2 tân ngữ (我 + 一本书). Trong 给我打电话 (gọi điện cho tôi), 给 là giới từ đứng trước động từ chính 打."
+      },
+      {
+        "pair": "问 + Người + 问题",
+        "distinction": "Tân ngữ người (老师, 你) đứng trước, nội dung câu hỏi (一个问题, 路) đứng sau: 我想问您一个问题."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "张老师教我们汉语。",
+        "pinyin": "Zhāng lǎoshī jiāo wǒmen Hànyǔ.",
+        "vi": "Thầy Trương dạy chúng tôi tiếng Hán."
+      },
+      {
+        "zh": "姐姐给了我两张电影票。",
+        "pinyin": "Jiějie gěi le wǒ liǎng zhāng diànyǐngpiào.",
+        "vi": "Chị gái đã đưa cho tôi hai tấm vé xem phim."
+      },
+      {
+        "zh": "请问，我可以问您一个问题吗？",
+        "pinyin": "Qǐngwèn, wǒ kěyǐ wèn nín yí gè wèntí ma?",
+        "vi": "Xin hỏi, tôi có thể hỏi ngài một câu hỏi được không ạ?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-26-q1",
+        "type": "mcq",
+        "prompt": "Câu song tân ngữ nào sau đây sắp xếp ĐÚNG trật tự?",
+        "options": [
+          "爸爸给了弟弟五十块钱。",
+          "爸爸给了五十块钱弟弟。",
+          "爸爸五十块钱给了弟弟。",
+          "爸爸给弟弟了五十块钱。"
+        ],
+        "answer": "爸爸给了弟弟五十块钱。",
+        "explanation": "Trợ từ 了 đặt ngay sau động từ 给, theo sau là Tân ngữ chỉ người (弟弟) rồi mới đến Tân ngữ chỉ vật (五十块钱)."
+      },
+      {
+        "id": "g1-26-q2",
+        "type": "fill",
+        "prompt": "Điền động từ nhận hai tân ngữ: 李老师 ___ 我们怎么写汉字。(Thầy Lý dạy chúng tôi cách viết chữ Hán.)",
+        "options": [
+          "教",
+          "学",
+          "看",
+          "说"
+        ],
+        "answer": "教",
+        "explanation": "Động từ 教 (jiāo - dạy) nhận tân ngữ 1 là người học (我们) và tân ngữ 2 là nội dung (怎么写汉字)."
+      },
+      {
+        "id": "g1-26-q3",
+        "type": "mcq",
+        "prompt": "Trong câu \"王先生问我叫什么名字。\", tân ngữ 1 và tân ngữ 2 lần lượt là gì?",
+        "options": [
+          "我 / 叫什么名字",
+          "王先生 / 我",
+          "什么 / 名字",
+          "问 / 我"
+        ],
+        "answer": "我 / 叫什么名字",
+        "explanation": "Động từ 问 nhận tân ngữ chỉ người là 我 (tôi) và tân ngữ nội dung là cụm 叫什么名字."
+      },
+      {
+        "id": "g1-26-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu: 朋友 ___ 我一本很有意思的书。(Bạn tặng cho tôi một quyển sách rất hay.)",
+        "options": [
+          "给",
+          "在",
+          "去",
+          "是"
+        ],
+        "answer": "给",
+        "explanation": "Động từ 给 (đưa/cho/tặng) nối trực tiếp tân ngữ người (我) và vật (一本很有意思的书)."
+      },
+      {
+        "id": "g1-26-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu song tân ngữ: \"Tôi hỏi bạn một câu hỏi.\"",
+        "tokens": [
+          "我",
+          "问",
+          "你",
+          "一",
+          "个",
+          "问题",
+          "。"
+        ],
+        "answer": "我问你一个问题。",
+        "explanation": "Chủ ngữ (我) + Động từ (问) + O1 chỉ người (你) + O2 chỉ vật (一个问题)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-27",
+    "hskLevel": 1,
+    "category": "Cụm từ & Câu phức",
+    "topic": "Cụm Chủ-Vị & Hệ thống 7 cấu trúc cụm từ",
+    "title": "Cụm Chủ-Vị (主谓短语) và Tổng quan cấu trúc cụm từ HSK 1",
+    "formula": "Cụm Chủ-Vị làm thành phần câu: Chủ ngữ lớn + [Chủ ngữ nhỏ + Vị ngữ]",
+    "explanationVi": "Cụm Chủ-Vị (主谓短语) gồm một danh/đại từ đứng trước một động/tính từ (như 天气冷, 头疼, 我去), có thể đứng làm vị ngữ (câu vị ngữ chủ-vị như 今天天气很好), chủ ngữ hoặc tân ngữ (我知道他来了). Hệ thống lại cùng 6 cụm đã học: Đẳng lập (我和你), Chính-phụ (新书), Động-tân (吃饭), Số lượng (三个), Giới-tân (在家), Phương vị (桌子上).",
+    "viComparison": "Cấu trúc Chủ ngữ lớn + [Chủ ngữ nhỏ + Vị ngữ] rất quen thuộc trong tiếng Việt như \"Hôm nay thời tiết rất đẹp\" (今天天气很好) hay \"Tôi đầu đau\" (我头疼). Đặc biệt, động từ tri giác (知道, 觉得) thường lấy cả một cụm Chủ-Vị làm tân ngữ.",
+    "confusablePairs": [
+      {
+        "pair": "Cụm Chủ-Vị vs Câu hoàn chỉnh",
+        "distinction": "Cụm Chủ-Vị là mảnh ghép nằm bên trong câu lớn (ví dụ 他来了 nằm trong 我知道他来了); khi đứng độc lập có dấu chấm/hỏi cuối thì thành một câu."
+      },
+      {
+        "pair": "偏正短语 vs 动宾短语",
+        "distinction": "偏正短语 có trung tâm ở SAU (新书 = sách mới, 很高兴 = rất vui); 动宾短语 có hành động ở TRƯỚC (看书 = đọc sách, 喝茶 = uống trà)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我觉得今天天气很冷。",
+        "pinyin": "Wǒ juéde jīntiān tiānqì hěn lěng.",
+        "vi": "Tôi cảm thấy thời tiết hôm nay rất lạnh."
+      },
+      {
+        "zh": "北京秋天天气非常好。",
+        "pinyin": "Běijīng qiūtiān tiānqì fēicháng hǎo.",
+        "vi": "Thời tiết mùa thu ở Bắc Kinh vô cùng đẹp."
+      },
+      {
+        "zh": "大家都知道他学习很认真。",
+        "pinyin": "Dàjiā dōu zhīdao tā xuéxí hěn rènzhēn.",
+        "vi": "Mọi người đều biết cậu ấy học tập rất chăm chỉ."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-27-q1",
+        "type": "mcq",
+        "prompt": "Cụm từ nào sau đây là Cụm Chủ-Vị (主谓短语)?",
+        "options": [
+          "天气很好",
+          "一本新书",
+          "看电影",
+          "在房间里"
+        ],
+        "answer": "天气很好",
+        "explanation": "天气 (chủ thể) + 很好 (miêu tả trạng thái) là cụm Chủ-Vị; 一本新书 là chính-phụ, 看电影 là động-tân, 在房间里 là giới-tân."
+      },
+      {
+        "id": "g1-27-q2",
+        "type": "fill",
+        "prompt": "Chọn động từ tri giác dẫn cả cụm Chủ-Vị làm tân ngữ: 我 ___ 这个菜很好吃。(Tôi thấy món ăn này rất ngon.)",
+        "options": [
+          "觉得",
+          "叫",
+          "在",
+          "有"
+        ],
+        "answer": "觉得",
+        "explanation": "觉得 (cảm thấy/nghĩ rằng) thường nhận cả một cụm Chủ-Vị (这个菜很好吃) làm tân ngữ."
+      },
+      {
+        "id": "g1-27-q3",
+        "type": "mcq",
+        "prompt": "Cụm từ \"我和我的朋友\" thuộc loại kết cấu nào?",
+        "options": [
+          "Cụm đẳng lập (联合短语)",
+          "Cụm động-tân (动宾短语)",
+          "Cụm phương vị (方位短语)",
+          "Cụm giới-tân (介宾短语)"
+        ],
+        "answer": "Cụm đẳng lập (联合短语)",
+        "explanation": "Hai thành phần danh từ có vai trò ngang hàng nối với nhau bằng liên từ 和 gọi là cụm đẳng lập (联合短语)."
+      },
+      {
+        "id": "g1-27-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu vị ngữ Chủ-Vị: 这家饭店 ___ 很便宜。(Quán ăn này đồ ăn rất rẻ.)",
+        "options": [
+          "菜",
+          "吃",
+          "在",
+          "买"
+        ],
+        "answer": "菜",
+        "explanation": "Chủ ngữ lớn (这家饭店) + Cụm Chủ-Vị làm vị ngữ (菜很便宜 - đồ ăn rất rẻ)."
+      },
+      {
+        "id": "g1-27-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu: \"Tôi biết anh ấy là bác sĩ.\"",
+        "tokens": [
+          "我",
+          "知道",
+          "他",
+          "是",
+          "医生",
+          "。"
+        ],
+        "answer": "我知道他是医生。",
+        "explanation": "Động từ 知道 nhận cả cụm Chủ-Vị (他是医生) làm tân ngữ."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g1-28",
+    "hskLevel": 1,
+    "category": "Cụm từ & Câu phức",
+    "topic": "Câu phức không từ nối & Câu phức đẳng lập",
+    "title": "Câu phức không từ nối và Câu phức đẳng lập (……，也…… / ……，还……)",
+    "formula": "Vế 1 + ，+ Vế 2 | Vế 1 + ，+ (Chủ ngữ 2) + 也 / 还 + Vế 2",
+    "explanationVi": "Câu phức (复句) ghép hai hay nhiều vế câu có liên hệ ý nghĩa, ngăn cách bằng dấu phẩy. Ở HSK 1 có câu phức không dùng từ nối (意合法, ví dụ chỉ nguyên nhân-kết quả hoặc tiếp nối tự nhiên) và câu phức đẳng lập (并列复句) dùng phó từ 也 (cũng) hoặc 还 (còn) ở vế sau.",
+    "viComparison": "Tiếng Việt dùng dấu phẩy hoặc \"và\" để ghép hai mệnh đề (\"Bố đi làm, còn mẹ ở nhà\"), nhưng trong tiếng Trung vế sau dùng phó từ 也/还 đặt sau chủ ngữ của vế 2 (như 哥哥上班，弟弟也上班), không đặt 也 ở đầu câu trước chủ ngữ.",
+    "confusablePairs": [
+      {
+        "pair": "……，也…… vs ……，还……",
+        "distinction": "也 thường dùng khi hai chủ thể khác nhau làm việc giống nhau (我喜欢吃苹果，他也喜欢) hoặc cùng một chủ thể có 2 điểm tương đồng; 还 thường dùng khi cùng một chủ thể bổ sung thêm hành động/tính chất thứ hai (我买了茶，还买了牛奶)."
+      },
+      {
+        "pair": "Vế 1, Vế 2 (không từ nối)",
+        "distinction": "Tiếng Trung dùng rất nhiều câu ghép không từ nối khi quan hệ nguyên nhân-kết quả hoặc điều kiện đã rõ qua ngữ cảnh: 外边下雨了，我们不出去玩儿了。"
+      }
+    ],
+    "examples": [
+      {
+        "zh": "哥哥是医生，弟弟也是医生。",
+        "pinyin": "Gēge shì yīshēng, dìdi yě shì yīshēng.",
+        "vi": "Anh trai là bác sĩ, em trai cũng là bác sĩ."
+      },
+      {
+        "zh": "我学习汉语，还学习写汉字。",
+        "pinyin": "Wǒ xuéxí Hànyǔ, hái xuéxí xiě Hànzì.",
+        "vi": "Tôi học tiếng Hán, còn học viết chữ Hán nữa."
+      },
+      {
+        "zh": "今天太冷了，我不想去公园。",
+        "pinyin": "Jīntiān tài lěng le, wǒ bù xiǎng qù gōngyuán.",
+        "vi": "Hôm nay lạnh quá rồi, tôi không muốn đi công viên."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1-28-q1",
+        "type": "mcq",
+        "prompt": "Câu phức đẳng lập nào đặt đúng vị trí chữ 也?",
+        "options": [
+          "爸爸看报纸，妈妈也看电视。",
+          "爸爸看报纸，也妈妈看电视。",
+          "爸爸看报纸，和妈妈看电视。",
+          "爸爸也看报纸，妈妈看。"
+        ],
+        "answer": "爸爸看报纸，妈妈也看电视。",
+        "explanation": "Phó từ 也 ở vế thứ hai bắt buộc đứng SAU chủ ngữ vế hai (妈妈) và trước động từ (看)."
+      },
+      {
+        "id": "g1-28-q2",
+        "type": "fill",
+        "prompt": "Điền phó từ nối hai hành động của cùng một người: 妹妹会唱歌，___ 会跳舞。",
+        "options": [
+          "还",
+          "和",
+          "很",
+          "太"
+        ],
+        "answer": "还",
+        "explanation": "Dùng 还 (còn) ở vế hai để bổ sung thêm một khả năng/hành động mới cho cùng chủ ngữ (妹妹)."
+      },
+      {
+        "id": "g1-28-q3",
+        "type": "mcq",
+        "prompt": "Câu nào sau đây là câu phức không từ nối (不用关联词语的复句) đúng nghĩa?",
+        "options": [
+          "外边下雨了，我们坐出租车去吧。",
+          "外边下雨了，和我们坐出租车。",
+          "因为外边下雨了，也我们坐车。",
+          "外边下雨，还了坐出租车。"
+        ],
+        "answer": "外边下雨了，我们坐出租车去吧。",
+        "explanation": "Hai mệnh đề ngăn cách bằng dấu phẩy diễn tả quan hệ nhân-quả rõ ràng mà không cần từ nối."
+      },
+      {
+        "id": "g1-28-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu phức: 这个房间很大，___ 很漂亮。(Căn phòng này rất rộng, lại còn rất đẹp nữa.)",
+        "options": [
+          "也",
+          "和",
+          "吗",
+          "了"
+        ],
+        "answer": "也",
+        "explanation": "Cấu trúc 很A，也很B dùng 也 để nối hai tính chất tích cực song song nhau."
+      },
+      {
+        "id": "g1-28-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu phức: \"Tôi thích ăn táo, em gái cũng thích ăn táo.\"",
+        "tokens": [
+          "我",
+          "喜欢",
+          "吃",
+          "苹果",
+          "，",
+          "妹妹",
+          "也",
+          "喜欢",
+          "。"
+        ],
+        "answer": "我喜欢吃苹果，妹妹也喜欢。",
+        "explanation": "Câu phức đẳng lập gồm hai vế nối bằng dấu phẩy và phó từ 也 đứng sau chủ ngữ 妹妹."
+      }
+    ],
+    "reviewed": false
+  }
+]

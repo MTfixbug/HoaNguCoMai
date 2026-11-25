@@ -1,7 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import {
   buildGradebookCsv,
-  DEMO_ADMIN_ID,
   DEMO_STUDENT_ID,
   loadLocalStore,
   resetLocalStore,
@@ -31,18 +30,18 @@ describe('lmsStore lưu trữ cục bộ & xuất CSV tiếng Việt', () => {
     vi.stubGlobal('localStorage', createMemoryStorage())
   })
 
-  it('tải đúng dữ liệu mẫu gồm Admin Khánh Mai và lưu được thay đổi', () => {
+  it('tải dữ liệu dev trung tính (không chứa hồ sơ admin) và migrate khóa cũ', () => {
     const store = loadLocalStore()
     expect(store.profiles.some((p) => p.id === DEMO_STUDENT_ID && p.role === 'student')).toBe(true)
-    expect(store.profiles.some((p) => p.id === DEMO_ADMIN_ID && p.role === 'admin' && p.full_name === 'Khánh Mai')).toBe(true)
+    expect(store.profiles.some((p) => p.role === 'admin')).toBe(false)
     expect(store.assignments.length).toBeGreaterThanOrEqual(1)
 
-    store.demoRole = 'admin'
+    store.recentIds = ['w-test']
     saveLocalStore(store)
-    expect(loadLocalStore().demoRole).toBe('admin')
+    expect(loadLocalStore().recentIds).toEqual(['w-test'])
 
     resetLocalStore()
-    expect(loadLocalStore().demoRole).toBe('student')
+    expect(loadLocalStore().recentIds).toEqual([])
   })
 
   it('xuất bảng điểm CSV tiếng Việt kèm escape dấu ngoặc kép', () => {

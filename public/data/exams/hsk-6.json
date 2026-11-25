@@ -1,0 +1,1709 @@
+[
+  {
+    "id": "paper-hsk6-1",
+    "level": 6,
+    "standard": "3.0",
+    "paperNumber": 1,
+    "title": "Đề thi thử HSK 6 (Chuẩn 3.0) · Đề số 1",
+    "subtitle": "Chủ đề: Kinh tế số, Khoa học & Đô thị hiện đại · 18 câu tinh tuyển",
+    "reviewed": false,
+    "questions": [
+      {
+        "id": "p1-l-1",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 1 (Nghe 1 lần)",
+        "prompt": "关于“屋顶立体农场”，下列哪项符合说话人的观点？",
+        "subPrompt": "Nghe đoạn bình luận đô thị (1 lần) và chọn đáp án đúng nhất.",
+        "audioText": "近年来，不少高密度城市开始推广“屋顶立体农场”。与传统郊区农业相比，这类农场利用写字楼和居民楼的闲置天台，采用无土栽培与滴灌技术，不仅大幅减少了蔬菜从产地到餐桌的运输损耗，还能在夏季有效降低建筑顶层温度。不过，业内人士指出，屋顶承重改造与初期设备投入较高，短期内仍难以完全取代传统供应链。",
+        "options": [
+          "已经全面替代了郊区传统农业",
+          "有助于减少运输损耗并缓解顶层酷热",
+          "因无需前期投资而迅速普及",
+          "主要依赖传统土壤与大水漫灌"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn nghe nêu rõ nông trại tầng mái dùng thủy canh/tưới nhỏ giọt (无土栽培与滴灌), giảm hao hụt vận chuyển (减少运输损耗) và hạ nhiệt tầng thượng mùa hè (降低顶层温度). A sai vì '难以完全取代', C sai vì '初期设备投入较高', D trái ngược với '无土栽培与滴灌'.",
+        "coaching": {
+          "trap": "Bẫy HSK 6 hay dùng từ tuyệt đối hóa như '全面替代' (thay thế hoàn toàn) hoặc '无需' (không cần) để bẫy người nghe chỉ bắt được vài từ khóa.",
+          "tip": "Khi nghe phần có '不过/但是', hãy chú ý cả hai vế: ưu điểm thực tế và giới hạn được nhắc ở câu cuối.",
+          "miniExample": {
+            "prompt": "Cụm từ '短期内仍难以……' trong văn phong báo chí HSK 6 mang sắc thái nào?",
+            "options": [
+              "Thận trọng, nêu hạn chế trước mắt chưa thể đạt ngay",
+              "Khẳng định chắc chắn sẽ thành công ngay",
+              "Phủ nhận hoàn toàn giá trị của mô hình"
+            ],
+            "correctIndex": 0,
+            "explanation": "'短期内仍难以……' (trong ngắn hạn vẫn khó mà...) là cấu trúc nhượng bộ thận trọng rất hay gặp trong bài nghe tin tức HSK 6."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-l-2",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 2 (Nghe 1 lần)",
+        "prompt": "女的最后决定怎么做？",
+        "subPrompt": "Nghe đoạn đối thoại (1 lần) và chọn hướng xử lý của người nữ.",
+        "audioText": "女：你有没有发现，最近我刷短视频时，系统推给我的几乎全是装修和家具测评？\n男：这就是典型的算法推荐机制。平台根据你的停留时长和点赞记录不断强化同类内容，久而久之很容易把人困在“信息茧房”里。\n女：怪不得我觉得视野变窄了，看来得主动搜一些跨领域的长文章，打破这种单一的信息流。",
+        "options": [
+          "彻底卸载所有短视频应用",
+          "继续只点赞装修与家具内容",
+          "主动检索不同领域的深度长文",
+          "联系平台客服关闭推荐功能"
+        ],
+        "correctIndex": 2,
+        "explanation": "Ở lượt nói cuối, người nữ kết luận: '看来得主动搜一些跨领域的长文章，打破这种单一的信息流' (chủ động tìm đọc các bài viết dài liên ngành để phá vỡ kén thông tin đơn điệu). Các phương án A, B, D đều không được nhắc tới.",
+        "coaching": {
+          "trap": "Bẫy suy diễn quá mức: nghe '信息茧房' (kén thông tin) rồi đoán nhân vật sẽ xóa app (卸载) hoặc tắt thuật toán (关闭).",
+          "tip": "Với hội thoại 3 lượt, đáp án thường nằm trực tiếp ở câu chốt của người nói cuối cùng, chú ý động từ '看来得……'.",
+          "miniExample": {
+            "prompt": "Thành ngữ/khái niệm '信息茧房' ám chỉ hiện tượng gì?",
+            "options": [
+              "Hệ thống bảo mật dữ liệu cá nhân quá chặt",
+              "Người dùng chỉ tiếp nhận thông tin lặp lại đúng sở thích sẵn có",
+              "Tốc độ mạng bị bóp băng thông vào giờ cao điểm"
+            ],
+            "correctIndex": 1,
+            "explanation": "'信息茧房' (kén thông tin / echo chamber) chỉ việc thuật toán nhốt người dùng trong luồng thông tin một chiều trùng khớp thị hiếu."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-l-3",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 3 (Nghe 1 lần)",
+        "prompt": "这段话主要想告诉我们什么？",
+        "subPrompt": "Nghe đoạn phổ biến khoa học (1 lần) và chọn ý chính.",
+        "audioText": "很多人习惯在考前熬夜突击，以为多看几个小时书就能记住更多知识。但神经科学研究表明，大脑并非在清醒阅读时完成长期记忆的“刻录”，而是在深度睡眠阶段对白天接收的零散信息进行筛选、整理与巩固。长期剥夺睡眠反而会干扰海马体的正常运转，导致白天学过的内容迅速流失。",
+        "options": [
+          "考前熬夜复习比平时学习更高效",
+          "海马体只在清醒阅读时才会活跃",
+          "深度睡眠对巩固长期记忆至关重要",
+          "白天接收的信息无法被大脑筛选"
+        ],
+        "correctIndex": 2,
+        "explanation": "Trọng tâm đoạn văn sau chữ '但' nhấn mạnh: não bộ củng cố trí nhớ dài hạn trong giai đoạn ngủ sâu (深度睡眠阶段...筛选、整理与巩固), còn thức đêm tước đoạt giấc ngủ sẽ làm kiến thức nhanh mất đi.",
+        "coaching": {
+          "trap": "Bẫy đảo ngược nhân quả hoặc lấy thói quen sai ở câu mở đầu ('很多人习惯……以为……') làm đáp án đúng.",
+          "tip": "Trong bài nghe khoa học HSK 6, câu mở đầu '很多人以为……但研究表明……' luôn phủ định vế đầu và đặt ý chính ở vế sau '但'.",
+          "miniExample": {
+            "prompt": "Từ '剥夺' trong '剥夺睡眠' có nghĩa chuẩn xác là gì?",
+            "options": [
+              "Bồi bổ, tăng cường thêm thời lượng",
+              "Phân chia đồng đều theo khung giờ",
+              "Tước đoạt, làm mất đi quyền/điều kiện vốn có"
+            ],
+            "correctIndex": 2,
+            "explanation": "'剥夺' (bác đoạt) nghĩa là tước đoạt, lấy đi (ví dụ: 剥夺睡眠 = thiếu ngủ/tước mất giấc ngủ)."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-l-4",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 4 (Nghe 1 lần)",
+        "prompt": "关于博物馆文创产品，陈馆长持什么态度？",
+        "subPrompt": "Nghe đoạn phỏng vấn (1 lần) và xác định quan điểm của khách mời.",
+        "audioText": "主持人：陈馆长，过去几年贵馆推出的文物雪糕、古籍笔记本在网上颇受欢迎，但也听到“过度商业化”的质疑，您怎么看？\n嘉宾：文创产品的初衷，是把藏在玻璃柜里的历史变成年轻人触手可及的日常器物。只要设计紧扣文物背后的文化脉络，不搞低俗猎奇，适度的市场化不仅能反哺文物修缮资金，还能吸引更多人走进博物馆。",
+        "options": [
+          "只要坚守文化内涵，适度开发利大于弊",
+          "商业化必然损害文物的历史严肃性",
+          "博物馆不应涉足任何市场销售活动",
+          "文创收入目前远不足以用于日常运营"
+        ],
+        "correctIndex": 0,
+        "explanation": "Viện trưởng Trần khẳng định: chỉ cần bám sát mạch văn hóa, không chạy theo thị hiếu rẻ tiền (紧扣文化脉络，不搞低俗猎奇), thì thương mại hóa vừa phải sẽ bù đắp kinh phí tu bổ và thu hút khách tham quan -> ủng hộ có điều kiện (A).",
+        "coaching": {
+          "trap": "Bẫy lấy ý kiến phản biện mà MC nêu ra ('过度商业化') gán nhầm thành quan điểm của khách mời.",
+          "tip": "Phân biệt rõ vai trò MC (đặt vấn đề/nêu nghi vấn) và Khách mời (trình bày lập trường qua cấu trúc '只要……不仅……还……').",
+          "miniExample": {
+            "prompt": "Từ '反哺' (phản bổ) trong văn cảnh kinh tế - văn hóa nghĩa là gì?",
+            "options": [
+              "Tạo nguồn thu quay lại nuôi dưỡng, hỗ trợ cho lĩnh vực gốc",
+              "Cạnh tranh trực tiếp làm suy yếu nguồn lực cũ",
+              "Sao chép nguyên mẫu mà không sáng tạo thêm"
+            ],
+            "correctIndex": 0,
+            "explanation": "'反哺' vốn nghĩa chim non mớm lại cho chim mẹ, nghĩa chuyển là lấy thành quả mới quay lại hỗ trợ/nuôi dưỡng nguồn gốc ban đầu."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-l-5",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 5 (Nghe 1 lần)",
+        "prompt": "推动服装产业链加快绿色转型的关键动力之一是什么？",
+        "subPrompt": "Nghe đoạn chuyên đề kinh tế tuần hoàn (1 lần) và chọn đáp án đúng.",
+        "audioText": "快时尚行业曾以极低的价格和每周上新的速度风靡全球，然而其背后是惊人的资源消耗与衣物废弃量。据统计，全球每年有数百万吨化纤服装被直接填埋或焚烧。如今，越来越多的服装企业开始探索“循环经济”模式：一方面通过化学再生技术将旧聚酯纤维还原为新纱线，另一方面推出官方二手寄售与修补服务，试图延长单件衣物的生命周期。虽然再生面料的成本目前仍高于原生材料，但消费者环保意识的觉醒正倒逼整个产业链加快转型。",
+        "options": [
+          "再生面料的生产成本已远低于原生材料",
+          "快时尚的每周上新速度比过去更快",
+          "消费者环保意识的提升形成了市场倒逼",
+          "全球已全面禁止化纤服装的填埋处理"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu cuối đoạn nghe nêu rõ: '虽然再生面料的成本目前仍高于原生材料，但消费者环保意识的觉醒正倒逼整个产业链加快转型。' (Nhận thức bảo vệ môi trường của người tiêu dùng đang thúc ép/đảo ngược sức ép lên toàn chuỗi ngành).",
+        "coaching": {
+          "trap": "Bẫy so sánh ngược: nói rằng chi phí vải tái chế đã thấp hơn (thực tế là '仍高于' - vẫn cao hơn).",
+          "tip": "Chú ý các cặp liên từ đối lập '虽然……但……' ở đoạn kết bài thuyết trình, nơi tác giả thường chốt nguyên nhân hoặc xu hướng tương lai.",
+          "miniExample": {
+            "prompt": "Động từ '倒逼' (đảo bức) thường dùng trong ngữ cảnh nào ở HSK 6?",
+            "options": [
+              "Ép buộc nhân viên tăng ca trái quy định",
+              "Áp lực từ phía cầu/hạ nguồn buộc phía cung phải cải cách",
+              "Đảo ngược quy trình đóng gói sản phẩm"
+            ],
+            "correctIndex": 1,
+            "explanation": "'倒逼' là từ tần suất cao HSK 6, chỉ áp lực từ thị trường/người tiêu dùng/thực tiễn buộc doanh nghiệp hoặc cơ chế phải tự đổi mới."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-l-6",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 6 (Nghe 1 lần)",
+        "prompt": "深海热液生物群落的发现具有什么重要意义？",
+        "subPrompt": "Nghe đoạn khoa học tự nhiên (1 lần) và chọn ý nghĩa chính xác.",
+        "audioText": "长久以来，科学家普遍认为太阳光是一切生命赖以生存的终极能量来源。直到上世纪七十年代，深海探测器在数千米深的海底热液喷口附近，意外发现了繁茂的生物群落。那里终年漆黑、水压极高，且喷出的热液富含硫化氢等有毒物质。然而，特殊的化能合成细菌却能利用这些化学物质制造有机物，养活了管状蠕虫与盲虾。这一发现彻底刷新了人类对生命极限的认知，也为寻找地外生命提供了全新的思路。",
+        "options": [
+          "证明深海生物依然直接依赖太阳光进行光合作用",
+          "说明硫化氢对所有地球生物都是无害的营养物",
+          "表明海底水压越高越不利于任何细菌存活",
+          "拓宽了人类对生命存在条件及地外生命的认识"
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu kết khẳng định: '彻底刷新了人类对生命极限的认知，也为寻找地外生命提供了全新的思路。' (Mở rộng nhận thức về giới hạn sự sống và gợi mở hướng tìm kiếm sự sống ngoài Trái Đất).",
+        "coaching": {
+          "trap": "Bẫy kiến thức nền thông thường: thí sinh dễ chọn phương án liên quan đến ánh sáng mặt trời vì quen với kiến thức phổ thông, bỏ qua bước ngoặt '直到……意外发现'.",
+          "tip": "Ghi nhớ mốc chuyển ý '直到……然而……这一发现……' trong các bài nghe khám phá khoa học.",
+          "miniExample": {
+            "prompt": "Cụm từ '赖以生存' trong văn viết HSK 6 có nghĩa là gì?",
+            "options": [
+              "Từ bỏ để tìm môi trường mới",
+              "Tạm thời trú ẩn qua mùa đông",
+              "Dựa vào đó để sinh tồn"
+            ],
+            "correctIndex": 2,
+            "explanation": "'赖以' = 依靠……来 (dựa vào đó để...); '赖以生存' = dựa vào đó để tồn tại."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-1",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 7",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Phân tích cấu trúc ngữ pháp, kết hợp từ và logic để chọn câu hoàn toàn chuẩn xác.",
+        "options": [
+          "古建筑修缮不仅要保存其外在形制，更要延续与之相伴的历史记忆。",
+          "能否坚持“修旧如旧”的原则，是古村落焕发持久生命力的关键所在。",
+          "通过这次非遗保护论坛，使我深刻体会到传统木构技艺的精妙之处。",
+          "该博物馆展出的明清瓷器，主要以青花瓷和五彩瓷为主，具有极高价值。"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu A hoàn chỉnh về chủ-vị, kết hợp '保存……形制' và '延续……记忆' rất chuẩn. B mắc lỗi hai mặt một mặt (两面对一面: '能否' đối với '是……关键'). C thiếu chủ ngữ do '通过……使……'. D lỗi trùng lặp cấu trúc (句式杂糅: '主要以……为主').",
+        "coaching": {
+          "trap": "Rất nhiều thí sinh bị cuốn vào nghĩa hay của câu B hoặc câu C mà quên kiểm tra khung ngữ pháp '能否—是' và '通过……使……'.",
+          "tip": "Bước 1 khi làm 语病识别: quét nhanh các dấu hiệu kinh điển như '能否/是否', '通过……使……', '以……为主' trước khi đọc kỹ nghĩa.",
+          "miniExample": {
+            "prompt": "Câu '大约有三百多名观众左右参加了讲座' mắc lỗi ngữ pháp nào?",
+            "options": [
+              "Dư thừa từ ước lượng (大约 + 多 + 左右)",
+              "Thiếu chủ ngữ",
+              "Sai trật tự trạng ngữ chỉ thời gian"
+            ],
+            "correctIndex": 0,
+            "explanation": "'大约', '多' và '左右' đều biểu thị ước lượng, dùng chung sẽ gây trùng lặp ngữ nghĩa (成分赘余)."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-2",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 8",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Kiểm tra trật tự từ, thành phần câu và quan hệ phủ định.",
+        "options": [
+          "为了防止青少年不再沉迷电子屏幕，社区图书馆增设了周末共读角。",
+          "数字阅读固然便捷，但深度思考的养成仍离不开纸质书带来的专注体验。",
+          "随着智能终端的普及，青少年阅读量不仅没有下降，反而阅读质量下降了。",
+          "是否养成每天睡前阅读半小时的习惯，对提升学生的专注力有积极作用。"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu B mạch lạc, cặp liên từ '固然……但……' và kết hợp '思考的养成' / '专注体验' chuẩn xác. A sai phủ định kép ('防止……不再沉迷' ngược nghĩa). C sai trật tự liên từ và logic ('不仅没有下降，反而下降' mâu thuẫn ngữ nghĩa của 不仅……反而). D sai hai mặt một mặt (两面对一面: '是否养成' đối với chỉ một mặt '有积极作用').",
+        "coaching": {
+          "trap": "Bẫy phủ định ('防止/避免/切忌 + 不') thường đọc lướt nghe rất xuôi tai nhưng lại làm đảo ngược hoàn toàn nghĩa muốn nói.",
+          "tip": "Gặp động từ mang nghĩa ngăn ngừa (防止, 避免, 禁止, 切忌), kiểm tra ngay xem phía sau có từ phủ định '不/不要/不再' đi kèm không.",
+          "miniExample": {
+            "prompt": "Câu nào sau đây dùng đúng phủ định để diễn đạt 'tránh xảy ra sự cố'?",
+            "options": [
+              "为了避免不再发生类似事故",
+              "为了避免再次发生类似事故",
+              "为了切忌不发生类似事故"
+            ],
+            "correctIndex": 1,
+            "explanation": "'避免' đã mang nghĩa phủ định/ngăn ngừa, phía sau dùng '再次发生' (xảy ra lần nữa) chứ không thêm '不'."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-3",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 9",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Lưu ý lỗi kết hợp động-tân (搭配不当) và lỗi đảo ngược chủ-khách (主客倒置).",
+        "options": [
+          "许多刚入行的电力工程师，对特高压输电技术来说还显得十分陌生。",
+          "这座风力发电站今年大幅提高了发电效率和设备维护水平的问题。",
+          "为了避免不再发生类似的电网故障，调度中心升级了实时监测系统。",
+          "清洁能源的推广不仅改善了当地空气质量，而且降低了居民的用电成本。"
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu D chuẩn xác hoàn toàn: chủ ngữ thống nhất '清洁能源的推广', hai vế động-tân '改善……质量' và '降低……成本' kết hợp đúng. A mắc lỗi đảo chủ-khách (主客倒置: phải là '特高压输电技术对工程师来说陌生' hoặc '工程师对技术感到陌生'). B mắc lỗi kết hợp động-tân (搭配不当: '提高……的问题'). C mắc lỗi phủ định kép ('避免不再发生').",
+        "coaching": {
+          "trap": "Lỗi kết hợp động từ với hai tân ngữ song song (一动配两宾) rất hay giấu ở tân ngữ thứ hai.",
+          "tip": "Khi thấy cấu trúc 'A 和 B' đứng sau một động từ (như 提高/改善/解决), tách riêng 'Động từ + A' và 'Động từ + B' để kiểm tra từng cặp.",
+          "miniExample": {
+            "prompt": "Cụm từ nào mắc lỗi kết hợp động - tân (动宾搭配不当)?",
+            "options": [
+              "解决资金短缺问题",
+              "提高工作效率",
+              "改善产品质量问题"
+            ],
+            "correctIndex": 2,
+            "explanation": "'改善' đi với '条件/质量/环境', không đi trực tiếp với '问题' (phải dùng '解决……问题' hoặc bỏ '问题')."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-4",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 10",
+        "prompt": "请选出下面四个句子中**有语病**的一项：",
+        "subPrompt": "Chú ý yêu cầu đề bài: lần này hãy tìm câu **CÓ LỖI NGỮ PHÁP**.",
+        "options": [
+          "面对人工智能带来的岗位变化，职场人更需要培养跨学科的迁移能力。",
+          "这家科技公司在研发投入上的比重，近五年来一直保持稳步上升的态势。",
+          "无论外部市场环境如何波动，企业都应当坚守产品品质与用户口碑。",
+          "经过长达三个月的实地调研，使研究团队终于摸清了供应链的薄弱环节。"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đề hỏi tìm câu CÓ LỖI. Câu D dùng '经过……' (giới từ) ở vế đầu và '使……' ở vế sau khiến toàn câu mất chủ ngữ (成分残缺). A, B, C đều chuẩn ngữ pháp.",
+        "coaching": {
+          "trap": "Thí sinh quen làm 3 câu trước tìm 'câu đúng' nên sang câu 10 không đọc kỹ chữ '有语病' và chọn nhầm câu A!",
+          "tip": "Luôn gạch chân từ khóa '没有语病' hay '有语病' ngay khi đọc đề để tránh mất điểm oan.",
+          "miniExample": {
+            "prompt": "Cách sửa câu '经过三个月调研，使团队摸清了情况' nào là đúng?",
+            "options": [
+              "Xóa '经过' hoặc xóa '使'",
+              "Đổi '使' thành '让'",
+              "Thêm '从而' vào trước '使'"
+            ],
+            "correctIndex": 0,
+            "explanation": "Xóa '经过' (chủ ngữ là '三个月的实地调研') hoặc xóa '使' (chủ ngữ là '研究团队') sẽ khôi phục cấu trúc chủ-vị chuẩn."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-5",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ văn phong trang trọng (选词填空) · Câu 11",
+        "prompt": "真正的传统工艺保护，绝非把老物件锁进库房，而是在坚守核心技法的同时，融入当代审美。老一辈手艺人______的专注精神，与年轻设计师的大胆创意相结合，才能让这项技艺______，而不是在急功近利的市场浪潮中______。",
+        "subPrompt": "Chọn tổ hợp từ/thành ngữ trang trọng phù hợp nhất điền vào các chỗ trống.",
+        "options": [
+          "精益求精 / 薪火相传 / 销声匿迹",
+          "吹毛求疵 / 墨守成规 / 脱颖而出",
+          "心不在焉 / 源远流长 / 蒸蒸日上",
+          "别出心裁 / 半途而废 / 戛然而止"
+        ],
+        "correctIndex": 0,
+        "explanation": "Chỗ trống 1 ca ngợi sự chuyên tâm tỉ mỉ của nghệ nhân -> '精益求精' (tinh ích cầu tinh, không phải '吹毛求疵' nghĩa tiêu cực). Chỗ trống 2 là kế thừa qua nhiều thế hệ -> '薪火相传'. Chỗ trống 3 là biến mất trong làn sóng thực dụng -> '销声匿迹'.",
+        "coaching": {
+          "trap": "Bẫy từ gần nghĩa khác sắc thái褒贬 (khen/chê): '精益求精' (khen cầu toàn tích cực) vs '吹毛求疵' (chê bới móc tiêu cực).",
+          "tip": "Xác định sắc thái cảm xúc (tích cực hay tiêu cực) của từng chỗ trống trước khi xét nghĩa chi tiết.",
+          "miniExample": {
+            "prompt": "Thành ngữ '墨守成规' mang sắc thái gì?",
+            "options": [
+              "Khen ngợi tinh thần giữ kỷ luật nghiêm",
+              "Chê sự bảo thủ, bám víu khuôn sáo cũ không chịu đổi mới",
+              "Chỉ phong cách nghệ thuật tối giản"
+            ],
+            "correctIndex": 1,
+            "explanation": "'墨守成规' là thành ngữ mang nghĩa tiêu cực, chỉ sự bảo thủ cứng nhắc."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-6",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ văn học (选词填空) · Câu 12",
+        "prompt": "清晨推开山居木窗，只见远处______，薄雾如轻纱般缠绕在松林之间。深吸一口夹杂着草木清香的空气，令人顿时觉得______，连日来在都市奔波积攒的疲惫也随之______。",
+        "subPrompt": "Chọn tổ hợp từ miêu tả thiên nhiên và tâm trạng phù hợp nhất.",
+        "options": [
+          "人声鼎沸 / 焦躁不安 / 卷土重来",
+          "车水马龙 / 垂头丧气 / 迎刃而解",
+          "层峦叠嶂 / 神清气爽 / 烟消云散",
+          "荒无人烟 / 触目惊心 / 不翼而飞"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cảnh núi rừng buổi sớm có sương mù -> '层峦叠嶂' (núi non trùng điệp); hít thở không khí thơm mùi cây cỏ khiến tinh thần sảng khoái -> '神清气爽'; mệt mỏi tan biến -> '烟消云散'.",
+        "coaching": {
+          "trap": "Bẫy ghép cặp không hợp ngữ cảnh: '迎刃而解' chỉ giải quyết vấn đề khó khăn, không dùng cho '疲惫' (mệt mỏi); '不翼而飞' dùng cho đồ vật mất tích đột ngột.",
+          "tip": "Kiểm tra danh từ chủ thể đi kèm thành ngữ (搭配对象): mệt mỏi/lo âu đi với '烟消云散', vấn đề khó đi với '迎刃而解'.",
+          "miniExample": {
+            "prompt": "Thành ngữ '烟消云散' thường kết hợp với danh từ nào?",
+            "options": [
+              "Ví tiền, điện thoại bị đánh rơi",
+              "Hợp đồng kinh tế mới ký",
+              "Sự nghi ngờ, mệt mỏi, giận dữ (疑虑/疲惫/怨气)"
+            ],
+            "correctIndex": 2,
+            "explanation": "'烟消云散' ví sự vật trừu tượng (ưu phiền, mệt mỏi, hiểu lầm) tan biến sạch sẽ như khói mây."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-7",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ học thuật (选词填空) · Câu 13",
+        "prompt": "任何一项重大科学突破的背后，往往都凝结着科研团队数十年如一日的______。面对反复失败的实验数据，他们既需要______的求真勇气，也必须保持对自然规律的______之心，切忌浮躁冒进。",
+        "subPrompt": "Chọn tổ hợp từ phù hợp với văn phong khoa học chuẩn mực.",
+        "options": [
+          "敷衍了事 / 瞻前顾后 / 傲慢",
+          "锲而不舍 / 迎难而上 / 敬畏",
+          "急于求成 / 随波逐流 / 轻蔑",
+          "浅尝辄止 / 畏缩不前 / 好奇"
+        ],
+        "correctIndex": 1,
+        "explanation": "'数十年如一日的锲而不舍' (kiên trì bền bỉ suốt nhiều thập kỷ); đối mặt thất bại cần '迎难而上' (vượt khó tiến lên); '敬畏之心' (lòng kính sợ/tôn trọng quy luật tự nhiên) đối lập với '浮躁冒进'.",
+        "coaching": {
+          "trap": "Bẫy từ phản nghĩa giả: '浅尝辄止' (làm qua loa nửa chừng) và '敷衍了事' (qua quýt cho xong) trái hẳn tinh thần '数十年如一日'.",
+          "tip": "Chú ý cụm định ngữ phía trước như '数十年如一日' và câu chốt '切忌浮躁冒进' để suy ra từ tích cực tương ứng.",
+          "miniExample": {
+            "prompt": "Cụm cố định '保持……之心' trong văn viết HSK 6 hay đi với từ nào?",
+            "options": [
+              "敬畏 (lòng kính sợ/tôn trọng)",
+              "浮躁 (sự nôn nóng)",
+              "敷衍 (sự qua loa)"
+            ],
+            "correctIndex": 0,
+            "explanation": "'保持敬畏之心' (giữ lòng kính trọng/kính sợ trước tự nhiên, quy luật, tri thức) là cụm cố định rất phổ biến."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-8",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 14",
+        "prompt": "与走马观花式的“打卡旅游”不同，近年来“慢旅行”在都市人群中悄然兴起。倡导者不再执着于在几天内逛完十几个景点，而是选择在一座小城住上一两周，清晨逛菜市场、午后在街角茶馆看书，与当地居民闲聊。心理学者指出，慢旅行的真正价值不在于节省经费，而在于帮助长期处于高压工作状态的人们重建对时间与生活的掌控感。\n\n根据这段话，下列哪项正确？",
+        "subPrompt": "Đọc kỹ đoạn văn và chọn suy luận phù hợp nhất.",
+        "options": [
+          "慢旅行比传统打卡旅游的花费低得多",
+          "慢旅行旨在短期内游览尽可能多的名胜",
+          "慢旅行能帮人们找回对生活节奏的掌控感",
+          "心理学者认为慢旅行仅适合退休老人"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn văn chỉ rõ giá trị cốt lõi của du lịch chậm là '帮助长期处于高压工作状态的人们重建对时间与生活的掌控感' (khớp với C). A sai vì bài viết nói '不在于节省经费'; B mô tả kiểu '打卡旅游'; D không có trong bài.",
+        "coaching": {
+          "trap": "Bẫy đảo phủ định: bài viết dùng '不在于 A，而在于 B' (không nằm ở tiết kiệm chi phí, mà nằm ở B), phương án nhiễu hay biến A thành khẳng định.",
+          "tip": "Gặp mẫu '不在于……，而在于……' hoặc '不是……，而是……', đáp án đúng gần như luôn nằm ở vế sau.",
+          "miniExample": {
+            "prompt": "Thành ngữ '走马观花' miêu tả cách làm việc/du lịch như thế nào?",
+            "options": [
+              "Nghiên cứu tỉ mỉ từng chi tiết nhỏ",
+              "Cưỡi ngựa xem hoa — qua loa, hời hợt, không đi sâu",
+              "Đi du lịch bằng phương tiện truyền thống"
+            ],
+            "correctIndex": 1,
+            "explanation": "'走马观花' chỉ việc xem xét, tham quan qua loa đại khái (hời hợt)."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-9",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 15",
+        "prompt": "人类在交流时，除了语言本身，面部还会流露出持续不到半秒的“微表情”。这些表情往往由潜意识触发，很难通过刻意伪装来完全掩盖。不过，研究跨文化沟通的学者提醒，不同文化背景下的人对眼神接触、微笑频率的解读差异很大，若仅凭单一微表情就草率下结论，很容易造成误判。\n\n关于“微表情”，这段话强调了什么？",
+        "subPrompt": "Xác định trọng tâm lập luận của tác giả sau từ chuyển ý.",
+        "options": [
+          "微表情持续时间较长，极易被人刻意模仿",
+          "跨文化交流中不应仅凭微表情草率下判断",
+          "所有文化对微笑和眼神接触的理解完全一致",
+          "语言在人类日常沟通中所起的作用微乎其微"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sau chữ '不过' (nhưng mà), học giả nhấn mạnh: giữa các nền văn hóa khác nhau có cách hiểu khác nhau về giao tiếp mắt, nụ cười, nên nếu chỉ dựa vào một vi biểu cảm để kết luận vội vàng rất dễ phán đoán sai (B).",
+        "coaching": {
+          "trap": "Bẫy chọn thông tin ở câu đầu (tính chân thực của vi biểu cảm) nhưng bỏ qua cảnh báo trọng tâm nằm ở câu chuyển ý '不过'.",
+          "tip": "Trong đoạn văn ngắn HSK 6, câu có '提醒/指出/不过' thường chứa kết luận hoặc lời khuyên của tác giả.",
+          "miniExample": {
+            "prompt": "Từ '草率' (thảo suất) trong '草率下结论' nghĩa là gì?",
+            "options": [
+              "Thận trọng, kiểm chứng nhiều vòng",
+              "Hài hước, tạo không khí thoải mái",
+              "Khinh suất, vội vàng, thiếu cân nhắc kỹ"
+            ],
+            "correctIndex": 2,
+            "explanation": "'草率' nghĩa là làm qua loa, vội vã, thiếu cẩn trọng."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-10",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 16",
+        "prompt": "中国古代不少著名水利工程并非单纯靠高大堤坝去“堵截”洪水，而是遵循“疏导与分流”的思路：在丰水期将多余水量引入周边蓄滞区与农田沟渠，既削减了洪峰威胁，又在枯水期保障了灌溉水源。现代生态水利专家认为，这种顺应自然水文节律的做法，比一味筑高堤坝更具可持续性。\n\n这段话主要说明古代水利工程的哪一特点？",
+        "subPrompt": "Chọn nhận định đúng với nội dung đoạn văn.",
+        "options": [
+          "主张不断加高堤坝以彻底隔绝洪水",
+          "只关注枯水期灌溉而忽略防洪安全",
+          "注重顺应水文规律进行疏导与调蓄",
+          "在现代生态水利中已完全失去参考价值"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết giải thích công trình thủy lợi cổ đại không chỉ '堵截' (ngăn chặn cứng nhắc) mà theo tư duy '疏导与分流' (khơi thông và phân dòng), thuận theo nhịp điệu thủy văn tự nhiên (顺应自然水文节律).",
+        "coaching": {
+          "trap": "Bẫy đánh tráo '并非……而是……': đưa vế bị phủ định ('筑高堤坝') vào đáp án nhiễu.",
+          "tip": "Chú ý cặp đối lập từ khóa kỹ thuật: '堵截' (ngăn chặn) đối lập '疏导' (khơi thông/điều tiết).",
+          "miniExample": {
+            "prompt": "Từ '一味' trong '一味筑高堤坝' biểu thị sắc thái gì?",
+            "options": [
+              "Mù quáng, khăng khăng chỉ làm một cách duy nhất",
+              "Phối hợp linh hoạt nhiều biện pháp khác nhau",
+              "Mới thử nghiệm lần đầu tiên"
+            ],
+            "correctIndex": 0,
+            "explanation": "'一味' (nhất vị) mang nghĩa chỉ khăng khăng làm theo một chiều/một cách mà thiếu linh hoạt."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-r-11",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 17",
+        "prompt": "人们通常觉得商品种类越多，消费者的满意度就越高。但一项经典超市实验发现：陈列二十四种果酱的柜台虽然吸引了更多人驻足，最终下单率却远低于只陈列六种果酱的柜台。心理学家将这一现象称为“选择悖论”——当选项过多时，比较成本与“怕选错”的焦虑感会大幅上升，反而抑制了人们的决策行动力。\n\n这项实验说明了什么道理？",
+        "subPrompt": "Rút ra kết luận chính xác từ thí nghiệm tâm lý tiêu dùng.",
+        "options": [
+          "商品种类越丰富，顾客的购买转化率一定越高",
+          "陈列六种果酱吸引到的围观人数比二十四种多",
+          "只提供单一商品才能消除顾客的焦虑感",
+          "过多的选择可能增加心理负担并降低决策效率"
+        ],
+        "correctIndex": 3,
+        "explanation": "Thí nghiệm cho thấy quầy 24 loại thu hút nhiều người dừng lại xem hơn, nhưng tỷ lệ chốt đơn (下单率) lại thấp hơn nhiều so với quầy 6 loại vì chi phí so sánh và nỗi lo chọn sai (怕选错) làm ức chế hành động quyết định (D).",
+        "coaching": {
+          "trap": "Bẫy nhầm giữa '吸引驻足' (thu hút dừng chân) và '最终下单率' (tỷ lệ mua thực tế).",
+          "tip": "Đọc kỹ số liệu đối chiếu trong thí nghiệm: phân biệt 'lượng người xem' với 'tỷ lệ hành động/mua hàng'.",
+          "miniExample": {
+            "prompt": "Từ '抑制' trong '抑制了决策行动力' gần nghĩa với từ nào?",
+            "options": [
+              "Kích thích, thúc đẩy mạnh",
+              "Kìm hãm, làm suy giảm",
+              "Đo lường chính xác"
+            ],
+            "correctIndex": 1,
+            "explanation": "'抑制' (ức chế) nghĩa là kìm hãm, ngăn trở làm giảm bớt mức độ hoạt động."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p1-w-1",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Tóm tắt bài đọc (缩写) · Câu 18",
+        "prompt": "请仔细阅读下面这段短文，然后将其缩写为一篇120—150字左右的短文（只保留核心情节与主旨，不要照抄原句或加入个人议论）：\n\n老陈在老街经营修表铺已有四十年。去年秋天，刚从职校毕业的小林来当学徒。头两个月，老陈既不让他碰昂贵的机械表，也不教他拆解技巧，只让他每天用软刷清理旧表壳里的灰尘，再用镊子反复练习夹取细小的螺丝。小林渐渐感到枯燥，觉得师傅藏着手艺，便提出想直接学调校机芯。老陈没有责备他，只是拿出一块停走多年的老怀表，指着放大镜下的游丝说：“一颗灰尘、一次手抖，都会让整块表走偏。心不稳，手就稳不了。”小林红了脸，重新坐回工作台前。半年后，当他终于稳稳装好第一枚机芯、听见清脆的滴答声时，才真正明白那两个月“擦灰”的用意。",
+        "subPrompt": "Đọc kỹ đoạn văn (~302 chữ Hán) và viết bản tóm tắt (缩写) khoảng 120–150 chữ Hán, giữ đúng nhân vật, mạch sự kiện và thông điệp, không tự bình luận thêm.",
+        "correctAnswer": "老陈经营修表铺四十年。学徒小林刚入行时，老陈只让他练习清理表壳灰尘和夹取小螺丝，不准他碰机械表。小林觉得枯燥并怀疑师傅藏私，要求直接学调校机芯。老陈便用一块停走的老怀表告诉他，微小的失误都会让表走偏，心不稳则手不稳。小林听后踏实练习。半年后，他成功装好第一枚机芯，终于体会到师傅打基础的良苦用心。",
+        "explanation": "Tiêu chí chấm HSK 6 缩写: (1) Đủ nhân vật & cốt truyện chính (Lão Trần - Tiểu Lâm - việc lau bụi/gắp ốc - nghi ngờ - lời khuyên qua đồng hồ quả quýt - giác ngộ sau 6 tháng); (2) Độ dài gọn ~120-150 chữ; (3) Kể lại khách quan bằng ngôi thứ ba, không viết cảm nghĩ cá nhân kiểu '通过这个故事我明白了……'.",
+        "coaching": {
+          "trap": "Lỗi mất điểm phổ biến nhất ở HSK 6 Viết là biến bài tóm tắt (缩写) thành bài nghị luận (议论文) hoặc chép nguyên từng câu dài từ văn bản gốc.",
+          "tip": "Gạch 4 mốc: Hoàn cảnh -> Xung đột/Thử thách -> Bước ngoặt -> Kết quả; sau đó nối thành đoạn văn ngắn bằng từ nối tự nhiên.",
+          "miniExample": {
+            "prompt": "Trong bài tóm tắt HSK 6 (缩写), câu nào KHÔNG nên xuất hiện?",
+            "options": [
+              "小林红了脸，决定重新踏实练习基础功。",
+              "半年后，小林终于独立装好了第一枚机芯。",
+              "通过这个故事，我深刻体会到基础的重要性。"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bài 缩写 yêu cầu thuật lại khách quan nội dung văn bản gốc, tuyệt đối tránh đưa ngôi thứ nhất ('我') và lời bình luận cá nhân vào."
+          }
+        },
+        "reviewed": false
+      }
+    ]
+  },
+  {
+    "id": "paper-hsk6-2",
+    "level": 6,
+    "standard": "3.0",
+    "paperNumber": 2,
+    "title": "Đề thi thử HSK 6 (Chuẩn 3.0) · Đề số 2",
+    "subtitle": "Chủ đề: Văn hóa, Tâm lý học & Biến đổi xã hội · 18 câu tinh tuyển",
+    "reviewed": false,
+    "questions": [
+      {
+        "id": "p2-l-1",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 1 (Nghe 1 lần)",
+        "prompt": "关于通用语与方言的关系，说话人持什么看法？",
+        "subPrompt": "Nghe đoạn bình luận ngôn ngữ học (1 lần) và chọn đáp án đúng.",
+        "audioText": "有人担心，推广标准通用语会让地方方言逐渐萎缩。其实，两者并非非此即彼的对立关系。通用语保障了跨区域的高效沟通，而方言则承载着独特的民俗记忆与地方认同。近年来，不少语言学者呼吁建立方言有声档案库，并鼓励家庭内部保持双语交流，让孩子既能自如使用通用语，也能听懂长辈的乡音。",
+        "options": [
+          "推广通用语必然导致方言彻底消失",
+          "通用语与方言可以并行不悖、各有价值",
+          "家庭内部应禁止使用方言以免影响学习",
+          "目前方言已经不需要任何保护措施"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người nói khẳng định: '两者并非非此即彼的对立关系' (hai bên không phải quan hệ đối lập triệt tiêu lẫn nhau), tiếng phổ thông giúp giao tiếp hiệu quả còn phương ngôn lưu giữ ký ức dân gian, khuyến khích song ngữ trong gia đình -> B.",
+        "coaching": {
+          "trap": "Bẫy '非此即彼' (hoặc cái này hoặc cái kia): thí sinh nghe thấy '有人担心' ở câu đầu rồi chọn nhầm A.",
+          "tip": "Để ý các câu bác bỏ định kiến mở đầu bằng '其实，两者并非……' để nắm ngay lập trường thật của tác giả.",
+          "miniExample": {
+            "prompt": "Thành ngữ '非此即彼' có nghĩa là gì?",
+            "options": [
+              "Hai bên hỗ trợ nhau cùng phát triển",
+              "Không cái này thì nhất định là cái kia, đối lập tuyệt đối",
+              "Cả hai đều không có giá trị thực tế"
+            ],
+            "correctIndex": 1,
+            "explanation": "'非此即彼' nghĩa là loại trừ nhau hoàn toàn (chỉ có một trong hai)."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-l-2",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 2 (Nghe 1 lần)",
+        "prompt": "关于试行“下班离线权”，女的怎么看？",
+        "subPrompt": "Nghe đoạn hội thoại công sở (1 lần) và xác định quan điểm của người nữ.",
+        "audioText": "男：听说你们部门下个月开始试行“下班离线权”，是真的吗？\n女：对，晚上八点以后，除了紧急突发故障外，工作群原则上不再发送非紧急通知。\n男：那太好了，以前吃晚饭都要盯着手机回复消息，精神一直紧绷着。\n女：公司也评估过，长期隐形加班反而拉低了白天的专注度，划清工作与生活的边界其实对双方都有利。",
+        "options": [
+          "会严重拖慢部门处理紧急故障的速度",
+          "只对员工休息有利，公司会因此受损",
+          "试行后员工晚上八点前必须完成所有加班",
+          "划清边界有助于提升效率，实现双赢"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người nữ giải thích công ty đã đánh giá: tăng ca ngầm kéo dài làm giảm độ tập trung ban ngày, nên vạch rõ ranh giới công việc - đời sống có lợi cho cả hai phía ('对双方都有利') -> D.",
+        "coaching": {
+          "trap": "Bẫy bỏ sót ngoại lệ ('除了紧急突发故障外') để tạo phương án nhiễu A.",
+          "tip": "Khi nghe câu chốt '其实对双方都有利', hãy ánh xạ ngay sang các từ đồng nghĩa như '双赢' (hai bên cùng có lợi).",
+          "miniExample": {
+            "prompt": "Cụm từ '隐形加班' mô tả hiện tượng nào?",
+            "options": [
+              "Nghỉ phép có hưởng lương dài ngày",
+              "Làm việc theo ca đêm tại nhà máy",
+              "Làm thêm ngoài giờ qua tin nhắn/mạng xã hội mà không tính công"
+            ],
+            "correctIndex": 2,
+            "explanation": "'隐形加班' (tăng ca ẩn/ngầm) chỉ việc bị buộc trả lời tin nhắn, xử lý việc ngoài giờ qua điện thoại mà không được ghi nhận chính thức."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-l-3",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 3 (Nghe 1 lần)",
+        "prompt": "说话人建议人们面对“沉没成本”时应当怎么做？",
+        "subPrompt": "Nghe đoạn phân tích tâm lý kinh tế (1 lần) và chọn lời khuyên đúng.",
+        "audioText": "生活中常有这样的情形：我们花高价买了一张电影票，看了二十分钟发现剧情非常无聊，却因为“钱已经花了”而硬着头皮坐到散场。经济学中把这种无法收回的支出称为“沉没成本”。理性的决策应当面向未来，评估继续投入时间是否值得，而不是为了挽回已经失去的成本，继续赔上宝贵的时间和心情。",
+        "options": [
+          "无论如何都要坚持到底，避免浪费金钱",
+          "理性止损，根据未来收益决定是否继续",
+          "以后绝不再购买任何高价娱乐消费品",
+          "把沉没成本算作未来的预期收益"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tác giả khuyên: quyết định lý trí cần hướng về tương lai, đánh giá xem có đáng bỏ thêm thời gian không ('理性的决策应当面向未来，评估继续投入时间是否值得'), không vì tiếc tiền đã mất mà mất thêm thời gian và tâm trạng -> B (cắt lỗ lý trí).",
+        "coaching": {
+          "trap": "Bẫy lấy ví dụ minh họa ('硬着头皮坐到散场') làm kết luận khuyến nghị.",
+          "tip": "Trong bài nghe giải thích khái niệm (经济学中称为……), câu cuối cùng sau '应当……而不是……' chính là thông điệp hành động.",
+          "miniExample": {
+            "prompt": "Thành ngữ '硬着头皮' diễn tả trạng thái nào?",
+            "options": [
+              "Cố gắng gượng làm điều mình không muốn hoặc thấy khó chịu",
+              "Hào hứng tham gia hoạt động ngoài trời",
+              "Từ chối thẳng thừng ngay từ đầu"
+            ],
+            "correctIndex": 0,
+            "explanation": "'硬着头皮' nghĩa là cắn răng chịu đựng, miễn cưỡng làm tiếp dù không thích hoặc thấy khó xử."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-l-4",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 4 (Nghe 1 lần)",
+        "prompt": "关于“跨代共居”项目，下列哪项符合对话内容？",
+        "subPrompt": "Nghe đoạn đối thoại xã hội (1 lần) và chọn thông tin chính xác.",
+        "audioText": "男：听说你们社区推出了“跨代共居”项目，让大学毕业生以较低租金住进独居老人家里，效果怎么样？\n女：比预想的还要好。年轻人只要每周抽出几小时陪老人聊天、教他们用智能手机挂号，就能省下一大笔房租；老人的孤独感也明显减轻了。\n男：听起来挺不错，不过生活习惯不同，平时会不会产生摩擦？\n女：确实需要磨合，所以社区提前制定了作息公约，还会定期回访调解。",
+        "options": [
+          "年轻人无需承担任何义务即可免费居住",
+          "项目完全消除了两代人之间的生活摩擦",
+          "年轻人以低租金入住并提供陪伴与数字帮助",
+          "社区对入住后的矛盾完全采取放任态度"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người nữ nêu rõ sinh viên mới tốt nghiệp thuê với giá thấp ('较低租金') và mỗi tuần dành vài giờ trò chuyện, dạy người già dùng smartphone đặt lịch khám; cộng đồng có quy ước sinh hoạt và hỗ trợ điều giải khi cần -> C.",
+        "coaching": {
+          "trap": "Bẫy phóng đại: '完全消除' (xóa bỏ hoàn toàn mâu thuẫn) hoặc '免费居住' (ở miễn phí) đều sai so với '确实需要磨合' và '较低租金'.",
+          "tip": "Chú ý mức độ trong tiếng Trung: '较低' ≠ '免费', '明显减轻' ≠ '完全消除'.",
+          "miniExample": {
+            "prompt": "Từ '磨合' trong '生活习惯需要磨合' nghĩa là gì?",
+            "options": [
+              "Tranh cãi gay gắt đến mức tan vỡ",
+              "Điều chỉnh dần để thích nghi và hòa hợp với nhau",
+              "Ký kết hợp đồng thuê nhà dài hạn"
+            ],
+            "correctIndex": 1,
+            "explanation": "'磨合' vốn chỉ chạy rà máy móc mới, nghĩa chuyển là hai bên dần thích nghi, điều chỉnh thói quen để phối hợp ăn ý."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-l-5",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 5 (Nghe 1 lần)",
+        "prompt": "工程师目前在竹材建筑领域重点攻关的技术难题是什么？",
+        "subPrompt": "Nghe đoạn giới thiệu vật liệu xanh (1 lần) và chọn đáp án đúng.",
+        "audioText": "在现代绿色建筑领域，竹材正逐渐成为钢材与混凝土之外的重要替代选项。竹子生长周期极短，通常三到五年即可成材，且采伐后无需重新播种就能自然再生。经过高温热压与胶合处理后的重组竹材，抗压与抗拉强度令人惊叹，完全能够胜任小型桥梁和公共场馆的承重结构。当然，潮湿环境下的防霉防腐工艺仍是工程师持续攻关的重点，但“以竹代钢”的低碳前景已被广泛看好。",
+        "options": [
+          "如何缩短竹子从播种到成材的自然周期",
+          "如何解决潮湿环境下的防霉与防腐问题",
+          "如何降低钢材和混凝土的开采成本",
+          "如何限制竹材用于公共场馆的建设"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn nghe nêu rõ: '潮湿环境下的防霉防腐工艺仍是工程师持续攻关的重点' -> kỹ thuật chống mốc, chống mục trong môi trường ẩm ướt (B).",
+        "coaching": {
+          "trap": "Bẫy hỏi chi tiết thách thức kỹ thuật nhưng thí sinh lại chọn ưu điểm của tre (sinh trưởng nhanh, tái sinh tự nhiên).",
+          "tip": "Nghe kỹ câu hỏi hỏi về '难点/攻关重点' hay '优势', rồi đối chiếu với cụm '当然……仍是……重点'.",
+          "miniExample": {
+            "prompt": "Động từ '胜任' trong '胜任承重结构' mang nghĩa nào?",
+            "options": [
+              "Vượt qua đối thủ trong cuộc thi kiến trúc",
+              "Thay thế tạm thời khi thiếu nhân lực",
+              "Đảm đương, đáp ứng đủ năng lực/yêu cầu cho vai trò đó"
+            ],
+            "correctIndex": 2,
+            "explanation": "'胜任' nghĩa là đảm nhiệm tốt, đủ sức đáp ứng yêu cầu công việc hoặc chức năng."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-l-6",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 6 (Nghe 1 lần)",
+        "prompt": "为什么早期手绘海图的内陆部分往往画得比较模糊？",
+        "subPrompt": "Nghe đoạn lịch sử hàng hải (1 lần) và chọn nguyên nhân chính xác.",
+        "audioText": "古地图不仅是过去航海家寻找航线的实用工具，更是一面折射当时世界观与科技水平的镜子。许多十五至十七世纪的手绘海图上，沿海港口的轮廓画得格外精细，而内陆腹地却往往只用神兽或模糊的线条带过。这恰恰反映出当时的地理认知高度依赖海上贸易路线。如今，历史学者借助高分辨率光谱扫描技术，甚至能从褪色的羊皮纸底层恢复出被涂改过的旧航线，为重构早期全球贸易史提供了珍贵实证。",
+        "options": [
+          "因为当时规定内陆地形属于国家机密",
+          "因为羊皮纸面积有限，无法绘制内陆",
+          "因为当时的地理认知主要依托海上贸易航线",
+          "因为光谱扫描技术破坏了原有的内陆线条"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài nghe giải thích trực tiếp: '这恰恰反映出当时的地理认知高度依赖海上贸易路线' (điều đó phản ánh nhận thức địa lý thời đó phụ thuộc rất cao vào tuyến thương mại đường biển) -> C.",
+        "coaching": {
+          "trap": "Bẫy lẫn lộn mốc thời gian: công nghệ quét quang phổ là công cụ của sử gia '如今' (ngày nay) dùng để khôi phục vết mực cũ, không phải nguyên nhân làm bản đồ bị mờ thời xưa.",
+          "tip": "Phân biệt rõ nguyên nhân lịch sử ('当时的……') và công nghệ nghiên cứu hiện đại ('如今……借助……').",
+          "miniExample": {
+            "prompt": "Từ '实证' trong văn phong nghiên cứu lịch sử nghĩa là gì?",
+            "options": [
+              "Bằng chứng xác thực, có thể kiểm chứng",
+              "Giả thuyết văn học hư cấu",
+              "Bản sao chép không rõ nguồn gốc"
+            ],
+            "correctIndex": 0,
+            "explanation": "'实证' nghĩa là chứng cứ thực tế, bằng chứng xác đáng."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-1",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 7",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Phân tích kết hợp từ, thành phần câu và logic phủ định.",
+        "options": [
+          "地铁新线路的开通，不仅缓解了沿线早高峰的拥堵，也方便了市民的日常出行。",
+          "能否严格落实垃圾分类制度，是检验一座城市精细化治理水平的重要标尺。",
+          "由于持续遭遇强降雨天气，使山区多条通村公路出现了不同程度的塌方。",
+          "这家老字号茶馆之所以客流不断，是因为它独具风味和优质服务的原因。"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu A chuẩn ngữ pháp hoàn toàn: chủ ngữ '地铁新线路的开通', hai vế động-tân '缓解……拥堵' và '方便……出行' đối xứng rõ ràng. B sai '能否' (hai mặt) đối với '重要标尺' (một mặt). C thiếu chủ ngữ vì '由于……使……'. D lỗi trùng lặp '之所以……是因为……的原因' (句式杂糅).",
+        "coaching": {
+          "trap": "Câu D rất hay đánh lừa vì đọc lướt thấy trôi chảy, nhưng '之所以……是因为……' không bao giờ được thêm '……的原因' ở cuối.",
+          "tip": "Gặp mẫu '之所以……是因为……', kiểm tra ngay đuôi câu xem có dư chữ '的原因/的结果' không.",
+          "miniExample": {
+            "prompt": "Cấu trúc nào bị lỗi lặp (句式杂糅)?",
+            "options": [
+              "之所以迟到，是因为路上堵车。",
+              "之所以迟到，是因为路上堵车的原因。",
+              "路上堵车是他迟到的主要原因。"
+            ],
+            "correctIndex": 1,
+            "explanation": "'是因为……的原因' chồng chéo hai cấu trúc chỉ nguyên nhân, phải bỏ '的原因' hoặc bỏ '是因为'."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-2",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 8",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Kiểm tra lỗi trật tự từ, lượng từ và cấu trúc câu.",
+        "options": [
+          "音乐厅内座无虚席，两位著名的交响乐团指挥家联袂奉献了一场精彩演出。",
+          "交响乐虽然源自西方，但在长期跨文化交流中已逐渐融入东方审美意蕴。",
+          "听众在欣赏古典音乐时，不但需要安静的剧场环境，而且对曲目背景有所了解最好。",
+          "本次艺术节吸引了来自全国三十多个省市的近五百多位青年演奏家报名参与。"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu B chuẩn ngữ pháp và tự nhiên: '虽然……但……', kết hợp '融入……意蕴' chuẩn xác. A gây mơ hồ lượng từ (歧义): '两位著名的交响乐团指挥家' có thể hiểu là 2 nhạc trưởng nổi tiếng hay 2 dàn nhạc nổi tiếng. C khập khiễng kết cấu sau '而且' (cụm danh từ đối chiếu mệnh đề lủng củng). D lặp ước lượng '近' (gần) với '多' (hơn): '近五百多位' mâu thuẫn logic.",
+        "coaching": {
+          "trap": "Rất nhiều người bỏ qua lỗi '近 + Số + 多' (gần hơn 500) hoặc mơ hồ định ngữ số từ đứng trước hai danh từ.",
+          "tip": "Kiểm tra mọi cụm có số từ ước lượng ('近/约/超过' + số + '多/左右/以上') vì đây là bẫy kinh điển của HSK 6.",
+          "miniExample": {
+            "prompt": "Cụm số từ nào dùng ĐÚNG chuẩn ngữ pháp tiếng Trung?",
+            "options": [
+              "大约五十人左右",
+              "超过三百多人以上",
+              "近五百位青年演奏家"
+            ],
+            "correctIndex": 2,
+            "explanation": "'近五百位' (gần 500 vị) dùng đúng một từ ước lượng; hai cụm còn lại đều chồng chéo 2–3 từ ước lượng."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-3",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 9",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Lưu ý lỗi đổi chủ ngữ giữa chừng (中途易辙) và dùng sai liên từ.",
+        "options": [
+          "建立完善农产品溯源体系，既能增强消费者信心，也能倒逼种植环节规范化。",
+          "食品安全溯源二维码一经推出，消费者通过扫码，就马上能看到产地信息，非常受欢迎。",
+          "尽管有机蔬菜的价格比普通蔬菜高出不少，而是仍有许多家庭愿意为此买单。",
+          "监管部门不仅加大了对农贸市场的抽检频次，但是也同步公布了不合格产品名单。"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu A chuẩn xác: chủ ngữ cụm động từ '建立完善农产品溯源体系' dẫn dắt hai vế '既能……也能……'. B đổi chủ ngữ giữa chừng (中途易辙): đầu câu là '二维码一经推出', giữa câu chuyển sang '消费者……', cuối câu '非常受欢迎' lại quay về mã QR mà thiếu chủ ngữ nối. C sai cặp liên từ ('尽管……而是……' -> phải là '但是/还是'). D sai liên từ ('不仅……但是……' -> phải là '而且').",
+        "coaching": {
+          "trap": "Câu B có vẻ rất hợp nghĩa trong đời sống, nhưng cấu trúc chủ ngữ bị đứt gãy ở vế '非常受欢迎'.",
+          "tip": "Khi thấy một câu có 3–4 dấu phẩy, hãy kiểm tra xem chủ ngữ của vế cuối cùng thực sự là danh từ nào.",
+          "miniExample": {
+            "prompt": "Cặp liên từ nào kết hợp ĐÚNG?",
+            "options": [
+              "尽管……可是……",
+              "尽管……而是……",
+              "不仅……但是……"
+            ],
+            "correctIndex": 0,
+            "explanation": "'尽管' (mặc dù) đi với '但是/可是/然而/还是' biểu thị chuyển ngoặt; '而是' chỉ đi với '不是'."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-4",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 10",
+        "prompt": "请选出下面四个句子中**有语病**的一项：",
+        "subPrompt": "Đọc kỹ yêu cầu: chọn câu **MẮC LỖI NGỮ PHÁP**.",
+        "options": [
+          "在这批青年志愿者的带动下，越来越多居民主动参与到社区微更新中来。",
+          "志愿服务之所以能持久运转，离不开完善的激励机制与透明的管理流程。",
+          "通过连续三年开展助学活动，让许多偏远山区的孩子获得了更丰富的阅读资源。",
+          "真正的公益并非单向施舍，而是参与者与受助者在互动中彼此成就。"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu C mắc lỗi thiếu chủ ngữ (成分残缺) kinh điển do dùng đồng thời giới từ '通过' và động từ gây khiến '让'. Các câu A, B, D đều chuẩn ngữ pháp.",
+        "coaching": {
+          "trap": "Đề bài đổi sang hỏi '有语病' (câu có lỗi), cần tránh phản xạ chọn câu đúng.",
+          "tip": "Công thức lỗi nhanh: thấy '通过/经过/在……下' ở đầu câu mà vế sau có '使/让/令', 99% là câu thiếu chủ ngữ.",
+          "miniExample": {
+            "prompt": "Trong câu '在这批志愿者的带动下，越来越多居民……', tại sao câu KHÔNG bị thiếu chủ ngữ?",
+            "options": [
+              "Vì '在这批志愿者的带动下' là danh từ làm chủ ngữ",
+              "Vì vế sau không dùng '使/让', mà có chủ ngữ thật là '越来越多居民'",
+              "Vì câu không cần chủ ngữ cũng đúng ngữ pháp"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cụm giới từ '在……下' làm trạng ngữ, vế sau có chủ ngữ '越来越多居民' trực tiếp thực hiện động tác '参与', nên hoàn toàn chuẩn."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-5",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ nghị luận (选词填空) · Câu 11",
+        "prompt": "在制定涉及千家万户的公共政策时，决策者不能只盯着短期数据，而应采取更加______的态度，充分______不同群体的利益诉求，通过广泛听证来______，从而确保方案顺利落地。",
+        "subPrompt": "Chọn tổ hợp từ văn phong hành chính - học thuật phù hợp nhất.",
+        "options": [
+          "鲁莽 / 忽略 / 自相矛盾",
+          "审慎 / 权衡 / 达成共识",
+          "草率 / 迎合 / 争执不休",
+          "激进 / 割裂 / 各自为政"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đối lập với '只盯着短期数据' là thái độ thận trọng, cân nhắc kỹ -> '审慎'; cân nhắc lợi ích các nhóm -> '权衡'; qua điều trần rộng rãi để đạt đồng thuận -> '达成共识'.",
+        "coaching": {
+          "trap": "Bẫy từ '迎合' (chiều theo vô nguyên tắc, nghĩa hơi tiêu cực) dễ gây nhầm với '权衡' (cân nhắc hài hòa).",
+          "tip": "Với văn bản chính sách công, ưu tiên các động từ trung tính - trang trọng như '权衡', '审慎', '统筹', '达成共识'.",
+          "miniExample": {
+            "prompt": "Động từ '权衡' thường kết hợp với tân ngữ nào?",
+            "options": [
+              "行李 / 包裹 (hành lý / bưu kiện)",
+              "气温 / 湿度 (nhiệt độ / độ ẩm)",
+              "利弊 / 得失 / 利益诉求 (lợi hại / được mất / lợi ích)"
+            ],
+            "correctIndex": 2,
+            "explanation": "'权衡' (cân nhắc, đong đếm trừu tượng) dùng cho '利弊', '得失', '轻重', '利益'."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-6",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ văn học (选词填空) · Câu 12",
+        "prompt": "经历了数月______的寒冬，江南的早春总在不经意间悄然降临。河岸的垂柳抽出嫩芽，田野间一派______的景象；原本在枝头绝迹的候鸟也纷纷归来，令整座小城重新焕发出______。",
+        "subPrompt": "Chọn tổ hợp từ phù hợp với mạch chuyển mùa từ đông sang xuân.",
+        "options": [
+          "温和 / 凋零 / 死气沉沉",
+          "炎热 / 萧瑟 / 无精打采",
+          "清凉 / 荒凉 / 疲惫不堪",
+          "凛冽 / 生机盎然 / 勃勃活力"
+        ],
+        "correctIndex": 3,
+        "explanation": "Mùa đông giá rét -> '凛冽的寒冬'; đầu xuân cỏ cây đâm chồi -> '生机盎然'; chim di cư trở về giúp thành phố tràn đầy sức sống -> '勃勃活力'.",
+        "coaching": {
+          "trap": "Bẫy không khớp mùa vụ: '凋零' và '萧瑟' mô tả mùa thu/đông tàn úa, không thể đi với cảnh liễu nảy mầm đầu xuân.",
+          "tip": "Tìm từ khóa thời tiết và cảnh vật ('寒冬', '早春', '抽出嫩芽') để khóa trường từ vựng theo mùa.",
+          "miniExample": {
+            "prompt": "Tính từ '凛冽' (lẫm liệt) chuyên dùng miêu tả điều gì?",
+            "options": [
+              "Gió bấc, mùa đông rét buốt cắt da",
+              "Ánh nắng chói chang giữa trưa hè",
+              "Cơn mưa phùn ấm áp tháng ba"
+            ],
+            "correctIndex": 0,
+            "explanation": "'凛冽' chuyên tả cái lạnh thấu xương của gió bấc, mùa đông ('寒风凛冽', '凛冽的寒冬')."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-7",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ tư duy phản biện (选词填空) · Câu 13",
+        "prompt": "史料考证是一门极为严谨的学问。研究者面对浩如烟海的文献，既不能______地轻信孤证，也不能因时代久远而妄加臆断，唯有坚持______的治学原则，多方交叉印证，方能______，还原历史的真实面貌。",
+        "subPrompt": "Chọn tổ hợp thành ngữ phù hợp nhất cho đoạn văn nghiên cứu sử học.",
+        "options": [
+          "盲目 / 实事求是 / 去伪存真",
+          "清醒 / 异想天开 / 混淆是非",
+          "谨慎 / 投机取巧 / 掩耳盗铃",
+          "果断 / 随心所欲 / 断章取义"
+        ],
+        "correctIndex": 0,
+        "explanation": "Chỗ trống 1 đi với '轻信孤证' (nhẹ dạ tin một bằng chứng đơn lẻ) -> '盲目' (mù quáng); chỗ trống 2 nguyên tắc học thuật chuẩn xác -> '实事求是'; chỗ trống 3 sau đối chiếu chéo để lọc giả giữ thật -> '去伪存真'.",
+        "coaching": {
+          "trap": "Bẫy '断章取义' (cắt xén lấy ý sai lệch) mang nghĩa tiêu cực hoàn toàn, ngược với mục tiêu '还原历史的真实面貌'.",
+          "tip": "Đọc vế cuối ('还原历史的真实面貌') để chắc chắn chỗ trống 3 phải là thành ngữ mang nghĩa tìm ra chân lý ('去伪存真').",
+          "miniExample": {
+            "prompt": "Thành ngữ '去伪存真' có ý nghĩa gì?",
+            "options": [
+              "Xóa bỏ toàn bộ tài liệu cổ",
+              "Loại bỏ phần giả dối/sai lệch, giữ lại phần chân thực",
+              "Thay đổi sự thật lịch sử cho hấp dẫn"
+            ],
+            "correctIndex": 1,
+            "explanation": "'去伪存真' (khứ ngụy tồn chân): gạt bỏ cái giả, giữ lại cái thật."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-8",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 14",
+        "prompt": "现代人一有几分钟空闲就习惯掏出手机刷信息，几乎不给自己留下发呆的时间。然而，认知神经科学家指出，适度的“无聊”并非浪费生命。当大脑暂时脱离外界密集刺激时，负责联想与自我反思的“默认模式网络”才会激活，许多看似突如其来的灵感，正是在散步、发呆等放空时刻孕育出来的。\n\n这段话主要说明了什么？",
+        "subPrompt": "Đọc kỹ đoạn văn và rút ra kết luận chính xác.",
+        "options": [
+          "经常刷手机能够有效激活大脑的默认模式网络",
+          "散步和发呆会严重削弱人的自我反思能力",
+          "只有彻底戒掉手机才能获得创造性的灵感",
+          "留出适度放空时间有助于激发大脑联想与灵感"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn văn nêu rõ khi não tạm rời kích thích dày đặc để '放空/发呆/适度无聊', mạng lưới mặc định (默认模式网络) mới kích hoạt và nảy sinh cảm hứng sáng tạo -> D. C sai vì dùng từ cực đoan '彻底戒掉手机'.",
+        "coaching": {
+          "trap": "Bẫy cực đoan hóa: biến '暂时脱离' (tạm rời) thành '彻底戒掉' (cai hoàn toàn).",
+          "tip": "Khi kiểm tra phương án có từ '只有……才……' hoặc '彻底', phải đối chiếu xem bản gốc có nói tuyệt đối như vậy không.",
+          "miniExample": {
+            "prompt": "Cụm từ '孕育' trong '灵感在放空时刻孕育出来' có nghĩa chuyển là gì?",
+            "options": [
+              "Biến mất ngay lập tức",
+              "Bị kìm nén không thể phát triển",
+              "Hình thành, ấp ủ dần từ bên trong"
+            ],
+            "correctIndex": 2,
+            "explanation": "'孕育' nghĩa gốc là thai nghén, nghĩa chuyển trong văn viết HSK 6 là ấp ủ, nuôi dưỡng để hình thành ý tưởng/phong trào mới."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-9",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 15",
+        "prompt": "在寸土寸金的旧城区，很难开辟大片绿地，于是“口袋公园”应运而生。这类利用街角边角地改造的小型绿地，面积往往不到几百平方米，却能像毛细血管一样深入居民区。环境监测数据显示，分布密集的口袋公园不仅提升了步行可达性，还能在夏季形成局部微气候降温效应，比单一远郊大公园更贴近市民的日常减压需求。\n\n关于“口袋公园”，下列哪项与文意不符？",
+        "subPrompt": "Lưu ý câu hỏi tìm phương án **KHÔNG PHÙ HỢP** với nội dung bài (与文意不符).",
+        "options": [
+          "多利用旧城区边角地块改建，面积不大",
+          "有助于在夏季缓解周边局部区域的高温",
+          "因选址偏远，居民日常步行较难到达",
+          "比远郊大型公园更贴近市民日常减压需要"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đề hỏi ý KHÔNG ĐÚNG (与文意不符). Bài viết nói công viên bỏ túi đi sâu vào khu dân cư và '提升了步行可达性' (tăng khả năng đi bộ tiếp cận), nên C ('选址偏远，步行较难到达') trái ngược hoàn toàn với bài.",
+        "coaching": {
+          "trap": "Bẫy đọc lướt câu hỏi: không để ý chữ '不符' nên chọn ngay câu A hoặc B đúng sự thật.",
+          "tip": "Gạch chân ngay từ '不符' / '错误' ở câu hỏi, sau đó đánh dấu Đúng/Sai (✓ / ✗) cạnh từng lựa chọn.",
+          "miniExample": {
+            "prompt": "Thành ngữ '寸土寸金' diễn tả đặc điểm gì của khu vực?",
+            "options": [
+              "Đất đai vô cùng đắt đỏ, khan hiếm từng tấc",
+              "Vùng đất giàu tài nguyên khoáng sản vàng",
+              "Khu vực rộng lớn nhưng chưa được khai thác"
+            ],
+            "correctIndex": 0,
+            "explanation": "'寸土寸金' (tấc đất tấc vàng) chỉ đất đai đô thị vô cùng đắt đỏ và khan hiếm."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-10",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 16",
+        "prompt": "翻译中国古典诗词时，译者常陷入两难：若追求字面精确，往往丢失原诗的韵律与留白意境；若过度迎合目标语言的押韵习惯，又可能擅自增添原诗没有的意象。因此，不少资深译者主张在忠实原意的前提下，尽量保留关键文化意象，同时借助简短注释弥补文化背景的落差。\n\n这段话主要讨论的是什么问题？",
+        "subPrompt": "Chọn ý khái quát đúng nhất nội dung đoạn văn.",
+        "options": [
+          "古典诗词翻译中的取舍困境与应对策略",
+          "为何现代读者不再喜欢阅读古典诗词",
+          "目标语言的押韵规则比原诗意境更重要",
+          "所有古典诗词都绝对无法被翻译成外语"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu đầu nêu thế tiến thoái lưỡng nan ('两难': sát chữ thì mất nhạc điệu/ý cảnh, quá chiều vần điệu thì thêm hình ảnh thừa), câu sau nêu giải pháp của dịch giả kỳ cựu ('因此……主张……') -> A khái quát chuẩn xác cả hai phần.",
+        "coaching": {
+          "trap": "Bẫy chọn quan điểm thiên lệch (như C: coi trọng vần điệu hơn ý cảnh) hoặc khẳng định tuyệt đối (D: hoàn toàn không thể dịch).",
+          "tip": "Với câu hỏi chủ đề chính ('主要讨论'), đáp án tốt nhất phải bao quát được cả 'vấn đề/khó khăn' và 'giải pháp' nếu bài có cả hai.",
+          "miniExample": {
+            "prompt": "Từ '两难' trong '陷入两难' mang nghĩa gì?",
+            "options": [
+              "Hai vấn đề dễ giải quyết cùng lúc",
+              "Thế khó xử: chọn phương án nào cũng có mặt bất lợi",
+              "Sự hợp tác giữa hai chuyên gia"
+            ],
+            "correctIndex": 1,
+            "explanation": "'两难' (lưỡng nan) = 进退两难, chọn A hay B đều khó vẹn toàn."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-r-11",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 17",
+        "prompt": "医学临床试验常会观察到“安慰剂效应”——患者在不知情的情况下服用了不含有效药物成分的糖丸，症状却依然有所缓解。新近研究发现，这并非纯粹的心理错觉，医生在接诊时表现出的耐心倾听与积极预期，能够真实触发患者体内内啡肽的分泌。不过学者强调，安慰剂效应只能辅助缓解主观不适，绝不能替代针对病因的正规治疗。\n\n根据这段话，可以得出什么结论？",
+        "subPrompt": "Chọn kết luận suy luận hợp lý và đúng giới hạn của bài viết.",
+        "options": [
+          "只要医生态度温和，患者就无需服用任何药物",
+          "安慰剂效应纯粹属于毫无生理依据的错觉",
+          "良好的医患沟通能通过生理机制辅助缓解部分症状",
+          "不含药物成分的糖丸可以彻底治愈各类器质性疾病"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết nêu rõ: thái độ lắng nghe và kỳ vọng tích cực của bác sĩ kích hoạt tiết endorphin (cơ chế sinh lý thực sự, bác bỏ B), nhưng chỉ hỗ trợ giảm khó chịu chủ quan chứ không thay thế điều trị chính quy (bác bỏ A và D) -> C chính xác.",
+        "coaching": {
+          "trap": "Bẫy thổi phồng tác dụng y học ('无需服用任何药物', '彻底治愈') và bẫy bỏ qua vế phản bác '并非纯粹的心理错觉'.",
+          "tip": "Trong bài đọc y học, luôn kiểm tra giới hạn an toàn ở câu cuối ('只能辅助……绝不能替代……').",
+          "miniExample": {
+            "prompt": "Từ '纯粹' trong '并非纯粹的心理错觉' có nghĩa là gì?",
+            "options": [
+              "Phức tạp, đa chiều",
+              "Ngẫu nhiên, tình cờ",
+              "Thuần túy, đơn thuần chỉ là"
+            ],
+            "correctIndex": 2,
+            "explanation": "'纯粹' nghĩa là thuần túy, hoàn toàn chỉ có một tính chất đó."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p2-w-1",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Tóm tắt bài đọc (缩写) · Câu 18",
+        "prompt": "请仔细阅读下面这段短文，然后将其缩写为一篇120—150字左右的短文（只保留核心情节与主旨，不要照抄原句或加入个人议论）：\n\n海边小镇的尽头有一座废弃多年的旧灯塔，风吹日晒让外墙斑驳不堪，镇政府一度打算将它拆除。退休图书馆员林女士得知后，主动提交了一份改建方案：保留灯塔原有的螺旋楼梯和瞭望台，把底层改造成面向渔民和过往旅人的夜间阅览室。起初，不少镇民觉得海边风大潮湿，没人会在深夜来这里看书。林女士没有争辩，而是自己筹集了第一批防水书架和几百本航海、文学书籍，每晚准时点亮灯塔一层的暖黄台灯。半年过去，晚归的渔民常在交班后来此翻看气象志，失眠的旅人也爱在海浪声中读几页散文。如今，这座灯塔不仅被完整保留下来，还成了小镇最温暖的文化地标。",
+        "subPrompt": "Đọc kỹ đoạn văn (~316 chữ Hán) và viết bản tóm tắt (缩写) khoảng 120–150 chữ Hán, giữ trọn mạch chuyện và tránh tự bình luận.",
+        "correctAnswer": "海边小镇打算拆除一座废弃多年的旧灯塔。退休图书馆员林女士提出改建方案，保留灯塔主体，把底层建成夜间阅览室。起初镇民对此并不看好，林女士便自行筹备书架与书籍，每晚准时点灯开放。半年后，渔民和旅人纷纷在夜间前来看书。最终，这座灯塔不仅得以保留，还成了小镇温暖的文化地标。",
+        "explanation": "Tiêu chí chấm HSK 6 缩写: (1) Đủ tuyến sự kiện: kế hoạch phá dỡ -> đề xuất cải tạo của bà Lâm -> sự hoài nghi của dân trấn -> hành động kiên trì tự mở đèn mỗi tối -> kết quả ngư dân/du khách tìm đến đọc và ngọn hải đăng trở thành biểu tượng văn hóa; (2) Độ dài ~120-150 chữ; (3) Ngôn ngữ súc tích, không thêm ý ngoài bài.",
+        "coaching": {
+          "trap": "Dễ bị sa đà chép lại các chi tiết tả cảnh rườm rà ('外墙斑驳不堪', '暖黄台灯', '气象志', '散文') làm vượt quá giới hạn chữ.",
+          "tip": "Lược bỏ tính từ miêu tả chi tiết phụ; gom '渔民看气象志、旅人读散文' thành '渔民和旅人纷纷前来看书'.",
+          "miniExample": {
+            "prompt": "Khi tóm tắt đoạn miêu tả hành động thầm lặng của bà Lâm, cách diễn đạt nào súc tích nhất?",
+            "options": [
+              "林女士用行动回应质疑，自筹书籍并每晚点灯开放。",
+              "林女士没有争辩，而是自己筹集了第一批防水书架和几百本航海、文学书籍。",
+              "林女士认为大家不应该怀疑她的改建计划，于是非常生气地去买书。"
+            ],
+            "correctIndex": 0,
+            "explanation": "'林女士用行动回应质疑，自筹书籍并每晚点灯开放。' tóm lược đúng bản chất hành động chỉ trong 20 chữ, bỏ được chi tiết thừa và không suy diễn cảm xúc sai ('非常生气')."
+          }
+        },
+        "reviewed": false
+      }
+    ]
+  },
+  {
+    "id": "paper-hsk6-3",
+    "level": 6,
+    "standard": "3.0",
+    "paperNumber": 3,
+    "title": "Đề thi thử HSK 6 (Chuẩn 3.0) · Đề số 3",
+    "subtitle": "Chủ đề: Môi trường, Công nghệ & Tư duy phản biện · 18 câu tinh tuyển",
+    "reviewed": false,
+    "questions": [
+      {
+        "id": "p3-l-1",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 1 (Nghe 1 lần)",
+        "prompt": "关于治理“光污染”，说话人提到了哪项具体做法？",
+        "subPrompt": "Nghe đoạn môi trường đô thị (1 lần) và chọn đáp án đúng.",
+        "audioText": "提到污染，人们最先想到的往往是废水和废气，却很少留意“光污染”。实际上，城市夜间过亮的玻璃幕墙反光和向上直射的景观灯，不仅干扰候鸟的迁徙导航，还会抑制人体褪黑素分泌，打乱睡眠节律。目前已有不少地区划定了“暗夜保护区”，通过加装灯罩和限定亮灯时段，在不影响居民夜间安全的前提下，把星空还给自然与公众。",
+        "options": [
+          "全面拆除城市中的所有景观灯与玻璃幕墙",
+          "加装灯罩并限定夜间亮灯时段",
+          "在暗夜保护区内禁止任何居民夜间出行",
+          "利用人工强光引导候鸟改变迁徙路线"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn nghe nêu biện pháp cụ thể ở khu bảo tồn bầu trời tối: '通过加装灯罩和限定亮灯时段，在不影响居民夜间安全的前提下，把星空还给自然与公众' -> B.",
+        "coaching": {
+          "trap": "Bẫy cực đoan: biến '加装灯罩/限定时段' thành '全面拆除' hoặc '禁止出行'.",
+          "tip": "Nghe kỹ phần giải pháp thực tiễn sau cụm '通过……', chú ý cụm tiền đề '在不影响……的前提下'.",
+          "miniExample": {
+            "prompt": "Động từ '打乱' trong '打乱睡眠节律' có nghĩa là gì?",
+            "options": [
+              "Điều chỉnh cho đều đặn hơn",
+              "Đo đạc chính xác chu kỳ",
+              "Làm xáo trộn, phá vỡ nhịp độ bình thường"
+            ],
+            "correctIndex": 2,
+            "explanation": "'打乱' nghĩa là làm rối loạn, phá vỡ trật tự/nhịp sinh học vốn có."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-l-2",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 2 (Nghe 1 lần)",
+        "prompt": "张医生认为人工智能影像系统的核心作用是什么？",
+        "subPrompt": "Nghe đoạn đối thoại y tế công nghệ (1 lần) và chọn đáp án đúng.",
+        "audioText": "女：张医生，医院最近引进了人工智能影像辅助筛查系统，是不是以后看片子就全靠机器了？\n男：那倒不至于。AI系统确实能在几秒钟内标出肺部CT里的微小结节，大大减轻了我们重复初筛的负担。但遇到不典型病例或者需要结合患者病史综合判断时，最终的诊断决定权依然在医生手里。\n女：明白了，它更像是一位高效严谨的“第二双眼睛”。",
+        "options": [
+          "完全取代放射科医生的诊断工作",
+          "协助初筛微小病灶，减轻医生重复劳动",
+          "独立承担不典型复杂病例的最终决策",
+          "直接替代患者既往病史的临床询问"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bác sĩ Trương phủ nhận việc phụ thuộc hoàn toàn ('那倒不至于'), giải thích AI đánh dấu nhanh nốt nhỏ để giảm gánh nặng sàng lọc sơ bộ lặp lại ('减轻……重复初筛的负担'), còn quyết định cuối vẫn thuộc về bác sĩ -> B.",
+        "coaching": {
+          "trap": "Bẫy phóng đại vai trò AI (thay thế hoàn toàn hoặc quyết định ca phức tạp).",
+          "tip": "Phân biệt rạch ròi phần '辅助/初筛' (hỗ trợ/sàng lọc đầu) và '最终决定权' (quyền quyết định cuối).",
+          "miniExample": {
+            "prompt": "Câu nói '那倒不至于' trong hội thoại khẩu ngữ HSK 6 biểu thị thái độ gì?",
+            "options": [
+              "Phủ nhận nhẹ nhàng vì nhận định kia quá mức/quá đà",
+              "Đồng ý hoàn toàn với ý kiến đối phương",
+              "Bày tỏ sự tức giận không muốn trả lời"
+            ],
+            "correctIndex": 0,
+            "explanation": "'那倒不至于' = 'cũng chưa đến mức như vậy đâu', dùng để đính chính nhẹ nhàng một suy đoán hơi quá."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-l-3",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 3 (Nghe 1 lần)",
+        "prompt": "要想克服“确认偏误”，说话人建议怎么做？",
+        "subPrompt": "Nghe đoạn tâm lý tư duy (1 lần) và chọn phương pháp được khuyến nghị.",
+        "audioText": "心理学中有一种常见的思维陷阱叫“确认偏误”：一旦人们心里先入为主地形成了某种观点，就会在阅读新闻或收集证据时，下意识地只关注支持自己看法的材料，而对反面证据视而不见，甚至将其解释为偶然例外。要想克服这种偏误，最有效的训练方法不是盲目怀疑一切，而是在得出结论前，刻意去寻找一条能推翻自己观点的可靠论据。",
+        "options": [
+          "彻底停止阅读任何新闻与观点文章",
+          "只收集能够证明自己正确的材料",
+          "对所有专家意见保持盲目怀疑",
+          "主动寻找可能反驳自身观点的可靠依据"
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu cuối chỉ rõ cách rèn luyện hiệu quả nhất: '刻意去寻找一条能推翻自己观点的可靠论据' (chủ động tìm một luận cứ đáng tin có thể bác bỏ quan điểm của chính mình) -> D.",
+        "coaching": {
+          "trap": "Bẫy câu '不是盲目怀疑一切': nhiều thí sinh nghe được cụm '怀疑一切' nhưng bỏ mất chữ '不是' đứng trước.",
+          "tip": "Luôn để ý cấu trúc '不是 A，而是 B' khi tác giả đưa ra lời khuyên cuối bài.",
+          "miniExample": {
+            "prompt": "Thành ngữ '先入为主' miêu tả hiện tượng tư duy nào?",
+            "options": [
+              "Luôn nhường người khác phát biểu trước",
+              "Ấn tượng/định kiến ban đầu chi phối, khó tiếp thu ý kiến mới",
+              "Phân tích khách quan sau khi đọc đủ tài liệu"
+            ],
+            "correctIndex": 1,
+            "explanation": "'先入为主' nghĩa là ấn tượng tiếp nhận đầu tiên ăn sâu làm chủ, dễ tạo thành kiến."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-l-4",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 4 (Nghe 1 lần)",
+        "prompt": "女的认为非遗直播最应该警惕什么问题？",
+        "subPrompt": "Nghe đoạn hội thoại văn hóa - truyền thông (1 lần) và chọn đáp án đúng.",
+        "audioText": "男：我看好几个年轻非遗传承人都在做直播，边做剪纸边回答网友提问，你觉得这样会不会太娱乐化了？\n女：关键看内容本身。只要展示的是扎实的传统工序和背后的民俗故事，直播反而能把原本小众的手艺带到全国观众面前，甚至帮村里的手艺人打开销路。真正该警惕的，不是新媒体形式本身，而是为了流量粗制滥造。\n男：有道理，工具本身无所谓好坏，全看怎么用。",
+        "options": [
+          "网友在直播间里提问过多",
+          "为了追求流量而敷衍赶工、粗制滥造",
+          "手艺通过网络传播得过于广泛",
+          "年轻传承人亲自出镜展示工序"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người nữ khẳng định điều đáng cảnh giác không phải bản thân hình thức truyền thông mới, mà là '为了流量粗制滥造' (làm ẩu, kém chất lượng chỉ để câu view) -> B.",
+        "coaching": {
+          "trap": "Bẫy lấy băn khoăn ban đầu của người nam ('太娱乐化') làm đáp án chính.",
+          "tip": "Bắt cụm từ tín hiệu '真正该警惕的，不是……而是……' để lấy chính xác trọng tâm câu hỏi.",
+          "miniExample": {
+            "prompt": "Thành ngữ '粗制滥造' dùng để phê phán điều gì?",
+            "options": [
+              "Kỹ thuật thủ công tinh xảo truyền thống",
+              "Chi phí nguyên vật liệu quá đắt đỏ",
+              "Sản xuất cẩu thả, chạy theo số lượng mà bỏ qua chất lượng"
+            ],
+            "correctIndex": 2,
+            "explanation": "'粗制滥造' (thô chế lạm tạo): làm qua quýt, thô sơ, kém chất lượng."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-l-5",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 5 (Nghe 1 lần)",
+        "prompt": "当地在“退渔还湿”工程中采取了什么修复思路？",
+        "subPrompt": "Nghe đoạn sinh thái môi trường (1 lần) và chọn phương án đúng.",
+        "audioText": "湿地常被称为“地球之肾”，在净化水质和蓄洪防旱方面发挥着不可替代的作用。过去几十年，受围垦和建设用地扩张影响，部分沿海滩涂湿地面积一度缩减。近年来，当地启动了“退渔还湿”工程，不再人为修筑硬质水泥驳岸，而是通过清理外来入侵植物、恢复本土芦苇群落，逐步重建适合水鸟栖息的浅滩环境。最新监测显示，在此越冬的珍稀候鸟种群数量已连续三年实现回升。",
+        "options": [
+          "加固硬质水泥驳岸以阻挡海水倒灌",
+          "大规模引入外来观赏植物替代本土芦苇",
+          "将浅滩全面改造成深水养殖鱼塘",
+          "清理入侵物种并恢复本土湿地植物群落"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn nghe nêu rõ: không xây bờ kè bê tông cứng nữa ('不再人为修筑硬质水泥驳岸'), mà '通过清理外来入侵植物、恢复本土芦苇群落，逐步重建适合水鸟栖息的浅滩环境' -> D.",
+        "coaching": {
+          "trap": "Bẫy tráo đổi '外来入侵植物' và '本土芦苇群落' trong phương án B, hoặc bỏ chữ '不再' ở phương án A.",
+          "tip": "Với bài nghe quy trình kỹ thuật sinh thái, chú ý các cặp từ đối lập '不再……而是通过……'.",
+          "miniExample": {
+            "prompt": "Từ '栖息' trong '水鸟栖息的浅滩环境' nghĩa là gì?",
+            "options": [
+              "Dừng chân, sinh sống và cư trú (của chim muông/sinh vật)",
+              "Săn mồi vào ban đêm",
+              "Bay vượt đại dương không nghỉ"
+            ],
+            "correctIndex": 0,
+            "explanation": "'栖息' (thê tức) chỉ việc chim chóc/động vật dừng đậu, cư trú và sinh sống tại một sinh cảnh."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-l-6",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 6 (Nghe 1 lần)",
+        "prompt": "根据这段话，影响古代青瓷釉色呈现的决定性因素是什么？",
+        "subPrompt": "Nghe đoạn văn hóa gốm sứ (1 lần) và chọn đáp án đúng.",
+        "audioText": "很多人欣赏古代青瓷时，往往以为那温润如玉的青绿色是工匠直接涂上去的颜料。其实不然，真正决定釉色变化的，是瓷胎和釉料中所含的微量铁元素，以及窑炉内的烧成气氛。在高温还原焰下，氧气供应不足，铁元素被还原成低价铁，才会呈现出清澈淡雅的青色；哪怕窑温只偏差十几度，或空气多漏进一分，整窑瓷器的发色就可能偏黄甚至发黑。正因如此，古人常说“入窑一色，出窑万彩”。",
+        "options": [
+          "烧制完成后工匠手工刷涂的绿色颜料",
+          "窑炉外部装饰的彩绘图案",
+          "微量铁元素含量与窑内温度、气氛的控制",
+          "出窑后在自然空气中浸泡的时间长短"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn văn bác bỏ việc quét màu trực tiếp ('其实不然'), chỉ rõ yếu tố quyết định là '微量铁元素，以及窑炉内的烧成气氛' cùng độ chính xác của nhiệt độ lò nung -> C.",
+        "coaching": {
+          "trap": "Bẫy hiểu nhầm phổ biến nằm ngay ở câu mở đầu ('以为……涂上去的颜料').",
+          "tip": "Khi thấy mở đầu là '很多人以为……其实不然，真正决定……的是……', đáp án nằm trọn ở cụm ngay sau '真正决定……的是'.",
+          "miniExample": {
+            "prompt": "Cụm '偏差' trong '窑温只偏差十几度' nghĩa là gì?",
+            "options": [
+              "Tăng gấp đôi nhiệt độ ban đầu",
+              "Sai lệch so với mức chuẩn định sẵn",
+              "Giữ nguyên ổn định suốt quá trình"
+            ],
+            "correctIndex": 1,
+            "explanation": "'偏差' nghĩa là độ lệch, sự sai khác so với tiêu chuẩn."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-1",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 7",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Kiểm tra lỗi kết hợp từ, thành phần thừa và quan hệ bao hàm.",
+        "options": [
+          "智能制造示范车间引入了工业机器人和机械臂等自动化设备，生产效率明显提高。",
+          "该工厂今年采购了大批机床、铣床和加工设备，极大提升了精密零件的加工精度。",
+          "随着工业互联网平台的深入应用，使传统制造业的转型步伐明显加快。",
+          "能否保持核心零部件的自主研发投入，是这家企业长期领跑行业的关键。"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu A chuẩn xác hoàn toàn. B mắc lỗi liệt kê khái niệm bao hàm nhau (并列不当: '机床、铣床' vốn đã nằm trong '加工设备', không thể dùng '和' ngang hàng). C thiếu chủ ngữ vì '随着……使……'. D lỗi hai mặt một mặt ('能否' đối với '关键').",
+        "coaching": {
+          "trap": "Lỗi liệt kê khái niệm bao hàm (A, B và tổng thể của A, B dùng chữ '和') rất kín đáo nếu không đọc kỹ từng danh từ.",
+          "tip": "Gặp liệt kê kiểu 'X、Y 和 Z', kiểm tra xem Z có phải là tập hợp cha chứa X và Y không; nếu có phải đổi thành 'X、Y 等 Z'.",
+          "miniExample": {
+            "prompt": "Cách sửa cụm '采购了机床、铣床和加工设备' nào đúng ngữ pháp?",
+            "options": [
+              "Đổi '和' thành '以及'",
+              "Thêm '全部' vào cuối cụm",
+              "Đổi '和' thành '等' -> '机床、铣床等加工设备'"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dùng '等' để quy nạp các ví dụ cụ thể (tiện, phay) vào tập hợp chung (thiết bị gia công)."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-2",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 8",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Kiểm tra cấu trúc câu ghép, phủ định và trật tự bổ nghĩa.",
+        "options": [
+          "规律的有氧运动不仅有助于增强心肺功能，还能有效缓解长期积累的工作压力。",
+          "医学研究表明，睡前进行剧烈运动的原因，是导致入睡困难的罪魁祸首之一。",
+          "为了防止运动损伤不再意外发生，教练提醒大家每次训练前必须充分热身。",
+          "我们应该养成并且重视每天坚持锻炼半小时的良好生活习惯。"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu A chuẩn xác hoàn toàn. B mắc lỗi chồng chéo cấu trúc (句式杂糅: '……的原因，是……的罪魁祸首'). C sai phủ định kép ('防止……不再发生'). D sai trật tự logic động từ (语序不当: phải là '重视并且养成……习惯', phải coi trọng rồi mới rèn thành thói quen).",
+        "coaching": {
+          "trap": "Câu D dễ bị bỏ qua vì cả hai động từ '养成' và '重视' đều đi được với '习惯', nhưng trình tự thời gian/logic hành động bị đảo ngược.",
+          "tip": "Khi thấy hai động từ nối bằng '并且/并' cùng tác động lên một tân ngữ, hãy xét trình tự trước-sau hợp lý về mặt nhận thức/hành động.",
+          "miniExample": {
+            "prompt": "Trật tự nào hợp logic nhận thức nhất trong tiếng Trung?",
+            "options": [
+              "发现并解决问题",
+              "解决并发现问题",
+              "推广并研发技术"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phải phát hiện (发现) trước rồi mới giải quyết (解决); phải nghiên cứu phát triển (研发) trước rồi mới nhân rộng (推广)."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-3",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 9",
+        "prompt": "请选出下面四个句子中**没有语病**的一项：",
+        "subPrompt": "Kiểm tra lỗi quy chiếu đại từ (指代不明) và hai mặt một mặt.",
+        "options": [
+          "只有不断完善数字版权登记机制，才能让原创作者的合法权益得到有效保障。",
+          "小李和小王在讨论一篇抄袭报道时，他认为平台应当承担主要的审核责任。",
+          "网络作品维权成本的高低，直接决定了创作者今后是否愿意继续投入精力的热情。",
+          "对于这部刚刚上映的纪录片来说，观众对其真实严谨的叙事风格赞不绝口。"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu A chuẩn xác: '只有……才……', kết hợp '完善……机制' và '权益得到保障' tự nhiên. B mơ hồ đại từ '他' (chỉ Tiểu Lý hay Tiểu Vương?). C lỗi hai mặt đối một mặt ('高低' hai mặt đối với '热情' một mặt, lại còn lồng thừa '是否……的热情'). D đảo chủ-khách/sai khung giới từ ('对于……纪录片来说，观众对其……' vừa thừa '来说' vừa lủng củng chủ ngữ).",
+        "coaching": {
+          "trap": "Câu B rất tự nhiên khi nói miệng nhưng sai quy chiếu đại từ trong văn viết chuẩn mực.",
+          "tip": "Thấy câu có 2 tên người (小李和小王 / 张先生和李女士) rồi vế sau dùng '他/她', kiểm tra ngay xem có xác định được chính xác là ai không.",
+          "miniExample": {
+            "prompt": "Câu '李明见到张强，他很高兴' mắc lỗi gì?",
+            "options": [
+              "Thiếu tân ngữ",
+              "Quy chiếu đại từ không rõ ràng (指代不明)",
+              "Sai kết hợp lượng từ"
+            ],
+            "correctIndex": 1,
+            "explanation": "'他' có thể là Lý Minh cũng có thể là Trương Cường, gây mơ hồ nghĩa."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-4",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Nhận diện câu lỗi (语病识别) · Câu 10",
+        "prompt": "请选出下面四个句子中**有语病**的一项：",
+        "subPrompt": "Lưu ý đề bài yêu cầu chọn câu **CÓ LỖI NGỮ PHÁP**.",
+        "options": [
+          "气象雷达技术的迭代更新，大幅提高了强对流天气预警的提前量。",
+          "本次强冷空气南下，预计将使北方多地最低气温下降八摄氏度左右。",
+          "据气象站观测，过去二十四小时内该山区累计降水量超过了二百毫米以上。",
+          "在极端天气频发的背景下，完善城市排水防涝体系显得尤为迫切。"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu C mắc lỗi dư thừa từ ước lượng/phạm vi (成分赘余): '超过……' (vượt quá...) đã chỉ ngưỡng dưới, không thể dùng kèm '……以上' ở cuối. A, B, D đều chuẩn xác.",
+        "coaching": {
+          "trap": "Cụm '超过 + số + 以上' quá quen tai trong giao tiếp khẩu ngữ nên nhiều thí sinh không nhận ra đây là lỗi ngữ pháp chuẩn HSK 6.",
+          "tip": "Gặp '超过/达到/高达' kết hợp '以上/左右', xác định ngay là lỗi dư thừa thành phần.",
+          "miniExample": {
+            "prompt": "Cách sửa câu '累计降水量超过了二百毫米以上' nào chuẩn xác?",
+            "options": [
+              "Đổi '超过' thành '大约'",
+              "Đổi '以上' thành '左右'",
+              "Bỏ '以上' -> '超过了二百毫米' (hoặc bỏ '超过了' dùng '在二百毫米以上')"
+            ],
+            "correctIndex": 2,
+            "explanation": "Không ghép '超过' với '以上', chỉ giữ một trong hai cách diễn đạt."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-5",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ chính sách & quản trị (选词填空) · Câu 11",
+        "prompt": "推动区域协调发展，必须______生态保护与民生改善的双重目标，既不能搞“一刀切”的僵化做法，而要学会______，根据各地资源禀赋制定差异化方案，真正把惠民举措______。",
+        "subPrompt": "Chọn tổ hợp từ/thành ngữ phù hợp với văn bản quản lý xã hội.",
+        "options": [
+          "偏废 / 照搬照抄 / 束之高阁",
+          "统筹兼顾 / 因地制宜 / 落到实处",
+          "顾此失彼 / 墨守成规 / 纸上谈兵",
+          "敷衍塞责 / 闭门造车 / 付诸东流"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cân bằng hai mục tiêu -> '统筹兼顾'; đối lập với cứng nhắc đồng loạt ('一刀切') là tùy điều kiện địa phương mà làm -> '因地制宜'; đưa chính sách vào thực tế -> '落到实处'.",
+        "coaching": {
+          "trap": "Bẫy không nhận ra cặp đối lập '一刀切' (áp đặt một khuôn) vs '因地制宜' (linh hoạt theo đặc thù địa phương).",
+          "tip": "Khi thấy '一刀切' (áp đặt đồng loạt), cụm đối ứng chuẩn mực nhất trong văn viết HSK 6 chính là '因地制宜'.",
+          "miniExample": {
+            "prompt": "Thành ngữ '因地制宜' có nghĩa chuẩn xác là gì?",
+            "options": [
+              "Căn cứ vào tình hình thực tế của từng địa phương để đề ra biện pháp phù hợp",
+              "Áp dụng một quy chuẩn duy nhất cho mọi vùng miền",
+              "Di dời nhà máy ra khỏi khu dân cư"
+            ],
+            "correctIndex": 0,
+            "explanation": "'因地制宜' (nhân địa chế nghi): tùy từng nơi mà áp dụng cách làm thích hợp."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-6",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ miêu tả nhân vật (选词填空) · Câu 12",
+        "prompt": "面对突如其来的舞台音响故障，这位年轻的小提琴手并未慌乱，而是______地示意伴奏暂停，随后微笑着与台下观众简短致意。这份超越年龄的______与从容，赢得了全场经久不息的掌声，令人不得不佩服她______的舞台素养。",
+        "subPrompt": "Chọn tổ hợp từ miêu tả phong thái bình tĩnh và bản lĩnh chuyên môn.",
+        "options": [
+          "惊慌失措 / 急躁 / 平庸",
+          "手忙脚乱 / 羞怯 / 浅薄",
+          "泰然自若 / 沉稳 / 卓越",
+          "漫不经心 / 傲慢 / 浮夸"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đối lập với '并未慌乱' -> '泰然自若' (thản nhiên tự tại, bình tĩnh trước biến cố); đi cặp với '从容' -> '沉稳' (điềm tĩnh, vững vàng); phẩm chất sân khấu đáng khâm phục -> '卓越' (xuất sắc vượt trội).",
+        "coaching": {
+          "trap": "Bẫy nhầm sắc thái '漫不经心' (thờ ơ lơ đãng, nghĩa tiêu cực) với '泰然自若' (bình tĩnh làm chủ tình huống, nghĩa tích cực).",
+          "tip": "Dựa vào '并未慌乱' và '掌声' để khóa chặt nhóm từ ngợi khen bản lĩnh điềm tĩnh.",
+          "miniExample": {
+            "prompt": "Thành ngữ '泰然自若' khác gì với '漫不经心'?",
+            "options": [
+              "Hai thành ngữ hoàn toàn đồng nghĩa và thay thế nhau được",
+              "'泰然自若' khen sự bình tĩnh trước biến cố; '漫不经心' chê thái độ hờ hững, thiếu chú tâm",
+              "'泰然自若' chỉ dùng cho người cao tuổi"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phân biệt sắc thái khen/chê là chìa khóa cho hầu hết câu 选词填空 trình độ HSK 6."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-7",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ công nghệ & đạo đức (选词填空) · Câu 13",
+        "prompt": "基因编辑等前沿生物技术既为攻克罕见遗传病带来了曙光，也伴随着难以预料的伦理风险。因此，科学界普遍呼吁在技术普及前必须______，建立透明的审查规则，按照______的原则稳步推进，决不可突破道德与安全底线。",
+        "subPrompt": "Chọn tổ hợp thành ngữ phù hợp với văn cảnh quản trị rủi ro khoa học.",
+        "options": [
+          "亡羊补牢 / 急功近利",
+          "未雨绸缪 / 循序渐进",
+          "破釜沉舟 / 一蹴而就",
+          "掩耳盗铃 / 操之过急"
+        ],
+        "correctIndex": 1,
+        "explanation": "Làm trước khi công nghệ phổ biến ('普及前') để phòng rủi ro -> '未雨绸缪' (lo xa phòng bị trước); đối lập với '不可突破底线' và đi với '稳步推进' -> '循序渐进' (từng bước tuần tự).",
+        "coaching": {
+          "trap": "Bẫy nhầm '亡羊补牢' (mất bò mới lo làm chuồng — sửa sai sau khi đã xảy ra) với '未雨绸缪' (chuẩn bị trước khi sự cố xảy ra).",
+          "tip": "Chú ý mốc thời gian '……前' (trước khi) hay '……后' (sau khi) để phân biệt '未雨绸缪' với '亡羊补牢'.",
+          "miniExample": {
+            "prompt": "Thành ngữ '一蹴而就' thường dùng trong cấu trúc nào?",
+            "options": [
+              "Khen ngợi người làm việc hấp tấp",
+              "Miêu tả tốc độ chạy điền kinh",
+              "Thường dùng ở dạng phủ định: '不可能一蹴而就' (không thể một bước thành công ngay)"
+            ],
+            "correctIndex": 2,
+            "explanation": "'一蹴而就' (đặt chân một bước là xong ngay) gần như luôn đi với '不能/不可能/并非' để khuyên cần kiên trì từng bước."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-8",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 14",
+        "prompt": "人们常常以为森林里的树木只是各自生长、彼此争夺阳光的孤立个体。其实，在地下土壤中，真菌菌丝将不同树木的根系连接成一张庞大的互助网络。长势茂盛的大树会通过这套地下系统，把多余的碳水化合物输送给处于阴影下的幼苗；当某棵树遭遇虫害时，还能借此向邻近树木发出化学预警。当然，这种“互助”并非毫无条件，真菌也会从中抽取一部分养分作为回报。\n\n这段话主要说明了什么？",
+        "subPrompt": "Đọc kỹ đoạn văn sinh thái rừng và chọn ý chính xác nhất.",
+        "options": [
+          "森林地下的树木与真菌存在互利共生的合作网络",
+          "地下真菌菌丝会单方面吸干幼苗的所有养分",
+          "树木之间只存在争夺阳光的竞争关系，毫无协作",
+          "树木遭遇虫害时只能依靠风力传播警报信号"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết giải thích mạng lưới sợi nấm dưới đất nối rễ các cây thành mạng hỗ trợ: cây lớn tiếp đường cho cây non trong bóng râm, cảnh báo sâu bệnh, đổi lại nấm nhận một phần dinh dưỡng (cộng sinh đôi bên cùng có lợi) -> A.",
+        "coaching": {
+          "trap": "Bẫy phiến diện: bỏ vế '互助' hoặc biến việc nấm lấy một phần dinh dưỡng ('抽取一部分养分') thành hút cạn toàn bộ ('吸干所有养分').",
+          "tip": "Chú ý kết cấu tổng-phân: câu mở đầu phủ nhận định kiến ('常以为……其实……'), phần sau giải thích cơ chế hợp tác.",
+          "miniExample": {
+            "prompt": "Từ '回报' trong '抽取一部分养分作为回报' có nghĩa là gì?",
+            "options": [
+              "Sự đền đáp/trả công tương xứng cho sự hỗ trợ",
+              "Báo cáo kết quả thí nghiệm",
+              "Sự trả thù giữa các loài"
+            ],
+            "correctIndex": 0,
+            "explanation": "'回报' nghĩa là sự đền đáp, phần lợi ích nhận lại tương ứng."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-9",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 15",
+        "prompt": "在键盘打字几乎成为主流的今天，仍有认知心理学家建议学生在听讲座时尝试手写笔记。实验显示，用电脑记录的学生往往倾向于原封不动地速录讲者的每一句话，大脑几乎没有经过深度加工；而手写速度较慢，反而迫使记录者必须实时筛选核心观点，并用自己的语言重新组织，这种看似“低效”的费力过程，恰恰加深了对概念的长期记忆。\n\n为什么心理学家建议学生尝试手写笔记？",
+        "subPrompt": "Chọn nguyên nhân phù hợp với lập luận trong bài.",
+        "options": [
+          "因为手写的速度比用电脑键盘打字快得多",
+          "因为电脑打字无法保存课堂上的任何内容",
+          "因为手写笔记不需要学生理解讲座的核心观点",
+          "因为手写过程能促使大脑主动筛选并重组信息"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết lý giải: viết tay chậm hơn nên buộc người ghi chép phải sàng lọc ý cốt lõi theo thời gian thực và tổ chức lại bằng ngôn ngữ của mình ('实时筛选核心观点，并用自己的语言重新组织'), nhờ đó khắc sâu trí nhớ dài hạn -> D.",
+        "coaching": {
+          "trap": "Bẫy đảo ngược nguyên nhân: cho rằng viết tay nhanh hơn đánh máy (thực tế bài viết nói '手写速度较慢，反而……').",
+          "tip": "Đọc kỹ chữ '反而' (ngược lại): điểm bất lợi bề ngoài ('速度较慢 / 低效') lại tạo ra lợi ích nhận thức thực chất.",
+          "miniExample": {
+            "prompt": "Thành ngữ '原封不动' trong '原封不动地速录' nghĩa là gì?",
+            "options": [
+              "Niêm phong tài liệu mật trong két sắt",
+              "Giữ nguyên xi bản gốc, không thay đổi/chỉnh sửa chút nào",
+              "Tóm tắt ngắn gọn lại thành ba dòng"
+            ],
+            "correctIndex": 1,
+            "explanation": "'原封不动' nghĩa là giữ nguyên trạng hoàn toàn không biến đổi."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-10",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 16",
+        "prompt": "在没有电子扩音设备的古代，容纳上万名观众的露天圆形剧场却能让最后一排的听众清晰听见舞台上的轻声独白，这曾令现代建筑师困惑不已。声学测量表明，秘密在于剧场呈阶梯状排列的石灰岩座椅：其特定的凹凸纹理宛如天然声学滤波器，能够有效吸收嘈杂的低频风声与观众走动声，同时将演员人声所在的中高频声波反射并放大，堪称古人顺应物理规律的杰作。\n\n关于古代露天剧场的声学设计，下列哪项正确？",
+        "subPrompt": "Đọc kỹ cơ chế vật lý trong bài và chọn đáp án đúng.",
+        "options": [
+          "主要依赖隐藏在地下管道中的机械扩音装置",
+          "阶梯状石灰岩座椅能过滤低频噪音并增强人声",
+          "现代建筑师至今仍完全无法解释其传声原理",
+          "剧场只能容纳数百名观众，无法坐满上万人"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn văn nêu rõ kết quả đo đạc âm học: ghế đá vôi xếp bậc thang hoạt động như bộ lọc âm thanh tự nhiên, hấp thụ tạp âm tần số thấp (吸收低频风声) và phản xạ khuếch đại giọng nói tần số trung-cao (中高频声波反射并放大) -> B.",
+        "coaching": {
+          "trap": "Bẫy bẻ cong thông tin: '曾令……困惑' (từng khiến bối rối trong quá khứ) được biến thành '至今仍完全无法解释' (đến nay vẫn không giải thích nổi).",
+          "tip": "Để ý phó từ thời gian '曾' (đã từng) đi với '表明' (hiện đã đo đạc làm rõ).",
+          "miniExample": {
+            "prompt": "Từ '宛如' trong '宛如天然声学滤波器' tương đương với từ nào?",
+            "options": [
+              "绝对不是 (tuyệt đối không phải)",
+              "虽然如此 (tuy nhiên)",
+              "好像 / 犹如 (giống như, tựa như)"
+            ],
+            "correctIndex": 2,
+            "explanation": "'宛如' là từ văn viết trang trọng, nghĩa là 'tựa như, giống hệt như'."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-r-11",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Suy luận đoạn văn (阅读理解) · Câu 17",
+        "prompt": "基础科学研究往往周期漫长、短期内难以看到直接的商业回报。如果科研经费的评估过度依赖年度论文数量和短期专利转化率，研究者就容易倾向于选择见效快、风险低的“短平快”课题，而不敢涉足真正具有颠覆性但可能多年无果的冷门方向。多位科学史学者呼吁，对基础研究应建立更宽容的长期评估机制，允许科学家在探索未知时经历合理的失败。\n\n这段话主要想表达什么观点？",
+        "subPrompt": "Xác định thông điệp trọng tâm mà các học giả lịch sử khoa học kêu gọi.",
+        "options": [
+          "基础科学研究应当全面转向高回报商业项目",
+          "每年发表的论文数量越多，科研水平就越有颠覆性",
+          "基础科研评价体系应着眼长远，宽容探索性失败",
+          "冷门研究方向毫无价值，应当削减其经费预算"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu chốt đoạn văn nêu thẳng lời kêu gọi: đối với nghiên cứu cơ bản cần thiết lập cơ chế đánh giá dài hạn bao dung hơn, cho phép nhà khoa học trải qua thất bại hợp lý khi khám phá điều chưa biết ('建立更宽容的长期评估机制，允许……合理的失败') -> C.",
+        "coaching": {
+          "trap": "Bẫy đánh đồng quan điểm bị phê phán (chạy theo chỉ số ngắn hạn '短平快') thành khuyến nghị của tác giả.",
+          "tip": "Khi thấy câu kết có động từ '呼吁/建议/应当', đáp án đúng luôn khớp sát với nội dung vế sau động từ này.",
+          "miniExample": {
+            "prompt": "Cụm từ '短平快' thường dùng để mô tả dự án có đặc điểm gì?",
+            "options": [
+              "Vốn ít, chu kỳ ngắn, thu hồi kết quả nhanh nhưng thường thiếu chiều sâu",
+              "Đầu tư hàng chục năm mới thấy kết quả",
+              "Nghiên cứu lý thuyết thuần túy không ứng dụng"
+            ],
+            "correctIndex": 0,
+            "explanation": "'短平快' chỉ dự án/đề tài ngắn hạn, dễ làm, nhanh ra kết quả trước mắt."
+          }
+        },
+        "reviewed": false
+      },
+      {
+        "id": "p3-w-1",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Tóm tắt bài đọc (缩写) · Câu 18",
+        "prompt": "请仔细阅读下面这段短文，然后将其缩写为一篇120—150字左右的短文（只保留核心情节与主旨，不要照抄原句或加入个人议论）：\n\n植物学家周教授退休后，独自搬回故乡的一座小山村。村口几年前因修筑公路留下一片光秃秃的碎石荒坡，每逢雨季便泥水横流。周教授决定自费买来本土野花和耐旱灌木的种子，慢慢修复这片坡地。起初，村民们看着他在烈日下背着水桶一棵棵浇水，都觉得这只是城里老人的“一时兴起”。可连续三个春夏，无论刮风还是下雨，荒坡上总能看到他弯腰补苗的身影。第三年五月，荒坡突然开出连片的紫色野花，不仅牢牢锁住了水土，还引来了成群的蜜蜂和蝴蝶。如今，村里的孩子们每逢周末都会主动跟着周教授上山识花、护林，这片曾经的荒坡成了全村最骄傲的生态课堂。",
+        "subPrompt": "Đọc kỹ đoạn văn (~312 chữ Hán) và viết bản tóm tắt (缩写) khoảng 120–150 chữ Hán, giữ đúng diễn biến thời gian và kết quả cuối bài.",
+        "correctAnswer": "植物学家周教授退休回乡后，发现村口修路留下了一片雨季易水土流失的荒坡，便决定自费买种子修复。起初村民以为他只是一时兴起，但周教授连续三年坚持补苗浇水。第三年春天，荒坡开满野花，不仅稳住了水土，还引来蜂蝶。如今，村里的孩子也跟着他上山护林，荒坡成了全村的生态课堂。",
+        "explanation": "Tiêu chí chấm HSK 6 缩写: (1) Đủ các bước: Giáo sư Chu về quê thấy sườn đồi trọc sạt lở -> tự bỏ tiền mua giống phục hồi -> dân làng ban đầu nghi ngờ nhất thời -> kiên trì 3 năm -> năm thứ 3 nở hoa, giữ đất, thu hút ong bướm -> trẻ em tham gia thành lớp học sinh thái; (2) Độ dài ~120-150 chữ; (3) Mạch lạc, khách quan, đúng thì/mốc thời gian.",
+        "coaching": {
+          "trap": "Thí sinh hay quên chi tiết mốc thời gian ('起初……连续三年……第三年……如今……') hoặc thêm câu bình luận đạo đức ở cuối.",
+          "tip": "Dùng chính 4 mốc thời gian trong bài làm xương sống cho 4 câu tóm tắt; giữ nguyên tên nhân vật '周教授' và hình ảnh cốt lõi '生态课堂'.",
+          "miniExample": {
+            "prompt": "Từ '一时兴起' trong bài gốc mang nghĩa nào khi tóm tắt?",
+            "options": [
+              "Kế hoạch khoa học kéo dài mười năm",
+              "Hứng thú nhất thời, làm vài bữa rồi bỏ",
+              "Nhiệm vụ bắt buộc do chính quyền giao"
+            ],
+            "correctIndex": 1,
+            "explanation": "'一时兴起' chỉ sự hưng phấn nhất thời, thiếu bền bỉ (trái với 3 năm kiên trì của nhân vật)."
+          }
+        },
+        "reviewed": false
+      }
+    ]
+  }
+]

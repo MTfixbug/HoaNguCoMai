@@ -3,7 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * ZHWeb — Bảng màu Sáng tinh khiết & Xanh ngọc tươi (1 màu nhấn duy nhất)
+ * Hoa Ngữ LMS — Bảng màu Sáng tinh khiết & Xanh ngọc tươi (1 màu nhấn duy nhất)
  * Liên kết đồng bộ light-dark() với <meta name="color-scheme">
  */
 :root {

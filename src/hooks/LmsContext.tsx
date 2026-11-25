@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { loadSearchIndex, loadVocabChunk, levelToChunkKey, loadVocabMeta } from '../lib/dataLoader'
+import { loadSearchIndex, loadVocabForLevel, loadVocabMeta } from '../lib/dataLoader'
 import { computeNextStreak } from '../lib/gamification'
+import { enqueueOfflineMutation, loadOfflineQueue, mergeProgressMaps, saveOfflineQueue } from '../lib/syncMerge'
 import { getDeviceSummary, loadLocalStore, resetLocalStore, saveLocalStore, syncRemoteState, type LmsStoreSnapshot } from '../lib/lmsStore'
 import { calculateNextReview, createInitialProgress } from '../lib/srs'
 import { getSupabase } from '../lib/supabase'
@@ -42,7 +43,6 @@ interface LmsContextValue {
   submissions: AssignmentSubmission[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
-  studentPasswords: Record<string, string>
   recentIds: string[]
   awardXpAndStreak: (xpDelta: number) => void
   updatePetPreferences: (petType: PetType, petEnabled: boolean) => Promise<void>
@@ -134,7 +134,7 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         },
         profiles: remote.profiles.length ? remote.profiles : s.profiles,
         customLessons: remote.customLessons,
-        progressMap: remote.progressMap,
+        progressMap: mergeProgressMaps(s.progressMap, remote.progressMap),
         allStudentProgress: remote.allStudentProgress,
         sessions: remote.sessions,
         events: remote.events,
@@ -142,7 +142,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         submissions: remote.submissions,
         examAttempts: remote.examAttempts,
         kudos: remote.kudos,
-        studentPasswords: remote.studentPasswords,
       }))
     })
     return () => {
@@ -162,9 +161,12 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     }
   }, [searchIndex])
 
-  const loadLevelVocab = useCallback(async (hskLevel: number) => {
-    return loadVocabChunk(levelToChunkKey(hskLevel))
-  }, [])
+  const loadLevelVocab = useCallback(
+    async (hskLevel: number) => {
+      return loadVocabForLevel(hskLevel, store.settings.hskStandard ?? '3.0')
+    },
+    [store.settings.hskStandard],
+  )
 
   const updateSettings = useCallback((patch: Partial<ClientSettings>) => {
     setStore((s) => ({ ...s, settings: { ...s.settings, ...patch } }))
@@ -304,10 +306,42 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     async (rec: VocabProgressRecord) => {
       const sb = getSupabase()
       if (!configured || !sb || !profile) return
-      await sb.from('vocab_progress').upsert(rec, { onConflict: 'user_id,word_id' })
+      if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+        enqueueOfflineMutation({ kind: 'progress', payload: rec })
+        return
+      }
+      const { error } = await sb.from('vocab_progress').upsert(rec, { onConflict: 'user_id,word_id' })
+      if (error) {
+        enqueueOfflineMutation({ kind: 'progress', payload: rec })
+      }
     },
     [configured, profile],
   )
+
+  useEffect(() => {
+    const flushOffline = async () => {
+      const sb = getSupabase()
+      const p = profileRef.current
+      if (!configured || !sb || !p || (typeof navigator !== 'undefined' && navigator.onLine === false)) return
+      const queue = loadOfflineQueue()
+      if (!queue.length) return
+      const remaining = []
+      for (const item of queue) {
+        try {
+          if (item.kind === 'progress') {
+            const { error } = await sb.from('vocab_progress').upsert(item.payload, { onConflict: 'user_id,word_id' })
+            if (error) remaining.push(item)
+          }
+        } catch {
+          remaining.push(item)
+        }
+      }
+      saveOfflineQueue(remaining)
+    }
+    void flushOffline()
+    window.addEventListener('online', flushOffline)
+    return () => window.removeEventListener('online', flushOffline)
+  }, [configured, profile?.id])
 
   const rateWord = useCallback(
     (wordId: string, hskLevel: number, rating: Rating) => {
@@ -661,7 +695,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         setStore((s) => ({
           ...s,
           profiles: [createdProf, ...s.profiles.filter((x) => x.id !== createdProf.id)],
-          studentPasswords: { ...s.studentPasswords, [createdProf.id]: savedPw },
         }))
         return { profile: createdProf, password: savedPw }
       }
@@ -691,7 +724,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
       setStore((s) => ({
         ...s,
         profiles: [localProf, ...s.profiles],
-        studentPasswords: { ...s.studentPasswords, [localProf.id]: input.password },
       }))
       return { profile: localProf, password: input.password }
     },
@@ -715,10 +747,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         if (error) throw new Error(error.message)
         if (!data?.ok) throw new Error(data?.error ?? 'Không thể đổi mật khẩu học viên.')
       }
-      setStore((s) => ({
-        ...s,
-        studentPasswords: { ...s.studentPasswords, [studentId]: newPassword },
-      }))
     },
     [configured],
   )
@@ -733,15 +761,10 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         if (error) throw new Error(error.message)
         if (!data?.ok) throw new Error(data?.error ?? 'Không thể xóa học viên.')
       }
-      setStore((s) => {
-        const nextPasswords = { ...s.studentPasswords }
-        delete nextPasswords[userId]
-        return {
-          ...s,
-          profiles: s.profiles.filter((p) => p.id !== userId),
-          studentPasswords: nextPasswords,
-        }
-      })
+      setStore((s) => ({
+        ...s,
+        profiles: s.profiles.filter((p) => p.id !== userId),
+      }))
     },
     [configured],
   )
@@ -862,13 +885,13 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     [configured, profile, refreshProfile],
   )
 
-  const exportAllJson = useCallback(() => JSON.stringify({ app: 'zhweb-lms', version: 3, store }, null, 2), [store])
+  const exportAllJson = useCallback(() => JSON.stringify({ app: 'hsk-lms', version: 4, store }, null, 2), [store])
 
   const importAllJson = useCallback((raw: string) => {
     try {
       const parsed = JSON.parse(raw)
       if (!parsed?.store) {
-        return { ok: false, error: 'Tệp sao lưu ZHWeb không hợp lệ.' }
+        return { ok: false, error: 'Tệp sao lưu dữ liệu không hợp lệ.' }
       }
       setStore(parsed.store)
       return { ok: true }
@@ -903,7 +926,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         submissions: store.submissions,
         examAttempts: store.examAttempts,
         kudos: store.kudos,
-        studentPasswords: store.studentPasswords,
         recentIds: store.recentIds,
         awardXpAndStreak,
         updatePetPreferences,

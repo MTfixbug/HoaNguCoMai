@@ -1,40 +1,64 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { EyeOff } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { useLms } from '../../hooks/LmsContext'
 import { usePetReaction } from '../../hooks/PetReactionContext'
 import { PET_CATALOG } from '../../lib/gamification'
-import type { PetType } from '../../types/lms'
+import type { PetMotionMode, PetType } from '../../types/lms'
 import ClayPetAvatar, { type PetMood } from './ClayPetAvatar'
 
-const ANCHOR_PERCENTS = [8, 20, 36, 54, 68, 44, 14]
+// Anchor on far right corner in still mode so left-aligned Vietnamese titles stay 100% clear
+const EDGE_ANCHORS = [84, 8]
 
 export default function PetCompanion() {
-  const { settings, updatePetPreferences } = useLms()
+  const { settings, updateSettings, updatePetPreferences } = useLms()
   const { reaction } = usePetReaction()
   const location = useLocation()
 
   const [stepIdx, setStepIdx] = useState(0)
   const [facingRight, setFacingRight] = useState(true)
   const [pickerOpen, setPickerOpen] = useState(false)
+  const pausedUntilRef = useRef(0)
 
-  const hiddenOnExam = location.pathname.startsWith('/exams')
+  const prefersReducedMotion =
+    typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+
+  const mode: PetMotionMode = !settings.petEnabled
+    ? 'off'
+    : prefersReducedMotion
+      ? 'still'
+      : settings.petMotion ?? 'still'
+
+  const hiddenOnExam = location.pathname.startsWith('/exams') || location.pathname.startsWith('/today')
 
   useEffect(() => {
-    if (!settings.petEnabled || hiddenOnExam) return
+    const pauseInteraction = () => {
+      pausedUntilRef.current = Date.now() + 12_000
+    }
+    window.addEventListener('pointerdown', pauseInteraction, { passive: true })
+    window.addEventListener('keydown', pauseInteraction, { passive: true })
+    return () => {
+      window.removeEventListener('pointerdown', pauseInteraction)
+      window.removeEventListener('keydown', pauseInteraction)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (mode !== 'slow' || hiddenOnExam) return
+    // Move 3x slower with long 24s rest between calm edge shifts, pausing 12s after any user tap/type
     const timer = window.setInterval(() => {
-      if (reaction || pickerOpen) return
+      if (reaction || pickerOpen || Date.now() < pausedUntilRef.current) return
       setStepIdx((prev) => {
-        const next = (prev + 1) % ANCHOR_PERCENTS.length
-        setFacingRight(ANCHOR_PERCENTS[next] >= ANCHOR_PERCENTS[prev])
+        const next = (prev + 1) % EDGE_ANCHORS.length
+        setFacingRight(EDGE_ANCHORS[next] >= EDGE_ANCHORS[prev])
         return next
       })
-    }, 7500)
+    }, 24_000)
     return () => window.clearInterval(timer)
-  }, [settings.petEnabled, hiddenOnExam, reaction, pickerOpen])
+  }, [mode, hiddenOnExam, reaction, pickerOpen])
 
-  if (!settings.petEnabled || hiddenOnExam) return null
+  if (mode === 'off' || hiddenOnExam) return null
 
   const currentPet = settings.petType ?? 'cat'
   const petInfo = PET_CATALOG.find((p) => p.id === currentPet) ?? PET_CATALOG[0]
@@ -52,7 +76,7 @@ export default function PetCompanion() {
               ? 'kudos'
               : 'idle'
 
-  const leftPct = ANCHOR_PERCENTS[stepIdx]
+  const leftPct = mode === 'still' ? EDGE_ANCHORS[0] : EDGE_ANCHORS[stepIdx]
 
   const handleSelectPet = (pet: PetType) => {
     void updatePetPreferences(pet, true)
@@ -61,35 +85,56 @@ export default function PetCompanion() {
 
   return (
     <div
-      className="pointer-events-none fixed inset-x-0 bottom-16 md:bottom-3 z-20 overflow-x-clip"
+      className="pointer-events-none fixed inset-x-0 bottom-[68px] md:bottom-3 z-20 overflow-x-clip"
       data-testid="pet-companion"
     >
       <motion.div
         animate={{ left: `${leftPct}%` }}
-        transition={{ duration: 2.6, ease: 'easeInOut' }}
-        className="relative inline-flex w-16 flex-col items-center"
+        transition={{ duration: mode === 'still' ? 0.3 : 7.8, ease: 'easeInOut' }}
+        className="relative inline-flex w-14 flex-col items-center"
         style={{ position: 'relative' }}
       >
-        {/* Bảng chọn nhanh 7 thú cưng */}
         <AnimatePresence>
           {pickerOpen && (
             <motion.div
               initial={{ opacity: 0, y: 10, scale: 0.94 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 8, scale: 0.94 }}
-              className="pointer-events-auto absolute bottom-full mb-2 w-60 rounded-2xl border border-line bg-glass-strong p-3 shadow-xl"
+              className="pointer-events-auto absolute bottom-full mb-2 w-64 rounded-2xl border border-line bg-glass-strong p-3 shadow-xl"
               style={{ left: leftPct > 50 ? 'auto' : 0, right: leftPct > 50 ? 0 : 'auto' }}
             >
               <div className="mb-2 flex items-center justify-between text-xs font-bold text-ink">
-                <span>Đổi bạn đồng hành ({petInfo.nameVi})</span>
+                <span>Bạn đồng hành ({petInfo.nameVi})</span>
                 <button
                   type="button"
-                  onClick={() => void updatePetPreferences(currentPet, false)}
+                  onClick={() => {
+                    updateSettings({ petMotion: 'off', petEnabled: false })
+                    void updatePetPreferences(currentPet, false)
+                    setPickerOpen(false)
+                  }}
                   className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium text-muted hover:bg-glass-subtle hover:text-terracotta cursor-pointer"
                 >
                   <EyeOff size={12} /> Tắt
                 </button>
               </div>
+
+              <div className="mb-2 grid grid-cols-2 gap-1.5 text-[11px]">
+                <button
+                  type="button"
+                  onClick={() => updateSettings({ petMotion: 'still', petEnabled: true })}
+                  className={`rounded-lg border px-2 py-1 font-semibold ${mode === 'still' ? 'border-jade bg-jade-soft text-jade' : 'border-line text-muted'}`}
+                >
+                  Đứng yên
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateSettings({ petMotion: 'slow', petEnabled: true })}
+                  className={`rounded-lg border px-2 py-1 font-semibold ${mode === 'slow' ? 'border-jade bg-jade-soft text-jade' : 'border-line text-muted'}`}
+                >
+                  Di chuyển chậm
+                </button>
+              </div>
+
               <div className="grid grid-cols-4 gap-1.5">
                 {PET_CATALOG.map((item) => (
                   <button
@@ -101,7 +146,7 @@ export default function PetCompanion() {
                       item.id === currentPet ? 'border-jade bg-jade-soft' : 'border-line hover:border-jade'
                     }`}
                   >
-                    <ClayPetAvatar pet={item.id} size={32} />
+                    <ClayPetAvatar pet={item.id} size={30} />
                     <span className="mt-0.5 truncate max-w-full text-[9px] font-semibold text-ink">
                       {item.nameVi.split(' ').slice(-1)[0]}
                     </span>
@@ -112,15 +157,14 @@ export default function PetCompanion() {
           )}
         </AnimatePresence>
 
-        {/* Bong bóng phản hồi khi trả lời đúng / sai / nhắc quẹt */}
         <AnimatePresence>
           {reaction && (
             <motion.div
               key={reaction.id}
-              initial={{ opacity: 0, y: 8, scale: 0.85 }}
+              initial={{ opacity: 0, y: 8, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -6, scale: 0.9 }}
-              className={`absolute bottom-full mb-1 w-max max-w-[180px] rounded-2xl border px-3 py-1 text-center text-[11px] font-bold shadow-md ${
+              exit={{ opacity: 0, y: -6, scale: 0.92 }}
+              className={`absolute bottom-full mb-1 w-max max-w-[170px] rounded-2xl border px-3 py-1 text-center text-[11px] font-bold shadow-md ${
                 reaction.kind === 'wrong'
                   ? 'border-terracotta/40 bg-terracotta-soft text-terracotta'
                   : reaction.kind === 'swipe_guard'
@@ -135,47 +179,33 @@ export default function PetCompanion() {
           )}
         </AnimatePresence>
 
-        {/* Hiệu ứng tim / sao bay khi đúng */}
-        <AnimatePresence>
-          {(mood === 'happy' || mood === 'combo' || mood === 'kudos') && reaction && (
-            <motion.span
-              key={`spark-${reaction.id}`}
-              initial={{ opacity: 0, y: 4, scale: 0.6 }}
-              animate={{ opacity: [0, 1, 0], y: -26, scale: 1.15 }}
-              transition={{ duration: 1.1 }}
-              className="pointer-events-none absolute -top-3 text-base"
-            >
-              {mood === 'combo' ? '✨🏆' : '💚✨'}
-            </motion.span>
-          )}
-        </AnimatePresence>
-
-        {/* Linh vật 3D có thể bấm để đổi (giữ button đứng yên, chỉ animate lớp bên trong để không trượt hit-target) */}
         <button
           type="button"
           onClick={() => setPickerOpen((v) => !v)}
-          aria-label={`Bạn đồng hành ${petInfo.nameVi} — bấm để đổi hoặc ẩn`}
+          aria-label={`Bạn đồng hành ${petInfo.nameVi} — chạm để tùy chỉnh`}
           title={`${petInfo.nameVi} (${petInfo.nameZh})`}
-          className="pointer-events-auto cursor-pointer rounded-full p-1 transition hover:scale-110 focus:outline-none"
+          className="pointer-events-auto cursor-pointer rounded-full p-1 transition hover:scale-105 focus:outline-none opacity-90"
         >
           <motion.div
             animate={
               mood === 'happy' || mood === 'combo' || mood === 'kudos'
-                ? { y: [0, -14, 0, -8, 0], rotate: [0, -6, 6, 0] }
+                ? { y: [0, -10, 0] }
                 : mood === 'wrong'
-                  ? { x: [0, -6, 6, -4, 4, 0] }
+                  ? { x: [0, -4, 4, 0] }
                   : mood === 'curious'
-                    ? { rotate: [0, -10, 10, 0], scale: [1, 1.08, 1] }
-                    : { y: [0, -3, 0] }
+                    ? { scale: [1, 1.06, 1] }
+                    : mode === 'still'
+                      ? undefined
+                      : { y: [0, -2, 0] }
             }
             transition={
               mood === 'idle'
-                ? { duration: 2.4, repeat: Infinity, ease: 'easeInOut' }
-                : { duration: 0.65, ease: 'easeOut' }
+                ? { duration: 4, repeat: Infinity, ease: 'easeInOut' }
+                : { duration: 0.6, ease: 'easeOut' }
             }
           >
             <div style={{ transform: facingRight ? undefined : 'scaleX(-1)' }}>
-              <ClayPetAvatar pet={currentPet} mood={mood} size={58} />
+              <ClayPetAvatar pet={currentPet} mood={mood} size={42} />
             </div>
           </motion.div>
         </button>

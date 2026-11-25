@@ -1,17 +1,21 @@
 import { AntiStreakTracker, generateMCQOptions, shuffleArray } from './randomizer'
-import type { ExamBlueprint, ExamQuestion, ExamSectionKey } from '../types/exam'
+import type { ExamBlueprint, ExamCoaching, ExamQuestion, ExamSectionKey } from '../types/exam'
 import type { CustomLesson } from '../types/lms'
-import type { DictEntry } from '../types/vocab'
+import type { DictEntry, HskStandard } from '../types/vocab'
 
-export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
+export const EXAM_BLUEPRINTS_20: Record<number, ExamBlueprint> = {
   1: {
     level: 1,
-    title: 'Đề thi thử HSK Cấp 1',
-    subtitle: 'Giao tiếp hằng ngày nền tảng (~500 từ)',
+    standard: '2.0',
+    title: 'Đề thi thử HSK 2.0 Cấp 1',
+    subtitle: 'Giao tiếp hằng ngày nền tảng (150 từ HSK 2.0)',
     audioReplayRule: '2x',
+    officialTotalQuestions: 40,
+    officialMinutes: 35,
     totalScore: 200,
     passScore: 120,
-    notes: 'Chuẩn HSK 1: Phần Nghe phát tối đa 2 lần mỗi câu. Tổng điểm đạt từ 120/200 trở lên.',
+    hasOfficialPassScore: true,
+    notes: 'Chuẩn HSK 2.0: Nghe tối đa 2 lần mỗi câu. Tổng điểm đạt từ 120/200 trở lên.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 20, officialMinutes: 15, maxAudioPlays: 2, maxScore: 100 },
       { key: 'reading', label: 'Đọc hiểu', questionCount: 20, officialMinutes: 17, maxAudioPlays: null, maxScore: 100 },
@@ -19,12 +23,16 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
   2: {
     level: 2,
-    title: 'Đề thi thử HSK Cấp 2',
-    subtitle: 'Hội thoại sơ cấp (~1.250 từ tích lũy)',
+    standard: '2.0',
+    title: 'Đề thi thử HSK 2.0 Cấp 2',
+    subtitle: 'Hội thoại sơ cấp (300 từ HSK 2.0 tích lũy)',
     audioReplayRule: '2x',
+    officialTotalQuestions: 60,
+    officialMinutes: 50,
     totalScore: 200,
     passScore: 120,
-    notes: 'Chuẩn HSK 2: Nghe phát 2 lần mỗi câu; tổng điểm đạt từ 120/200 trở lên.',
+    hasOfficialPassScore: true,
+    notes: 'Chuẩn HSK 2.0: Nghe phát 2 lần mỗi câu; tổng điểm đạt từ 120/200 trở lên.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 35, officialMinutes: 25, maxAudioPlays: 2, maxScore: 100 },
       { key: 'reading', label: 'Đọc hiểu', questionCount: 25, officialMinutes: 22, maxAudioPlays: null, maxScore: 100 },
@@ -32,12 +40,16 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
   3: {
     level: 3,
-    title: 'Đề thi thử HSK Cấp 3',
+    standard: '2.0',
+    title: 'Đề thi thử HSK 2.0 Cấp 3',
     subtitle: 'Giao tiếp đời sống, học tập và du lịch trung cấp',
     audioReplayRule: '2x',
+    officialTotalQuestions: 80,
+    officialMinutes: 85,
     totalScore: 300,
     passScore: 180,
-    notes: 'Chuẩn HSK 3 bổ sung phần Viết; phần Nghe phát 2 lần. Tổng điểm đạt từ 180/300 trở lên.',
+    hasOfficialPassScore: true,
+    notes: 'Chuẩn HSK 2.0 bổ sung phần Viết; phần Nghe phát 2 lần. Tổng điểm đạt từ 180/300 trở lên.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 40, officialMinutes: 35, maxAudioPlays: 2, maxScore: 100 },
       { key: 'reading', label: 'Đọc hiểu', questionCount: 30, officialMinutes: 30, maxAudioPlays: null, maxScore: 100 },
@@ -46,12 +58,16 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
   4: {
     level: 4,
-    title: 'Đề thi thử HSK Cấp 4',
+    standard: '2.0',
+    title: 'Đề thi thử HSK 2.0 Cấp 4',
     subtitle: 'Thảo luận độc lập nhiều chủ đề học tập và công việc',
     audioReplayRule: '1x',
+    officialTotalQuestions: 100,
+    officialMinutes: 100,
     totalScore: 300,
     passScore: 180,
-    notes: 'Chuẩn HSK 4 chỉ được nghe 1 lần duy nhất mỗi câu. Tổng điểm đạt từ 180/300 trở lên.',
+    hasOfficialPassScore: true,
+    notes: 'Chuẩn HSK 2.0 chỉ được nghe 1 lần duy nhất mỗi câu. Tổng điểm đạt từ 180/300 trở lên.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 45, officialMinutes: 30, maxAudioPlays: 1, maxScore: 100 },
       { key: 'reading', label: 'Đọc hiểu', questionCount: 40, officialMinutes: 40, maxAudioPlays: null, maxScore: 100 },
@@ -60,12 +76,16 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
   5: {
     level: 5,
-    title: 'Đề thi thử HSK Cấp 5',
+    standard: '2.0',
+    title: 'Đề thi thử HSK 2.0 Cấp 5',
     subtitle: 'Đọc báo chí, hiểu truyền thông và viết đoạn văn ngắn',
     audioReplayRule: '1x',
+    officialTotalQuestions: 100,
+    officialMinutes: 120,
     totalScore: 300,
     passScore: 180,
-    notes: 'Chuẩn HSK 5 nghe 1 lần duy nhất. Tổng điểm đạt từ 180/300 trở lên.',
+    hasOfficialPassScore: true,
+    notes: 'Chuẩn HSK 2.0 nghe 1 lần duy nhất. Tổng điểm đạt từ 180/300 trở lên.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 45, officialMinutes: 30, maxAudioPlays: 1, maxScore: 100 },
       { key: 'reading', label: 'Đọc hiểu', questionCount: 45, officialMinutes: 45, maxAudioPlays: null, maxScore: 100 },
@@ -74,12 +94,16 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
   6: {
     level: 6,
-    title: 'Đề thi thử HSK Cấp 6',
+    standard: '2.0',
+    title: 'Đề thi thử HSK 2.0 Cấp 6',
     subtitle: 'Đọc hiểu nâng cao và tóm tắt bài văn ~400 chữ (缩写)',
     audioReplayRule: '1x',
+    officialTotalQuestions: 101,
+    officialMinutes: 135,
     totalScore: 300,
     passScore: 180,
-    notes: 'Chuẩn HSK 6: Nghe 1 lần, Đọc hiểu điền khuyết/đọc đoạn và Viết tóm tắt (缩写). Đạt >= 180/300.',
+    hasOfficialPassScore: true,
+    notes: 'Chuẩn HSK 2.0: Nghe 1 lần, Đọc hiểu điền khuyết/đọc đoạn và Viết tóm tắt (缩写). Đạt >= 180/300.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 50, officialMinutes: 35, maxAudioPlays: 1, maxScore: 100 },
       { key: 'reading', label: 'Đọc hiểu', questionCount: 50, officialMinutes: 50, maxAudioPlays: null, maxScore: 100 },
@@ -88,11 +112,15 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
   7: {
     level: 7,
+    standard: '2.0',
     title: 'Đề thi hợp nhất HSK Cấp 7–9',
     subtitle: 'Đánh giá trình độ cao cấp học thuật & chuyên sâu (Cấp 7, 8, 9)',
     audioReplayRule: '1x',
+    officialTotalQuestions: 74,
+    officialMinutes: 200,
     totalScore: 500,
     passScore: 300,
+    hasOfficialPassScore: true,
     notes: 'Chuẩn HSK 7–9 gồm 5 kỹ năng (mỗi kỹ năng 100 điểm): Đạt HSK 7 >= 300, HSK 8 >= 375, HSK 9 >= 430.',
     sections: [
       { key: 'listening', label: 'Nghe hiểu', questionCount: 34, officialMinutes: 33, maxAudioPlays: 1, maxScore: 100 },
@@ -104,9 +132,149 @@ export const EXAM_BLUEPRINTS: Record<number, ExamBlueprint> = {
   },
 }
 
-export function getBlueprint(level: number): ExamBlueprint {
-  if (level >= 7) return EXAM_BLUEPRINTS[7]
-  return EXAM_BLUEPRINTS[Math.max(1, Math.min(6, level))]
+export const EXAM_BLUEPRINTS_30: Record<number, ExamBlueprint> = {
+  1: {
+    level: 1,
+    standard: '3.0',
+    title: 'Đề thi thử HSK 3.0 Cấp 1 (Bản chốt 11/2025)',
+    subtitle: '40 câu / 40 phút · 300 từ chuẩn HSK 3.0',
+    audioReplayRule: '2x',
+    officialTotalQuestions: 40,
+    officialMinutes: 40,
+    totalScore: 200,
+    passScore: 120,
+    hasOfficialPassScore: false,
+    notes: 'Chuẩn HSK 3.0 áp dụng từ 13/12/2026: 40 câu / ~40 phút. Chấm theo % đúng và điểm ước lượng tham khảo.',
+    sections: [
+      { key: 'listening', label: 'Nghe hiểu', questionCount: 20, officialMinutes: 20, maxAudioPlays: 2, maxScore: 100 },
+      { key: 'reading', label: 'Đọc hiểu', questionCount: 20, officialMinutes: 20, maxAudioPlays: null, maxScore: 100 },
+    ],
+  },
+  2: {
+    level: 2,
+    standard: '3.0',
+    title: 'Đề thi thử HSK 3.0 Cấp 2 (Bản chốt 11/2025)',
+    subtitle: '60 câu / 60 phút · 500 từ tích lũy HSK 3.0',
+    audioReplayRule: '2x',
+    officialTotalQuestions: 60,
+    officialMinutes: 60,
+    totalScore: 200,
+    passScore: 120,
+    hasOfficialPassScore: false,
+    notes: 'Chuẩn HSK 3.0: 60 câu / ~60 phút. Chấm theo % đúng và điểm ước lượng tham khảo (chưa công bố ngưỡng đỗ riêng).',
+    sections: [
+      { key: 'listening', label: 'Nghe hiểu', questionCount: 35, officialMinutes: 25, maxAudioPlays: 2, maxScore: 100 },
+      { key: 'reading', label: 'Đọc hiểu', questionCount: 25, officialMinutes: 35, maxAudioPlays: null, maxScore: 100 },
+    ],
+  },
+  3: {
+    level: 3,
+    standard: '3.0',
+    title: 'Đề thi thử HSK 3.0 Cấp 3 (Bản chốt 11/2025)',
+    subtitle: '70 câu / 83 phút làm bài (+15 phút nghe) · 1.000 từ',
+    audioReplayRule: '2x',
+    officialTotalQuestions: 70,
+    officialMinutes: 98,
+    totalScore: 300,
+    passScore: 180,
+    hasOfficialPassScore: false,
+    notes: 'Chuẩn HSK 3.0: 70 câu, tổng ~98 phút (83 phút làm bài + ~15 phút nghe). Hiển thị % đúng và điểm ước lượng tham khảo.',
+    sections: [
+      { key: 'listening', label: 'Nghe hiểu', questionCount: 35, officialMinutes: 15, maxAudioPlays: 2, maxScore: 100 },
+      { key: 'reading', label: 'Đọc hiểu', questionCount: 25, officialMinutes: 43, maxAudioPlays: null, maxScore: 100 },
+      { key: 'writing', label: 'Viết', questionCount: 10, officialMinutes: 40, maxAudioPlays: null, maxScore: 100 },
+    ],
+  },
+  4: {
+    level: 4,
+    standard: '3.0',
+    title: 'Đề thi thử HSK 3.0 Cấp 4 (Bản chốt 11/2025)',
+    subtitle: '70 câu / 85 phút làm bài (+20 phút nghe) · 2.000 từ',
+    audioReplayRule: '1x',
+    officialTotalQuestions: 70,
+    officialMinutes: 105,
+    totalScore: 300,
+    passScore: 180,
+    hasOfficialPassScore: false,
+    notes: 'Chuẩn HSK 3.0: 70 câu, tổng ~105 phút (85 phút + ~20 phút nghe 1 lần). Hiển thị % đúng và điểm ước lượng.',
+    sections: [
+      { key: 'listening', label: 'Nghe hiểu', questionCount: 35, officialMinutes: 20, maxAudioPlays: 1, maxScore: 100 },
+      { key: 'reading', label: 'Đọc hiểu', questionCount: 25, officialMinutes: 45, maxAudioPlays: null, maxScore: 100 },
+      { key: 'writing', label: 'Viết', questionCount: 10, officialMinutes: 40, maxAudioPlays: null, maxScore: 100 },
+    ],
+  },
+  5: {
+    level: 5,
+    standard: '3.0',
+    title: 'Đề thi thử HSK 3.0 Cấp 5 (Bản chốt 11/2025)',
+    subtitle: '72 câu / 110 phút làm bài (+23 phút nghe) · 3.600 từ',
+    audioReplayRule: '1x',
+    officialTotalQuestions: 72,
+    officialMinutes: 133,
+    totalScore: 300,
+    passScore: 180,
+    hasOfficialPassScore: false,
+    notes: 'Chuẩn HSK 3.0: 72 câu, tổng ~133 phút (110 phút + ~23 phút nghe 1 lần). Chấm theo % đúng và điểm ước lượng.',
+    sections: [
+      { key: 'listening', label: 'Nghe hiểu', questionCount: 35, officialMinutes: 23, maxAudioPlays: 1, maxScore: 100 },
+      { key: 'reading', label: 'Đọc hiểu', questionCount: 25, officialMinutes: 55, maxAudioPlays: null, maxScore: 100 },
+      { key: 'writing', label: 'Viết', questionCount: 12, officialMinutes: 55, maxAudioPlays: null, maxScore: 100 },
+    ],
+  },
+  6: {
+    level: 6,
+    standard: '3.0',
+    title: 'Đề thi thử HSK 3.0 Cấp 6 (Bản chốt 11/2025)',
+    subtitle: '82 câu / 125 phút làm bài (+23 phút nghe) · 5.400 từ',
+    audioReplayRule: '1x',
+    officialTotalQuestions: 82,
+    officialMinutes: 148,
+    totalScore: 300,
+    passScore: 180,
+    hasOfficialPassScore: false,
+    notes: 'Chuẩn HSK 3.0: 82 câu, tổng ~148 phút (125 phút + ~23 phút nghe 1 lần). Chấm theo % đúng và điểm ước lượng.',
+    sections: [
+      { key: 'listening', label: 'Nghe hiểu', questionCount: 40, officialMinutes: 23, maxAudioPlays: 1, maxScore: 100 },
+      { key: 'reading', label: 'Đọc hiểu', questionCount: 40, officialMinutes: 65, maxAudioPlays: null, maxScore: 100 },
+      { key: 'writing', label: 'Viết & Tóm tắt', questionCount: 2, officialMinutes: 60, maxAudioPlays: null, maxScore: 100 },
+    ],
+  },
+  7: EXAM_BLUEPRINTS_20[7],
+}
+
+/** Backwards-compatible alias defaulting to HSK 2.0 pass thresholds */
+export const EXAM_BLUEPRINTS = EXAM_BLUEPRINTS_20
+
+export function getBlueprint(level: number, standard: HskStandard = '2.0'): ExamBlueprint {
+  const map = standard === '3.0' ? EXAM_BLUEPRINTS_30 : EXAM_BLUEPRINTS_20
+  if (level >= 7) return map[7]
+  return map[Math.max(1, Math.min(6, level))]
+}
+
+function buildGeneratedCoaching(w: DictEntry, pool: DictEntry[]): ExamCoaching {
+  const sameLevelDistractor = pool.find((p) => p.id !== w.id && p.hanzi !== w.hanzi)
+  const trap =
+    w.pos.includes('đgt.')
+      ? `Dễ nhầm từ loại động từ/tân ngữ đi sau "${w.hanzi}" hoặc nhầm với "${sameLevelDistractor?.hanzi ?? w.hanzi}".`
+      : `Dễ chọn nhầm từ có âm Hán-Việt gần giống (${w.hanViet}) hoặc lệch sắc thái nghĩa "${w.meaningVi.split(';')[0]}".`
+  const tip = `Nhớ bộ chữ & Hán-Việt "${w.hanViet}" (${w.pos || 'từ khóa'}): gạch chân cụm từ đi kèm trước khi chọn đáp án.`
+  const altOpts = [
+    w.meaningVi.split(';')[0].trim(),
+    ...(sameLevelDistractor ? [sameLevelDistractor.meaningVi.split(';')[0].trim()] : []),
+    'không liên quan ngữ cảnh',
+  ]
+  while (altOpts.length < 3) altOpts.push('nghĩa khác')
+  return {
+    trap,
+    tip,
+    miniExample: {
+      prompt: `Kiểm tra nhanh nghĩa cốt lõi của “${w.hanzi}” [${w.pinyin}]:`,
+      options: altOpts,
+      correctIndex: 0,
+      explanation: `${w.hanzi} [${w.pinyin}] (Hán-Việt: ${w.hanViet}) nghĩa là "${w.meaningVi}".`,
+    },
+    relatedWordIds: [w.id],
+  }
 }
 
 export function buildMockExamQuestions(
@@ -115,10 +283,13 @@ export function buildMockExamQuestions(
   customLessons: CustomLesson[] = [],
   compactSample = true,
   sectionOnly?: ExamSectionKey,
+  standard: HskStandard = '2.0',
 ): ExamQuestion[] {
-  const bp = getBlueprint(level)
+  const bp = getBlueprint(level, standard)
   const tracker = new AntiStreakTracker()
-  const pool = vocabPool.length >= 8 ? vocabPool : []
+  // Only pull from HSK syllabus core words (`source !== 'extra'`) for mock exam questions
+  const corePool = vocabPool.filter((w) => w.source !== 'extra')
+  const pool = corePool.length >= 8 ? corePool : vocabPool.length >= 8 ? vocabPool : []
   const shuffled = shuffleArray(pool)
   const questions: ExamQuestion[] = []
   let cursor = 0
@@ -156,6 +327,8 @@ export function buildMockExamQuestions(
           correctIndex,
           explanation: `${w.hanzi} [${w.pinyin}] (${w.hanViet}): ${w.meaningVi}`,
           targetWordId: w.id,
+          coaching: buildGeneratedCoaching(w, pool),
+          reviewed: true,
         })
       }
     } else if (sec.key === 'reading') {
@@ -180,6 +353,7 @@ export function buildMockExamQuestions(
             options: adj.options,
             correctIndex: adj.correctIndex,
             explanation: item.q.explanationVi,
+            reviewed: true,
           })
           continue
         }
@@ -199,6 +373,8 @@ export function buildMockExamQuestions(
           correctIndex,
           explanation: `${w.hanzi} (${w.pinyin}): ${w.meaningVi}`,
           targetWordId: w.id,
+          coaching: buildGeneratedCoaching(w, pool),
+          reviewed: true,
         })
       }
     } else if (sec.key === 'writing') {
@@ -209,8 +385,9 @@ export function buildMockExamQuestions(
           kind: 'writing_prompt',
           partLabel: 'Viết · Tóm tắt & Nghị luận (缩写)',
           prompt: '请用400字左右阐述“长期坚持与习惯养成”对学习与工作的积极影响，注意结构清晰、用词得体。',
-          subPrompt: 'Viết bài bằng tiếng Trung vào khung bên dưới; Cô Khánh Mai sẽ xem và chấm điểm trực tiếp.',
+          subPrompt: 'Viết bài bằng tiếng Trung vào khung bên dưới; Giáo viên sẽ xem và chấm điểm trực tiếp.',
           explanation: 'Chấm theo mạch lạc ý, giữ đủ ý chính, đúng ngữ pháp và độ dài quy định.',
+          reviewed: true,
         })
       } else {
         for (let i = 0; i < itemTarget; i++) {
@@ -226,6 +403,7 @@ export function buildMockExamQuestions(
             correctAnswer: w.hanzi,
             explanation: w.exampleZh ? `Câu mẫu: ${w.exampleZh} (${w.exampleVi})` : `Cần có từ khóa ${w.hanzi}.`,
             targetWordId: w.id,
+            reviewed: true,
           })
         }
       }
@@ -244,6 +422,7 @@ export function buildMockExamQuestions(
         correctAnswer: w1?.exampleZh,
         explanation: w1?.exampleZh ? `Câu tiếng Trung gợi ý: ${w1.exampleZh}` : 'Đánh giá theo văn phong học thuật và độ liên kết câu.',
         targetWordId: w1?.id,
+        reviewed: true,
       })
     }
   }
@@ -257,8 +436,11 @@ export interface GradeResult {
   writingScore: number
   totalScore: number
   maxPossible: number
+  accuracyPct: number
+  hasOfficialPassScore: boolean
   passed: boolean
   wrongWordIds: string[]
+  wrongGrammarIds: string[]
   sectionAccuracy: Record<string, { correct: number; total: number }>
   hsk79Band?: string
 }
@@ -267,9 +449,11 @@ export function gradeExamAttempt(
   level: number,
   questions: ExamQuestion[],
   responses: Record<string, string | number>,
+  standard: HskStandard = '2.0',
 ): GradeResult {
-  const bp = getBlueprint(level)
+  const bp = getBlueprint(level, standard)
   const wrongWordIds: string[] = []
+  const wrongGrammarIds: string[] = []
   const bySec: Record<string, { correct: number; total: number }> = {
     listening: { correct: 0, total: 0 },
     reading: { correct: 0, total: 0 },
@@ -284,8 +468,10 @@ export function gradeExamAttempt(
       bySec[q.section].total += 1
       if (resp === q.correctIndex) {
         bySec[q.section].correct += 1
-      } else if (q.targetWordId) {
-        wrongWordIds.push(q.targetWordId)
+      } else {
+        if (q.targetWordId) wrongWordIds.push(q.targetWordId)
+        if (q.coaching?.relatedWordIds) wrongWordIds.push(...q.coaching.relatedWordIds)
+        if (q.coaching?.relatedGrammarId) wrongGrammarIds.push(q.coaching.relatedGrammarId)
       }
     } else {
       bySec[q.section].total += 1
@@ -308,6 +494,9 @@ export function gradeExamAttempt(
   const extraScore = level >= 7 ? scale('translation') + scale('speaking') : 0
 
   const totalScore = listeningScore + readingScore + writingScore + extraScore
+  const totalCorrect = Object.values(bySec).reduce((acc, s) => acc + s.correct, 0)
+  const totalItems = Object.values(bySec).reduce((acc, s) => acc + s.total, 0)
+  const accuracyPct = totalItems > 0 ? Math.round((totalCorrect / totalItems) * 100) : 0
   const passed = totalScore >= bp.passScore
 
   let hsk79Band: string | undefined
@@ -324,8 +513,11 @@ export function gradeExamAttempt(
     writingScore,
     totalScore,
     maxPossible: bp.totalScore,
+    accuracyPct,
+    hasOfficialPassScore: bp.hasOfficialPassScore,
     passed,
     wrongWordIds: Array.from(new Set(wrongWordIds)),
+    wrongGrammarIds: Array.from(new Set(wrongGrammarIds)),
     sectionAccuracy: bySec,
     hsk79Band,
   }

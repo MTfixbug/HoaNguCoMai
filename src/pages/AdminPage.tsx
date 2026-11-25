@@ -3,6 +3,7 @@ import {
   BookPlus,
   ClipboardCheck,
   Download,
+  ListChecks,
   LogOut,
   Settings,
   UserCheck,
@@ -12,6 +13,7 @@ import { toast } from 'sonner'
 import { Toaster } from 'sonner'
 import { AssignmentManager } from '../components/admin/AssignmentManager'
 import { CohortOverview } from '../components/admin/CohortOverview'
+import { ContentReviewPanel } from '../components/admin/ContentReviewPanel'
 import { LessonBuilder } from '../components/admin/LessonBuilder'
 import { StudentApprovalPanel } from '../components/admin/StudentApprovalPanel'
 import { StudentDrawer } from '../components/admin/StudentDrawer'
@@ -21,12 +23,14 @@ import { useLms } from '../hooks/LmsContext'
 import { useTheme, type ThemePreference } from '../hooks/ThemeContext'
 import type { UserProfile } from '../types/lms'
 
-type AdminTab = 'cohort' | 'students' | 'assignments' | 'lessons' | 'settings'
+type AdminTab = 'cohort' | 'students' | 'assignments' | 'lessons' | 'review' | 'settings'
 
 export default function AdminPage() {
   const { profile, signOut } = useAuth()
   const { preference, resolvedTheme, setTheme } = useTheme()
   const {
+    settings,
+    updateSettings,
     profiles,
     customLessons,
     sessions,
@@ -36,7 +40,6 @@ export default function AdminPage() {
     submissions,
     allStudentProgress,
     kudos,
-    studentPasswords,
     searchIndex,
     ensureSearchIndex,
     createAssignment,
@@ -89,6 +92,7 @@ export default function AdminPage() {
     { k: 'cohort', label: 'Phân tích Lớp học', icon: BarChart3 },
     { k: 'assignments', label: 'Giao bài & Điểm', icon: ClipboardCheck },
     { k: 'lessons', label: 'Kho Bài học', icon: BookPlus },
+    { k: 'review', label: 'Duyệt nội dung', icon: ListChecks },
     { k: 'settings', label: 'Cài đặt Quản trị', icon: Settings },
   ]
 
@@ -97,7 +101,7 @@ export default function AdminPage() {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `zhweb-quan-tri-${new Date().toISOString().slice(0, 10)}.json`
+    a.download = `hsk-lms-quan-tri-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
     URL.revokeObjectURL(url)
     toast.success('Đã xuất bản sao lưu dữ liệu lớp học')
@@ -114,7 +118,7 @@ export default function AdminPage() {
             </span>
             <div>
               <div className="text-sm font-bold text-ink">Hoa Ngữ Cô Mai</div>
-              <div className="text-xs text-muted">Quản trị · {profile?.full_name ?? 'Khánh Mai'}</div>
+              <div className="text-xs text-muted">Quản trị · {profile?.full_name ?? 'Giáo viên'}</div>
             </div>
           </div>
 
@@ -166,7 +170,7 @@ export default function AdminPage() {
             </span>
             <div>
               <div className="text-sm font-bold text-ink">Hoa Ngữ Cô Mai</div>
-              <div className="text-[11px] text-muted">Quản trị · {profile?.full_name ?? 'Khánh Mai'}</div>
+              <div className="text-[11px] text-muted">Quản trị · {profile?.full_name ?? 'Giáo viên'}</div>
             </div>
           </div>
           <div className="flex items-center gap-1.5">
@@ -197,7 +201,6 @@ export default function AdminPage() {
         {activeTab === 'students' && (
           <StudentApprovalPanel
             profiles={profiles}
-            studentPasswords={studentPasswords}
             onUpdateStatus={setStudentAccountStatus}
             onUpdateRoadmap={adminUpdateStudentProfile}
             onCreateStudent={adminCreateStudent}
@@ -239,6 +242,10 @@ export default function AdminPage() {
             onTogglePublished={toggleLessonPublished}
             onDeleteLesson={deleteCustomLesson}
           />
+        )}
+
+        {activeTab === 'review' && (
+          <ContentReviewPanel settings={settings} onUpdateSettings={updateSettings} />
         )}
 
         {activeTab === 'settings' && (
@@ -283,7 +290,6 @@ export default function AdminPage() {
         sessions={sessions}
         examAttempts={examAttempts}
         kudos={kudos}
-        savedPassword={selectedStudent ? studentPasswords[selectedStudent.id] : undefined}
         searchIndex={searchIndex}
         onEnsureSearchIndex={ensureSearchIndex}
         onReviewExamAttempt={reviewExamAttempt}
