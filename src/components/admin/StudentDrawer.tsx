@@ -1,4 +1,4 @@
-import { Gift, Send } from 'lucide-react'
+import { Copy, Eye, EyeOff, Gift, KeyRound, Send } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import {
   Bar,
@@ -29,10 +29,12 @@ interface StudentDrawerProps {
   sessions: StudySession[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
+  savedPassword?: string
   searchIndex: DictEntry[]
   onEnsureSearchIndex: () => Promise<DictEntry[]>
   onReviewExamAttempt: (attemptId: string, writingScore: number, feedback: string) => Promise<void>
   onSendKudos: (studentId: string, xpBonus: number, sticker: KudosSticker, message: string) => Promise<void>
+  onResetPassword: (studentId: string, newPassword: string) => Promise<void>
 }
 
 export function StudentDrawer({
@@ -42,10 +44,12 @@ export function StudentDrawer({
   sessions,
   examAttempts,
   kudos,
+  savedPassword,
   searchIndex,
   onEnsureSearchIndex,
   onReviewExamAttempt,
   onSendKudos,
+  onResetPassword,
 }: StudentDrawerProps) {
   const [selectedAttemptId, setSelectedAttemptId] = useState<string>('')
   const [writingScore, setWritingScore] = useState<string>('78')
@@ -56,6 +60,10 @@ export function StudentDrawer({
   const [kudosXp, setKudosXp] = useState<number>(25)
   const [kudosMsg, setKudosMsg] = useState<string>('')
   const [sendingKudos, setSendingKudos] = useState(false)
+
+  const [showDrawerPw, setShowDrawerPw] = useState(false)
+  const [newDrawerPw, setNewDrawerPw] = useState('')
+  const [savingPw, setSavingPw] = useState(false)
 
   useEffect(() => {
     if (student && searchIndex.length === 0) {
@@ -180,6 +188,26 @@ export function StudentDrawer({
     }
   }
 
+  const handleDrawerResetPw = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!student) return
+    if (newDrawerPw.length < 6) {
+      toast.error('Mật khẩu mới cần tối thiểu 6 ký tự.')
+      return
+    }
+    setSavingPw(true)
+    try {
+      await onResetPassword(student.id, newDrawerPw)
+      setNewDrawerPw('')
+      setShowDrawerPw(true)
+      toast.success(`Đã đổi mật khẩu mới cho ${student.full_name}`)
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : 'Không đổi được mật khẩu.')
+    } finally {
+      setSavingPw(false)
+    }
+  }
+
   return (
     <GlassDialog
       open={Boolean(student)}
@@ -194,6 +222,56 @@ export function StudentDrawer({
     >
       {student && (
         <div className="space-y-6">
+          {/* Thông tin đăng nhập & Đổi mật khẩu nhanh */}
+          <form onSubmit={handleDrawerResetPw} className="glass-subtle rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3">
+            <div className="space-y-1 text-xs">
+              <div className="font-bold text-ink flex items-center gap-1.5">
+                <KeyRound size={15} className="text-jade" /> Tài khoản &amp; Mật khẩu học viên
+              </div>
+              <div className="flex flex-wrap items-center gap-2 text-muted">
+                <span>Email: <strong className="text-ink">{student.email}</strong></span>
+                <span>•</span>
+                <span>Mật khẩu:</span>
+                {savedPassword ? (
+                  <span className="inline-flex items-center gap-1 rounded-lg border border-line bg-glass px-2 py-0.5 font-mono font-semibold text-ink">
+                    {showDrawerPw ? savedPassword : '••••••••'}
+                    <button
+                      type="button"
+                      onClick={() => setShowDrawerPw((v) => !v)}
+                      className="text-muted hover:text-jade cursor-pointer"
+                    >
+                      {showDrawerPw ? <EyeOff size={12} /> : <Eye size={12} />}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        void navigator.clipboard?.writeText(`${student.email} / ${savedPassword}`)
+                        toast.success('Đã sao chép tài khoản & mật khẩu')
+                      }}
+                      className="text-muted hover:text-jade cursor-pointer"
+                    >
+                      <Copy size={12} />
+                    </button>
+                  </span>
+                ) : (
+                  <span>Chưa lưu</span>
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <input
+                type="text"
+                value={newDrawerPw}
+                onChange={(e) => setNewDrawerPw(e.target.value)}
+                placeholder="Nhập mật khẩu mới..."
+                className="rounded-xl border border-line bg-glass px-3 py-1.5 text-xs font-mono text-ink outline-none focus:border-jade"
+              />
+              <button type="submit" disabled={savingPw || !newDrawerPw.trim()} className="glass-pill-btn glass-primary-btn !min-h-8 !px-3 text-xs">
+                {savingPw ? 'Đang lưu...' : 'Đổi MK'}
+              </button>
+            </div>
+          </form>
           {/* Tóm tắt Gamification + Thú cưng + Radar 5 kỹ năng cá nhân */}
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             <div className="glass-subtle rounded-2xl p-4 flex items-center gap-3">

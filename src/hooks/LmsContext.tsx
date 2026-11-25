@@ -42,11 +42,21 @@ interface LmsContextValue {
   submissions: AssignmentSubmission[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
+  studentPasswords: Record<string, string>
   recentIds: string[]
   awardXpAndStreak: (xpDelta: number) => void
   updatePetPreferences: (petType: PetType, petEnabled: boolean) => Promise<void>
   sendTeacherKudos: (studentId: string, xpBonus: number, sticker: KudosSticker, message: string) => Promise<void>
   markKudosSeen: (kudosId: string) => Promise<void>
+  adminCreateStudent: (input: {
+    fullName: string
+    email: string
+    password: string
+    currentHskLevel: number
+    targetHskLevel: number
+    dailyGoalMinutes: number
+  }) => Promise<{ profile: UserProfile; password: string }>
+  adminResetStudentPassword: (studentId: string, newPassword: string) => Promise<void>
   rateWord: (wordId: string, hskLevel: number, rating: Rating) => void
   toggleHardWord: (wordId: string, hskLevel: number, value?: boolean) => void
   recordQuizOutcome: (wordId: string, hskLevel: number, correct: boolean) => void
@@ -132,6 +142,7 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         submissions: remote.submissions,
         examAttempts: remote.examAttempts,
         kudos: remote.kudos,
+        studentPasswords: remote.studentPasswords,
       }))
     })
     return () => {
@@ -620,17 +631,117 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     [configured],
   )
 
+  const adminCreateStudent = useCallback(
+    async (input: {
+      fullName: string
+      email: string
+      password: string
+      currentHskLevel: number
+      targetHskLevel: number
+      dailyGoalMinutes: number
+    }) => {
+      const sb = getSupabase()
+      if (configured && sb) {
+        const { data, error } = await sb.functions.invoke<{
+          ok?: boolean
+          error?: string
+          profile?: UserProfile
+          login_password?: string
+        }>('auth-manager', {
+          body: {
+            action: 'admin_create_student',
+            ...input,
+          },
+        })
+        if (error) throw new Error(error.message)
+        if (!data?.ok || !data.profile) throw new Error(data?.error ?? 'Không tạo được tài khoản học viên.')
+
+        const createdProf = data.profile
+        const savedPw = data.login_password ?? input.password
+        setStore((s) => ({
+          ...s,
+          profiles: [createdProf, ...s.profiles.filter((x) => x.id !== createdProf.id)],
+          studentPasswords: { ...s.studentPasswords, [createdProf.id]: savedPw },
+        }))
+        return { profile: createdProf, password: savedPw }
+      }
+
+      const now = new Date().toISOString()
+      const localProf: UserProfile = {
+        id: `student-${Date.now()}`,
+        email: input.email.trim().toLowerCase(),
+        full_name: input.fullName.trim(),
+        avatar_url: '',
+        role: 'student',
+        account_status: 'approved',
+        current_hsk_level: input.currentHskLevel,
+        target_hsk_level: Math.max(1, Math.max(input.currentHskLevel, input.targetHskLevel)),
+        onboarding_completed: true,
+        daily_goal_minutes: input.dailyGoalMinutes,
+        preferred_voice: '',
+        xp_points: 0,
+        streak_days: 0,
+        longest_streak: 0,
+        last_study_date: null,
+        pet_type: 'cat',
+        pet_enabled: true,
+        created_at: now,
+        last_seen_at: now,
+      }
+      setStore((s) => ({
+        ...s,
+        profiles: [localProf, ...s.profiles],
+        studentPasswords: { ...s.studentPasswords, [localProf.id]: input.password },
+      }))
+      return { profile: localProf, password: input.password }
+    },
+    [configured],
+  )
+
+  const adminResetStudentPassword = useCallback(
+    async (studentId: string, newPassword: string) => {
+      const sb = getSupabase()
+      if (configured && sb) {
+        const { data, error } = await sb.functions.invoke<{ ok?: boolean; error?: string; login_password?: string }>(
+          'auth-manager',
+          {
+            body: {
+              action: 'admin_reset_password',
+              studentId,
+              newPassword,
+            },
+          },
+        )
+        if (error) throw new Error(error.message)
+        if (!data?.ok) throw new Error(data?.error ?? 'Không thể đổi mật khẩu học viên.')
+      }
+      setStore((s) => ({
+        ...s,
+        studentPasswords: { ...s.studentPasswords, [studentId]: newPassword },
+      }))
+    },
+    [configured],
+  )
+
   const deleteStudentProfile = useCallback(
     async (userId: string) => {
       const sb = getSupabase()
       if (configured && sb) {
-        const { error } = await sb.from('profiles').delete().eq('id', userId)
+        const { data, error } = await sb.functions.invoke<{ ok?: boolean; error?: string }>('auth-manager', {
+          body: { action: 'admin_delete_student', studentId: userId },
+        })
         if (error) throw new Error(error.message)
+        if (!data?.ok) throw new Error(data?.error ?? 'Không thể xóa học viên.')
       }
-      setStore((s) => ({
-        ...s,
-        profiles: s.profiles.filter((p) => p.id !== userId),
-      }))
+      setStore((s) => {
+        const nextPasswords = { ...s.studentPasswords }
+        delete nextPasswords[userId]
+        return {
+          ...s,
+          profiles: s.profiles.filter((p) => p.id !== userId),
+          studentPasswords: nextPasswords,
+        }
+      })
     },
     [configured],
   )
@@ -792,11 +903,14 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         submissions: store.submissions,
         examAttempts: store.examAttempts,
         kudos: store.kudos,
+        studentPasswords: store.studentPasswords,
         recentIds: store.recentIds,
         awardXpAndStreak,
         updatePetPreferences,
         sendTeacherKudos,
         markKudosSeen,
+        adminCreateStudent,
+        adminResetStudentPassword,
         rateWord,
         toggleHardWord,
         recordQuizOutcome,

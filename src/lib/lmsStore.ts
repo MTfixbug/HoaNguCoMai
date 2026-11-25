@@ -42,6 +42,7 @@ export interface LmsStoreSnapshot {
   submissions: AssignmentSubmission[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
+  studentPasswords: Record<string, string>
   recentIds: string[]
   pendingSyncEvents: UserActivityEvent[]
 }
@@ -231,6 +232,7 @@ function createSeedStore(): LmsStoreSnapshot {
     submissions: [],
     examAttempts: [],
     kudos: [],
+    studentPasswords: {},
     recentIds: [],
     pendingSyncEvents: [],
   }
@@ -256,6 +258,7 @@ export function loadLocalStore(): LmsStoreSnapshot {
       submissions: Array.isArray(parsed.submissions) ? parsed.submissions : seed.submissions,
       examAttempts: Array.isArray(parsed.examAttempts) ? parsed.examAttempts : seed.examAttempts,
       kudos: Array.isArray(parsed.kudos) ? parsed.kudos : seed.kudos,
+      studentPasswords: parsed.studentPasswords ?? {},
       recentIds: Array.isArray(parsed.recentIds) ? parsed.recentIds.slice(0, 60) : [],
       pendingSyncEvents: Array.isArray(parsed.pendingSyncEvents) ? parsed.pendingSyncEvents : [],
     }
@@ -289,7 +292,7 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
   const sb = getSupabase()
   if (!sb || !isSupabaseConfigured()) return null
 
-  const [profRes, lessonRes, vocabRes, sessRes, evtRes, assignRes, subRes, examRes, kudosRes] = await Promise.all([
+  const [profRes, lessonRes, vocabRes, sessRes, evtRes, assignRes, subRes, examRes, kudosRes, credRes] = await Promise.all([
     isAdmin
       ? sb.from('profiles').select('*').order('created_at', { ascending: false })
       : sb.from('profiles').select('*').eq('id', userId),
@@ -313,6 +316,9 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
     isAdmin
       ? sb.from('teacher_kudos').select('*').order('created_at', { ascending: false }).limit(100)
       : sb.from('teacher_kudos').select('*').eq('student_id', userId).order('created_at', { ascending: false }).limit(30),
+    isAdmin
+      ? sb.from('student_credentials').select('student_id, login_password')
+      : Promise.resolve({ data: [] as Array<{ student_id: string; login_password: string }> }),
   ])
 
   const progressMap: Record<string, VocabProgressRecord> = {}
@@ -321,6 +327,11 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
     if (r.user_id === userId) progressMap[r.word_id] = r
     allStudentProgress[r.user_id] ??= {}
     allStudentProgress[r.user_id][r.word_id] = r
+  }
+
+  const studentPasswords: Record<string, string> = {}
+  for (const c of (credRes.data ?? []) as Array<{ student_id: string; login_password: string }>) {
+    if (c.student_id && c.login_password) studentPasswords[c.student_id] = c.login_password
   }
 
   const hydratedSessions = ((sessRes.data ?? []) as StudySession[]).map((row) => ({
@@ -339,6 +350,7 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
     submissions: (subRes.data ?? []) as AssignmentSubmission[],
     examAttempts: (examRes.data ?? []) as ExamAttemptRecord[],
     kudos: (kudosRes.data ?? []) as TeacherKudos[],
+    studentPasswords,
   }
 }
 

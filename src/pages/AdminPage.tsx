@@ -36,12 +36,15 @@ export default function AdminPage() {
     submissions,
     allStudentProgress,
     kudos,
+    studentPasswords,
     searchIndex,
     ensureSearchIndex,
     createAssignment,
     gradeSubmission,
     reviewExamAttempt,
     sendTeacherKudos,
+    adminCreateStudent,
+    adminResetStudentPassword,
     setStudentAccountStatus,
     adminUpdateStudentProfile,
     deleteStudentProfile,
@@ -194,8 +197,11 @@ export default function AdminPage() {
         {activeTab === 'students' && (
           <StudentApprovalPanel
             profiles={profiles}
+            studentPasswords={studentPasswords}
             onUpdateStatus={setStudentAccountStatus}
             onUpdateRoadmap={adminUpdateStudentProfile}
+            onCreateStudent={adminCreateStudent}
+            onResetPassword={adminResetStudentPassword}
             onDeleteStudent={deleteStudentProfile}
             onInspectStudent={setSelectedStudent}
           />
@@ -277,10 +283,12 @@ export default function AdminPage() {
         sessions={sessions}
         examAttempts={examAttempts}
         kudos={kudos}
+        savedPassword={selectedStudent ? studentPasswords[selectedStudent.id] : undefined}
         searchIndex={searchIndex}
         onEnsureSearchIndex={ensureSearchIndex}
         onReviewExamAttempt={reviewExamAttempt}
         onSendKudos={sendTeacherKudos}
+        onResetPassword={adminResetStudentPassword}
       />
       <Toaster position="top-center" richColors />
     </div>

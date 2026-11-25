@@ -1,37 +1,96 @@
-import { CheckCircle2, Clock, Compass, Eye, Lock, Search, Trash2, Unlock, UserCheck } from 'lucide-react'
+import {
+  Check,
+  CheckCircle2,
+  Clock,
+  Compass,
+  Copy,
+  Eye,
+  EyeOff,
+  KeyRound,
+  Lock,
+  Search,
+  Sparkles,
+  Trash2,
+  Unlock,
+  UserCheck,
+  UserPlus,
+} from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { toast } from 'sonner'
 import type { AccountStatus, UserProfile } from '../../types/lms'
 import GlassDialog from '../common/GlassDialog'
 
+export interface CreateStudentPayload {
+  fullName: string
+  email: string
+  password: string
+  currentHskLevel: number
+  targetHskLevel: number
+  dailyGoalMinutes: number
+}
+
 interface StudentApprovalPanelProps {
   profiles: UserProfile[]
+  studentPasswords: Record<string, string>
   onUpdateStatus: (userId: string, status: AccountStatus) => Promise<void>
   onUpdateRoadmap: (
     userId: string,
     patch: { current_hsk_level: number; target_hsk_level: number; daily_goal_minutes: number },
   ) => Promise<void>
+  onCreateStudent: (input: CreateStudentPayload) => Promise<{ profile: UserProfile; password: string }>
+  onResetPassword: (studentId: string, newPassword: string) => Promise<void>
   onDeleteStudent: (userId: string) => Promise<void>
   onInspectStudent: (student: UserProfile) => void
 }
 
+function generateRandomPassword(): string {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789'
+  let out = 'Mai@'
+  for (let i = 0; i < 6; i += 1) {
+    out += chars[Math.floor(Math.random() * chars.length)]
+  }
+  return out
+}
+
 export function StudentApprovalPanel({
   profiles,
+  studentPasswords,
   onUpdateStatus,
   onUpdateRoadmap,
+  onCreateStudent,
+  onResetPassword,
   onDeleteStudent,
   onInspectStudent,
 }: StudentApprovalPanelProps) {
   const [filter, setFilter] = useState<'all' | AccountStatus>('all')
   const [query, setQuery] = useState('')
   const [busyId, setBusyId] = useState<string | null>(null)
+  const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({})
 
   const [editingStudent, setEditingStudent] = useState<UserProfile | null>(null)
   const [editCurrent, setEditCurrent] = useState(1)
   const [editTarget, setEditTarget] = useState(4)
   const [editGoal, setEditGoal] = useState(20)
 
+  const [createOpen, setCreateOpen] = useState(false)
+  const [newFullName, setNewFullName] = useState('')
+  const [newEmail, setNewEmail] = useState('')
+  const [newPassword, setNewPassword] = useState(() => generateRandomPassword())
+  const [showNewPw, setShowNewPw] = useState(true)
+  const [newCurrentLevel, setNewCurrentLevel] = useState(1)
+  const [newTargetLevel, setNewTargetLevel] = useState(4)
+  const [newDailyGoal, setNewDailyGoal] = useState(20)
+  const [creating, setCreating] = useState(false)
+  const [createdSummary, setCreatedSummary] = useState<{ fullName: string; email: string; password: string } | null>(null)
+
+  const [resetTarget, setResetTarget] = useState<UserProfile | null>(null)
+  const [resetPw, setResetPw] = useState('')
+  const [resetConfirmPw, setResetConfirmPw] = useState('')
+  const [showResetPw, setShowResetPw] = useState(true)
+  const [resetting, setResetting] = useState(false)
+
   const [confirmDeleteStudent, setConfirmDeleteStudent] = useState<UserProfile | null>(null)
+  const [copiedId, setCopiedId] = useState<string | null>(null)
 
   const students = useMemo(() => profiles.filter((p) => p.role === 'student'), [profiles])
 
@@ -53,6 +112,17 @@ export function StudentApprovalPanel({
       return s.full_name.toLowerCase().includes(q) || s.email.toLowerCase().includes(q)
     })
   }, [students, filter, query])
+
+  const handleCopyText = async (idKey: string, text: string, label: string) => {
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopiedId(idKey)
+      toast.success(`Đã sao chép ${label}`)
+      window.setTimeout(() => setCopiedId((cur) => (cur === idKey ? null : cur)), 1500)
+    } catch {
+      toast.info(text)
+    }
+  }
 
   const handleStatusChange = async (st: UserProfile, next: AccountStatus, label: string) => {
     setBusyId(st.id)
@@ -92,6 +162,86 @@ export function StudentApprovalPanel({
     }
   }
 
+  const openCreateModal = () => {
+    setCreatedSummary(null)
+    setNewFullName('')
+    setNewEmail('')
+    setNewPassword(generateRandomPassword())
+    setNewCurrentLevel(1)
+    setNewTargetLevel(4)
+    setNewDailyGoal(20)
+    setCreateOpen(true)
+  }
+
+  const handleCreateStudent = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (newFullName.trim().length < 2) {
+      toast.error('Vui lòng nhập họ tên học viên.')
+      return
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/i.test(newEmail.trim())) {
+      toast.error('Vui lòng nhập địa chỉ Email hợp lệ.')
+      return
+    }
+    if (newPassword.length < 6) {
+      toast.error('Mật khẩu cần tối thiểu 6 ký tự.')
+      return
+    }
+    setCreating(true)
+    try {
+      const res = await onCreateStudent({
+        fullName: newFullName.trim(),
+        email: newEmail.trim().toLowerCase(),
+        password: newPassword,
+        currentHskLevel: newCurrentLevel,
+        targetHskLevel: Math.max(1, Math.max(newCurrentLevel, newTargetLevel)),
+        dailyGoalMinutes: newDailyGoal,
+      })
+      setCreatedSummary({
+        fullName: res.profile.full_name,
+        email: res.profile.email,
+        password: res.password,
+      })
+      toast.success(`Đã cấp tài khoản thẳng cho ${res.profile.full_name}`)
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : 'Không thể tạo tài khoản mới.')
+    } finally {
+      setCreating(false)
+    }
+  }
+
+  const openResetModal = (st: UserProfile) => {
+    const gen = generateRandomPassword()
+    setResetTarget(st)
+    setResetPw(gen)
+    setResetConfirmPw(gen)
+    setShowResetPw(true)
+  }
+
+  const handleResetPassword = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!resetTarget) return
+    if (resetPw.length < 6) {
+      toast.error('Mật khẩu mới cần tối thiểu 6 ký tự.')
+      return
+    }
+    if (resetPw !== resetConfirmPw) {
+      toast.error('Mật khẩu xác nhận không khớp.')
+      return
+    }
+    setResetting(true)
+    try {
+      await onResetPassword(resetTarget.id, resetPw)
+      setRevealedIds((r) => ({ ...r, [resetTarget.id]: true }))
+      toast.success(`Đã đổi mật khẩu mới cho ${resetTarget.full_name}`)
+      setResetTarget(null)
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : 'Không đổi được mật khẩu.')
+    } finally {
+      setResetting(false)
+    }
+  }
+
   const handleDelete = async () => {
     if (!confirmDeleteStudent) return
     setBusyId(confirmDeleteStudent.id)
@@ -113,10 +263,18 @@ export function StudentApprovalPanel({
           <div>
             <h2 className="text-base font-semibold text-ink">Quản lý Học viên &amp; Lộ trình</h2>
             <p className="text-xs text-muted">
-              Duyệt vào lớp, khóa/mở khóa, chỉ định chặng HSK và kiểm tra tiến độ từng học viên.
+              Cấp thẳng tài khoản không cần xác thực mail, xem/đổi mật khẩu, duyệt lớp và chỉnh lộ trình HSK.
             </p>
           </div>
-          <div className="flex flex-wrap gap-1.5 text-xs">
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <button
+              type="button"
+              onClick={openCreateModal}
+              data-testid="admin-create-student-btn"
+              className="glass-pill-btn glass-primary-btn !min-h-8 !px-3.5 text-xs"
+            >
+              <UserPlus size={14} /> Cấp tài khoản học viên
+            </button>
             {(
               [
                 ['all', `Tất cả (${counts.all})`],
@@ -148,14 +306,14 @@ export function StudentApprovalPanel({
         </div>
 
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[760px] text-left text-xs sm:text-sm">
+          <table className="w-full min-w-[900px] text-left text-xs sm:text-sm">
             <thead>
               <tr className="border-b border-line text-xs uppercase tracking-wider text-muted">
-                <th className="pb-3 font-medium">Học viên &amp; Gmail</th>
+                <th className="pb-3 font-medium">Học viên &amp; Email</th>
+                <th className="pb-3 font-medium">Mật khẩu</th>
                 <th className="pb-3 font-medium">Lộ trình HSK</th>
                 <th className="pb-3 font-medium">Chuỗi &amp; XP</th>
                 <th className="pb-3 font-medium">Trạng thái</th>
-                <th className="pb-3 font-medium">Ngày tham gia</th>
                 <th className="pb-3 text-right font-medium">Thao tác</th>
               </tr>
             </thead>
@@ -164,11 +322,40 @@ export function StudentApprovalPanel({
                 const isPending = st.account_status === 'pending'
                 const isLocked = st.account_status === 'locked'
                 const curLabel = st.current_hsk_level === 0 ? 'Mới bắt đầu' : `HSK ${st.current_hsk_level}`
+                const savedPw = studentPasswords[st.id]
+                const isShown = Boolean(revealedIds[st.id])
                 return (
                   <tr key={st.id} className="hover:bg-jade-soft/50 transition">
                     <td className="py-3.5 pr-3">
                       <div className="font-semibold text-ink">{st.full_name}</div>
                       <div className="text-xs text-muted">{st.email}</div>
+                    </td>
+                    <td className="py-3.5 pr-3">
+                      {savedPw ? (
+                        <div className="inline-flex items-center gap-1 rounded-xl border border-line bg-glass-subtle px-2 py-1 text-xs">
+                          <span className="font-mono font-semibold text-ink" data-testid={`pw-text-${st.id}`}>
+                            {isShown ? savedPw : '••••••••'}
+                          </span>
+                          <button
+                            type="button"
+                            onClick={() => setRevealedIds((r) => ({ ...r, [st.id]: !r[st.id] }))}
+                            aria-label={`Xem mật khẩu ${st.full_name}`}
+                            className="p-0.5 text-muted hover:text-jade cursor-pointer"
+                          >
+                            {isShown ? <EyeOff size={13} /> : <Eye size={13} />}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => void handleCopyText(st.id, `${st.email} / ${savedPw}`, 'Email & Mật khẩu')}
+                            aria-label={`Sao chép mật khẩu ${st.full_name}`}
+                            className="p-0.5 text-muted hover:text-jade cursor-pointer"
+                          >
+                            {copiedId === st.id ? <Check size={13} className="text-moss" /> : <Copy size={13} />}
+                          </button>
+                        </div>
+                      ) : (
+                        <span className="text-xs text-muted">Chưa lưu</span>
+                      )}
                     </td>
                     <td className="py-3.5 pr-3">
                       <span className="soft-chip">
@@ -193,7 +380,6 @@ export function StudentApprovalPanel({
                         {isPending ? 'Chờ duyệt' : isLocked ? 'Đã khóa' : 'Đang học'}
                       </span>
                     </td>
-                    <td className="py-3.5 pr-3 text-xs tabular-nums text-muted">{st.created_at.slice(0, 10)}</td>
                     <td className="py-3.5 text-right">
                       <div className="inline-flex flex-wrap items-center justify-end gap-1.5">
                         {(isPending || isLocked) && (
@@ -217,6 +403,14 @@ export function StudentApprovalPanel({
                             <Lock size={13} /> Khóa
                           </button>
                         )}
+                        <button
+                          type="button"
+                          onClick={() => openResetModal(st)}
+                          aria-label={`Đổi mật khẩu ${st.full_name}`}
+                          className="glass-pill-btn !min-h-8 !px-3 text-xs"
+                        >
+                          <KeyRound size={13} /> {savedPw ? 'Đổi MK' : 'Cấp MK'}
+                        </button>
                         <button
                           type="button"
                           onClick={() => openRoadmapModal(st)}
@@ -255,6 +449,229 @@ export function StudentApprovalPanel({
           </table>
         </div>
       </div>
+
+      {/* Hộp thoại Cấp thẳng tài khoản mới không cần xác thực mail */}
+      <GlassDialog
+        open={createOpen}
+        onClose={() => setCreateOpen(false)}
+        title="Cấp tài khoản học viên mới"
+        subtitle="Kích hoạt vào học ngay — không cần học viên xác nhận email"
+        maxWidthClass="max-w-lg"
+      >
+        {createdSummary ? (
+          <div className="space-y-4">
+            <div className="rounded-2xl border border-moss/35 bg-moss-soft p-4 space-y-2 text-xs sm:text-sm">
+              <div className="font-bold text-moss flex items-center gap-1.5">
+                <CheckCircle2 size={16} /> Đã tạo và kích hoạt tài khoản thành công!
+              </div>
+              <div className="space-y-1 text-ink">
+                <div>Học viên: <strong>{createdSummary.fullName}</strong></div>
+                <div>Email đăng nhập: <strong className="font-mono">{createdSummary.email}</strong></div>
+                <div>Mật khẩu: <strong className="font-mono text-jade">{createdSummary.password}</strong></div>
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-end gap-2">
+              <button
+                type="button"
+                onClick={() =>
+                  void handleCopyText(
+                    'created',
+                    `Tài khoản Hoa Ngữ Cô Mai:\nEmail: ${createdSummary.email}\nMật khẩu: ${createdSummary.password}`,
+                    'thông tin đăng nhập',
+                  )
+                }
+                className="glass-pill-btn glass-primary-btn text-xs"
+              >
+                <Copy size={14} /> Sao chép để gửi học viên
+              </button>
+              <button type="button" onClick={openCreateModal} className="glass-pill-btn text-xs">
+                Tạo thêm học viên khác
+              </button>
+              <button type="button" onClick={() => setCreateOpen(false)} className="glass-pill-btn text-xs">
+                Đóng
+              </button>
+            </div>
+          </div>
+        ) : (
+          <form onSubmit={handleCreateStudent} className="space-y-3.5">
+            <label className="block text-xs font-semibold text-muted">
+              Họ và tên học viên
+              <input
+                type="text"
+                required
+                value={newFullName}
+                onChange={(e) => setNewFullName(e.target.value)}
+                placeholder="Ví dụ: Nguyễn Minh Anh"
+                className="mt-1 w-full rounded-xl border border-line bg-glass-subtle px-3 py-2 text-sm text-ink outline-none focus:border-jade"
+              />
+            </label>
+
+            <label className="block text-xs font-semibold text-muted">
+              Email / Gmail đăng nhập
+              <input
+                type="email"
+                required
+                value={newEmail}
+                onChange={(e) => setNewEmail(e.target.value)}
+                placeholder="tenhocvien@gmail.com"
+                className="mt-1 w-full rounded-xl border border-line bg-glass-subtle px-3 py-2 text-sm text-ink outline-none focus:border-jade"
+              />
+            </label>
+
+            <div className="space-y-1">
+              <div className="flex items-center justify-between text-xs font-semibold text-muted">
+                <span>Mật khẩu cấp cho học viên</span>
+                <button
+                  type="button"
+                  onClick={() => setNewPassword(generateRandomPassword())}
+                  className="inline-flex items-center gap-1 text-jade hover:underline cursor-pointer"
+                >
+                  <Sparkles size={12} /> Tạo nhanh
+                </button>
+              </div>
+              <div className="relative">
+                <input
+                  type={showNewPw ? 'text' : 'password'}
+                  required
+                  value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
+                  className="w-full rounded-xl border border-line bg-glass-subtle pl-3 pr-9 py-2 text-sm font-mono text-ink outline-none focus:border-jade"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowNewPw((v) => !v)}
+                  className="absolute inset-y-0 right-2.5 flex items-center text-muted hover:text-ink cursor-pointer"
+                >
+                  {showNewPw ? <EyeOff size={15} /> : <Eye size={15} />}
+                </button>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-3 gap-2">
+              <label className="text-xs font-semibold text-muted">
+                Hiện tại
+                <select
+                  value={newCurrentLevel}
+                  onChange={(e) => {
+                    const v = Number(e.target.value)
+                    setNewCurrentLevel(v)
+                    if (newTargetLevel < Math.max(1, v)) setNewTargetLevel(Math.max(1, v))
+                  }}
+                  className="mt-1 w-full rounded-xl border border-line bg-glass-subtle px-2.5 py-2 text-xs text-ink outline-none"
+                >
+                  <option value={0}>Mới (HSK 1)</option>
+                  {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((lvl) => (
+                    <option key={lvl} value={lvl}>HSK {lvl}</option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="text-xs font-semibold text-muted">
+                Mục tiêu
+                <select
+                  value={newTargetLevel}
+                  onChange={(e) => setNewTargetLevel(Number(e.target.value))}
+                  className="mt-1 w-full rounded-xl border border-line bg-glass-subtle px-2.5 py-2 text-xs text-ink outline-none"
+                >
+                  {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((lvl) => (
+                    <option key={lvl} value={lvl} disabled={lvl < Math.max(1, newCurrentLevel)}>
+                      HSK {lvl}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="text-xs font-semibold text-muted">
+                Mỗi ngày
+                <select
+                  value={newDailyGoal}
+                  onChange={(e) => setNewDailyGoal(Number(e.target.value))}
+                  className="mt-1 w-full rounded-xl border border-line bg-glass-subtle px-2.5 py-2 text-xs text-ink outline-none"
+                >
+                  {[10, 15, 20, 30, 45, 60].map((m) => (
+                    <option key={m} value={m}>{m} phút</option>
+                  ))}
+                </select>
+              </label>
+            </div>
+
+            <div className="flex justify-end gap-2 pt-2">
+              <button type="button" onClick={() => setCreateOpen(false)} className="glass-pill-btn text-xs">
+                Hủy
+              </button>
+              <button type="submit" disabled={creating} className="glass-pill-btn glass-primary-btn text-xs">
+                <UserPlus size={14} /> {creating ? 'Đang tạo...' : 'Tạo & Kích hoạt ngay'}
+              </button>
+            </div>
+          </form>
+        )}
+      </GlassDialog>
+
+      {/* Hộp thoại Đổi / Cấp lại mật khẩu học viên */}
+      <GlassDialog
+        open={Boolean(resetTarget)}
+        onClose={() => setResetTarget(null)}
+        title={resetTarget ? `Đổi mật khẩu · ${resetTarget.full_name}` : 'Đổi mật khẩu'}
+        subtitle={resetTarget ? `${resetTarget.email} · Học viên dùng mật khẩu mới này để đăng nhập ngay` : undefined}
+        maxWidthClass="max-w-md"
+      >
+        {resetTarget && (
+          <form onSubmit={handleResetPassword} className="space-y-3.5">
+            <div className="space-y-1">
+              <div className="flex items-center justify-between text-xs font-semibold text-muted">
+                <span>Mật khẩu mới</span>
+                <button
+                  type="button"
+                  onClick={() => {
+                    const g = generateRandomPassword()
+                    setResetPw(g)
+                    setResetConfirmPw(g)
+                  }}
+                  className="inline-flex items-center gap-1 text-jade hover:underline cursor-pointer"
+                >
+                  <Sparkles size={12} /> Tạo ngẫu nhiên
+                </button>
+              </div>
+              <div className="relative">
+                <input
+                  type={showResetPw ? 'text' : 'password'}
+                  required
+                  value={resetPw}
+                  onChange={(e) => setResetPw(e.target.value)}
+                  className="w-full rounded-xl border border-line bg-glass-subtle pl-3 pr-9 py-2 text-sm font-mono text-ink outline-none focus:border-jade"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowResetPw((v) => !v)}
+                  className="absolute inset-y-0 right-2.5 flex items-center text-muted hover:text-ink cursor-pointer"
+                >
+                  {showResetPw ? <EyeOff size={15} /> : <Eye size={15} />}
+                </button>
+              </div>
+            </div>
+
+            <label className="block text-xs font-semibold text-muted">
+              Xác nhận mật khẩu mới
+              <input
+                type={showResetPw ? 'text' : 'password'}
+                required
+                value={resetConfirmPw}
+                onChange={(e) => setResetConfirmPw(e.target.value)}
+                className="mt-1 w-full rounded-xl border border-line bg-glass-subtle px-3 py-2 text-sm font-mono text-ink outline-none focus:border-jade"
+              />
+            </label>
+
+            <div className="flex justify-end gap-2 pt-2">
+              <button type="button" onClick={() => setResetTarget(null)} className="glass-pill-btn text-xs">
+                Hủy
+              </button>
+              <button type="submit" disabled={resetting} className="glass-pill-btn glass-primary-btn text-xs">
+                <KeyRound size={14} /> {resetting ? 'Đang lưu...' : 'Lưu mật khẩu mới'}
+              </button>
+            </div>
+          </form>
+        )}
+      </GlassDialog>
 
       {/* Hộp thoại Đổi lộ trình học viên */}
       <GlassDialog

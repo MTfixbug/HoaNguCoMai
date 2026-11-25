@@ -22,8 +22,9 @@ function mapAuthErrorVi(message?: string): string {
   if (!message) return 'Thao tác không thành công. Vui lòng thử lại.'
   const m = message.toLowerCase()
   if (m.includes('invalid login credentials')) return 'Sai tên đăng nhập hoặc mật khẩu.'
-  if (m.includes('email not confirmed')) return 'Gmail của bạn chưa được xác nhận. Vui lòng mở hộp thư Gmail để nhấn link xác thực trước.'
-  if (m.includes('user already registered')) return 'Gmail này đã được đăng ký trước đó. Hãy chuyển sang tab Đăng nhập.'
+  if (m.includes('email not confirmed')) return 'Tài khoản chưa được kích hoạt. Vui lòng báo Cô Mai kiểm tra hoặc cấp lại mật khẩu.'
+  if (m.includes('rate limit') || m.includes('too many requests')) return 'Hệ thống đang bận trong giây lát. Vui lòng thử lại sau 1 phút.'
+  if (m.includes('user already registered')) return 'Email này đã được đăng ký trước đó. Hãy chuyển sang tab Đăng nhập.'
   if (m.includes('password should be at least')) return 'Mật khẩu cần tối thiểu 6 ký tự.'
   if (m.includes('unable to validate email')) return 'Địa chỉ email không hợp lệ.'
   return message
@@ -96,10 +97,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const nameClean = fullName.trim()
       const emailClean = rawEmail.trim().toLowerCase()
       if (nameClean.length < 2) {
-        return { error: 'Học viên bắt buộc nhập đầy đủ họ và tên.', needsEmailConfirm: false }
+        return { error: 'Vui lòng nhập đầy đủ họ và tên.', needsEmailConfirm: false }
       }
-      if (!/^[a-z0-9._%+-]+@gmail\.com$/i.test(emailClean)) {
-        return { error: 'Học viên bắt buộc đăng ký bằng địa chỉ Gmail (@gmail.com).', needsEmailConfirm: false }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/i.test(emailClean)) {
+        return { error: 'Vui lòng nhập địa chỉ Email / Gmail hợp lệ.', needsEmailConfirm: false }
       }
       if (password.length < 6) {
         return { error: 'Mật khẩu cần tối thiểu 6 ký tự.', needsEmailConfirm: false }
@@ -108,20 +109,29 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const sb = getSupabase()
       if (!sb) return { error: 'Chưa cấu hình kết nối Supabase.', needsEmailConfirm: false }
 
-      const { data, error } = await sb.auth.signUp({
-        email: emailClean,
-        password,
-        options: {
-          emailRedirectTo: getOAuthRedirectUrl(),
-          data: { full_name: nameClean },
+      const { data: fnData, error: fnErr } = await sb.functions.invoke<{ ok?: boolean; error?: string }>('auth-manager', {
+        body: {
+          action: 'student_signup',
+          fullName: nameClean,
+          email: emailClean,
+          password,
         },
       })
-      if (error) return { error: mapAuthErrorVi(error.message), needsEmailConfirm: false }
-      if (data.user && data.session) {
-        await fetchSupabaseProfile(data.user.id)
-        return { error: null, needsEmailConfirm: false }
+
+      if (fnErr) {
+        return { error: mapAuthErrorVi(fnErr.message), needsEmailConfirm: false }
       }
-      return { error: null, needsEmailConfirm: true }
+      if (!fnData?.ok) {
+        return { error: fnData?.error ?? 'Không thể đăng ký tài khoản.', needsEmailConfirm: false }
+      }
+
+      const { data: loginData, error: loginErr } = await sb.auth.signInWithPassword({
+        email: emailClean,
+        password,
+      })
+      if (loginErr) return { error: mapAuthErrorVi(loginErr.message), needsEmailConfirm: false }
+      if (loginData.user) await fetchSupabaseProfile(loginData.user.id)
+      return { error: null, needsEmailConfirm: false }
     },
     [fetchSupabaseProfile],
   )
