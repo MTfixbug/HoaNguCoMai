@@ -1,8 +1,9 @@
-export type TtsEngine = 'google' | 'baidu' | 'webspeech' | 'none'
+export type TtsEngine = 'tatoeba' | 'google' | 'baidu' | 'webspeech' | 'none'
 
 export interface SpeakOptions {
   rate?: number
   voiceURI?: string
+  audioUrl?: string
   preferWebSpeech?: boolean
   onEnd?: () => void
   onEngine?: (engine: TtsEngine) => void
@@ -136,9 +137,9 @@ function ensureNoReferrerMeta() {
   }
 }
 
-function tryPlayProvider(
-  provider: 'google' | 'baidu',
-  text: string,
+function tryPlayAudioUrl(
+  engine: 'tatoeba' | 'google' | 'baidu',
+  url: string,
   opts: SpeakOptions,
   token: number,
   onDone: () => void,
@@ -153,7 +154,7 @@ function tryPlayProvider(
   let settled = false
   const audio = new Audio()
   audio.setAttribute('referrerpolicy', 'no-referrer')
-  audio.src = getProviderUrl(provider, text)
+  audio.src = url
   audio.playbackRate = Math.min(2, Math.max(0.5, opts.rate ?? 0.85))
   activeAudio = audio
 
@@ -177,7 +178,7 @@ function tryPlayProvider(
   audio.onplaying = () => {
     if (settled) return
     window.clearTimeout(timer)
-    opts.onEngine?.(provider)
+    opts.onEngine?.(engine)
   }
   audio.onended = () => {
     if (settled) return
@@ -194,19 +195,32 @@ function tryPlayProvider(
   }
 }
 
-function playSingleChunk(text: string, opts: SpeakOptions, token: number, onDone: () => void) {
-  if (opts.preferWebSpeech && hasChineseVoice()) {
-    speakViaWebSpeech(text, { ...opts, onEnd: onDone })
-    return
-  }
-
-  tryPlayProvider('google', text, opts, token, onDone, () => {
+function playOnlineTtsFallback(text: string, opts: SpeakOptions, token: number, onDone: () => void) {
+  tryPlayAudioUrl('google', getProviderUrl('google', text), opts, token, onDone, () => {
     if (token !== activeSeqToken) return
-    tryPlayProvider('baidu', text, opts, token, onDone, () => {
+    tryPlayAudioUrl('baidu', getProviderUrl('baidu', text), opts, token, onDone, () => {
       if (token !== activeSeqToken) return
       speakViaWebSpeech(text, { ...opts, onEnd: onDone })
     })
   })
+}
+
+function playSingleChunk(text: string, opts: SpeakOptions, token: number, onDone: () => void) {
+  const playAfterNative = () => {
+    if (token !== activeSeqToken) return
+    if (hasChineseVoice() && (opts.preferWebSpeech ?? true)) {
+      const ok = speakViaWebSpeech(text, { ...opts, onEnd: onDone })
+      if (ok) return
+    }
+    playOnlineTtsFallback(text, opts, token, onDone)
+  }
+
+  if (opts.audioUrl) {
+    tryPlayAudioUrl('tatoeba', opts.audioUrl, opts, token, onDone, playAfterNative)
+    return
+  }
+
+  playAfterNative()
 }
 
 export function chunkChineseText(text: string, maxLen = MAX_CHUNK_LEN): string[] {
@@ -261,7 +275,7 @@ function playSegmentsInternal(
     const { index, text } = segments[cursor]
     opts.onIndex?.(index)
     cursor++
-    playSingleChunk(text, opts, token, () => {
+    playSingleChunk(text, { ...opts, audioUrl: cursor === 1 ? opts.audioUrl : undefined }, token, () => {
       if (token !== activeSeqToken) return
       if (gapMs > 0) window.setTimeout(playNext, gapMs)
       else playNext()

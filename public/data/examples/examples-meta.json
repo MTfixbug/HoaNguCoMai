@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "totalExamples": 4716,
+  "directCmnVieCount": 915,
+  "translatedEnVieCount": 3801,
+  "nativeAudioCount": 1772,
+  "coverageByChunk": {
+    "hsk-1": {
+      "vocabWords": 300,
+      "examples": 270,
+      "wordsWithExample": 270,
+      "coveragePct": 90.0
+    },
+    "hsk-2": {
+      "vocabWords": 197,
+      "examples": 178,
+      "wordsWithExample": 178,
+      "coveragePct": 90.4
+    },
+    "hsk-3": {
+      "vocabWords": 491,
+      "examples": 418,
+      "wordsWithExample": 418,
+      "coveragePct": 85.1
+    },
+    "hsk-4": {
+      "vocabWords": 990,
+      "examples": 614,
+      "wordsWithExample": 614,
+      "coveragePct": 62.0
+    },
+    "hsk-5": {
+      "vocabWords": 1579,
+      "examples": 885,
+      "wordsWithExample": 886,
+      "coveragePct": 56.1
+    },
+    "hsk-6": {
+      "vocabWords": 1777,
+      "examples": 960,
+      "wordsWithExample": 987,
+      "coveragePct": 55.5
+    },
+    "hsk-7-9": {
+      "vocabWords": 5562,
+      "examples": 1391,
+      "wordsWithExample": 1460,
+      "coveragePct": 26.2
+    }
+  }
+}
