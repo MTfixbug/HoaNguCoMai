@@ -1,0 +1,1841 @@
+[
+  {
+    "id": "paper-hsk3-1",
+    "level": 3,
+    "standard": "3.0",
+    "paperNumber": 1,
+    "title": "Đề thi thử HSK 3.0 Cấp 3 · Đề số 1",
+    "subtitle": "Chủ đề: Đời sống hằng ngày, học tập & sức khỏe (18 câu · Nghe – Đọc – Viết)",
+    "reviewed": false,
+    "questions": [
+      {
+        "id": "hsk3-p1-l1",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 1",
+        "prompt": "请听录音并选择正确的意思：图书馆现在虽然人很多，但大家都很安静。",
+        "subPrompt": "Nghe đoạn ghi âm (tối đa 2 lần) và chọn câu diễn đạt đúng nhất.",
+        "audioText": "新开的图书馆环境真不错，虽然今天来复习的同学很多，但屋子里非常安静。",
+        "options": [
+          "图书馆里人不多，所以很安静",
+          "新图书馆人多，但大家都不吵",
+          "同学们今天不想去新图书馆复习",
+          "新图书馆的环境不太适合看书"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn nghe dùng cấu trúc 虽然……但……: tuy có nhiều bạn học đến ôn tập nhưng trong phòng vẫn rất yên tĩnh (安静), tức là đông người nhưng không ồn ào.",
+        "targetWordId": "v-00038",
+        "coaching": {
+          "trap": "Nghe thấy từ '人很多' (đông người) dễ suy đoán nhầm là ồn ào hoặc không phù hợp học bài.",
+          "tip": "Chú ý liên từ chuyển ý '虽然……但……': vế trọng tâm nằm sau '但' (非常安静).",
+          "miniExample": {
+            "prompt": "听完句子：“虽然这个房间不大，但是很干净。” 最符合的是：",
+            "options": [
+              "房间不大，不过很整洁",
+              "房间很大也很干净",
+              "房间又小又不干净"
+            ],
+            "correctIndex": 0,
+            "explanation": "'虽然……但是……' nhấn mạnh vế sau '但是很干净' (tuy nhỏ nhưng sạch sẽ)."
+          },
+          "relatedWordIds": [
+            "v-00038",
+            "v-02594",
+            "v-03608"
+          ],
+          "relatedGrammarId": "g3-01"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-l2",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 2",
+        "prompt": "请听录音，判断说话人打算怎么去机场？",
+        "subPrompt": "Nghe đoạn ghi âm (tối đa 2 lần) và chọn đáp án đúng.",
+        "audioText": "明天去机场我本来打算骑自行车去地铁站，可是天气预报说会刮大风，还是叫出租车比较安全。",
+        "options": [
+          "坐出租车去",
+          "骑自行车去机场",
+          "先骑车再坐地铁",
+          "走路去地铁站"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người nói vốn dự định (本来打算) đạp xe ra ga tàu điện ngầm, nhưng vì có gió lớn nên quyết định gọi taxi cho an toàn (比较安全).",
+        "targetWordId": "v-01486",
+        "coaching": {
+          "trap": "Bẫy '本来打算' (vốn dự định): nhiều thí sinh nghe cụm đầu '骑自行车去地铁站' là chọn ngay, bỏ qua phần chuyển ý sau '可是'.",
+          "tip": "Khi nghe thấy '本来打算……可是……还是……', đáp án nằm ở lựa chọn cuối sau '还是'.",
+          "miniExample": {
+            "prompt": "“我本来想喝咖啡，后来决定喝茶。” 说话人最后选了什么？",
+            "options": [
+              "咖啡",
+              "茶",
+              "牛奶"
+            ],
+            "correctIndex": 1,
+            "explanation": "'后来决定……' cho biết lựa chọn cuối cùng là trà."
+          },
+          "relatedWordIds": [
+            "v-01486",
+            "v-00043"
+          ],
+          "relatedGrammarId": "g3-02"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-l3",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 3",
+        "prompt": "请听对话，回答问题：女的为什么没参加昨天的羽毛球比赛？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn nguyên nhân đúng.",
+        "audioText": "男：昨天的羽毛球比赛真精彩，你怎么没来参加？女：别提了，前天晚上我感冒发烧了，昨天只能在家休息。",
+        "options": [
+          "她觉得比赛没有意思",
+          "她忘记比赛的时间了",
+          "她生病了，需要在家休息",
+          "她去医院照顾朋友了"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người nữ nói tối hôm kia bị cảm sốt (感冒发烧了), hôm qua chỉ có thể ở nhà nghỉ ngơi (只能在家休息).",
+        "targetWordId": "v-02225",
+        "coaching": {
+          "trap": "Dễ nhầm giữa việc bản thân bị ốm ('我感冒发烧了') với việc chăm sóc người khác hoặc quên lịch.",
+          "tip": "Nghe kỹ chủ ngữ trước '感冒发烧' và kết quả '只能在家休息'.",
+          "miniExample": {
+            "prompt": "“她昨天有点儿发烧，所以请假了。” 这句话的意思是：",
+            "options": [
+              "她帮别人请假了",
+              "她退烧后去比赛了",
+              "她因为生病没去上课或上班"
+            ],
+            "correctIndex": 2,
+            "explanation": "'发烧 + 请假' nghĩa là bị sốt nên đã xin nghỉ."
+          },
+          "relatedWordIds": [
+            "v-02225",
+            "v-02671",
+            "v-00361"
+          ],
+          "relatedGrammarId": "g3-03"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-l4",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 4",
+        "prompt": "请听对话，回答问题：男的把笔记本电脑忘在哪里了？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn vị trí đúng.",
+        "audioText": "男：坏了，我的笔记本电脑不见了！刚才还在包里呢。女：别着急，你早上是不是去过办公室，忘在办公桌上了？男：对，我开完会忘了装进包里！",
+        "options": [
+          "装在书包里",
+          "放在会议室门口",
+          "忘在机场椅子上",
+          "留在办公室桌子上"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người nam xác nhận '对，我开完会忘了装进包里' sau khi người nữ hỏi có phải để quên trên bàn làm việc ở văn phòng (办公室) không.",
+        "targetWordId": "v-00152",
+        "coaching": {
+          "trap": "Nghe thấy '刚才还在包里' dễ chọn nhầm là máy vẫn ở trong túi, hoặc nghe '开完会' rồi đoán phòng họp.",
+          "tip": "Theo dõi câu xác nhận cuối của người nói ('对，……') để chốt vị trí thật sự.",
+          "miniExample": {
+            "prompt": "“钥匙不在包里，好像留在桌子上了。” 钥匙现在可能在哪儿？",
+            "options": [
+              "桌子上",
+              "包里",
+              "门外"
+            ],
+            "correctIndex": 0,
+            "explanation": "'不在包里' loại trừ túi xách; '留在桌子上' chỉ vị trí hiện tại."
+          },
+          "relatedWordIds": [
+            "v-00152",
+            "v-00368",
+            "v-10678"
+          ],
+          "relatedGrammarId": "g3-04"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-l5",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 5",
+        "prompt": "请听对话，回答问题：女的觉得那家新餐厅怎么样？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn nhận xét đúng.",
+        "audioText": "男：学校附近新开了一家中餐厅，你去尝过了吗？女：去过一次。菜的味道特别好，就是人太多，等菜单等了差不多二十分钟。",
+        "options": [
+          "菜很好吃，但上菜和点菜有点慢",
+          "菜的味道一般，价格还很贵",
+          "餐厅很安静，不用等座位",
+          "离学校太远，不太方便"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người nữ nhận xét vị món ăn rất ngon (特别好), chỉ là (就是) đông người quá nên đợi thực đơn mất gần 20 phút (等了差不多二十分钟).",
+        "targetWordId": "v-00837",
+        "coaching": {
+          "trap": "Từ '就是' trong khẩu ngữ HSK 3 dùng để đưa ra điểm trừ nhỏ ('chỉ là/mỗi tội'), dễ bị bỏ sót nếu chỉ nghe '特别好'.",
+          "tip": "Chú ý mẫu 'A很好，就是B……' (A rất tốt, chỉ có điều B chưa ổn).",
+          "miniExample": {
+            "prompt": "“这件衬衫样式不错，就是有点儿贵。” 说话人对衬衫的态度是：",
+            "options": [
+              "完全满意",
+              "喜欢样式，但嫌价格高",
+              "不喜欢样式"
+            ],
+            "correctIndex": 1,
+            "explanation": "'样式不错' là điểm cộng, '就是有点儿贵' là điểm trừ về giá."
+          },
+          "relatedWordIds": [
+            "v-00837",
+            "v-00737",
+            "v-08090"
+          ],
+          "relatedGrammarId": "g3-05"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-l6",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 6",
+        "prompt": "请听一段话，回答问题：小周为什么能提高汉语口语水平？",
+        "subPrompt": "Nghe đoạn ngắn (tối đa 2 lần) và chọn đáp án phù hợp.",
+        "audioText": "小周刚来北京的时候，连点菜都害怕说错。后来他每天坚持和邻居聊天儿，遇到不懂的句子就记在本子上。半年以后，他的口语水平提高得特别快。",
+        "options": [
+          "他请了一位很有名的老师",
+          "他每天坚持练习并认真记录",
+          "他以前在大学学过很多年",
+          "他经常看中文新闻和电影"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn văn nêu rõ Tiểu Chu kiên trì trò chuyện hằng ngày với hàng xóm (每天坚持和邻居聊天儿) và ghi lại câu chưa hiểu vào sổ (记在本子上).",
+        "targetWordId": "v-04023",
+        "coaching": {
+          "trap": "Các lựa chọn nhiễu như 'xem tin tức' hay 'mời thầy giỏi' đều nghe hợp lý ngoài đời nhưng không xuất hiện trong bài nghe.",
+          "tip": "Chỉ chọn thông tin có căn cứ trực tiếp trong audio ('每天坚持……聊天儿', '记在本子上').",
+          "miniExample": {
+            "prompt": "“只要每天坚持练习，成绩一定会提高。” 怎么才能提高成绩？",
+            "options": [
+              "只靠周末复习",
+              "不用做练习",
+              "每天坚持练习"
+            ],
+            "correctIndex": 2,
+            "explanation": "'只要……就……' nêu điều kiện đủ là kiên trì luyện tập mỗi ngày."
+          },
+          "relatedWordIds": [
+            "v-04023",
+            "v-08125",
+            "v-07787"
+          ],
+          "relatedGrammarId": "g3-06"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-l7",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 7",
+        "prompt": "请听对话，回答问题：他们打算怎么解决冰箱的问题？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn phương án đúng.",
+        "audioText": "女：家里的冰箱突然不制冷了，里面的牛奶和水果怎么办？男：别急，我先借邻居家的冰箱放一下，下午再打电话找人来检查。",
+        "options": [
+          "马上把水果全部吃完",
+          "今天直接去商店买一台新冰箱",
+          "把牛奶放到阳台上",
+          "先放到邻居家，下午找人修理检查"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người nam đưa ra giải pháp hai bước: trước hết mượn tủ lạnh nhà hàng xóm để tạm (先借邻居家的冰箱放一下), chiều gọi người tới kiểm tra (下午找人来检查).",
+        "targetWordId": "v-05342",
+        "coaching": {
+          "trap": "Thí sinh hay nhầm hành động '买新冰箱' (mua mới) với '找人来检查' (gọi người kiểm tra).",
+          "tip": "Chú ý chuỗi từ chỉ trình tự thời gian '先……再……' để nắm trọn kế hoạch hai bước.",
+          "miniExample": {
+            "prompt": "“我先洗手，再吃饭。” 说话人要先做什么？",
+            "options": [
+              "洗手",
+              "吃饭",
+              "做饭"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cấu trúc '先 A，再 B' nghĩa là làm A (rửa tay) trước rồi mới làm B."
+          },
+          "relatedWordIds": [
+            "v-00503",
+            "v-05342",
+            "v-04079"
+          ],
+          "relatedGrammarId": "g3-07"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r1",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 8",
+        "prompt": "他每天晚上都复习到十一点，______ 通过了这次重要的考试。",
+        "subPrompt": "Chọn phó từ phù hợp nhất điền vào chỗ trống.",
+        "options": [
+          "刚才",
+          "几乎",
+          "终于",
+          "原来"
+        ],
+        "correctIndex": 2,
+        "explanation": "'终于' (cuối cùng thì) diễn tả kết quả đạt được sau một quá trình nỗ lực lâu dài ('mỗi tối ôn đến 11 giờ, cuối cùng đã vượt qua kỳ thi').",
+        "targetWordId": "v-11011",
+        "coaching": {
+          "trap": "Dễ chọn '几乎' (hầu như) hoặc '刚才' (vừa nãy), nhưng '几乎' không đi với kết quả đã trọn vẹn '通过了', còn '刚才' chỉ thời điểm ngay trước hiện tại.",
+          "tip": "Thấy quá trình cố gắng kéo dài dẫn đến kết quả tích cực -> ưu tiên '终于'.",
+          "miniExample": {
+            "prompt": "等了半个小时，公共汽车 ______ 来了。",
+            "options": [
+              "马上",
+              "终于",
+              "一直"
+            ],
+            "correctIndex": 1,
+            "explanation": "Đợi nửa tiếng rồi xe buýt 'cuối cùng cũng' (终于) tới."
+          },
+          "relatedWordIds": [
+            "v-11011",
+            "v-02594",
+            "v-11050"
+          ],
+          "relatedGrammarId": "g3-08"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r2",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 9",
+        "prompt": "______ 你愿意认真练习，三个月以后一定能听懂简单的中文对话。",
+        "subPrompt": "Chọn liên từ điều kiện phù hợp.",
+        "options": [
+          "虽然",
+          "只要",
+          "因为",
+          "而且"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cặp '只要……就/一定能……' biểu thị điều kiện đủ: 'Chỉ cần bạn sẵn lòng luyện tập chăm chỉ, sau 3 tháng nhất định có thể nghe hiểu'.",
+        "targetWordId": "v-10892",
+        "coaching": {
+          "trap": "Dễ nhầm '只要' (chỉ cần) với '只有' (chỉ có, thường đi với '才') hoặc '因为' (nguyên nhân đã xảy ra).",
+          "tip": "Gặp câu mang tính giả định + hứa hẹn kết quả ('一定能…'), kiểm tra cặp '只要……就/一定……'.",
+          "miniExample": {
+            "prompt": "______ 下雨，我们就待在家里看书。",
+            "options": [
+              "虽然",
+              "不但",
+              "如果"
+            ],
+            "correctIndex": 2,
+            "explanation": "'如果……就……' diễn tả giả thiết (nếu trời mưa thì ở nhà)."
+          },
+          "relatedWordIds": [
+            "v-10892",
+            "v-10356",
+            "v-06948"
+          ],
+          "relatedGrammarId": "g3-06"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r3",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 10",
+        "prompt": "出门前，妈妈让我 ______ 桌上的药和热水放进包里。",
+        "subPrompt": "Chọn giới từ hoặc động từ thích hợp cho câu xử lý vật.",
+        "options": [
+          "被",
+          "向",
+          "给",
+          "把"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cấu trúc câu chữ 把: '把 + tân ngữ (桌上的药和热水) + động từ (放) + bổ ngữ kết quả/phương hướng (进包里)' diễn tả tác động làm vật thay đổi vị trí.",
+        "targetWordId": "v-00083",
+        "coaching": {
+          "trap": "Nhầm lẫn giữa '把' (chủ động đưa vật đến vị trí mới) và '被' (bị động: chủ ngữ chịu tác động).",
+          "tip": "Nhìn chủ ngữ thực hiện hành động ('妈妈让我…' -> tôi là người đặt đồ vào túi) và cụm '放进包里' -> dùng '把'.",
+          "miniExample": {
+            "prompt": "请 ______ 空调打开，屋子里太热了。",
+            "options": [
+              "把",
+              "被",
+              "从"
+            ],
+            "correctIndex": 0,
+            "explanation": "Câu cầu khiến 'mở điều hòa lên' luôn dùng câu chữ 把: 把空调打开."
+          },
+          "relatedWordIds": [
+            "v-00083"
+          ],
+          "relatedGrammarId": "g3-04"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r4",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 11",
+        "prompt": "我 ______ 他今天不会来上课了，没想到他下课前十分钟跑进了教室。",
+        "subPrompt": "Chọn động từ diễn tả suy đoán sai so với thực tế.",
+        "options": [
+          "以为",
+          "认为",
+          "发现",
+          "相信"
+        ],
+        "correctIndex": 0,
+        "explanation": "'以为' dùng khi người nói từng nghĩ/đoán một điều gì đó nhưng thực tế lại khác ('没想到……' không ngờ…). '认为' chỉ quan điểm chung, không hàm ý đoán sai.",
+        "targetWordId": "v-09921",
+        "coaching": {
+          "trap": "Người Việt hay dịch 'tưởng/nghĩ' thành '认为' hoặc '想', nhưng khi vế sau có '没想到/其实/结果却', tiếng Trung bắt buộc dùng '以为'.",
+          "tip": "Gặp tín hiệu '以为……，没想到/其实……' -> 99% chọn '以为'.",
+          "miniExample": {
+            "prompt": "我 ______ 今天是星期天，其实今天才星期六。",
+            "options": [
+              "知道",
+              "以为",
+              "明白"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vế sau có '其实' (thực ra) đính chính suy nghĩ sai ban đầu -> dùng '以为'."
+          },
+          "relatedWordIds": [
+            "v-09921",
+            "v-06947"
+          ],
+          "relatedGrammarId": "g3-09"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r5",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 12",
+        "prompt": "李老师今天临时有重要的会议，下午两点半的汉语课改到明天上午九点，请同学们互相通知一下，并把新的练习题提前做好。\n★ 根据通知，下午两点半的汉语课：",
+        "subPrompt": "Đọc thông báo và chọn thông tin chính xác.",
+        "options": [
+          "今天照常上课",
+          "由另一位老师来上",
+          "换到了明天上午九点",
+          "不需要做新的练习题"
+        ],
+        "correctIndex": 2,
+        "explanation": "Thông báo ghi rõ: '下午两点半的汉语课改到明天上午九点' (lớp 2h30 chiều đổi sang 9h sáng mai).",
+        "targetWordId": "v-03711",
+        "coaching": {
+          "trap": "Đọc lướt thấy '下午两点半' dễ tưởng lớp vẫn học chiều nay; chú ý động từ '改到' (đổi sang).",
+          "tip": "Trong thông báo đổi lịch, luôn khoanh tròn hai mốc thời gian trước và sau chữ '改到' / '换到'.",
+          "miniExample": {
+            "prompt": "“会议改到星期五上午了。” 这句话的意思是：",
+            "options": [
+              "会议取消了",
+              "会议提前到星期一",
+              "会议时间换成了星期五上午"
+            ],
+            "correctIndex": 2,
+            "explanation": "'改到 + thời gian mới' nghĩa là dời lịch sang thời điểm mới."
+          },
+          "relatedWordIds": [
+            "v-03711",
+            "v-05286"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r6",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 13",
+        "prompt": "很多人觉得早睡早起很困难，其实这只是一个习惯问题。如果你每天晚上十点半以前关掉手机，两周以后就会发现，早上起床变得越来越容易了。\n★ 这段话主要想告诉我们：",
+        "subPrompt": "Chọn ý chính của đoạn văn.",
+        "options": [
+          "手机会影响我们的视力",
+          "早睡早起是每个人天生的能力",
+          "两周以后所有人都会早睡",
+          "睡前少看手机有助于养成早起习惯"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn văn nhấn mạnh dậy sớm là thói quen (习惯); nếu tắt điện thoại trước 10h30 tối thì sau 2 tuần việc dậy sớm sẽ ngày càng dễ dàng.",
+        "targetWordId": "v-08871",
+        "coaching": {
+          "trap": "Một số phương án gây nhiễu bằng cách nói quá ('天生的能力' - năng lực bẩm sinh), tuyệt đối hóa ('所有人' - tất cả mọi người), hoặc suy diễn ngoài bài về thị lực.",
+          "tip": "Tránh các đáp án có từ tuyệt đối hóa ('所有', '一定全部') hoặc chi tiết không có trong đoạn văn.",
+          "miniExample": {
+            "prompt": "“越练越熟练” 的意思是：",
+            "options": [
+              "练习得越多，越熟练",
+              "练习越多，做得越不顺",
+              "不用练习也很熟练"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cấu trúc '越 A 越 B' nghĩa là càng A thì càng B."
+          },
+          "relatedWordIds": [
+            "v-08871",
+            "v-06409",
+            "v-06994"
+          ],
+          "relatedGrammarId": "g3-10"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r7",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 14",
+        "prompt": "小陈最近搬家了，新房子虽然比以前远了一点儿，但是楼下就是地铁站，旁边还有超市和公园，生活非常方便，他也很满意周围的环境。\n★ 关于小陈的新房子，下列哪项是对的？",
+        "subPrompt": "Chọn khẳng định đúng với nội dung đoạn văn.",
+        "options": [
+          "虽然远一点，但生活很便利",
+          "离地铁站非常远",
+          "附近没有买东西的地方",
+          "小陈不太喜欢那里的环境"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn văn nói nhà mới tuy xa hơn trước một chút (比以前远了一点儿), nhưng dưới lầu có ga tàu điện ngầm, cạnh đó có siêu thị và công viên nên rất tiện lợi (方便) và hài lòng (满意).",
+        "targetWordId": "v-00142",
+        "coaching": {
+          "trap": "Từ '比以前远了一点儿' dễ gây nhầm sang ý '离地铁站非常远'. Thực tế nhà xa chỗ cũ hơn chút, chứ ga tàu điện ngầm ngay dưới lầu ('楼下就是地铁站').",
+          "tip": "Đối chiếu kỹ đối tượng của tính từ: '远' là so với nhà cũ ('比以前远'), không phải xa ga tàu.",
+          "miniExample": {
+            "prompt": "“超市就在小区门口，买菜很方便。” 这里 '方便' 的意思是：",
+            "options": [
+              "价格便宜",
+              "省事、容易做到",
+              "东西很多"
+            ],
+            "correctIndex": 1,
+            "explanation": "'方便' chỉ sự thuận tiện, dễ dàng thực hiện."
+          },
+          "relatedWordIds": [
+            "v-00142",
+            "v-02317",
+            "v-05582"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-r8",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 15",
+        "prompt": "为了准备下个月的校园文化节，我们班不但安排了中文歌曲表演，而且还请留学生朋友一起介绍各国的传统节日。欢迎其他班级的同学周末来看我们的节目。\n★ 关于这次活动，可以知道什么？",
+        "subPrompt": "Chọn câu suy luận đúng từ đoạn văn.",
+        "options": [
+          "活动只有唱歌一个节目",
+          "活动只允许本班同学参加",
+          "留学生也会参与节目介绍",
+          "活动将在今天晚上举行"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn văn dùng '不但……而且还……': không chỉ có tiết mục hát tiếng Trung mà còn mời bạn du học sinh cùng giới thiệu lễ hội truyền thống các nước.",
+        "targetWordId": "v-00578",
+        "coaching": {
+          "trap": "Bẫy '只有唱歌' và '只允许本班同学': đoạn văn dùng '不但……而且还……' (hai hoạt động) và '欢迎其他班级的同学' (hoan nghênh lớp khác).",
+          "tip": "Gặp '不但 A，而且还 B', đáp án đúng thường xác nhận sự tồn tại của B.",
+          "miniExample": {
+            "prompt": "“他不但会说中文，而且写汉字也很漂亮。” 说明他：",
+            "options": [
+              "只会说，不会写",
+              "写得比说得好听",
+              "说和写都不错"
+            ],
+            "correctIndex": 2,
+            "explanation": "'不但……而且……' nối hai ưu điểm song song: vừa nói được vừa viết đẹp."
+          },
+          "relatedWordIds": [
+            "v-00578",
+            "v-02180",
+            "v-05423"
+          ],
+          "relatedGrammarId": "g3-11"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-w1",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Sắp xếp câu · Câu 16",
+        "prompt": "把 / 作业 / 终于 / 我 / 今天的 / 做完了 / 。",
+        "subPrompt": "Sắp xếp các từ trên thành một câu chữ 把 hoàn chỉnh đúng ngữ pháp.",
+        "correctAnswer": "我终于把今天的作业做完了。",
+        "explanation": "Trật tự chuẩn: Chủ ngữ (我) + Phó từ (终于) + 把 + Tân ngữ (今天的作业) + Động từ + Bổ ngữ kết quả (做完了).",
+        "targetWordId": "v-00083",
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-w2",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Sắp xếp câu · Câu 17",
+        "prompt": "越下越大 / 外面的 / 越来越 / 雨 / 变得 / 天气 / 凉快 / 了 / ， / 。",
+        "subPrompt": "Sắp xếp các mảnh từ thành hai vế câu tự nhiên (chú ý dấu phẩy ở giữa).",
+        "correctAnswer": "外面的雨越下越大，天气变得越来越凉快了。",
+        "explanation": "Vế 1: 外面的雨越下越大 (Mưa ngoài trời càng rơi càng to). Vế 2: 天气变得越来越凉快了 (Thời tiết trở nên ngày càng mát mẻ).",
+        "targetWordId": "v-05295",
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p1-w3",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Đặt câu theo từ gợi ý · Câu 18",
+        "prompt": "Hãy viết 1–2 câu tiếng Trung hoàn chỉnh kết hợp cả hai từ: “关心” (quan tâm) và “健康” (sức khỏe).",
+        "subPrompt": "Gợi ý: Nói về việc người thân hoặc bạn bè quan tâm đến sức khỏe của bạn (hoặc ngược lại).",
+        "correctAnswer": "奶奶非常关心我的健康，总是提醒我多锻炼身体。",
+        "explanation": "Câu mẫu đạt chuẩn HSK 3: '奶奶非常关心我的健康，总是提醒我多锻炼身体。' (Bà nội rất quan tâm đến sức khỏe của tôi, luôn nhắc tôi rèn luyện thân thể nhiều hơn.)",
+        "targetWordId": "v-03071",
+        "reviewed": false
+      }
+    ]
+  },
+  {
+    "id": "paper-hsk3-2",
+    "level": 3,
+    "standard": "3.0",
+    "paperNumber": 2,
+    "title": "Đề thi thử HSK 3.0 Cấp 3 · Đề số 2",
+    "subtitle": "Chủ đề: Du lịch, giao thông, văn hóa & công việc (18 câu · Nghe – Đọc – Viết)",
+    "reviewed": false,
+    "questions": [
+      {
+        "id": "hsk3-p2-l1",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 1",
+        "prompt": "请听广播通知，回答问题：乘客现在应该做什么？",
+        "subPrompt": "Nghe thông báo (tối đa 2 lần) và chọn hành động đúng.",
+        "audioText": "各位旅客请注意，开往南京的 G128 次高铁即将开始检票，请带好您的行李和证件，到三号检票口排队。",
+        "options": [
+          "去三号检票口排队检票",
+          "去服务台退掉车票",
+          "等下一班普通火车",
+          "把行李留在候车室"
+        ],
+        "correctIndex": 0,
+        "explanation": "Thông báo tàu cao tốc (高铁) đi Nam Kinh sắp bắt đầu soát vé (检票), mời hành khách mang hành lý và giấy tờ ra cửa soát vé số 3 xếp hàng.",
+        "targetWordId": "v-11498",
+        "coaching": {
+          "trap": "Nghe thấy nhiều danh từ ('南京', '行李', '证件') dễ bị rối nếu không bắt được động từ mệnh lệnh ở cuối câu.",
+          "tip": "Trong thông báo nhà ga/sân bay, tập trung nghe số cổng ('三号检票口') và động từ ('排队/上车').",
+          "miniExample": {
+            "prompt": "“飞机还有二十分钟起飞，请抓紧时间登机。” 这句话提醒乘客：",
+            "options": [
+              "航班取消了",
+              "快去上飞机",
+              "去取行李"
+            ],
+            "correctIndex": 1,
+            "explanation": "'起飞' (cất cánh) sắp đến -> cần khẩn trương lên máy bay."
+          },
+          "relatedWordIds": [
+            "v-11498",
+            "v-02746",
+            "v-09325"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-l2",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 2",
+        "prompt": "请听录音，回答问题：为什么大家今天等了这么久？",
+        "subPrompt": "Nghe đoạn ghi âm (tối đa 2 lần) và chọn đáp án đúng.",
+        "audioText": "真不好意思，今天上午的飞机因为大雪晚点了将近两个小时，让您在机场等了半天。",
+        "options": [
+          "因为乘客忘记带护照了",
+          "因为机场的电梯坏了",
+          "因为下大雪，航班晚点了",
+          "因为司机走错了方向"
+        ],
+        "correctIndex": 2,
+        "explanation": "Chuyến bay buổi sáng bị trễ (晚点) gần 2 tiếng do tuyết lớn (因为大雪), khiến khách phải đợi ở sân bay rất lâu (半天).",
+        "targetWordId": "v-08546",
+        "coaching": {
+          "trap": "Từ '半天' trong khẩu ngữ nghĩa là 'rất lâu / hồi lâu', không nhất thiết đúng nửa ngày 12 tiếng.",
+          "tip": "Chú ý nguyên nhân sau giới từ '因为': '因为大雪晚点了'.",
+          "miniExample": {
+            "prompt": "“她找了半天，终于找到了那张照片。” 这里的 '半天' 是指：",
+            "options": [
+              "整整十二个小时",
+              "半分钟",
+              "很长一段时间"
+            ],
+            "correctIndex": 2,
+            "explanation": "'半天' đứng sau động từ thường chỉ một khoảng thời gian khá lâu."
+          },
+          "relatedWordIds": [
+            "v-08546",
+            "v-00165",
+            "v-03540"
+          ],
+          "relatedGrammarId": "g3-12"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-l3",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 3",
+        "prompt": "请听对话，回答问题：女的为什么要买一台新相机？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn lý do đúng.",
+        "audioText": "男：你的旧相机不是还能用吗，怎么突然想换新的？女：下个月我要跟朋友去南方旅游，旧相机拍照不太清楚，我想多留几张好看的照片。",
+        "options": [
+          "旧相机已经丢了",
+          "朋友送了她一张打折卡",
+          "新相机的价格非常便宜",
+          "旧相机拍得不够清楚，她要出门旅游"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người nữ sắp đi du lịch miền Nam (去南方旅游), máy ảnh cũ chụp không được nét (拍照不太清楚) nên muốn đổi máy mới để chụp ảnh đẹp.",
+        "targetWordId": "v-09072",
+        "coaching": {
+          "trap": "Nghe câu hỏi của người nam '不是还能用吗' dễ suy diễn là máy cũ hoàn toàn tốt; cần nghe câu trả lời của người nữ ('不太清楚').",
+          "tip": "Câu hỏi dạng '不是……吗？' thường chỉ là câu mở đầu, lý do thật sự luôn ở lời đáp lại.",
+          "miniExample": {
+            "prompt": "男：“你不是不喜欢甜的吗？” 女：“可这家店的蛋糕特别新鲜。” 女的意思是：",
+            "options": [
+              "虽然平时不爱吃甜，但想试试这家",
+              "她不想买这家店的蛋糕",
+              "蛋糕一点儿也不新鲜"
+            ],
+            "correctIndex": 0,
+            "explanation": "Từ '可' (nhưng) đảo ngược tiền đề, cho thấy cô ấy vẫn muốn thử bánh ở quán này."
+          },
+          "relatedWordIds": [
+            "v-09072",
+            "v-06681",
+            "v-10644"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-l4",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 4",
+        "prompt": "请听对话，回答问题：男的对这份工作最满意什么？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn đáp án đúng.",
+        "audioText": "女：你在新公司工作快一个月了，觉得怎么样？男：除了每天早上路有点儿堵以外，其他都挺好的，特别是同事们都很热情，经常帮助我。",
+        "options": [
+          "同事们很热情，常帮助他",
+          "每天早上路上完全不堵车",
+          "公司的工资比以前高一倍",
+          "办公室就在他家对面"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người nam dùng '除了……以外，其他都……': ngoài việc sáng hơi tắc đường thì mọi thứ đều ổn, đặc biệt là đồng nghiệp rất nhiệt tình (很热情) và hay giúp đỡ anh ấy.",
+        "targetWordId": "v-01215",
+        "coaching": {
+          "trap": "Bẫy cấu trúc '除了 A 以外，其他都……': A ('路有点儿堵') là ngoại lệ không tốt, không phải ưu điểm.",
+          "tip": "Khi nghe '除了 A 以外，特别是 B', B chính là điểm hài lòng nổi bật nhất.",
+          "miniExample": {
+            "prompt": "“除了冬天有点儿冷，这里四季都很舒服。” 这里什么季节不太好？",
+            "options": [
+              "春天",
+              "冬天",
+              "夏天"
+            ],
+            "correctIndex": 1,
+            "explanation": "'除了冬天……' tách mùa đông ra làm điểm trừ duy nhất."
+          },
+          "relatedWordIds": [
+            "v-01215",
+            "v-08303",
+            "v-06887"
+          ],
+          "relatedGrammarId": "g3-13"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-l5",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 5",
+        "prompt": "请听对话，回答问题：女的最后决定买哪件衬衫？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn đáp án đúng.",
+        "audioText": "女：这件蓝色的衬衫真好看，颜色很年轻。男：不过那件白色的穿起来更合适，上班或者参加会议都能穿。女：你说得对，我还是选白色的吧。",
+        "options": [
+          "蓝色的衬衫",
+          "白色的衬衫",
+          "两件都买下来",
+          "两件都不太合适"
+        ],
+        "correctIndex": 1,
+        "explanation": "Dù ban đầu khen áo xanh (蓝色的), người nữ đồng ý với gợi ý của người nam rằng áo trắng hợp hơn để đi làm hoặc họp nên chốt '我还是选白色的吧'.",
+        "targetWordId": "v-03380",
+        "coaching": {
+          "trap": "Nghe câu đầu khen màu xanh ('蓝色的衬衫真好看') rất dễ chọn nhầm áo xanh mà quên nghe câu chốt cuối của người nữ.",
+          "tip": "Trong hội thoại mua sắm, câu chốt luôn có mẫu '还是选/买……吧'.",
+          "miniExample": {
+            "prompt": "“这双鞋虽然便宜，但是有点儿小，我还是换大一号的吧。” 说话人打算买：",
+            "options": [
+              "便宜但小一点的鞋",
+              "不买了",
+              "大一号的鞋"
+            ],
+            "correctIndex": 2,
+            "explanation": "Người nói chọn đổi sang cỡ lớn hơn ('还是换大一号的吧')."
+          },
+          "relatedWordIds": [
+            "v-00976",
+            "v-03380",
+            "v-09482"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-l6",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 6",
+        "prompt": "请听一段话，回答问题：张经理为什么同意推迟出发？",
+        "subPrompt": "Nghe đoạn ngắn (tối đa 2 lần) và chọn lý do đúng.",
+        "audioText": "张经理本来要求大家八点准时从公司出发，可是刚才他收到客户发来的邮件，对方说上午十点才方便见面，所以经理决定先开个短会，九点再走。",
+        "options": [
+          "公司的大巴车还没到",
+          "张经理自己睡过头迟到了",
+          "大家还没有准备好会议材料",
+          "客户发邮件说十点才方便见面"
+        ],
+        "correctIndex": 3,
+        "explanation": "Giám đốc Trương nhận được email (邮件) của khách hàng nói 10h sáng mới tiện gặp mặt, nên quyết định họp ngắn trước rồi 9h mới xuất phát (九点再走).",
+        "targetWordId": "v-10145",
+        "coaching": {
+          "trap": "Con số thời gian dễ gây nhiễu (8h vốn xuất phát, 10h khách mới tiện, 9h mới đi). Phải tách rõ lý do vs giờ mới.",
+          "tip": "Hỏi '为什么' -> tìm vế đứng trước '所以' ('收到客户发来的邮件，对方说……').",
+          "miniExample": {
+            "prompt": "“因为客户下午才到，所以我们先把资料准备好。” 他们现在要做什么？",
+            "options": [
+              "先准备资料",
+              "马上去接客户",
+              "下午再准备资料"
+            ],
+            "correctIndex": 0,
+            "explanation": "'先把资料准备好' diễn tả việc cần làm trước khi khách đến."
+          },
+          "relatedWordIds": [
+            "v-04456",
+            "v-10145",
+            "v-01151"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-l7",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 7",
+        "prompt": "请听对话，回答问题：他们打算怎么付这次旅行的酒店费用？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn phương án đúng.",
+        "audioText": "女：这家宾馆说只能用银行卡或者手机付款，不能用现金。男：没关系，我包里带着信用卡呢，等会儿我先付，回去以后你再转给我一半。",
+        "options": [
+          "全部用现金支付",
+          "女的用手机直接付全款",
+          "男的先刷信用卡，回去再平分",
+          "先住一晚，明天再决定怎么付"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người nam mang theo thẻ tín dụng (信用卡), đề nghị anh trả trước rồi về nhà người nữ chuyển lại một nửa (回去以后你再转给我一半).",
+        "targetWordId": "v-09310",
+        "coaching": {
+          "trap": "Nghe từ '手机付款' hoặc '现金' dễ bị phân tâm; cần nghe phương án thực tế của người nam.",
+          "tip": "Chú ý từ khóa định lượng '一半' (một nửa -> chia đôi/bình quân).",
+          "miniExample": {
+            "prompt": "“一共两百块，我先付，你给我一半就行。” 女的要给男的多少钱？",
+            "options": [
+              "两百块",
+              "一百块",
+              "五十块"
+            ],
+            "correctIndex": 1,
+            "explanation": "Một nửa của 200 tệ là 100 tệ."
+          },
+          "relatedWordIds": [
+            "v-00494",
+            "v-09310",
+            "v-09995"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r1",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 8",
+        "prompt": "这张去北京的地图已经 ______ 弟弟拿走了，你去问问他吧。",
+        "subPrompt": "Chọn giới từ đúng cấu trúc bị động.",
+        "options": [
+          "把",
+          "被",
+          "向",
+          "对"
+        ],
+        "correctIndex": 1,
+        "explanation": "Chủ ngữ là vật ('这张去北京的地图' - tấm bản đồ) chịu hành động 'lấy đi' (拿走了) do '弟弟' thực hiện -> bắt buộc dùng câu chữ 被.",
+        "targetWordId": "v-00304",
+        "coaching": {
+          "trap": "Rất nhiều người học nhầm '把' và '被' khi nhìn thấy câu có '拿走了'. Hãy kiểm tra xem chủ ngữ đầu câu là người thực hiện hay đối tượng bị tác động.",
+          "tip": "Chủ ngữ là đồ vật ('地图') + động từ tác động ('拿走了') -> dùng '被' (bị/được).",
+          "miniExample": {
+            "prompt": "桌上的蛋糕 ______ 小猫吃掉了。",
+            "options": [
+              "把",
+              "给",
+              "被"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bánh ngọt (đối tượng chịu tác động) đứng đầu câu -> '被小猫吃掉了' (bị mèo con ăn mất)."
+          },
+          "relatedWordIds": [
+            "v-00304",
+            "v-01747"
+          ],
+          "relatedGrammarId": "g3-14"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r2",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 9",
+        "prompt": "明天早上八点开会，他七点五十 ______ 到了会议室，已经很早了。",
+        "subPrompt": "Chọn phó từ biểu thị hành động xảy ra sớm/nhanh.",
+        "options": [
+          "才",
+          "还",
+          "再",
+          "就"
+        ],
+        "correctIndex": 3,
+        "explanation": "Họp lúc 8:00 mà 7:50 đã có mặt ('已经很早了') -> diễn tả sớm/nhanh so với kỳ vọng, dùng '就'.",
+        "targetWordId": "v-00704",
+        "coaching": {
+          "trap": "Cặp '才' (muộn, chậm, ít) và '就' (sớm, nhanh, dễ) là bẫy kinh điển của HSK 3.",
+          "tip": "Nhìn gợi ý cảm xúc ở cuối câu: '已经很早了' (sớm) -> dùng '就'; nếu '太晚了' (muộn) -> dùng '才'.",
+          "miniExample": {
+            "prompt": "电影七点开始，他七点半 ______ 来，错过了前面二十分钟。",
+            "options": [
+              "才",
+              "就",
+              "都"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phim 7h chiếu mà 7h30 mới đến (muộn) -> dùng '才'."
+          },
+          "relatedWordIds": [
+            "v-00704",
+            "v-03711"
+          ],
+          "relatedGrammarId": "g3-15"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r3",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 10",
+        "prompt": "______ 大家更了解中国北方城市的冬天，老师准备了很多风景照片。",
+        "subPrompt": "Chọn giới từ chỉ mục đích.",
+        "options": [
+          "为了",
+          "关于",
+          "根据",
+          "除了"
+        ],
+        "correctIndex": 0,
+        "explanation": "'为了 + mục đích' đứng đầu câu ('Để mọi người hiểu rõ hơn mùa đông ở các thành phố phương Bắc Trung Quốc, thầy giáo đã chuẩn bị rất nhiều ảnh phong cảnh').",
+        "targetWordId": "v-08656",
+        "coaching": {
+          "trap": "Dễ nhầm '为了' (để - chỉ mục đích) với '关于' (về - chỉ chủ đề/phạm vi, thường đi với danh từ/cụm danh từ).",
+          "tip": "Thấy sau chỗ trống là một cụm chủ-vị mục đích ('大家更了解…') và vế sau là hành động chuẩn bị ('准备了…') -> chọn '为了'.",
+          "miniExample": {
+            "prompt": "______ 提高中文水平，他每天都听录音。",
+            "options": [
+              "根据",
+              "为了",
+              "关于"
+            ],
+            "correctIndex": 1,
+            "explanation": "'提高中文水平' là mục tiêu hành động -> dùng '为了'."
+          },
+          "relatedWordIds": [
+            "v-08656",
+            "v-00285",
+            "v-05137"
+          ],
+          "relatedGrammarId": "g3-16"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r4",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 11",
+        "prompt": "他喜欢 ______ 听音乐 ______ 坐高铁看窗外的风景，觉得这样特别放松。",
+        "subPrompt": "Chọn cặp phó từ diễn tả hai hành động xảy ra song song.",
+        "options": [
+          "虽然……但是",
+          "不仅……而且",
+          "一边……一边",
+          "先……然后"
+        ],
+        "correctIndex": 2,
+        "explanation": "'一边 + V1 + 一边 + V2' diễn tả hai hành động diễn ra đồng thời ('vừa nghe nhạc vừa ngồi tàu cao tốc ngắm cảnh ngoài cửa sổ').",
+        "targetWordId": "v-09761",
+        "coaching": {
+          "trap": "Nhầm với '先……然后' (làm xong việc 1 mới làm việc 2) hoặc '不仅……而且' (tăng tiến tính chất).",
+          "tip": "Khi hai hành động có thể làm cùng một lúc trong khi di chuyển hoặc sinh hoạt -> dùng '一边……一边……'.",
+          "miniExample": {
+            "prompt": "吃饭的时候不要 ______ 吃饭 ______ 看手机。",
+            "options": [
+              "因为……所以",
+              "只有……才",
+              "一边……一边"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vừa ăn cơm vừa xem điện thoại là hai việc song song -> '一边……一边'."
+          },
+          "relatedWordIds": [
+            "v-09761",
+            "v-09985",
+            "v-02746"
+          ],
+          "relatedGrammarId": "g3-17"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r5",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 12",
+        "prompt": "去外地旅游以前，我习惯先上网查好天气和交通方法，然后再把每天想去的地方写在笔记本上。这样不但能省下很多时间，而且遇到天气变化也不容易着急。\n★ 作者去旅游前为什么做这些准备？",
+        "subPrompt": "Đọc đoạn văn và chọn đáp án đúng.",
+        "options": [
+          "因为旅游网站要求游客这样做",
+          "因为作者没有带手机和地图",
+          "为了把笔记本送给当地的朋友",
+          "为了节省时间并且从容应对变化"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn văn nêu rõ lợi ích: '不但能省下很多时间，而且遇到天气变化也不容易着急' (vừa tiết kiệm thời gian, vừa không dễ cuống khi thời tiết thay đổi).",
+        "targetWordId": "v-00424",
+        "coaching": {
+          "trap": "Các phương án nhiễu về '网站要求' hay '没带手机' đều tự bịa chi tiết không hề có trong bài.",
+          "tip": "Khi gặp câu hỏi '为什么', tìm trực tiếp cụm bắt đầu bằng '这样……' hoặc '因为……' ngay sau phần mô tả hành động.",
+          "miniExample": {
+            "prompt": "“提前查好路线，这样就不容易迷路。” 提前查路线有什么好处？",
+            "options": [
+              "不容易迷路",
+              "车票会打折",
+              "天气不会变"
+            ],
+            "correctIndex": 0,
+            "explanation": "Lợi ích nêu ngay sau '这样就' là không dễ bị lạc đường."
+          },
+          "relatedWordIds": [
+            "v-08486",
+            "v-02319",
+            "v-00424"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r6",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 13",
+        "prompt": "王师傅开了二十年出租车，他对城市的每条马路都很熟悉。每次有外地游客坐他的车，他都会热情地介绍当地有名的公园和好吃的小吃，不少游客后来还专门寄信感谢他。\n★ 从这段话可以知道王师傅：",
+        "subPrompt": "Chọn nhận xét đúng về nhân vật Vương Sư Phụ.",
+        "options": [
+          "既熟悉路况又乐于热情介绍当地",
+          "对这座城市的道路不太了解",
+          "只愿意接本地的乘客",
+          "以前是一名著名的厨师"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bác tài Vương lái xe 20 năm nên rành mọi con đường (对每条马路都很熟悉) và nhiệt tình giới thiệu công viên, món ngon cho du khách (热情地介绍).",
+        "targetWordId": "v-10157",
+        "coaching": {
+          "trap": "Bẫy ở lựa chọn '著名的厨师': trong bài có nhắc '好吃的小吃' (món ăn vặt ngon) nhưng đó là thứ bác ấy giới thiệu cho khách, không phải nghề nghiệp của bác.",
+          "tip": "Chú ý nghề nghiệp thật sự ở câu đầu ('开了二十年出租车') và đừng nhầm tân ngữ thành nghề nghiệp.",
+          "miniExample": {
+            "prompt": "“他经常给朋友推荐好看的电影。” 他最可能是：",
+            "options": [
+              "电影演员",
+              "喜欢看电影、爱分享的人",
+              "电影院经理"
+            ],
+            "correctIndex": 1,
+            "explanation": "Giới thiệu phim hay không đồng nghĩa là diễn viên hay quản lý rạp."
+          },
+          "relatedWordIds": [
+            "v-10157",
+            "v-05552",
+            "v-10185"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r7",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 14",
+        "prompt": "小刘，刚才经理来过电话，说下午三点要和银行的客人见面，让你先把合同检查一遍，有问题马上告诉他。我先去吃饭了，回来再帮你一起看。\n★ 这张留言条是谁写给谁的？",
+        "subPrompt": "Đọc mẩu tin nhắn và xác định mối quan hệ/nội dung.",
+        "options": [
+          "银行客人写给经理的",
+          "小刘写给经理的",
+          "同事写给小刘的",
+          "经理写给银行客人的"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lời nhắn gọi '小刘' ở đầu và kể lại '刚才经理来过电话……我先去吃饭了，回来再帮你一起看' -> đây là đồng nghiệp nhắn cho Tiểu Lưu.",
+        "targetWordId": "v-04100",
+        "coaching": {
+          "trap": "Dễ nhầm là giám đốc tự viết cho Tiểu Lưu, nhưng trong tin lại nói '刚才经理来过电话' (vừa nãy giám đốc gọi điện tới).",
+          "tip": "Xác định người nhận ở lời gọi đầu tiên ('小刘，…') và người viết qua ngôi '我' đối chiếu với ngôi thứ ba ('经理').",
+          "miniExample": {
+            "prompt": "“小张，老师让你下午去办公室找他。” 这句话是谁对小张说的？",
+            "options": [
+              "老师",
+              "小张自己",
+              "同学或同事"
+            ],
+            "correctIndex": 2,
+            "explanation": "Người nói dùng ngôi thứ ba '老师' để chuyển lời cho Tiểu Trương -> bạn học hoặc đồng nghiệp."
+          },
+          "relatedWordIds": [
+            "v-04100",
+            "v-09994",
+            "v-04079"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-r8",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 15",
+        "prompt": "学好一门外语，不仅需要每天背单词，更重要的是要多听、多说。很多学习者只看课本却不敢开口，结果学了几年还是很难和别人流利对话。\n★ 作者认为学外语最重要的是什么？",
+        "subPrompt": "Chọn quan điểm trọng tâm của tác giả.",
+        "options": [
+          "每天只背诵单词就足够了",
+          "除了记忆词汇，更要勇敢多听多说",
+          "不需要使用课本和词典",
+          "几年以后自然就会流利对话"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm '不仅需要……更重要的是……' chỉ thẳng trọng tâm phía sau: '要多听、多说', khắc phục việc chỉ đọc sách giáo khoa mà không dám mở miệng nói.",
+        "targetWordId": "v-08512",
+        "coaching": {
+          "trap": "Lựa chọn '每天只背诵单词就足够了' chỉ lấy vế phụ, còn tác giả nhấn mạnh '更重要的是要多听、多说'.",
+          "tip": "Gặp cụm '更重要的是……' hoặc '关键在于……', đáp án chính xác luôn nằm ngay sau cụm này.",
+          "miniExample": {
+            "prompt": "“工作不仅要快，更重要的是要认真。” 说话人最看重：",
+            "options": [
+              "做事认真仔细",
+              "速度越快越好",
+              "不用按时完成"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phần sau '更重要的是' là yêu cầu trọng tâm: làm việc cẩn thận nghiêm túc."
+          },
+          "relatedWordIds": [
+            "v-08512",
+            "v-09438",
+            "v-04873"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-w1",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Sắp xếp câu · Câu 16",
+        "prompt": "解决 / 这个 / 只有 / 办法 / 才能 / 难题 / 用 / 。",
+        "subPrompt": "Sắp xếp các từ trên thành câu đúng ngữ pháp với cấu trúc '只有……才能……'.",
+        "correctAnswer": "只有用这个办法才能解决难题。",
+        "explanation": "Cấu trúc '只有 + điều kiện (用这个办法) + 才 + 能 + động từ + tân ngữ (解决难题)': Chỉ có dùng cách này mới giải quyết được vấn đề khó.",
+        "targetWordId": "v-10893",
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-w2",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Sắp xếp câu · Câu 17",
+        "prompt": "被 / 我的 / 拿错了 / 谁 / 黑色箱子 / ？",
+        "subPrompt": "Sắp xếp thành câu hỏi bị động chữ 被.",
+        "correctAnswer": "我的黑色箱子被谁拿错了？",
+        "explanation": "Trật tự câu chữ 被 dạng nghi vấn: Chủ ngữ bị tác động (我的黑色箱子) + 被 + Tác nhân nghi vấn (谁) + Động từ + Bổ ngữ kết quả (拿错了).",
+        "targetWordId": "v-09096",
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p2-w3",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Đặt câu theo từ gợi ý · Câu 18",
+        "prompt": "Hãy viết 1–2 câu tiếng Trung hoàn chỉnh có sử dụng cả hai từ: “感兴趣” (hứng thú) và “文化” (văn hóa).",
+        "subPrompt": "Gợi ý: Dùng mẫu '对 + danh từ + 感兴趣' (ví dụ: có hứng thú với văn hóa truyền thống/ẩm thực...).",
+        "correctAnswer": "我对中国的茶文化非常感兴趣，以后想去杭州看看。",
+        "explanation": "Lưu ý giới từ '对' đứng trước đối tượng ('对中国文化非常感兴趣'), không nói trực tiếp '我感兴趣中国文化'.",
+        "targetWordId": "v-02680",
+        "reviewed": false
+      }
+    ]
+  },
+  {
+    "id": "paper-hsk3-3",
+    "level": 3,
+    "standard": "3.0",
+    "paperNumber": 3,
+    "title": "Đề thi thử HSK 3.0 Cấp 3 · Đề số 3",
+    "subtitle": "Chủ đề: Gia đình, giao tiếp, mua sắm & giải quyết tình huống (18 câu · Nghe – Đọc – Viết)",
+    "reviewed": false,
+    "questions": [
+      {
+        "id": "hsk3-p3-l1",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 1",
+        "prompt": "请听录音，回答问题：说话人现在在找什么东西？",
+        "subPrompt": "Nghe đoạn ghi âm (tối đa 2 lần) và chọn đáp án đúng.",
+        "audioText": "奇怪，我的耳机刚才明明放在沙发上，怎么一转眼就不见了？你帮我看看是不是掉在桌子底下了。",
+        "options": [
+          "电视遥控器",
+          "手机充电线",
+          "一副耳机",
+          "一把雨伞"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người nói thắc mắc lạ thật, tai nghe (耳机) vừa nãy rõ ràng để trên ghế sô-pha mà giờ biến mất, nhờ tìm xem có rơi dưới gầm bàn không.",
+        "targetWordId": "v-02186",
+        "coaching": {
+          "trap": "Các danh từ chỉ đồ vật dễ gây phân tâm nếu không nhận ra âm đọc của '耳机' (ěrjī - tai nghe) vs '伞/手机'.",
+          "tip": "Bắt ngay chủ ngữ đồ vật đứng sau '我的' ở đầu câu ('我的耳机').",
+          "miniExample": {
+            "prompt": "“请把沙发上的报纸递给我一下。” 说话人想要什么？",
+            "options": [
+              "沙发",
+              "桌子",
+              "报纸"
+            ],
+            "correctIndex": 2,
+            "explanation": "'沙发上的' là định ngữ chỉ vị trí; vật cần lấy là '报纸' (tờ báo)."
+          },
+          "relatedWordIds": [
+            "v-02186",
+            "v-07083",
+            "v-06413"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-l2",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 1 · Câu 2",
+        "prompt": "请听录音，回答问题：关于爷爷，下面哪项是对的？",
+        "subPrompt": "Nghe đoạn ghi âm (tối đa 2 lần) và chọn câu đúng.",
+        "audioText": "爷爷今年七十岁了，但他每天早上都去公园锻炼身体，不仅不觉得累，而且精神比很多年轻人都好。",
+        "options": [
+          "爷爷因为年纪大了，很少出门",
+          "爷爷觉得早上锻炼特别累",
+          "爷爷只喜欢在家里看报纸",
+          "爷爷每天去公园，身体很有精神"
+        ],
+        "correctIndex": 3,
+        "explanation": "Ông nội 70 tuổi nhưng sáng nào cũng ra công viên tập thể dục (锻炼身体), không thấy mệt mà tinh thần còn tốt hơn cả nhiều người trẻ.",
+        "targetWordId": "v-02078",
+        "coaching": {
+          "trap": "Nghe thấy số tuổi '七十岁' dễ đoán nhầm là ít ra ngoài, hoặc nghe '累' mà bỏ mất chữ phủ định '不觉得累'.",
+          "tip": "Luôn nghe kèm chữ '不/没' trước tính từ ('不觉得累') và kết cấu so sánh ('比…都好').",
+          "miniExample": {
+            "prompt": "“他虽然忙，但从来不觉得辛苦。” 他觉得怎么样？",
+            "options": [
+              "不觉得辛苦",
+              "非常辛苦",
+              "一点儿也不忙"
+            ],
+            "correctIndex": 0,
+            "explanation": "'虽然忙' (tuy bận) nhưng '从来不觉得辛苦' (chưa từng thấy vất vả)."
+          },
+          "relatedWordIds": [
+            "v-02078",
+            "v-02912",
+            "v-06041"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-l3",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 3",
+        "prompt": "请听对话，回答问题：女的为什么不让男的点外卖？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn lý do đúng.",
+        "audioText": "男：我今天好饿啊，咱们点外卖吃吧，又快又方便。女：外面下这么大雨，外卖员送餐太辛苦了，而且冰箱里还有新鲜的菜，我很快就能做好。",
+        "options": [
+          "下大雨送餐辛苦，且家里有新鲜食材",
+          "外卖的价格太贵了",
+          "外面的外卖店今天都关门了",
+          "男的其实一点儿也不饿"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người nữ đưa ra hai lý do: trời mưa to người giao đồ ăn rất vất vả, hơn nữa trong tủ lạnh còn có rau tươi (新鲜的菜) nên cô nấu rất nhanh.",
+        "targetWordId": "v-08498",
+        "coaching": {
+          "trap": "Các lựa chọn về giá đắt hay cửa hàng đóng cửa nghe có vẻ hợp lý ngoài đời nhưng không được nhắc tới trong hội thoại.",
+          "tip": "Tổng hợp đủ hai vế của lời từ chối nối bằng '而且'.",
+          "miniExample": {
+            "prompt": "“今天不用点外卖了，阿姨做了很多菜。” 说话人今晚怎么吃饭？",
+            "options": [
+              "吃外卖",
+              "吃家里做的菜",
+              "去餐厅吃"
+            ],
+            "correctIndex": 1,
+            "explanation": "'不用点外卖' + '阿姨做了很多菜' nghĩa là ăn cơm nhà."
+          },
+          "relatedWordIds": [
+            "v-08498",
+            "v-09292",
+            "v-00503"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-l4",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 4",
+        "prompt": "请听对话，回答问题：男的为什么向女的道歉？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn nguyên nhân đúng.",
+        "audioText": "男：小周，实在对不起，我刚才把你的咖啡杯碰倒了，桌子上的文件也弄湿了一点儿。女：没关系，还好重要的那几页纸我早就收进文件夹里了。",
+        "options": [
+          "他把女的的重要文件弄丢了",
+          "他不小心打翻了女的的咖啡",
+          "他忘记给女的买咖啡了",
+          "他迟到了半个小时才到公司"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người nam xin lỗi vì lỡ tay làm đổ cốc cà phê của Tiểu Chu (把你的咖啡杯碰倒了), làm ướt một chút tài liệu trên bàn.",
+        "targetWordId": "v-10895",
+        "coaching": {
+          "trap": "Phương án nói '弄丢了' (làm mất) là sai sự thật; tài liệu chỉ bị ướt một chút và các trang giấy (纸) quan trọng đã được cất kỹ từ trước.",
+          "tip": "Phân biệt kết quả động từ: '碰倒' (làm đổ) / '弄湿' (làm ướt) khác hẳn '弄丢' (làm mất).",
+          "miniExample": {
+            "prompt": "“还好我提前保存了电脑里的文件。” 这句话表示：",
+            "options": [
+              "文件已经全部坏了",
+              "他忘了保存文件",
+              "幸好文件保住了，没有损失"
+            ],
+            "correctIndex": 2,
+            "explanation": "'还好……' (may mà…) luôn báo hiệu hậu quả nghiêm trọng đã được tránh khỏi."
+          },
+          "relatedWordIds": [
+            "v-10895",
+            "v-00083"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-l5",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 2 · Câu 5",
+        "prompt": "请听对话，回答问题：妹妹什么时候能出院？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn thời gian đúng.",
+        "audioText": "女：阿姨，听说妹妹住院了，现在好点儿了吗？男：好多了，医生今天上午检查以后说，如果明天不发烧，后天就可以出院回家了。",
+        "options": [
+          "今天上午",
+          "明天下午",
+          "下个星期一",
+          "后天"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bác sĩ nói nếu ngày mai không sốt thì ngày kia (后天) có thể xuất viện (出院) về nhà.",
+        "targetWordId": "v-01195",
+        "coaching": {
+          "trap": "Bẫy chuỗi ngày liên tiếp trong tiếng Trung: '今天' (hôm nay khám) -> '明天' (ngày mai hết sốt) -> '后天' (ngày kia xuất viện).",
+          "tip": "Ghi nhẩm trục thời gian 今天 → 明天 → 后天 khi nghe các câu về lịch khám/lịch hẹn.",
+          "miniExample": {
+            "prompt": "今天是星期三，大后天是星期几？",
+            "options": [
+              "星期六",
+              "星期四",
+              "星期五"
+            ],
+            "correctIndex": 0,
+            "explanation": "Thứ 4 -> 明天(Thứ 5) -> 后天(Thứ 6) -> 大后天(Thứ 7)."
+          },
+          "relatedWordIds": [
+            "v-01195",
+            "v-11121",
+            "v-03490"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-l6",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 6",
+        "prompt": "请听一段话，回答问题：为什么小区里的老人都喜欢找小林帮忙？",
+        "subPrompt": "Nghe đoạn ngắn (tối đa 2 lần) và chọn đáp án đúng.",
+        "audioText": "小林今年才二十五岁，可他搬到这个小区以后，总是主动帮楼下的老人拿重东西、教他们怎么用手机付水电费，所以大家一遇到麻烦就喜欢找他。",
+        "options": [
+          "因为他在这个小区住了二十五年",
+          "因为他在小区的超市里工作",
+          "因为他乐于帮老人解决生活中的困难",
+          "因为他每天都给大家送礼物"
+        ],
+        "correctIndex": 2,
+        "explanation": "Tiểu Lâm hay chủ động giúp người cao tuổi trong khu dân cư (小区) xách đồ nặng và chỉ họ dùng điện thoại đóng tiền điện nước.",
+        "targetWordId": "v-09170",
+        "coaching": {
+          "trap": "Con số '二十五岁' (25 tuổi) dễ bị ghép nhầm thành '住了二十五年' (ở 25 năm).",
+          "tip": "Nghe kỹ đơn vị đi sau số từ: '岁' là tuổi tác, không phải thời gian cư trú '年'.",
+          "miniExample": {
+            "prompt": "“遇到问题的时候，别一个人扛着，可以请同事帮忙。” 这句话建议我们：",
+            "options": [
+              "不要告诉同事自己的问题",
+              "遇到困难时向别人求助",
+              "自己一个人解决所有事"
+            ],
+            "correctIndex": 1,
+            "explanation": "'请同事帮忙' khuyên nên nhờ sự hỗ trợ từ người xung quanh."
+          },
+          "relatedWordIds": [
+            "v-09170",
+            "v-05109",
+            "v-10286"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-l7",
+        "section": "listening",
+        "kind": "mcq_audio",
+        "partLabel": "Nghe hiểu · Phần 3 · Câu 7",
+        "prompt": "请听对话，回答问题：他们最后决定周末怎么过？",
+        "subPrompt": "Nghe hội thoại (tối đa 2 lần) và chọn kế hoạch cuối cùng.",
+        "audioText": "男：这个周末我想约几个朋友去爬山，你愿意一起去吗？女：爬山也不错，不过我听说星期六下午有雨，咱们不如先去体育馆打网球，再一起吃晚饭吧。男：行，听你的！",
+        "options": [
+          "星期六去爬山",
+          "去体育馆打网球并吃晚饭",
+          "在家做作业和打扫房间",
+          "单独去动物园拍照"
+        ],
+        "correctIndex": 1,
+        "explanation": "Vì nghe tin thứ Bảy có mưa, người nữ đề xuất '不如先去体育馆打网球，再一起吃晚饭' và người nam đồng ý ('行，听你的').",
+        "targetWordId": "v-08573",
+        "coaching": {
+          "trap": "Người nam rủ đi leo núi ('爬山') ở câu đầu, nhưng đã đổi sang đề xuất của người nữ ở cuối.",
+          "tip": "Từ '不如' (chi bằng / hay là) đưa ra đề xuất thay thế; câu '行，听你的' xác nhận chốt phương án đó.",
+          "miniExample": {
+            "prompt": "“外面太热了，咱们不如待在家里看电影吧。” 说话人的建议是：",
+            "options": [
+              "出去散步",
+              "去爬山",
+              "留在家里看电影"
+            ],
+            "correctIndex": 2,
+            "explanation": "'咱们不如……吧' dùng để gợi ý phương án hợp lý hơn."
+          },
+          "relatedWordIds": [
+            "v-08573",
+            "v-08158",
+            "v-11059"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r1",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 8",
+        "prompt": "爷爷的身体 ______ 很好，可是最近因为天气突然变冷，有点儿感冒了。",
+        "subPrompt": "Chọn từ chỉ trạng thái thông thường phù hợp ngữ cảnh đối lập.",
+        "options": [
+          "马上",
+          "已经",
+          "刚才",
+          "一般"
+        ],
+        "correctIndex": 3,
+        "explanation": "'一般' (thông thường / bình thường) tương phản với '最近……有点儿感冒了' (bình thường sức khỏe ông rất tốt, nhưng gần đây trời đột ngột lạnh nên hơi cảm).",
+        "targetWordId": "v-09757",
+        "coaching": {
+          "trap": "Người học hay hiểu '一般' chỉ là 'tạm tạm/bình thường (không xuất sắc)', nên thấy '很好' phía sau lại ngại chọn '一般'. Nhưng khi đi với thời gian/trạng thái, '一般' nghĩa là 'thông thường, nói chung'.",
+          "tip": "Gặp cấu trúc '一般……，可是最近……', dùng '一般' để nêu quy luật bình thường trước khi chuyển sang ngoại lệ gần đây.",
+          "miniExample": {
+            "prompt": "我周末 ______ 在家打扫房间，很少出门。",
+            "options": [
+              "一般",
+              "终于",
+              "突然"
+            ],
+            "correctIndex": 0,
+            "explanation": "'一般' ở đây chỉ thói quen thông thường vào cuối tuần."
+          },
+          "relatedWordIds": [
+            "v-09757",
+            "v-08372",
+            "v-02671"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r2",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 9",
+        "prompt": "这次学校举办的演讲比赛，要求每位同学讲一个 ______ 自己家乡的故事。",
+        "subPrompt": "Chọn giới từ chỉ chủ đề thích hợp.",
+        "options": [
+          "关于",
+          "为了",
+          "根据",
+          "除了"
+        ],
+        "correctIndex": 0,
+        "explanation": "'关于 + danh từ' dùng làm định ngữ trước '的故事' (một câu chuyện về quê hương của mình).",
+        "targetWordId": "v-03072",
+        "coaching": {
+          "trap": "Dễ nhầm '关于' (về chủ đề gì) và '根据' (căn cứ theo cái gì). Trong cụm '...的故事', chỉ '关于' có thể đứng làm định ngữ trước '的 + danh từ'.",
+          "tip": "Khi thấy mẫu '[Giới từ] + Danh từ + 的 + Danh từ (như 故事/新闻/问题)', chọn ngay '关于'.",
+          "miniExample": {
+            "prompt": "我最近在读一本 ______ 中国历史的书。",
+            "options": [
+              "为了",
+              "关于",
+              "把"
+            ],
+            "correctIndex": 1,
+            "explanation": "'关于中国历史的书' = cuốn sách viết về lịch sử Trung Quốc."
+          },
+          "relatedWordIds": [
+            "v-03072",
+            "v-03022",
+            "v-09718"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r3",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 10",
+        "prompt": "这双鞋穿起来很舒服，价格也 ______ 便宜，我觉得非常合适。",
+        "subPrompt": "Chọn phó từ chỉ mức độ phù hợp đứng trước tính từ.",
+        "options": [
+          "刚才",
+          "突然",
+          "比较",
+          "以后"
+        ],
+        "correctIndex": 2,
+        "explanation": "'比较 + Tính từ' (tương đối / khá) dùng tự nhiên trước tính từ '便宜' (rẻ). Các từ chỉ thời gian như '刚才', '以后' hoặc '突然' không bổ nghĩa kiểu này.",
+        "targetWordId": "v-00356",
+        "coaching": {
+          "trap": "Dễ nhầm '比较' (khá / tương đối) chỉ dùng để so sánh hai vật, nhưng ở HSK 3 '比较 + tính từ' rất hay dùng độc lập với nghĩa 'tương đối, khá'.",
+          "tip": "Khi thấy cấu trúc 'Chủ ngữ + [______] + Tính từ (好/贵/便宜/方便)', kiểm tra phó từ mức độ như '比较' hoặc '特别'.",
+          "miniExample": {
+            "prompt": "坐地铁去公司 ______ 方便，不容易堵车。",
+            "options": [
+              "刚才",
+              "以前",
+              "比较"
+            ],
+            "correctIndex": 2,
+            "explanation": "'比较方便' = tương đối tiện lợi."
+          },
+          "relatedWordIds": [
+            "v-00356",
+            "v-03380",
+            "v-09224"
+          ],
+          "relatedGrammarId": "g3-18"
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r4",
+        "section": "reading",
+        "kind": "cloze",
+        "partLabel": "Đọc hiểu · Điền từ · Câu 11",
+        "prompt": "快要期末考试了，大家最近 ______ 每天都在图书馆准备复习，很少去玩游戏。",
+        "subPrompt": "Chọn phó từ chỉ mức độ gần như toàn bộ.",
+        "options": [
+          "马上",
+          "突然",
+          "随便",
+          "几乎"
+        ],
+        "correctIndex": 3,
+        "explanation": "'几乎每天都……' (hầu như ngày nào cũng…) kết hợp tự nhiên với '最近' để miêu tả tần suất cao gần như tuyệt đối.",
+        "targetWordId": "v-03889",
+        "coaching": {
+          "trap": "Dễ nhầm '几乎' (hầu như, 95–99%) với '马上' (ngay lập tức - dùng cho tương lai gần) hoặc '突然' (đột nhiên - cho biến cố bất ngờ).",
+          "tip": "Gặp mẫu '……每天都 / ……所有人都 / ……忘了', ưu tiên kiểm tra '几乎'.",
+          "miniExample": {
+            "prompt": "因为太忙，他今天 ______ 忘了吃午饭。",
+            "options": [
+              "几乎",
+              "一直",
+              "比较"
+            ],
+            "correctIndex": 0,
+            "explanation": "'几乎忘了' nghĩa là suýt nữa thì quên mất."
+          },
+          "relatedWordIds": [
+            "v-03889",
+            "v-08380",
+            "v-10161"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r5",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 12",
+        "prompt": "很多人以为买越贵的洗衣机越好，其实不一定。对一个小家庭来说，选择声音小、用起来简单、售后服务好的洗衣机才是最合适的。\n★ 这段话认为选洗衣机应该注意什么？",
+        "subPrompt": "Đọc đoạn văn và chọn đáp án đúng.",
+        "options": [
+          "实用、安静且适合家庭需要更重要",
+          "一定要挑价格最贵的那一种",
+          "声音越小、越复杂越好",
+          "只需要看外表好不好看"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn văn phản bác quan niệm cứ đắt là tốt (不一定), mà với gia đình nhỏ thì máy ít ồn (声音小), dễ dùng (用起来简单) và hậu mãi tốt mới là phù hợp nhất (最合适).",
+        "targetWordId": "v-08882",
+        "coaching": {
+          "trap": "Câu đầu nhắc '买越贵的洗衣机越好', nhưng ngay sau đó phủ định bằng '很多人以为……其实不一定'.",
+          "tip": "Gặp '很多人以为 A，其实 B', quan điểm của tác giả luôn nằm ở B.",
+          "miniExample": {
+            "prompt": "“大家都以为这道题很难，其实非常简单。” 这道题：",
+            "options": [
+              "非常难",
+              "很容易",
+              "没有人会做"
+            ],
+            "correctIndex": 1,
+            "explanation": "'其实非常简单' khẳng định bài này thực ra rất dễ."
+          },
+          "relatedWordIds": [
+            "v-08882",
+            "v-09921",
+            "v-04084"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r6",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 13",
+        "prompt": "昨天刚下过一场大雪，今天早上马路上有些地方结了冰，非常滑。大家骑自行车或者走路出门的时候，一定要小心安全，最好穿防滑一点儿的鞋子。\n★ 这段话主要提醒大家：",
+        "subPrompt": "Chọn mục đích chính của lời nhắc nhở.",
+        "options": [
+          "今天早上会继续下大雪",
+          "今天不能走路去上班",
+          "出门要注意路面滑，穿合适的鞋",
+          "应该马上把自行车卖掉"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn văn nhắc tuyết hôm qua làm đường đóng băng trơn trượt (非常滑), mọi người ra ngoài cần cẩn thận an toàn (小心安全) và tốt nhất mang giày chống trượt.",
+        "targetWordId": "v-09181",
+        "coaching": {
+          "trap": "Phương án nói hôm nay tiếp tục rơi tuyết nhầm mốc '昨天刚下过雪', còn '不能走路' là suy diễn cực đoan.",
+          "tip": "Chú ý từ khóa lời khuyên ở cuối đoạn: '一定要……，最好……'.",
+          "miniExample": {
+            "prompt": "“天冷了，出门最好多穿一件大衣。” 说话人建议：",
+            "options": [
+              "别出门了",
+              "只穿短裤出门",
+              "多穿一件外套保暖"
+            ],
+            "correctIndex": 2,
+            "explanation": "'最好 + V' là lời khuyên nên làm gì cho tốt nhất."
+          },
+          "relatedWordIds": [
+            "v-09181",
+            "v-11412",
+            "v-09224"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r7",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 14",
+        "prompt": "上个学期，小高每天打完篮球就马上回宿舍打游戏，成绩下降了不少。这个学期他听从了老师的建议，先完成作业再休息，期中考试时数学和外语都进步了很多。\n★ 小高这个学期有什么变化？",
+        "subPrompt": "Đọc đoạn văn và chọn câu đúng.",
+        "options": [
+          "他再也不去打篮球了",
+          "他改变了习惯，学习成绩提高了",
+          "他还是先玩游戏再写作业",
+          "只有外语成绩进步了，数学没变"
+        ],
+        "correctIndex": 1,
+        "explanation": "Học kỳ này Tiểu Cao nghe lời khuyên của thầy: làm xong bài tập rồi mới nghỉ ngơi, nhờ vậy cả Toán và Ngoại ngữ đều tiến bộ nhiều.",
+        "targetWordId": "v-09495",
+        "coaching": {
+          "trap": "Phương án '只有外语进步' bỏ sót '数学和外语都进步了很多'; còn '先玩游戏再写作业' là thói quen của học kỳ trước (上个学期).",
+          "tip": "Phân biệt rõ hai mốc đối chiếu '上个学期' (cũ) và '这个学期' (mới).",
+          "miniExample": {
+            "prompt": "“他以前常迟到，现在总是提前到教室。” 他现在：",
+            "options": [
+              "比以前更准时了",
+              "还是经常迟到",
+              "不去教室了"
+            ],
+            "correctIndex": 0,
+            "explanation": "Đối chiếu '以前' và '现在' cho thấy sự thay đổi tích cực."
+          },
+          "relatedWordIds": [
+            "v-09495",
+            "v-00997",
+            "v-08521"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-r8",
+        "section": "reading",
+        "kind": "mcq_reading",
+        "partLabel": "Đọc hiểu · Đọc đoạn ngắn · Câu 15",
+        "prompt": "周末去超市买东西时，爸爸总会先拿一张纸写好要买的东西。他说这样不但能保证不忘记重要的东西，还能避免买太多不需要的零食。\n★ 爸爸去超市前为什么写清单？",
+        "subPrompt": "Chọn lý do đúng theo nội dung đoạn văn.",
+        "options": [
+          "既不会漏买东西，又不会乱买零食",
+          "因为超市要求顾客自己写菜单",
+          "为了给孩子买更多的零食",
+          "因为爸爸不认识超市里的汉字"
+        ],
+        "correctIndex": 0,
+        "explanation": "Viết trước danh sách giúp bố vừa không quên đồ quan trọng (不忘记重要的东西), vừa tránh mua nhiều đồ ăn vặt không cần thiết (避免买太多不需要的零食).",
+        "targetWordId": "v-08592",
+        "coaching": {
+          "trap": "Phương án '给孩子买更多的零食' đảo ngược hoàn toàn ý nghĩa ('避免买太多' = tránh mua nhiều, không phải để mua thêm).",
+          "tip": "Chú ý các động từ mang nghĩa phòng tránh như '避免' / '不忘记' trước tân ngữ.",
+          "miniExample": {
+            "prompt": "“为了不忘记开会时间，我在手机上记了下来。” 记在手机上是为了：",
+            "options": [
+              "取消这次会议",
+              "提醒自己别忘了开会",
+              "给别人发短信"
+            ],
+            "correctIndex": 1,
+            "explanation": "'为了不忘记……' nêu mục đích ghi chú là để không quên."
+          },
+          "relatedWordIds": [
+            "v-08592",
+            "v-09438",
+            "v-11050"
+          ]
+        },
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-w1",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Sắp xếp câu · Câu 16",
+        "prompt": "蛋糕 / 哥哥 / 桌上的 / 吃完了 / 被 / 已经 / 。",
+        "subPrompt": "Sắp xếp thành câu bị động chữ 被 hoàn chỉnh.",
+        "correctAnswer": "桌上的蛋糕已经被哥哥吃完了。",
+        "explanation": "Trật tự chuẩn: Chủ ngữ (桌上的蛋糕) + Phó từ (已经) + 被 + Tác nhân (哥哥) + Động từ + Bổ ngữ kết quả (吃完了).",
+        "targetWordId": "v-01651",
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-w2",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Sắp xếp câu · Câu 17",
+        "prompt": "认真复习 / 如果 / 就 / 成绩 / 你 / 会 / 提高 / 。",
+        "subPrompt": "Sắp xếp các từ trên thành câu điều kiện '如果……就……'.",
+        "correctAnswer": "如果你认真复习，成绩就会提高。",
+        "explanation": "Cấu trúc '如果 + Mệnh đề điều kiện (你认真复习)，Chủ ngữ (成绩) + 就 + Động từ (会提高)'. Lưu ý có thể thêm dấu phẩy giữa hai vế.",
+        "targetWordId": "v-07008",
+        "reviewed": false
+      },
+      {
+        "id": "hsk3-p3-w3",
+        "section": "writing",
+        "kind": "writing_prompt",
+        "partLabel": "Viết · Đặt câu theo từ gợi ý · Câu 18",
+        "prompt": "Hãy viết 1–2 câu tiếng Trung hoàn chỉnh có sử dụng cả hai từ: “决定” (quyết định) và “留学” (du học).",
+        "subPrompt": "Gợi ý: Kể về kế hoạch học tập hoặc dự định sau khi tốt nghiệp.",
+        "correctAnswer": "大学毕业以后，姐姐决定去中国留学，学习汉语和历史。",
+        "explanation": "Câu mẫu đạt chuẩn HSK 3: '大学毕业以后，姐姐决定去中国留学，学习汉语和历史。' (Sau khi tốt nghiệp đại học, chị gái quyết định đi Trung Quốc du học, học tiếng Hán và lịch sử.)",
+        "targetWordId": "v-04668",
+        "reviewed": false
+      }
+    ]
+  }
+]

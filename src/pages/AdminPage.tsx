@@ -3,6 +3,7 @@ import {
   BookPlus,
   ClipboardCheck,
   Download,
+  ListChecks,
   LogOut,
   Settings,
   UserCheck,
@@ -12,6 +13,7 @@ import { toast } from 'sonner'
 import { Toaster } from 'sonner'
 import { AssignmentManager } from '../components/admin/AssignmentManager'
 import { CohortOverview } from '../components/admin/CohortOverview'
+import { ContentReviewPanel } from '../components/admin/ContentReviewPanel'
 import { LessonBuilder } from '../components/admin/LessonBuilder'
 import { StudentApprovalPanel } from '../components/admin/StudentApprovalPanel'
 import { StudentDrawer } from '../components/admin/StudentDrawer'
@@ -21,12 +23,14 @@ import { useLms } from '../hooks/LmsContext'
 import { useTheme, type ThemePreference } from '../hooks/ThemeContext'
 import type { UserProfile } from '../types/lms'
 
-type AdminTab = 'cohort' | 'students' | 'assignments' | 'lessons' | 'settings'
+type AdminTab = 'cohort' | 'students' | 'assignments' | 'lessons' | 'review' | 'settings'
 
 export default function AdminPage() {
   const { profile, signOut } = useAuth()
   const { preference, resolvedTheme, setTheme } = useTheme()
   const {
+    settings,
+    updateSettings,
     profiles,
     customLessons,
     sessions,
@@ -88,6 +92,7 @@ export default function AdminPage() {
     { k: 'cohort', label: 'Phân tích Lớp học', icon: BarChart3 },
     { k: 'assignments', label: 'Giao bài & Điểm', icon: ClipboardCheck },
     { k: 'lessons', label: 'Kho Bài học', icon: BookPlus },
+    { k: 'review', label: 'Duyệt nội dung', icon: ListChecks },
     { k: 'settings', label: 'Cài đặt Quản trị', icon: Settings },
   ]
 
@@ -237,6 +242,10 @@ export default function AdminPage() {
             onTogglePublished={toggleLessonPublished}
             onDeleteLesson={deleteCustomLesson}
           />
+        )}
+
+        {activeTab === 'review' && (
+          <ContentReviewPanel settings={settings} onUpdateSettings={updateSettings} />
         )}
 
         {activeTab === 'settings' && (

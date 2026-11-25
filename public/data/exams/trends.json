@@ -1,0 +1,122 @@
+[
+  {
+    "level": 1,
+    "title": "Xu hướng ra đề HSK 1 (Bản chốt 11/2025)",
+    "formatSummary": "40 câu / ~40 phút (20 Nghe 2 lần · 20 phút, 20 Đọc · 20 phút) · 300 từ chuẩn HSK 3.0 (chưa yêu cầu viết tay).",
+    "topTraps": [
+      "Nghe nhầm cặp âm bật hơi và không bật hơi (z/c, j/q, b/p) hoặc nhầm thanh 2 với thanh 3 trong câu ngắn.",
+      "Dịch xuôi theo trật tự tiếng Việt khi gặp cụm thời gian, nơi chốn (đặt trước động từ trong tiếng Trung).",
+      "Nhầm thứ tự ngày–tháng–năm (năm trước, tháng giữa, ngày sau), giờ kém và số đếm hàng chục trong phần Nghe.",
+      "Bắt một từ khóa quen rồi chọn vội bức tranh/đáp án mà bỏ sót từ phủ định 不/没 hoặc đại từ nghi vấn."
+    ],
+    "highYieldTopics": [
+      "Chào hỏi, giới thiệu bản thân, quốc tịch và gia đình",
+      "Thời gian, lịch hẹn, thời tiết và sinh hoạt hằng ngày",
+      "Mua sắm, hỏi giá, ăn uống và sở thích cơ bản",
+      "Phương hướng, vị trí đơn giản và phương tiện đi lại"
+    ],
+    "timeStrategy": "Nghe (20 phút): tận dụng 5–10 giây nghỉ giữa các câu để nhìn nhanh tranh và từ khóa; lượt 1 chốt ý chính, lượt 2 xác nhận số đếm và từ phủ định. Đọc (20 phút): hoàn thành 15 câu nối nghĩa–hình trong 10 phút (~40 giây/câu), xử lý 5 câu còn lại trong 7 phút, dành 3 phút cuối rà lại toàn bộ đáp án.",
+    "reviewed": false,
+    "officialReferenceUrl": "https://www.chinesetest.cn/"
+  },
+  {
+    "level": 2,
+    "title": "Xu hướng ra đề HSK 2 (Bản chốt 11/2025)",
+    "formatSummary": "60 câu / ~60 phút (35 Nghe 2 lần · 25 phút, 25 Đọc · 35 phút) · 500 từ tích lũy HSK 3.0 (371 nhận mặt, 100 chữ viết tay chuẩn).",
+    "topTraps": [
+      "Bẫy hội thoại đổi ý ở lượt nói cuối (ban đầu định đồng ý rồi dùng 不过/但是 chuyển sang phương án khác).",
+      "Nhầm trợ từ động thái 了 (sự việc đã hoàn thành/thay đổi) với 过 (trải nghiệm từng làm) hoặc thiếu 得 trong bổ ngữ trạng thái.",
+      "Nhận nhầm chữ Hán có bộ thủ gần giống nhau khi đọc nhanh (như 买/卖, 晴/请, 找/我) do quá phụ thuộc vào Pinyin.",
+      "Chọn ngược chiều hơn–kém trong câu so sánh 比 và nhầm mức độ giữa 一点儿 (một chút) với 得多 (hơn nhiều)."
+    ],
+    "highYieldTopics": [
+      "Giao thông, hỏi đường, đặt lịch hẹn và kế hoạch cuối tuần",
+      "Sức khỏe, khám bệnh nhẹ, cảm xúc và dự báo thời tiết",
+      "Học tập, trường lớp, thi cử và công việc văn phòng cơ bản",
+      "Mua bán, đổi trả đồ, thuê nhà và dịch vụ đời sống"
+    ],
+    "timeStrategy": "Nghe (25 phút): gạch nhẩm từ để hỏi (谁/哪儿/什么时候/怎么) trước khi audio chạy, dùng lượt nghe 2 để khóa đáp án sau khi kiểm tra câu chốt cuối. Đọc (35 phút): 15 phút đầu giải quyết nhanh nhóm câu đơn và ghép cặp đối thoại (~1 phút/câu), 15 phút tiếp theo cho điền từ và đọc đoạn ngắn, giữ 5 phút cuối kiểm tra lại các câu đánh dấu.",
+    "reviewed": false,
+    "officialReferenceUrl": "https://www.chinesetest.cn/"
+  },
+  {
+    "level": 3,
+    "title": "Xu hướng ra đề HSK 3 (Bản chốt 11/2025)",
+    "formatSummary": "70 câu / ~98 phút (35 Nghe 2 lần · 15 phút, 25 Đọc · 43 phút, 10 Viết · 40 phút) · 1.000 từ tích lũy HSK 3.0 (250 chữ viết tay).",
+    "topTraps": [
+      "Viết sai chữ Hán đồng âm khác nghĩa ở phần Viết mới bổ sung (như 做/作, 在/再, 的/得/地) khi viết theo Pinyin hoặc ngữ cảnh.",
+      "Sai trật tự câu chữ 把 (S + 把 + O + V + thành phần bổ sung) và câu bị động 被 do dịch từng chữ từ tiếng Việt.",
+      "Nhầm cặp liên từ tương ứng trong đoạn văn điền khuyết (虽然…但是…, 因为…所以…, 不但…而且…).",
+      "Bỏ sót ý suy luận gián tiếp trong Đọc hiểu (câu hỏi về nguyên nhân thật hoặc thái độ người nói thay vì khớp nguyên văn)."
+    ],
+    "highYieldTopics": [
+      "Du lịch, đặt phòng, văn hóa – ẩm thực và phong tục lễ hội",
+      "Phương pháp học tập, thói quen sống và rèn luyện sức khỏe",
+      "Quan hệ đồng nghiệp, hàng xóm và xử lý tình huống hằng ngày",
+      "So sánh lựa chọn, đánh giá dịch vụ và giải thích nguyên nhân–kết quả"
+    ],
+    "timeStrategy": "Nghe (15 phút): đọc trước 4 phương án để đoán bối cảnh, lượt 2 xác nhận mốc thời gian và lý do. Đọc (43 phút): giữ nhịp ~1,5 phút/câu để xong 25 câu trong 35 phút, chừa 8 phút rà câu suy luận. Viết (40 phút): 15 phút cho sắp xếp câu (tách Chủ–Vị–Tân trước), 20 phút viết chữ Hán cẩn thận nét và bộ thủ, 5 phút soát lỗi đồng âm.",
+    "reviewed": false,
+    "officialReferenceUrl": "https://www.chinesetest.cn/"
+  },
+  {
+    "level": 4,
+    "title": "Xu hướng ra đề HSK 4 (Bản chốt 11/2025)",
+    "formatSummary": "70 câu / ~105 phút (35 Nghe 1 lần · 20 phút, 25 Đọc · 45 phút, 10 Viết · 40 phút) · 2.000 từ tích lũy HSK 3.0 (400 chữ viết tay, nghe 1 lần).",
+    "topTraps": [
+      "Chuyển sang Nghe 1 lần duy nhất (1x): khựng lại 2–3 giây để nhớ câu trước sẽ làm lỡ toàn bộ dữ kiện đầu của câu kế tiếp.",
+      "Suy diễn sai nghĩa từ ghép theo âm Hán-Việt (như 随便, 放心, 丰富, 实在, 委屈) khiến chọn lệch sắc thái câu.",
+      "Nhầm cặp từ cận nghĩa trong điền khuyết và sắp xếp câu (还是/或者, 终于/最后, 曾经/已经, 适合/合适).",
+      "Viết câu từ từ khóa hoặc mô tả ảnh thiếu cấu trúc hoàn chỉnh, dễ sai bổ ngữ khả năng (V + 得/不 + 了/动) và câu kiêm ngữ."
+    ],
+    "highYieldTopics": [
+      "Môi trường công sở, phỏng vấn, hợp tác nhóm và áp lực công việc",
+      "Thói quen tiêu dùng, thương mại điện tử và quản lý tài chính cá nhân",
+      "Lối sống xanh, bảo vệ môi trường và công nghệ trong đời sống",
+      "Kinh nghiệm trưởng thành, phương pháp giáo dục và giao tiếp xã hội"
+    ],
+    "timeStrategy": "Nghe (20 phút, 1x): bỏ qua ngay câu vừa lỡ để dành 3 giây cuối mỗi nhịp quét trước đáp án câu sau. Đọc (45 phút): hoàn thành nhóm điền từ và sắp xếp thứ tự 3 câu (A-B-C) trong 20 phút, 20 phút cho đọc hiểu đoạn dài (đọc câu hỏi trước khi đọc bài), 5 phút kiểm tra lại. Viết (40 phút): 15 phút sắp xếp từ, 20 phút viết câu theo từ khóa/tranh, 5 phút sửa lỗi chữ Hán.",
+    "reviewed": false,
+    "officialReferenceUrl": "https://www.chinesetest.cn/"
+  },
+  {
+    "level": 5,
+    "title": "Xu hướng ra đề HSK 5 (Bản chốt 11/2025)",
+    "formatSummary": "72 câu / ~133 phút (35 Nghe 1 lần · 23 phút, 25 Đọc · 55 phút, 12 Viết · 55 phút) · 3.600 từ tích lũy HSK 3.0 (550 chữ viết tay, nghe 1 lần).",
+    "topTraps": [
+      "Đoạn phỏng vấn và diễn thuyết Nghe 1x chứa nhiều chi tiết nhiễu; đáp án đúng thường diễn đạt lại ý (paraphrase) thay vì lặp nguyên từ trong băng.",
+      "Mắc bẫy kết hợp từ cố định (collocation) và thành ngữ bốn chữ khi biết nghĩa tiếng Việt nhưng dùng sai tân ngữ hoặc ngữ cảnh trang trọng/khẩu ngữ.",
+      "Chọn nhầm ý chính bài đọc nghị luận hoặc khoa học phổ thông do bị thu hút bởi một ví dụ minh họa ở đoạn giữa.",
+      "Phần Viết đoạn văn từ nhóm từ cho trước hoặc tranh minh họa viết rời rạc, thiếu câu chủ đề hoặc sai nét các chữ Hán ít dùng."
+    ],
+    "highYieldTopics": [
+      "Kinh tế số, xu hướng nghề nghiệp mới và quản trị bản thân",
+      "Tâm lý học hành vi, giáo dục gia đình và hệ giá trị sống",
+      "Khoa học thường thức, sức khỏe tinh thần và đời sống đô thị",
+      "Văn hóa truyền thống giao thoa hiện đại và câu chuyện triết lý nhẹ"
+    ],
+    "timeStrategy": "Nghe (23 phút, 1x): ghi nhanh 2–3 ký hiệu số liệu và thái độ người nói để đối chiếu khi chọn đáp án. Đọc (55 phút): 15 phút cho điền khuyết (xác định loại từ và collocation quanh chỗ trống), 32 phút cho đọc hiểu ngắn–dài (ưu tiên câu đầu/cuối mỗi đoạn lấy trục ý), 8 phút rà câu phân vân. Viết (55 phút): 15 phút sắp xếp câu, 35 phút cho 2 bài viết ngắn (5 phút lập dàn ý), 5 phút soát lỗi.",
+    "reviewed": false,
+    "officialReferenceUrl": "https://www.chinesetest.cn/"
+  },
+  {
+    "level": 6,
+    "title": "Xu hướng ra đề HSK 6 (Bản chốt 11/2025)",
+    "formatSummary": "82 câu / ~148 phút (40 Nghe 1 lần · 23 phút, 40 Đọc · 65 phút, 2 Viết & Tóm tắt · 60 phút) · 5.400 từ tích lũy HSK 3.0 (700 chữ viết tay, nghe 1 lần).",
+    "topTraps": [
+      "Phần Đọc tìm câu sai ngữ pháp: bẫy thiếu chủ ngữ do lạm dụng giới từ (通过/随着…使…), thừa phủ định (避免不/防止不) hoặc ghép sai cặp kết cấu câu.",
+      "Đọc hiểu dài đánh đồng chi tiết có thật trong bài với kết luận tuyệt đối hóa (chứa các từ như 一定, 所有, 根本, 完全).",
+      "Nghe bài giảng và bình luận 1x tốc độ tự nhiên: dễ chọn nhầm quan điểm của người được trích dẫn thay vì lập trường thật của người nói.",
+      "Bài viết tóm tắt (10 phút đọc văn bản rồi thu bài, không được nhìn lại): cố nhớ câu chữ hoa mỹ thay vì nắm trục Nhân vật–Sự kiện–Kết quả nên dễ thiếu ý hoặc thêm bình luận chủ quan."
+    ],
+    "highYieldTopics": [
+      "Chuyển đổi số, trí tuệ nhân tạo trong đời sống và tác động xã hội",
+      "Lịch sử văn hóa, mỹ học, văn học và nhân vật truyền cảm hứng",
+      "Kinh tế vĩ mô, quản trị doanh nghiệp và chính sách công",
+      "Sinh thái học, phát triển bền vững và triết lý sống hiện đại"
+    ],
+    "timeStrategy": "Nghe (23 phút, 1x): bám sát các từ chuyển hướng lập luận (然而/事实上/换句话说) để bắt luận điểm chính. Đọc (65 phút): giới hạn tối đa 12 phút cho phần câu sai ngữ pháp (không sa lầy quá 1 phút/câu), 15 phút điền khuyết, 33 phút đọc hiểu dài và 5 phút rà lại. Viết (60 phút): dành trọn 10 phút đầu đọc-nhớ mạch 4 ý cốt lõi, 42 phút viết tóm tắt khách quan và phần viết còn lại, 8 phút cuối sửa chính tả chữ Hán.",
+    "reviewed": false,
+    "officialReferenceUrl": "https://www.chinesetest.cn/"
+  }
+]
