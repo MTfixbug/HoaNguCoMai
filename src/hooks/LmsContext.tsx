@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { loadSearchIndex, loadVocabChunk, levelToChunkKey, loadVocabMeta } from '../lib/dataLoader'
+import { loadSearchIndex, loadVocabForLevel, loadVocabMeta } from '../lib/dataLoader'
 import { computeNextStreak } from '../lib/gamification'
+import { enqueueOfflineMutation, loadOfflineQueue, mergeProgressMaps, saveOfflineQueue } from '../lib/syncMerge'
 import { getDeviceSummary, loadLocalStore, resetLocalStore, saveLocalStore, syncRemoteState, type LmsStoreSnapshot } from '../lib/lmsStore'
 import { calculateNextReview, createInitialProgress } from '../lib/srs'
 import { getSupabase } from '../lib/supabase'
@@ -133,7 +134,7 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         },
         profiles: remote.profiles.length ? remote.profiles : s.profiles,
         customLessons: remote.customLessons,
-        progressMap: remote.progressMap,
+        progressMap: mergeProgressMaps(s.progressMap, remote.progressMap),
         allStudentProgress: remote.allStudentProgress,
         sessions: remote.sessions,
         events: remote.events,
@@ -160,9 +161,12 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     }
   }, [searchIndex])
 
-  const loadLevelVocab = useCallback(async (hskLevel: number) => {
-    return loadVocabChunk(levelToChunkKey(hskLevel))
-  }, [])
+  const loadLevelVocab = useCallback(
+    async (hskLevel: number) => {
+      return loadVocabForLevel(hskLevel, store.settings.hskStandard ?? '3.0')
+    },
+    [store.settings.hskStandard],
+  )
 
   const updateSettings = useCallback((patch: Partial<ClientSettings>) => {
     setStore((s) => ({ ...s, settings: { ...s.settings, ...patch } }))
@@ -302,10 +306,42 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     async (rec: VocabProgressRecord) => {
       const sb = getSupabase()
       if (!configured || !sb || !profile) return
-      await sb.from('vocab_progress').upsert(rec, { onConflict: 'user_id,word_id' })
+      if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+        enqueueOfflineMutation({ kind: 'progress', payload: rec })
+        return
+      }
+      const { error } = await sb.from('vocab_progress').upsert(rec, { onConflict: 'user_id,word_id' })
+      if (error) {
+        enqueueOfflineMutation({ kind: 'progress', payload: rec })
+      }
     },
     [configured, profile],
   )
+
+  useEffect(() => {
+    const flushOffline = async () => {
+      const sb = getSupabase()
+      const p = profileRef.current
+      if (!configured || !sb || !p || (typeof navigator !== 'undefined' && navigator.onLine === false)) return
+      const queue = loadOfflineQueue()
+      if (!queue.length) return
+      const remaining = []
+      for (const item of queue) {
+        try {
+          if (item.kind === 'progress') {
+            const { error } = await sb.from('vocab_progress').upsert(item.payload, { onConflict: 'user_id,word_id' })
+            if (error) remaining.push(item)
+          }
+        } catch {
+          remaining.push(item)
+        }
+      }
+      saveOfflineQueue(remaining)
+    }
+    void flushOffline()
+    window.addEventListener('online', flushOffline)
+    return () => window.removeEventListener('online', flushOffline)
+  }, [configured, profile?.id])
 
   const rateWord = useCallback(
     (wordId: string, hskLevel: number, rating: Rating) => {
