@@ -1,25 +1,20 @@
-# ZHWeb — Nền tảng Lớp học Tiếng Trung HSK 1–9 (Cô Khánh Mai)
+# Hoa Ngữ Cô Mai
 
-Hệ thống học tiếng Trung & luyện thi **HSK 1–9** thuần **Tiếng Việt – Tiếng Trung**, kết nối Supabase (`ZHWeb`) để quản lý lớp học thực tế:
+Nền tảng học tiếng Trung và luyện thi **HSK 1–9** trực tuyến dành cho học viên lớp **Hoa Ngữ Cô Mai**.
 
-- **Tách biệt hoàn toàn khỏi giáo trình PDF HSK 6 cũ**: sử dụng kho từ vựng chuẩn HSK 1–9 (**11.488 từ** qua 7 gói tải lười) kết hợp kho bài học do Giáo viên/Admin tự biên soạn ngay trên web.
-- **Đăng nhập & Kiểm duyệt tài khoản chặt chẽ**:
-  - Học viên mới bắt buộc đăng ký kèm **Họ tên + Gmail** và xác nhận Gmail; trạng thái mặc định là `pending` (**Chờ duyệt**).
-  - Giáo viên / Quản trị (**Cô Khánh Mai**, tài khoản mặc định `Admin@Admin`) duyệt cho học hoặc khóa quyền truy cập bất kỳ lúc nào (bảo vệ bằng Postgres RLS `private.is_approved_user()` & `private.is_admin()`).
-- **Lộ trình cá nhân Trình độ hiện tại → Trình độ mục tiêu**: ngay khi được duyệt lần đầu, học viên chọn cấp HSK hiện tại (hoặc làm bài test xếp lớp nhanh 8 câu) và chọn cấp HSK muốn học lên đến (`HSK 1`..`HSK 9`).
-- **Tính năng học tập & Quản trị**:
-  - Thẻ nhớ SM-2, luyện viết thứ tự nét chữ Hán (`hanzi-writer`), Đấu trường Trắc nghiệm (Fisher-Yates + Anti-Streak), Ghép cặp, Sắp xếp câu, Phòng thi thử chuẩn HSK 1–9 (`2x`/`1x` lượt nghe), Từ điển 11.488 từ.
-  - Bảng điều khiển Quản trị 4 tab: **Duyệt & Khóa Học viên**, **Tổng quan Lớp & Biểu đồ nhiệt**, **Tạo Bài học mới**, và **Giao bài & Bảng điểm CSV**.
+- **Trang web học trực tuyến:** https://mtfixbug.github.io/HoaNguCoMai/
 
-## Kiểm tra & Chạy local
+## Các tính năng chính
+
+- **Lộ trình cá nhân hóa (HSK 1–9):** Tập trung bài học, từ vựng và đề thi theo từng chặng trình độ hiện tại hướng tới mục tiêu đầu ra.
+- **Thẻ từ vựng & Tập viết nét chữ Hán:** Quẹt thẻ phân loại nhanh, ghi nhớ theo chu kỳ lặp lại ngắt quãng, phát âm chuẩn và luyện viết thứ tự nét chữ.
+- **Luyện nghe & phản xạ tiếng Trung:** Luyện phân biệt 4 thanh điệu + thanh nhẹ, nghe–gõ Pinyin, trắc nghiệm tổng hợp, ghép cặp và sắp xếp câu.
+- **Phòng thi thử theo chặng:** Mô phỏng cấu trúc Nghe · Đọc · Viết chuẩn HSK 1–9.
+- **Giữ lửa học tập:** Tích lũy điểm thưởng, duy trì chuỗi ngày học, huy hiệu và bạn đồng hành tương tác.
+
+## Chạy local
 
 ```powershell
-# Kiểm tra dữ liệu HSK 1–9 (9 file)
-node scripts/validate-data.mjs
-
-# Typecheck + Unit tests (Vitest) + Production build
-npx tsc --noEmit && npm test -- --run && npm run build
-
-# Chạy dev server
+npm install
 npm run dev
 ```
