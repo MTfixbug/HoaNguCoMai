@@ -4,6 +4,7 @@ export const DAY_MS = 86_400_000
 export const MIN_EASE = 1.3
 export const MAX_EASE = 3.0
 export const START_EASE = 2.5
+export const LEECH_THRESHOLD = 8
 
 export function computeMasteryStatus(intervalDays: number, repetitions: number, wrongCount: number, correctCount: number): MasteryStatus {
   if (repetitions === 0 && wrongCount === 0 && correctCount === 0) return 'new'
@@ -71,6 +72,7 @@ export function calculateNextReview(card: VocabProgressRecord, rating: Rating, n
     next_review_at: new Date(nextReviewMs).toISOString(),
     wrong_count: wrong,
     correct_count: correct,
+    is_flagged_hard: card.is_flagged_hard || wrong >= LEECH_THRESHOLD,
     mastery_status: computeMasteryStatus(interval, reps, wrong, correct),
     updated_at: new Date(now).toISOString(),
   }

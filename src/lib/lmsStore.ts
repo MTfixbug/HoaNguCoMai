@@ -27,7 +27,13 @@ export const defaultClientSettings: ClientSettings = {
   showMeaning: true,
   petType: 'cat',
   petEnabled: true,
+  petMotion: 'still',
   stickersEnabled: true,
+  hskStandard: '3.0',
+  dailyNewLimit: 10,
+  leaderboardOptIn: false,
+  approvedContentIds: [],
+  contentOverrides: {},
 }
 
 export interface LmsStoreSnapshot {

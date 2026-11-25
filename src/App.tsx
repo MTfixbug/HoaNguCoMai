@@ -8,9 +8,8 @@ import { PetReactionProvider } from './hooks/PetReactionContext'
 import { ThemeProvider } from './hooks/ThemeContext'
 import DashboardPage from './pages/DashboardPage'
 
-const FlashcardPage = lazy(() => import('./pages/FlashcardPage'))
-const QuizPage = lazy(() => import('./pages/QuizPage'))
-const LabPage = lazy(() => import('./pages/LabPage'))
+const TodaySessionPage = lazy(() => import('./pages/TodaySessionPage'))
+const PracticeHubPage = lazy(() => import('./pages/PracticeHubPage'))
 const LessonDetailPage = lazy(() => import('./pages/LessonDetailPage'))
 const ExamCenterPage = lazy(() => import('./pages/ExamCenterPage'))
 const VocabVaultPage = lazy(() => import('./pages/VocabVaultPage'))
@@ -19,7 +18,7 @@ const SettingsPage = lazy(() => import('./pages/SettingsPage'))
 
 const Fallback = (
   <div className="min-h-dvh flex items-center justify-center p-4">
-    <div className="glass-panel p-8 text-center text-sm text-muted">Đang tải không gian làm việc...</div>
+    <div className="glass-panel p-8 text-center text-sm text-muted">Đang tải không gian học tập...</div>
   </div>
 )
 
@@ -39,13 +38,16 @@ function RoleRouter() {
     <Routes>
       <Route element={<AppShell />}>
         <Route index element={<DashboardPage />} />
-        <Route path="flashcards" element={<FlashcardPage />} />
-        <Route path="quiz" element={<QuizPage />} />
-        <Route path="lab" element={<LabPage />} />
-        <Route path="lessons/:id" element={<LessonDetailPage />} />
-        <Route path="exams" element={<ExamCenterPage />} />
+        <Route path="today" element={<TodaySessionPage />} />
         <Route path="vocab" element={<VocabVaultPage />} />
+        <Route path="practice" element={<PracticeHubPage />} />
+        <Route path="exams" element={<ExamCenterPage />} />
+        <Route path="lessons/:id" element={<LessonDetailPage />} />
         <Route path="settings" element={<SettingsPage />} />
+        {/* Giữ chuyển hướng từ các đường dẫn cũ v1.1 */}
+        <Route path="flashcards" element={<Navigate to="/practice?tab=flashcards" replace />} />
+        <Route path="quiz" element={<Navigate to="/practice?tab=quiz" replace />} />
+        <Route path="lab" element={<Navigate to="/practice?tab=audio" replace />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
