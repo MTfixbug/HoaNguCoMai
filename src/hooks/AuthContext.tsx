@@ -1,7 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react'
-import { DEMO_ADMIN_ID, DEMO_STUDENT_ID, loadLocalStore, saveLocalStore } from '../lib/lmsStore'
+import { DEMO_STUDENT_ID, loadLocalStore } from '../lib/lmsStore'
 import { getOAuthRedirectUrl, getSupabase, isSupabaseConfigured, normalizeLoginEmail } from '../lib/supabase'
-import type { UserProfile, UserRole } from '../types/lms'
+import type { UserProfile } from '../types/lms'
 
 interface AuthContextValue {
   configured: boolean
@@ -12,7 +12,6 @@ interface AuthContextValue {
   signUpWithPassword: (fullName: string, email: string, password: string) => Promise<{ error: string | null; needsEmailConfirm: boolean }>
   signInWithGoogle: () => Promise<string | null>
   signOut: () => Promise<void>
-  switchDemoRole: (role: UserRole) => void
   refreshProfile: () => Promise<void>
 }
 
@@ -34,10 +33,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const configured = isSupabaseConfigured()
   const [loading, setLoading] = useState(configured)
   const [profile, setProfile] = useState<UserProfile | null>(() => {
-    if (configured) return null
+    if (configured || !import.meta.env.DEV) return null
     const st = loadLocalStore()
-    const targetId = st.demoRole === 'admin' ? DEMO_ADMIN_ID : DEMO_STUDENT_ID
-    return st.profiles.find((p) => p.id === targetId) ?? st.profiles[0] ?? null
+    return st.profiles.find((p) => p.id === DEMO_STUDENT_ID) ?? st.profiles[0] ?? null
   })
 
   const fetchSupabaseProfile = useCallback(async (uid: string) => {
@@ -155,18 +153,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setProfile(null)
   }, [])
 
-  const switchDemoRole = useCallback(
-    (role: UserRole) => {
-      if (configured) return
-      const st = loadLocalStore()
-      st.demoRole = role
-      saveLocalStore(st)
-      const targetId = role === 'admin' ? DEMO_ADMIN_ID : DEMO_STUDENT_ID
-      setProfile(st.profiles.find((p) => p.id === targetId) ?? null)
-    },
-    [configured],
-  )
-
   const refreshProfile = useCallback(async () => {
     const sb = getSupabase()
     if (!sb) return
@@ -182,14 +168,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     <AuthCtx.Provider
       value={{
         configured,
-        isDemoMode: !configured,
+        isDemoMode: !configured && import.meta.env.DEV,
         loading,
         profile,
         signInWithPassword,
         signUpWithPassword,
         signInWithGoogle,
         signOut,
-        switchDemoRole,
         refreshProfile,
       }}
     >

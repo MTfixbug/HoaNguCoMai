@@ -77,7 +77,7 @@ export default function LessonDetailPage() {
 
       <header className="glass-panel p-5 space-y-1">
         <div className="text-xs font-semibold text-muted">
-          Cấp độ HSK {lesson.hsk_level} · {lesson.vocab_items.length} từ mới · Cô Khánh Mai biên soạn
+          Cấp độ HSK {lesson.hsk_level} · {lesson.vocab_items.length} từ mới · Giáo viên biên soạn
         </div>
         <h1 className="hanzi text-2xl font-bold">{lesson.title_zh}</h1>
         {lesson.title_pinyin && <div className="text-sm font-medium text-jade">{lesson.title_pinyin}</div>}

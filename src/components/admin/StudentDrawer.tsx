@@ -1,4 +1,4 @@
-import { Copy, Eye, EyeOff, Gift, KeyRound, Send } from 'lucide-react'
+import { Copy, Gift, KeyRound, Send } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import {
   Bar,
@@ -29,7 +29,6 @@ interface StudentDrawerProps {
   sessions: StudySession[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
-  savedPassword?: string
   searchIndex: DictEntry[]
   onEnsureSearchIndex: () => Promise<DictEntry[]>
   onReviewExamAttempt: (attemptId: string, writingScore: number, feedback: string) => Promise<void>
@@ -44,7 +43,6 @@ export function StudentDrawer({
   sessions,
   examAttempts,
   kudos,
-  savedPassword,
   searchIndex,
   onEnsureSearchIndex,
   onReviewExamAttempt,
@@ -61,9 +59,14 @@ export function StudentDrawer({
   const [kudosMsg, setKudosMsg] = useState<string>('')
   const [sendingKudos, setSendingKudos] = useState(false)
 
-  const [showDrawerPw, setShowDrawerPw] = useState(false)
+  const [lastResetPw, setLastResetPw] = useState<string | null>(null)
   const [newDrawerPw, setNewDrawerPw] = useState('')
   const [savingPw, setSavingPw] = useState(false)
+
+  useEffect(() => {
+    setLastResetPw(null)
+    setNewDrawerPw('')
+  }, [student?.id])
 
   useEffect(() => {
     if (student && searchIndex.length === 0) {
@@ -198,9 +201,9 @@ export function StudentDrawer({
     setSavingPw(true)
     try {
       await onResetPassword(student.id, newDrawerPw)
+      setLastResetPw(newDrawerPw)
       setNewDrawerPw('')
-      setShowDrawerPw(true)
-      toast.success(`Đã đổi mật khẩu mới cho ${student.full_name}`)
+      toast.success(`Đã đổi mật khẩu mới cho ${student.full_name}. Sao chép ngay để gửi học viên.`)
     } catch (err) {
       toast.error(err instanceof Error ? err.message : 'Không đổi được mật khẩu.')
     } finally {
@@ -222,39 +225,34 @@ export function StudentDrawer({
     >
       {student && (
         <div className="space-y-6">
-          {/* Thông tin đăng nhập & Đổi mật khẩu nhanh */}
+          {/* Thông tin đăng nhập & Đổi mật khẩu nhanh (chỉ hiện 1 lần sau khi đặt lại) */}
           <form onSubmit={handleDrawerResetPw} className="glass-subtle rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3">
             <div className="space-y-1 text-xs">
               <div className="font-bold text-ink flex items-center gap-1.5">
-                <KeyRound size={15} className="text-jade" /> Tài khoản &amp; Mật khẩu học viên
+                <KeyRound size={15} className="text-jade" /> Đặt lại mật khẩu học viên
               </div>
               <div className="flex flex-wrap items-center gap-2 text-muted">
                 <span>Email: <strong className="text-ink">{student.email}</strong></span>
-                <span>•</span>
-                <span>Mật khẩu:</span>
-                {savedPassword ? (
-                  <span className="inline-flex items-center gap-1 rounded-lg border border-line bg-glass px-2 py-0.5 font-mono font-semibold text-ink">
-                    {showDrawerPw ? savedPassword : '••••••••'}
-                    <button
-                      type="button"
-                      onClick={() => setShowDrawerPw((v) => !v)}
-                      className="text-muted hover:text-jade cursor-pointer"
-                    >
-                      {showDrawerPw ? <EyeOff size={12} /> : <Eye size={12} />}
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        void navigator.clipboard?.writeText(`${student.email} / ${savedPassword}`)
-                        toast.success('Đã sao chép tài khoản & mật khẩu')
-                      }}
-                      className="text-muted hover:text-jade cursor-pointer"
-                    >
-                      <Copy size={12} />
-                    </button>
-                  </span>
+                {lastResetPw ? (
+                  <>
+                    <span>•</span>
+                    <span className="inline-flex items-center gap-1.5 rounded-lg border border-jade/40 bg-jade/10 px-2 py-0.5 font-mono font-semibold text-ink">
+                      Mật khẩu mới (1 lần): {lastResetPw}
+                      <button
+                        type="button"
+                        onClick={() => {
+                          void navigator.clipboard?.writeText(`${student.email} / ${lastResetPw}`)
+                          toast.success('Đã sao chép email & mật khẩu mới')
+                        }}
+                        className="text-jade hover:opacity-80 cursor-pointer"
+                        aria-label="Sao chép mật khẩu mới"
+                      >
+                        <Copy size={12} />
+                      </button>
+                    </span>
+                  </>
                 ) : (
-                  <span>Chưa lưu</span>
+                  <span>• Mật khẩu được băm an toàn trong Auth, chỉ hiển thị 1 lần sau khi đặt lại.</span>
                 )}
               </div>
             </div>

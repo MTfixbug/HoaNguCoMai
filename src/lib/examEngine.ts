@@ -209,7 +209,7 @@ export function buildMockExamQuestions(
           kind: 'writing_prompt',
           partLabel: 'Viết · Tóm tắt & Nghị luận (缩写)',
           prompt: '请用400字左右阐述“长期坚持与习惯养成”对学习与工作的积极影响，注意结构清晰、用词得体。',
-          subPrompt: 'Viết bài bằng tiếng Trung vào khung bên dưới; Cô Khánh Mai sẽ xem và chấm điểm trực tiếp.',
+          subPrompt: 'Viết bài bằng tiếng Trung vào khung bên dưới; Giáo viên sẽ xem và chấm điểm trực tiếp.',
           explanation: 'Chấm theo mạch lạc ý, giữ đủ ý chính, đúng ngữ pháp và độ dài quy định.',
         })
       } else {

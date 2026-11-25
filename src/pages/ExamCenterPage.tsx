@@ -563,7 +563,7 @@ export default function ExamCenterPage() {
                   <div className="text-muted">
                     Nghe {ex.listening_score} · Đọc {ex.reading_score} · Viết {ex.writing_score} · {new Date(ex.created_at).toLocaleDateString('vi-VN')}
                   </div>
-                  {ex.admin_feedback && <div className="mt-1 text-jade">Cô Khánh Mai: {ex.admin_feedback}</div>}
+                  {ex.admin_feedback && <div className="mt-1 text-jade">Giáo viên: {ex.admin_feedback}</div>}
                 </div>
                 <span className={`soft-chip ${ex.passed ? '!bg-moss-soft !text-moss' : '!bg-terracotta-soft !text-terracotta'}`}>
                   <CheckCircle2 size={12} /> {ex.total_score} điểm

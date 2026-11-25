@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { validateAll } from '../scripts/validate-data.mjs'
 
-describe('Tính toàn vẹn dữ liệu HSK 1-9 (ZHWeb)', () => {
+describe('Tính toàn vẹn dữ liệu HSK 1-9 (Hoa Ngữ Cô Mai)', () => {
   it('xác nhận toàn bộ 9 tệp dữ liệu từ vựng chuẩn HSK 1-9 hợp lệ với 0 lỗi', () => {
     const dataDir = join(process.cwd(), 'public', 'data')
     const results = validateAll(dataDir)

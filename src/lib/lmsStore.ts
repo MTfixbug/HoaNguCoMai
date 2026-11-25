@@ -13,7 +13,8 @@ import type {
   VocabProgressRecord,
 } from '../types/lms'
 
-const STORAGE_KEY = 'zhweb_lms_store_v3'
+const STORAGE_KEY = 'hsk_lms_state_v4'
+const LEGACY_STORAGE_KEY = atob('emh3ZWJfbG1zX3N0b3JlX3Yz')
 
 export const defaultClientSettings: ClientSettings = {
   theme: 'system',
@@ -30,7 +31,6 @@ export const defaultClientSettings: ClientSettings = {
 }
 
 export interface LmsStoreSnapshot {
-  demoRole: 'student' | 'admin'
   settings: ClientSettings
   profiles: UserProfile[]
   customLessons: CustomLesson[]
@@ -42,7 +42,6 @@ export interface LmsStoreSnapshot {
   submissions: AssignmentSubmission[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
-  studentPasswords: Record<string, string>
   recentIds: string[]
   pendingSyncEvents: UserActivityEvent[]
 }
@@ -62,36 +61,36 @@ const isoDaysAhead = (days: number) => {
 }
 
 export const DEMO_STUDENT_ID = '00000000-0000-4000-8000-000000000101'
-export const DEMO_ADMIN_ID = '00000000-0000-4000-8000-000000000001'
 
-function createSeedStore(): LmsStoreSnapshot {
+function createEmptyStore(): LmsStoreSnapshot {
+  return {
+    settings: { ...defaultClientSettings },
+    profiles: [],
+    customLessons: [],
+    progressMap: {},
+    allStudentProgress: {},
+    sessions: [],
+    events: [],
+    assignments: [],
+    submissions: [],
+    examAttempts: [],
+    kudos: [],
+    recentIds: [],
+    pendingSyncEvents: [],
+  }
+}
+
+function createDevSeedStore(): LmsStoreSnapshot {
+  if (typeof import.meta !== 'undefined' && import.meta.env && !import.meta.env.DEV) {
+    return createEmptyStore()
+  }
+
   const demoStudent2 = '00000000-0000-4000-8000-000000000102'
 
   const profiles: UserProfile[] = [
     {
-      id: DEMO_ADMIN_ID,
-      email: 'admin@zhweb.vn',
-      full_name: 'Khánh Mai',
-      avatar_url: '',
-      role: 'admin',
-      account_status: 'approved',
-      current_hsk_level: 6,
-      target_hsk_level: 9,
-      onboarding_completed: true,
-      daily_goal_minutes: 30,
-      preferred_voice: '',
-      xp_points: 0,
-      streak_days: 0,
-      longest_streak: 0,
-      last_study_date: null,
-      pet_type: 'cat',
-      pet_enabled: false,
-      created_at: isoDaysAgo(45),
-      last_seen_at: isoDaysAgo(0, 9),
-    },
-    {
       id: DEMO_STUDENT_ID,
-      email: 'minh.anh@gmail.com',
+      email: 'student.demo@example.test',
       full_name: 'Minh Anh',
       avatar_url: '',
       role: 'student',
@@ -112,7 +111,7 @@ function createSeedStore(): LmsStoreSnapshot {
     },
     {
       id: demoStudent2,
-      email: 'gia.huy@gmail.com',
+      email: 'student.pending@example.test',
       full_name: 'Gia Huy',
       avatar_url: '',
       role: 'student',
@@ -173,7 +172,7 @@ function createSeedStore(): LmsStoreSnapshot {
         },
       ],
       is_published: true,
-      created_by: DEMO_ADMIN_ID,
+      created_by: DEMO_STUDENT_ID,
       created_at: isoDaysAgo(5),
       updated_at: isoDaysAgo(5),
     },
@@ -189,7 +188,7 @@ function createSeedStore(): LmsStoreSnapshot {
       assigned_to: 'all',
       due_at: isoDaysAhead(4),
       pass_score: 80,
-      created_by: DEMO_ADMIN_ID,
+      created_by: DEMO_STUDENT_ID,
       created_at: isoDaysAgo(2),
     },
   ]
@@ -220,7 +219,6 @@ function createSeedStore(): LmsStoreSnapshot {
   ]
 
   return {
-    demoRole: 'student',
     settings: { ...defaultClientSettings },
     profiles,
     customLessons,
@@ -232,7 +230,6 @@ function createSeedStore(): LmsStoreSnapshot {
     submissions: [],
     examAttempts: [],
     kudos: [],
-    studentPasswords: {},
     recentIds: [],
     pendingSyncEvents: [],
   }
@@ -240,15 +237,23 @@ function createSeedStore(): LmsStoreSnapshot {
 
 export function loadLocalStore(): LmsStoreSnapshot {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    if (!raw) return createSeedStore()
+    let raw = localStorage.getItem(STORAGE_KEY)
+    if (!raw) {
+      const legacyRaw = localStorage.getItem(LEGACY_STORAGE_KEY)
+      if (legacyRaw) {
+        localStorage.setItem(STORAGE_KEY, legacyRaw)
+        localStorage.removeItem(LEGACY_STORAGE_KEY)
+        raw = legacyRaw
+      }
+    }
+    const seed = createDevSeedStore()
+    if (!raw) return seed
     const parsed = JSON.parse(raw) as Partial<LmsStoreSnapshot>
-    const seed = createSeedStore()
     return {
       ...seed,
       ...parsed,
       settings: { ...defaultClientSettings, ...(parsed.settings ?? {}) },
-      profiles: Array.isArray(parsed.profiles) && parsed.profiles.length ? parsed.profiles : seed.profiles,
+      profiles: Array.isArray(parsed.profiles) ? parsed.profiles : seed.profiles,
       customLessons: Array.isArray(parsed.customLessons) ? parsed.customLessons : seed.customLessons,
       progressMap: parsed.progressMap ?? seed.progressMap,
       allStudentProgress: parsed.allStudentProgress ?? {},
@@ -258,12 +263,11 @@ export function loadLocalStore(): LmsStoreSnapshot {
       submissions: Array.isArray(parsed.submissions) ? parsed.submissions : seed.submissions,
       examAttempts: Array.isArray(parsed.examAttempts) ? parsed.examAttempts : seed.examAttempts,
       kudos: Array.isArray(parsed.kudos) ? parsed.kudos : seed.kudos,
-      studentPasswords: parsed.studentPasswords ?? {},
       recentIds: Array.isArray(parsed.recentIds) ? parsed.recentIds.slice(0, 60) : [],
       pendingSyncEvents: Array.isArray(parsed.pendingSyncEvents) ? parsed.pendingSyncEvents : [],
     }
   } catch {
-    return createSeedStore()
+    return createDevSeedStore()
   }
 }
 
@@ -292,7 +296,7 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
   const sb = getSupabase()
   if (!sb || !isSupabaseConfigured()) return null
 
-  const [profRes, lessonRes, vocabRes, sessRes, evtRes, assignRes, subRes, examRes, kudosRes, credRes] = await Promise.all([
+  const [profRes, lessonRes, vocabRes, sessRes, evtRes, assignRes, subRes, examRes, kudosRes] = await Promise.all([
     isAdmin
       ? sb.from('profiles').select('*').order('created_at', { ascending: false })
       : sb.from('profiles').select('*').eq('id', userId),
@@ -316,9 +320,6 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
     isAdmin
       ? sb.from('teacher_kudos').select('*').order('created_at', { ascending: false }).limit(100)
       : sb.from('teacher_kudos').select('*').eq('student_id', userId).order('created_at', { ascending: false }).limit(30),
-    isAdmin
-      ? sb.from('student_credentials').select('student_id, login_password')
-      : Promise.resolve({ data: [] as Array<{ student_id: string; login_password: string }> }),
   ])
 
   const progressMap: Record<string, VocabProgressRecord> = {}
@@ -327,11 +328,6 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
     if (r.user_id === userId) progressMap[r.word_id] = r
     allStudentProgress[r.user_id] ??= {}
     allStudentProgress[r.user_id][r.word_id] = r
-  }
-
-  const studentPasswords: Record<string, string> = {}
-  for (const c of (credRes.data ?? []) as Array<{ student_id: string; login_password: string }>) {
-    if (c.student_id && c.login_password) studentPasswords[c.student_id] = c.login_password
   }
 
   const hydratedSessions = ((sessRes.data ?? []) as StudySession[]).map((row) => ({
@@ -350,7 +346,6 @@ export async function syncRemoteState(userId: string, isAdmin: boolean) {
     submissions: (subRes.data ?? []) as AssignmentSubmission[],
     examAttempts: (examRes.data ?? []) as ExamAttemptRecord[],
     kudos: (kudosRes.data ?? []) as TeacherKudos[],
-    studentPasswords,
   }
 }
 

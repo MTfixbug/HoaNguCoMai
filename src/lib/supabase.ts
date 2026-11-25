@@ -3,21 +3,11 @@ import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL as string | undefined)?.trim() ?? ''
 const supabaseAnonKey = (import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined)?.trim() ?? ''
 
-export const ADMIN_ALIAS_DISPLAY = 'Admin@Admin'
-export const ADMIN_AUTH_EMAIL = 'admin@zhweb.vn'
-
 export const isSupabaseConfigured = (): boolean =>
   Boolean(supabaseUrl && supabaseAnonKey && !supabaseUrl.includes('your-project-id'))
 
 export function normalizeLoginEmail(input: string): string {
-  const cleaned = input.trim().toLowerCase()
-  if (cleaned === 'admin@admin') return ADMIN_AUTH_EMAIL
-  return cleaned
-}
-
-export function formatDisplayEmail(email: string): string {
-  if (!email) return ''
-  return email.trim().toLowerCase() === ADMIN_AUTH_EMAIL ? ADMIN_ALIAS_DISPLAY : email
+  return input.trim().toLowerCase()
 }
 
 let client: SupabaseClient | null = null

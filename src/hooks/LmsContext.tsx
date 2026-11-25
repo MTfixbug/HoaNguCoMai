@@ -42,7 +42,6 @@ interface LmsContextValue {
   submissions: AssignmentSubmission[]
   examAttempts: ExamAttemptRecord[]
   kudos: TeacherKudos[]
-  studentPasswords: Record<string, string>
   recentIds: string[]
   awardXpAndStreak: (xpDelta: number) => void
   updatePetPreferences: (petType: PetType, petEnabled: boolean) => Promise<void>
@@ -142,7 +141,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         submissions: remote.submissions,
         examAttempts: remote.examAttempts,
         kudos: remote.kudos,
-        studentPasswords: remote.studentPasswords,
       }))
     })
     return () => {
@@ -661,7 +659,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         setStore((s) => ({
           ...s,
           profiles: [createdProf, ...s.profiles.filter((x) => x.id !== createdProf.id)],
-          studentPasswords: { ...s.studentPasswords, [createdProf.id]: savedPw },
         }))
         return { profile: createdProf, password: savedPw }
       }
@@ -691,7 +688,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
       setStore((s) => ({
         ...s,
         profiles: [localProf, ...s.profiles],
-        studentPasswords: { ...s.studentPasswords, [localProf.id]: input.password },
       }))
       return { profile: localProf, password: input.password }
     },
@@ -715,10 +711,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         if (error) throw new Error(error.message)
         if (!data?.ok) throw new Error(data?.error ?? 'Không thể đổi mật khẩu học viên.')
       }
-      setStore((s) => ({
-        ...s,
-        studentPasswords: { ...s.studentPasswords, [studentId]: newPassword },
-      }))
     },
     [configured],
   )
@@ -733,15 +725,10 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         if (error) throw new Error(error.message)
         if (!data?.ok) throw new Error(data?.error ?? 'Không thể xóa học viên.')
       }
-      setStore((s) => {
-        const nextPasswords = { ...s.studentPasswords }
-        delete nextPasswords[userId]
-        return {
-          ...s,
-          profiles: s.profiles.filter((p) => p.id !== userId),
-          studentPasswords: nextPasswords,
-        }
-      })
+      setStore((s) => ({
+        ...s,
+        profiles: s.profiles.filter((p) => p.id !== userId),
+      }))
     },
     [configured],
   )
@@ -862,13 +849,13 @@ export function LmsProvider({ children }: { children: ReactNode }) {
     [configured, profile, refreshProfile],
   )
 
-  const exportAllJson = useCallback(() => JSON.stringify({ app: 'zhweb-lms', version: 3, store }, null, 2), [store])
+  const exportAllJson = useCallback(() => JSON.stringify({ app: 'hsk-lms', version: 4, store }, null, 2), [store])
 
   const importAllJson = useCallback((raw: string) => {
     try {
       const parsed = JSON.parse(raw)
       if (!parsed?.store) {
-        return { ok: false, error: 'Tệp sao lưu ZHWeb không hợp lệ.' }
+        return { ok: false, error: 'Tệp sao lưu dữ liệu không hợp lệ.' }
       }
       setStore(parsed.store)
       return { ok: true }
@@ -903,7 +890,6 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         submissions: store.submissions,
         examAttempts: store.examAttempts,
         kudos: store.kudos,
-        studentPasswords: store.studentPasswords,
         recentIds: store.recentIds,
         awardXpAndStreak,
         updatePetPreferences,

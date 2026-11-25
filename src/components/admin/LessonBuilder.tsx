@@ -116,7 +116,7 @@ export function LessonBuilder({
         title_zh: titleZh.trim(),
         title_pinyin: titlePinyin.trim(),
         title_vi: titleVi.trim(),
-        summary: summary.trim() || `Bài học HSK ${hskLevel} do Cô Khánh Mai biên soạn.`,
+        summary: summary.trim() || `Bài học HSK ${hskLevel} do Giáo viên biên soạn.`,
         paragraphs,
         vocab_items: vocabItems,
         grammar_notes,
