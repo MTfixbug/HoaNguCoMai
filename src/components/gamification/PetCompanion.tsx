@@ -8,8 +8,8 @@ import { PET_CATALOG } from '../../lib/gamification'
 import type { PetMotionMode, PetType } from '../../types/lms'
 import ClayPetAvatar, { type PetMood } from './ClayPetAvatar'
 
-// Stay strictly near outer corners so center CTA buttons remain unobstructed
-const EDGE_ANCHORS = [3, 84]
+// Anchor on far right corner in still mode so left-aligned Vietnamese titles stay 100% clear
+const EDGE_ANCHORS = [84, 8]
 
 export default function PetCompanion() {
   const { settings, updateSettings, updatePetPreferences } = useLms()
@@ -205,7 +205,7 @@ export default function PetCompanion() {
             }
           >
             <div style={{ transform: facingRight ? undefined : 'scaleX(-1)' }}>
-              <ClayPetAvatar pet={currentPet} mood={mood} size={48} />
+              <ClayPetAvatar pet={currentPet} mood={mood} size={42} />
             </div>
           </motion.div>
         </button>

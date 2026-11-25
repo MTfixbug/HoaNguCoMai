@@ -176,18 +176,18 @@ export default function DashboardPage() {
             </div>
           )}
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-col sm:flex-row gap-2">
             <Link
               to="/today"
               data-testid="start-today-cta"
-              className="glass-pill-btn glass-primary-btn flex-1 min-h-12 text-sm sm:text-base font-bold justify-center shadow-sm"
+              className="glass-pill-btn glass-primary-btn w-full sm:flex-1 !rounded-2xl min-h-12 px-4 text-sm sm:text-base font-bold justify-center shadow-sm"
             >
               <Play size={18} /> Bắt đầu học hôm nay ({todayPlan.dueWords.length + todayPlan.newWords.length} thẻ)
             </Link>
             <button
               type="button"
               onClick={() => setShowShare((v) => !v)}
-              className="glass-pill-btn min-h-12 px-4 text-xs"
+              className="glass-pill-btn w-full sm:w-auto !rounded-2xl min-h-11 px-4 text-xs"
               aria-label="Chia sẻ tiến độ hôm nay"
             >
               <Share2 size={16} /> Chia sẻ
