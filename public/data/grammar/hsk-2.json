@@ -1,0 +1,2619 @@
+[
+  {
+    "id": "g2-01",
+    "hskLevel": 2,
+    "category": "Từ loại",
+    "topic": "Phương vị từ & Hậu tố 面",
+    "title": "Phương vị từ 左/右 và hậu tố chỉ phương hướng 面",
+    "formula": "前/后/左/右/上/下/里/外 + 面 | (往/向) + 左/右 + (边/面)",
+    "explanationVi": "Ở HSK 2, bên cạnh hậu tố 边 (bên), hậu tố 面 kết hợp với các từ chỉ phương hướng để tạo thành phương vị từ hoàn chỉnh: 上面 (bên trên), 下面 (bên dưới), 前面 (phía trước), 后面 (phía sau), 里面 (bên trong), 外面 (bên ngoài), 左面 (bên trái), 右面 (bên phải). Riêng 左 (trái) và 右 (phải) thường dùng dạng đơn âm tiết sau giới từ chỉ hướng như 往左拐 (rẽ trái), 向右看 (nhìn sang phải), hoặc ghép với 边/面 thành danh từ chỉ vị trí 左边/右面.",
+    "viComparison": "Tiếng Việt đặt từ chỉ phương hướng trước danh từ ('bên trái công ty', 'bên trong phòng'), còn tiếng Trung đặt phương vị từ ở sau danh từ làm trung tâm ngữ: 房间里面 (bên trong phòng), 学校的左边 (bên trái trường học). Khi chỉ hướng rẽ, tiếng Việt nói 'rẽ trái', tiếng Trung đặt hướng trước động từ: 往左拐.",
+    "confusablePairs": [
+      {
+        "pair": "左面 / 左边 vs 往左",
+        "distinction": "左面/左边 là danh từ chỉ vị trí ('phía bên trái'); 往左 là cụm giới-tân làm trạng ngữ chỉ hướng hành động ('về phía trái'). Không nói *往左边 rất gượng khi chỉ đường ngắn, thường nói 往左走/往左拐."
+      },
+      {
+        "pair": "里 vs 里面",
+        "distinction": "Khi đi sau danh từ nơi chốn cụ thể, cả hai đều dùng được (房间里 / 房间里面), nhưng đứng độc lập làm chủ ngữ/tân ngữ hoặc đi sau động từ thường dùng dạng song âm tiết 里面 (里面很热)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "银行在超市的左面。",
+        "pinyin": "Yínháng zài chāoshì de zuǒmiàn.",
+        "vi": "Ngân hàng ở phía bên trái siêu thị."
+      },
+      {
+        "zh": "外边很冷，快到屋子里面来吧。",
+        "pinyin": "Wàibian hěn lěng, kuài dào wūzi lǐmiàn lái ba.",
+        "vi": "Bên ngoài rất lạnh, mau vào trong nhà đi."
+      },
+      {
+        "zh": "前面那个路口往右走就是车站。",
+        "pinyin": "Qiánmiàn nàge lùkǒu wǎng yòu zǒu jiù shì chēzhàn.",
+        "vi": "Ở ngã tư phía trước rẽ phải là đến bến xe."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-01-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu diễn đạt đúng nghĩa 'Phía sau trường học có một công viên':",
+        "options": [
+          "学校后面有一个公园。",
+          "后面学校有一个公园。",
+          "学校有后面一个公园。",
+          "在后面学校有一个公园。"
+        ],
+        "answer": "学校后面有一个公园。",
+        "explanation": "Trong tiếng Trung, phương vị từ 后面 phải đứng sau danh từ 学校 (学校后面 = phía sau trường học)."
+      },
+      {
+        "id": "g2-01-q2",
+        "type": "mcq",
+        "prompt": "Điền từ thích hợp vào chỗ trống: 请一直往前走，到路口再____拐。",
+        "options": [
+          "往左",
+          "左面",
+          "在左",
+          "左边是"
+        ],
+        "answer": "往左",
+        "explanation": "Trước động từ chỉ hướng đi như 拐 (rẽ), 走 (đi), dùng cấu trúc 往 + 左/右 + Động từ."
+      },
+      {
+        "id": "g2-01-q3",
+        "type": "fill",
+        "prompt": "Điền hậu tố thích hợp tạo thành phương vị từ hoàn chỉnh: 桌子上____放着两本书。(bên trên)",
+        "answer": "面",
+        "explanation": "上面 (shàngmiàn) có nghĩa là bên trên / phía trên."
+      },
+      {
+        "id": "g2-01-q4",
+        "type": "fill",
+        "prompt": "Điền từ chỉ hướng thích hợp: 我的____手拿着手机，左手拿着书。(bên phải)",
+        "answer": "右",
+        "explanation": "右手 là tay phải, đối xứng với 左手 (tay trái)."
+      },
+      {
+        "id": "g2-01-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Bên trong phòng rất sạch sẽ.",
+        "tokens": [
+          "房间",
+          "里面",
+          "很",
+          "干净"
+        ],
+        "answer": "房间里面很干净",
+        "explanation": "Trật tự chuẩn: Danh từ nơi chốn (房间) + Phương vị từ (里面) + Phó từ mức độ (很) + Tính từ (干净)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-02",
+    "hskLevel": 2,
+    "category": "Từ loại",
+    "topic": "Đại từ nâng cao",
+    "title": "Đại từ 为什么, 自己 và đại từ chỉ thị 这么/那么/这样/那样/每",
+    "formula": "为什么 + V? | S + 自己 + V | 这么/那么 + Adj/V | 这样/那样 + (做/说) | 每 + Lượng từ + N (+ 都)",
+    "explanationVi": "Nhóm đại từ trọng tâm HSK 2 gồm: (1) 为什么 dùng để hỏi nguyên nhân, có thể đứng trước hoặc sau chủ ngữ. (2) Đại từ phản thân 自己 (tự mình, bản thân) đứng một mình hoặc đi sau đại từ nhân xưng (我自己) để nhấn mạnh tự thực hiện hành động. (3) 这么/那么 đứng trước tính từ hoặc động từ tâm lý để chỉ mức độ ('như thế này/như thế kia': 这么热, 那么喜欢). (4) 这样/那样 dùng trước động từ để chỉ cách thức ('làm/nói như vậy') hoặc bổ nghĩa cho danh từ ('người như thế'). (5) 每 (mỗi) thường kết hợp với lượng từ + danh từ và phó từ 都 ở vị trí vị ngữ để biểu thị toàn bộ không ngoại lệ.",
+    "viComparison": "Tiếng Việt nói 'mỗi ngày tôi đi học' không bắt buộc có chữ 'đều', nhưng trong tiếng Trung sau cụm 每 + lượng từ + danh từ hầu như luôn cần 都: 我每天都去上课. Ngoài ra, 这么/那么 đứng trước tính từ tương đương 'thế này/thế kia' đặt sau tính từ trong tiếng Việt ('nóng thế này' = 这么热).",
+    "confusablePairs": [
+      {
+        "pair": "这么/那么 vs 这样/那样",
+        "distinction": "这么/那么 thường đứng trước tính từ hoặc động từ tâm lý (这么高, 那么想念); 这样/那样 thường chỉ cách thức trước động từ hành động (这样做, 那样说) hoặc làm tân ngữ/định ngữ (像你这样的人)."
+      },
+      {
+        "pair": "自己 vs 一个人",
+        "distinction": "自己 nhấn mạnh 'chính bản thân làm, không nhờ người khác' (我自己做饭); 一个人 nhấn mạnh trạng thái 'một mình, không có ai đi cùng' (我一个人住)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天怎么这么冷？昨天还没这么冷呢。",
+        "pinyin": "Jīntiān zěnme zhème lěng? Zuótiān hái méi zhème lěng ne.",
+        "vi": "Hôm nay sao lại lạnh thế này? Hôm qua vẫn chưa lạnh đến vậy đâu."
+      },
+      {
+        "zh": "这道题不难，我自己能做出来。",
+        "pinyin": "Zhè dào tí bù nán, wǒ zìjǐ néng zuò chūlái.",
+        "vi": "Bài này không khó, tự tôi có thể làm ra được."
+      },
+      {
+        "zh": "每个星期天他都去图书馆看书。",
+        "pinyin": "Měi ge xīngqītiān tā dōu qù túshūguǎn kàn shū.",
+        "vi": "Mỗi Chủ nhật anh ấy đều đến thư viện đọc sách."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-02-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu đúng ngữ pháp:",
+        "options": [
+          "每天我都七点起床。",
+          "我每天都七点起床。",
+          "我每七点都起床。",
+          "每天我七点起床。"
+        ],
+        "answer": "我每天都七点起床。",
+        "explanation": "每天 thường đi với phó từ 都 đặt trước cụm động từ; phó từ 都 đặt sau chủ ngữ 我."
+      },
+      {
+        "id": "g2-02-q2",
+        "type": "mcq",
+        "prompt": "Chọn từ thích hợp điền vào chỗ trống: 你____不跟我说实话？",
+        "options": [
+          "为什么",
+          "什么",
+          "这样",
+          "每"
+        ],
+        "answer": "为什么",
+        "explanation": "Hỏi lý do 'Tại sao bạn không nói thật với tôi?' dùng 为什么."
+      },
+      {
+        "id": "g2-02-q3",
+        "type": "fill",
+        "prompt": "Điền đại từ phản thân thích hợp: 自己的事情要____做。(tự mình)",
+        "answer": "自己",
+        "explanation": "自己 làm trạng ngữ nhấn mạnh tự bản thân thực hiện."
+      },
+      {
+        "id": "g2-02-q4",
+        "type": "fill",
+        "prompt": "Điền đại từ chỉ mức độ ('như thế kia'): 别买那件衣服，____贵，不值得。",
+        "answer": "那么",
+        "explanation": "Trước tính từ 贵 dùng 那么 (đắt như vậy / đắt thế kia)."
+      },
+      {
+        "id": "g2-02-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Làm như vậy rất không tốt.",
+        "tokens": [
+          "这样",
+          "做",
+          "很",
+          "不好"
+        ],
+        "answer": "这样做很不好",
+        "explanation": "这样 đứng trước động từ 做 làm chủ ngữ/trạng ngữ chỉ cách thức."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-03",
+    "hskLevel": 2,
+    "category": "Số từ & Lượng từ",
+    "topic": "Số từ, Số thứ tự & Ước lượng",
+    "title": "Số từ 万/好多/多, Số thứ tự và Cách nói ước lượng (几, 多)",
+    "formula": "Số + 万 | 好多 + (Lượng) + N | Số + Lượng (thứ tự) | Số tròn + 多 + Lượng | Số lẻ + Lượng + 多",
+    "explanationVi": "HSK 2 mở rộng hệ thống số đếm và cách ước lượng: (1) 万 = 10.000 (một vạn); 好多 dùng như 'rất nhiều' (好多书, 好多人). (2) Số thứ tự không cần 第 khi đi với một số lượng từ/danh từ quen thuộc chỉ tầng, phòng, lớp, tuyến xe, ngày tháng (三楼 tầng 3, 二班 lớp 2, 108路 tuyến 108). (3) Ba cách nói ước lượng: dùng 几 (mấy/vài: 十几个, 几十个人); dùng 数词 + 多 + 量词 khi số hàng đơn vị là 0 (tròn chục, trăm, nghìn, vạn: 二十多岁, 一百多块); dùng 数词 + 量词 + 多 khi số nhỏ hơn 10 hoặc đi với đơn vị đo lường không thể tách lẻ theo chục (三个多小时, 两块多钱, 一年多).",
+    "viComparison": "Tiếng Việt nói 'hơn 20 tuổi' và 'hơn 3 tiếng' cùng một vị trí từ 'hơn' đứng trước số, nhưng tiếng Trung phân biệt rất chặt vị trí của 多: số tròn chục/trăm đặt 多 trước lượng từ (二十多岁), còn số nhỏ hơn 10 đặt 多 sau lượng từ (三个多小时).",
+    "confusablePairs": [
+      {
+        "pair": "数词 + 多 + 量词 vs 数词 + 量词 + 多",
+        "distinction": "Số tận cùng là 0 (10, 20, 100...) đặt 多 trước lượng từ: 十多个人 (hơn 10 người). Số từ 1–9 đặt 多 sau lượng từ: 一个多小时 (hơn 1 tiếng), 两斤多 (hơn 2 cân)."
+      },
+      {
+        "pair": "三楼 vs 第三层",
+        "distinction": "Số thứ tự giao tiếp hằng ngày dùng trực tiếp 数词 + 量词/名词 (三楼, 二号, 一月) ngắn gọn hơn dùng 第."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "这个学校有两万多个学生。",
+        "pinyin": "Zhège xuéxiào yǒu liǎng wàn duō ge xuésheng.",
+        "vi": "Ngôi trường này có hơn hai vạn (20.000) học sinh."
+      },
+      {
+        "zh": "我学汉语学了一年多了。",
+        "pinyin": "Wǒ xué Hànyǔ xuéle yì nián duō le.",
+        "vi": "Tôi đã học tiếng Hán được hơn một năm rồi."
+      },
+      {
+        "zh": "教室在三楼，里面有好多人。",
+        "pinyin": "Jiàoshì zài sān lóu, lǐmiàn yǒu hǎoduō rén.",
+        "vi": "Phòng học ở tầng 3, bên trong có rất nhiều người."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-03-q1",
+        "type": "mcq",
+        "prompt": "Cách nói 'hơn ba tiếng đồng hồ' đúng là:",
+        "options": [
+          "三个多小时",
+          "三多个小时",
+          "多三个小时",
+          "三个小时几"
+        ],
+        "answer": "三个多小时",
+        "explanation": "Số từ 3 nhỏ hơn 10 nên 多 phải đặt sau lượng từ 个 (và trước danh từ 小时)."
+      },
+      {
+        "id": "g2-03-q2",
+        "type": "mcq",
+        "prompt": "Cách nói 'hơn 50 đồng' đúng là:",
+        "options": [
+          "五十多块钱",
+          "五多十块钱",
+          "五十块钱多",
+          "多五十块钱"
+        ],
+        "answer": "五十多块钱",
+        "explanation": "50 là số tròn chục (tận cùng bằng 0) nên 多 đứng ngay sau 50 và trước lượng từ 块."
+      },
+      {
+        "id": "g2-03-q3",
+        "type": "fill",
+        "prompt": "Điền từ ước lượng cho 'mười mấy quyển sách': 十____本书。",
+        "answer": "几",
+        "explanation": "十几 + lượng từ + danh từ dùng để ước lượng trong khoảng 11–19."
+      },
+      {
+        "id": "g2-03-q4",
+        "type": "fill",
+        "prompt": "Điền từ có nghĩa 'rất nhiều' (bắt đầu bằng 好): 桌子上放着____苹果，你吃吧。",
+        "answer": "好多",
+        "explanation": "好多 + danh từ diễn tả số lượng nhiều trong khẩu ngữ."
+      },
+      {
+        "id": "g2-03-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Tôi sống ở phòng 205 tầng hai.",
+        "tokens": [
+          "我",
+          "住在",
+          "二楼",
+          "205房间"
+        ],
+        "answer": "我住在二楼205房间",
+        "explanation": "Số thứ tự chỉ tầng lầu và số phòng dùng trực tiếp 二楼, 205房间."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-04",
+    "hskLevel": 2,
+    "category": "Số từ & Lượng từ",
+    "topic": "Lượng từ chuyên dụng & động lượng từ",
+    "title": "Lượng từ 条, 位, 间, 名, 包 và động lượng từ 次",
+    "formula": "Số + 条/位/间/名/包 + N | V + (了/过) + Số + 次 + (N)",
+    "explanationVi": "HSK 2 bổ sung các lượng từ phổ biến: (1) 条 dùng cho vật dài, hẹp hoặc uốn lượn (一条路 con đường, 一条河 dòng sông, 一条鱼 con cá, 一条裤子 chiếc quần). (2) 位 dùng cho người với sắc thái kính trọng (一位老师, 一位客人). (3) 间 dùng cho phòng ốc (一间卧室, 两间教室). (4) 名 dùng cho người có thân phận/nghề nghiệp (两名医生, 三名学生). (5) 包 là lượng từ mượn từ danh từ chỉ đồ vật đóng gói (一包茶 một gói trà, 两包糖). (6) 次 là động lượng từ chỉ số lần thực hiện hành động; nếu tân ngữ là danh từ chỉ vật, 次 đặt trước tân ngữ (去过两次北京); nếu tân ngữ là đại từ nhân xưng, 次 đặt sau đại từ (找过他一次).",
+    "viComparison": "Tiếng Việt dùng 'cái' cho quần nhưng tiếng Trung phải dùng 条 (一条裤子). Với số lần, tiếng Việt nói 'tôi đã đi Bắc Kinh hai lần', còn tiếng Trung ưu tiên đặt 次 trước tân ngữ nơi chốn hoặc vật: 我去过两次北京 (dù nói 我去过北京两次 cũng gặp nhưng chuẩn ngữ pháp đặt giữa động từ và tân ngữ danh từ).",
+    "confusablePairs": [
+      {
+        "pair": "位 vs 个 vs 名",
+        "distinction": "个 dùng trung tính cho mọi người/vật; 位 mang sắc thái lịch sự, tôn kính (这位先生); 名 nhấn mạnh thành viên thuộc một nhóm nghề nghiệp hay danh sách (十名学生)."
+      },
+      {
+        "pair": "找过他两次 vs 看过两次电影",
+        "distinction": "Tân ngữ là đại từ (他/你/我) luôn đứng trước 次 (找过他两次). Tân ngữ là danh từ thông thường đứng sau 次 (看过两次电影)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "那位老师教得很好，学生们都很喜欢他。",
+        "pinyin": "Nà wèi lǎoshī jiāo de hěn hǎo, xuéshengmen dōu hěn xǐhuan tā.",
+        "vi": "Vị giáo viên kia dạy rất hay, các học sinh đều rất quý thầy ấy."
+      },
+      {
+        "zh": "他去过三次中国，买了一包茶叶。",
+        "pinyin": "Tā qùguo sān cì Zhōngguó, mǎile yì bāo cháyè.",
+        "vi": "Anh ấy từng đi Trung Quốc ba lần, đã mua một gói trà."
+      },
+      {
+        "zh": "这条裙子很漂亮，我试试吧。",
+        "pinyin": "Zhè tiáo qúnzi hěn piàoliang, wǒ shìshi ba.",
+        "vi": "Chiếc váy này rất đẹp, để tôi thử xem."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-04-q1",
+        "type": "mcq",
+        "prompt": "Chọn lượng từ đúng: 这____房间很大，也很明亮。",
+        "options": [
+          "间",
+          "条",
+          "位",
+          "名"
+        ],
+        "answer": "间",
+        "explanation": "房间 (căn phòng) dùng lượng từ chuyên dụng là 间."
+      },
+      {
+        "id": "g2-04-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu đặt vị trí 次 chính xác nhất:",
+        "options": [
+          "我找过他两次，他都不在。",
+          "我找过两次他，他都不在。",
+          "我两次找过他，他都不在。",
+          "我找两次过他，他都不在。"
+        ],
+        "answer": "我找过他两次，他都不在。",
+        "explanation": "Tân ngữ là đại từ nhân xưng 他 nên phải đứng trước động lượng từ 两次."
+      },
+      {
+        "id": "g2-04-q3",
+        "type": "fill",
+        "prompt": "Điền lượng từ thích hợp cho con đường dài: 家门口有一____小路。",
+        "answer": "条",
+        "explanation": "路 (con đường) dài và hẹp nên dùng lượng từ 条."
+      },
+      {
+        "id": "g2-04-q4",
+        "type": "fill",
+        "prompt": "Điền lượng từ lịch sự cho khách: 请问，您几____？(mấy vị)",
+        "answer": "位",
+        "explanation": "Trong nhà hàng/khách sạn, hỏi số lượng khách dùng 几位 để thể hiện sự lịch sự."
+      },
+      {
+        "id": "g2-04-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Chúng tôi đã xem bộ phim này một lần rồi.",
+        "tokens": [
+          "我们",
+          "看过",
+          "一次",
+          "这个电影",
+          "了"
+        ],
+        "answer": "我们看过一次这个电影了",
+        "explanation": "Động từ + 过 + Động lượng từ (一次) + Tân ngữ danh từ (这个电影) + 了."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-05",
+    "hskLevel": 2,
+    "category": "Động từ & Lặp lại",
+    "topic": "Lặp lại động từ",
+    "title": "Hình thức lặp lại động từ (AA, A一A, A了A, ABAB)",
+    "formula": "Động từ 1 âm tiết: AA / A一A / A了A | Động từ 2 âm tiết: ABAB",
+    "explanationVi": "Lặp lại động từ biểu thị hành động diễn ra trong thời gian ngắn, mang tính thử nghiệm, hoặc làm ngữ khí câu nhẹ nhàng, thân mật hơn. Động từ 1 âm tiết dùng AA (看看, 听听), xen giữa 一 thành A一A (看一看, 试一试), hoặc nếu hành động đã xảy ra trong quá khứ dùng A了A (看了看, 想了想). Động từ 2 âm tiết (không phải từ ly hợp) lặp lại theo dạng ABAB (休息休息, 介绍介绍, 练习练习). Lưu ý: Không lặp lại động từ không chỉ hành động có thể kiểm soát hoặc động từ tồn tại/quan hệ (như 是, 在, 有, 喜欢), và không dùng dạng lặp lại chung với 正在 hoặc 着.",
+    "viComparison": "Tiếng Việt diễn đạt sắc thái này bằng cách thêm 'xem', 'thử', 'một chút' sau động từ ('nhìn xem', 'nghỉ ngơi một chút', 'nghe thử'). Tiếng Trung không nói *休息休 mà phải lặp cả hai âm tiết: 休息休息.",
+    "confusablePairs": [
+      {
+        "pair": "看一看 vs 看了看",
+        "distinction": "看一看 dùng cho hành động chưa xảy ra, đề nghị hoặc thói quen; 看了看 bắt buộc dùng cho hành động đã hoàn tất trong quá khứ (他看了看表 = Anh ấy liếc nhìn đồng hồ)."
+      },
+      {
+        "pair": "ABAB (学习学习) vs AABB (高高兴兴)",
+        "distinction": "Động từ lặp theo ABAB (休息休息); tính từ lặp theo AABB (干干净净). Nhầm sang *休休息息 là sai ngữ pháp."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "你穿穿这双鞋，看看合适不合适。",
+        "pinyin": "Nǐ chuānchuan zhè shuāng xié, kànkan héshì bu héshì.",
+        "vi": "Bạn đi thử đôi giày này xem có vừa không."
+      },
+      {
+        "zh": "他想了想，然后回答了老师的问题。",
+        "pinyin": "Tā xiǎngle xiǎng, ránhòu huídále lǎoshī de wèntí.",
+        "vi": "Cậu ấy nghĩ một lát rồi trả lời câu hỏi của thầy giáo."
+      },
+      {
+        "zh": "工作了一上午，咱们休息休息吧。",
+        "pinyin": "Gōngzuòle yí shàngwǔ, zánmen xiūxi xiūxi ba.",
+        "vi": "Làm việc cả buổi sáng rồi, chúng ta nghỉ ngơi một chút đi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-05-q1",
+        "type": "mcq",
+        "prompt": "Chọn hình thức lặp lại đúng của động từ 准备 (chuẩn bị):",
+        "options": [
+          "准备准备",
+          "准准备备",
+          "准一准备",
+          "准备了备"
+        ],
+        "answer": "准备准备",
+        "explanation": "准备 là động từ song âm tiết thông thường nên lặp lại theo cấu trúc ABAB: 准备准备."
+      },
+      {
+        "id": "g2-05-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu đúng cho ngữ cảnh đã xảy ra ở quá khứ:",
+        "options": [
+          "妈妈打开门，看了看房间。",
+          "妈妈打开门，看一看了房间。",
+          "妈妈打开门，正在看看房间。",
+          "妈妈打开门，看看着房间。"
+        ],
+        "answer": "妈妈打开门，看了看房间。",
+        "explanation": "Hành động đã diễn ra dùng A了A (看了看); không kết hợp động từ lặp lại với 正在 hay 着."
+      },
+      {
+        "id": "g2-05-q3",
+        "type": "fill",
+        "prompt": "Điền dạng lặp lại A一A của động từ 试 (thử): 这件衣服很不错，你____吧。",
+        "answer": "试一试",
+        "explanation": "Động từ đơn âm tiết lặp lại xen 一 theo mẫu A一A: 试一试."
+      },
+      {
+        "id": "g2-05-q4",
+        "type": "fill",
+        "prompt": "Điền dạng lặp lại ABAB của 认识 (làm quen): 我来介绍一下，你们____。",
+        "answer": "认识认识",
+        "explanation": "认识 là động từ 2 âm tiết lặp theo mẫu ABAB: 认识认识."
+      },
+      {
+        "id": "g2-05-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Bạn hãy nghe thử bài hát này xem.",
+        "tokens": [
+          "你",
+          "听一听",
+          "这首歌",
+          "吧"
+        ],
+        "answer": "你听一听这首歌吧",
+        "explanation": "Trật tự: Chủ ngữ (你) + Động từ lặp lại (听一听) + Tân ngữ (这首歌) + Trợ từ ngữ khí (吧)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-06",
+    "hskLevel": 2,
+    "category": "Động từ & Lặp lại",
+    "topic": "Động từ ly hợp",
+    "title": "Động từ ly hợp (离合词: 帮忙, 游泳, 跳舞, 跑步)",
+    "formula": "A + B (liền) | A + 了/过/着/Số lượng/Định ngữ + B | Lặp lại: AAB",
+    "explanationVi": "Động từ ly hợp là từ song âm tiết có cấu trúc nội tại Động từ + Tân ngữ (ví dụ: 帮忙 = giúp + việc bận, 游泳 = bơi + lội, 跳舞 = nhảy + múa, 跑步 = chạy + bước). Vì chữ thứ hai vốn đã là tân ngữ, động từ ly hợp KHÔNG được mang thêm tân ngữ trực tiếp phía sau (*帮忙我, *游泳河 là sai). Khi cần thêm đối tượng, dùng giới từ đặt trước (帮我一个忙 / 给我帮忙) hoặc chèn định ngữ vào giữa A và B (跳了一个小时的舞). Khi lặp lại, chỉ lặp chữ đầu tiên theo mẫu AAB (帮帮忙, 游游泳, 跳跳舞, 跑跑步). Các trợ từ 了/过 và bổ ngữ thời lượng cũng thường chèn vào giữa A và B.",
+    "viComparison": "Tiếng Việt coi 'giúp đỡ', 'bơi lội', 'nhảy múa' như một động từ đơn thuần và nói 'giúp đỡ tôi', 'nhảy điệu múa'. Trong tiếng Trung, người học Việt rất hay mắc lỗi *我帮忙你 hoặc *游泳了一个小时; phải sửa thành 我帮你 / 我帮你的忙 và 游了一个小时泳.",
+    "confusablePairs": [
+      {
+        "pair": "帮忙 vs 帮助",
+        "distinction": "帮忙 là động từ ly hợp, KHÔNG mang tân ngữ trực tiếp phía sau (可以说：请帮我一个忙 / 请帮我的忙). 帮助 là động từ thường, mang trực tiếp tân ngữ phía sau (请帮助我)."
+      },
+      {
+        "pair": "游了两次泳 vs 游泳了两次",
+        "distinction": "Chuẩn ngữ pháp đặt động lượng từ hoặc thời lượng vào giữa hai thành tố ly hợp: 游了两次泳, 跑了半个小时步."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "周末我常去公园跑跑步，游游泳。",
+        "pinyin": "Zhōumò wǒ cháng qù gōngyuán pǎopao bù, yóuyou yǒng.",
+        "vi": "Cuối tuần tôi thường đến công viên chạy bộ một chút, bơi một chút."
+      },
+      {
+        "zh": "这件事太难了，你能帮我一个忙吗？",
+        "pinyin": "Zhè jiàn shì tài nán le, nǐ néng bāng wǒ yí ge máng ma?",
+        "vi": "Việc này khó quá, bạn có thể giúp tôi một tay không?"
+      },
+      {
+        "zh": "昨天晚上她跳了两个小时的舞。",
+        "pinyin": "Zuótiān wǎnshang tā tiàole liǎng ge xiǎoshí de wǔ.",
+        "vi": "Tối hôm qua cô ấy đã khiêu vũ hai tiếng đồng hồ."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-06-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu ĐÚNG ngữ pháp:",
+        "options": [
+          "我可以请你帮个忙吗？",
+          "我可以请你帮忙我吗？",
+          "我每天跑步半个小时步。",
+          "我们一起游泳游泳吧。"
+        ],
+        "answer": "我可以请你帮个忙吗？",
+        "explanation": "帮忙 là động từ ly hợp: không mang tân ngữ trực tiếp phía sau (*帮忙我), không lặp ABAB (*游泳游泳), có thể chèn 个 vào giữa (帮个忙)."
+      },
+      {
+        "id": "g2-06-q2",
+        "type": "mcq",
+        "prompt": "Chọn dạng lặp lại đúng của 跳舞 (nhảy múa):",
+        "options": [
+          "跳跳舞",
+          "跳舞跳舞",
+          "跳跳踊踊",
+          "舞跳舞"
+        ],
+        "answer": "跳跳舞",
+        "explanation": "Động từ ly hợp lặp lại theo quy tắc AAB: 跳跳舞."
+      },
+      {
+        "id": "g2-06-q3",
+        "type": "fill",
+        "prompt": "Điền thành tố còn thiếu của động từ ly hợp 游泳: 他昨天游了半个小时____。",
+        "answer": "泳",
+        "explanation": "Tách 游泳 thành 游 + 了 + Thời lượng + 泳 (tức 游了半个小时泳)."
+      },
+      {
+        "id": "g2-06-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu nhờ vả với 帮忙 dạng AAB: 你有空的时候能____吗？",
+        "answer": "帮帮忙",
+        "explanation": "帮忙 là động từ ly hợp nên dạng lặp lại là AAB: 帮帮忙."
+      },
+      {
+        "id": "g2-06-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Sáng nay tôi đã chạy bộ 30 phút.",
+        "tokens": [
+          "今天早上",
+          "我",
+          "跑了",
+          "三十分钟",
+          "步"
+        ],
+        "answer": "今天早上我跑了三十分钟步",
+        "explanation": "跑步 tách ra để chèn thời lượng 三十分钟 vào giữa 跑了 và 步."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-07",
+    "hskLevel": 2,
+    "category": "Động từ & Lặp lại",
+    "topic": "Động từ năng nguyện",
+    "title": "Động từ năng nguyện 可能 (Có thể, có lẽ)",
+    "formula": "S + 可能 + V/Adj | 可能 + S + V/Adj | Phủ định: 不可能 / 可能不...",
+    "explanationVi": "可能 là động từ năng nguyện biểu thị sự suy đoán về khả năng khách quan của sự việc ('có thể, có lẽ'). Khác với nhiều động từ năng nguyện khác, 可能 có thể đứng sau chủ ngữ (他可能不来了) hoặc đứng trước chủ ngữ (可能他忘了). Dạng phủ định có hai nghĩa khác nhau: 不可能 phủ định hoàn toàn khả năng ('không thể nào xảy ra'), còn 可能不 suy đoán khả năng không làm ('có thể sẽ không...').",
+    "viComparison": "Tiếng Việt cùng dùng 'có thể', nhưng tiếng Trung chia rõ: 能/可以 nói về năng lực hay sự cho phép, 会 chỉ xác suất cao mang tính khẳng định chủ quan ('chắc sẽ'), còn 可能 mang tính phỏng đoán khoảng 50% ('có lẽ/có khả năng').",
+    "confusablePairs": [
+      {
+        "pair": "可能 vs 可以 / 能",
+        "distinction": "可能 diễn tả suy đoán sự việc (明天可能下雨 = Ngày mai có thể mưa). 可以/能 diễn tả năng lực hoặc sự cho phép (这里可以停车 = Ở đây được đỗ xe)."
+      },
+      {
+        "pair": "不可能 + V vs 可能 + 不 + V",
+        "distinction": "不可能去 = Không đời nào đi (bác bỏ hoàn toàn); 可能不去 = Có lẽ sẽ không đi (suy đoán)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "天阴了，下午可能会下雨。",
+        "pinyin": "Tiān yīn le, xiàwǔ kěnéng huì xià yǔ.",
+        "vi": "Trời âm u rồi, buổi chiều có thể sẽ mưa."
+      },
+      {
+        "zh": "他今天身体不太舒服，可能不来上课了。",
+        "pinyin": "Tā jīntiān shēntǐ bú tài shūfu, kěnéng bù lái shàngkè le.",
+        "vi": "Hôm nay cậu ấy hơi không khỏe, có lẽ sẽ không đến lớp nữa."
+      },
+      {
+        "zh": "这么简单的字，他不可能不认识。",
+        "pinyin": "Zhème jiǎndān de zì, tā bù kěnéng bú rènshi.",
+        "vi": "Chữ đơn giản thế này, anh ấy không thể nào không biết được."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-07-q1",
+        "type": "mcq",
+        "prompt": "Chọn từ thích hợp để suy đoán thời tiết: 外面刮风了，晚上____要降温。",
+        "options": [
+          "可能",
+          "可以",
+          "能",
+          "想"
+        ],
+        "answer": "可能",
+        "explanation": "Suy đoán khách quan về thời tiết dùng động từ năng nguyện 可能."
+      },
+      {
+        "id": "g2-07-q2",
+        "type": "mcq",
+        "prompt": "Câu nào diễn tả nghĩa 'Anh ấy không thể nào quên sinh nhật của tôi'?",
+        "options": [
+          "他不可能忘记我的生日。",
+          "他可能不忘记我的生日。",
+          "他不可以忘记我的生日。",
+          "他不能不忘记我的生日。"
+        ],
+        "answer": "他不可能忘记我的生日。",
+        "explanation": "不可能 phủ định hoàn toàn khả năng ('không thể nào')."
+      },
+      {
+        "id": "g2-07-q3",
+        "type": "fill",
+        "prompt": "Điền từ chỉ khả năng phỏng đoán ('có lẽ'): 已经八点半了，公共汽车____不来了。",
+        "answer": "可能",
+        "explanation": "可能 đứng trước 不来 diễn tả suy đoán 'có lẽ sẽ không đến nữa'."
+      },
+      {
+        "id": "g2-07-q4",
+        "type": "fill",
+        "prompt": "Điền phủ định 'không thể nào': 昨天我刚见过他，他____去北京了。",
+        "answer": "不可能",
+        "explanation": "Phủ định dứt khoát phỏng đoán dùng 不可能."
+      },
+      {
+        "id": "g2-07-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Ngày mai anh ấy có lẽ không đi làm.",
+        "tokens": [
+          "明天",
+          "他",
+          "可能",
+          "不去",
+          "上班"
+        ],
+        "answer": "明天他可能不去上班",
+        "explanation": "Trật tự: Thời gian (明天) + Chủ ngữ (他) + 可能 + Phủ định (不去) + Động từ (上班)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-08",
+    "hskLevel": 2,
+    "category": "Từ loại",
+    "topic": "Lặp lại tính từ",
+    "title": "Hình thức lặp lại tính từ (AA, AABB)",
+    "formula": "1 âm tiết: AA(的) | 2 âm tiết: AABB(的) | Làm trạng ngữ: AA/AABB + 地 + V",
+    "explanationVi": "Tính từ lặp lại làm tăng sắc thái miêu tả sinh động, dễ thương hoặc nhấn mạnh mức độ cao/vừa ý. Tính từ 1 âm tiết lặp thành AA (như 高高, 大大, 慢慢); tính từ 2 âm tiết lặp thành AABB (như 高高兴兴, 干干净净, 漂漂亮亮, 客客气气). Khi làm vị ngữ hoặc định ngữ thường kèm 的 (她的眼睛大大的 / 干干净净的房间); khi làm trạng ngữ bổ nghĩa cho động từ thường thêm 地 (高高兴兴地回家, 慢慢地走). Lưu ý quan trọng: Tính từ đã lặp lại KHÔNG đi kèm phó từ mức độ như 很, 非常, 太 (*很高高兴兴 là sai).",
+    "viComparison": "Tiếng Việt cũng có từ láy tính từ ('vui vui', 'sạch sẽ', 'từ từ'), nhưng khi làm từ láy tiếng Việt thường giảm nhẹ hoặc tạo vần, còn dạng AA/AABB trong tiếng Trung lại tăng sắc thái sinh động, trọn vẹn hơn và tuyệt đối không kết hợp với 'rất' (很).",
+    "confusablePairs": [
+      {
+        "pair": "高高兴兴 vs 很高兴",
+        "distinction": "很高兴 là cấu trúc phó từ + tính từ gốc; 高高兴兴 đã mang sẵn sắc thái miêu tả sinh động nên KHÔNG thêm 很 ở trước."
+      },
+      {
+        "pair": "AABB (干干净净) vs ABAB (打扫打扫)",
+        "distinction": "Tính từ lặp AABB (干干净净 = sạch sẽ gọn gàng); động từ lặp ABAB (打扫打扫 = quét dọn một chút)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "妹妹高高兴兴地去上学了。",
+        "pinyin": "Mèimei gāogāoxìngxìng de qù shàngxué le.",
+        "vi": "Em gái vui vẻ tung tăng đi học rồi."
+      },
+      {
+        "zh": "阿姨把家里打扫得干干净净的。",
+        "pinyin": "Āyí bǎ jiālǐ dǎsǎo de gāngānjìngjìng de.",
+        "vi": "Cô giúp việc dọn dẹp trong nhà sạch sẽ tinh tươm."
+      },
+      {
+        "zh": "他个子高高的，戴着一副眼镜。",
+        "pinyin": "Tā gèzi gāogāo de, dàizhe yí fù yǎnjìng.",
+        "vi": "Anh ấy dáng người cao cao, đeo một cặp kính."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-08-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu ĐÚNG ngữ pháp:",
+        "options": [
+          "姐姐买了一件漂漂亮亮的裙子。",
+          "姐姐买了一件很漂漂亮亮的裙子。",
+          "姐姐买了一件漂亮漂亮的裙子。",
+          "姐姐高高兴兴的去上班了。"
+        ],
+        "answer": "姐姐买了一件漂漂亮亮的裙子。",
+        "explanation": "Tính từ 2 âm tiết lặp theo AABB (漂漂亮亮) và không đi cùng 很; làm trạng ngữ trước động từ 去 phải dùng 地."
+      },
+      {
+        "id": "g2-08-q2",
+        "type": "mcq",
+        "prompt": "Chọn dạng lặp lại đúng của tính từ 快乐 (vui vẻ):",
+        "options": [
+          "快快乐乐",
+          "快乐快乐",
+          "快快快乐",
+          "快乐乐"
+        ],
+        "answer": "快快乐乐",
+        "explanation": "快乐 là tính từ 2 âm tiết nên lặp theo mẫu AABB: 快快乐乐."
+      },
+      {
+        "id": "g2-08-q3",
+        "type": "fill",
+        "prompt": "Điền dạng lặp lại AA của 慢 (chậm) làm trạng ngữ: 老人____地走过马路。",
+        "answer": "慢慢",
+        "explanation": "Tính từ 1 âm tiết 慢 lặp lại thành 慢慢 (+ 地 + động từ)."
+      },
+      {
+        "id": "g2-08-q4",
+        "type": "fill",
+        "prompt": "Điền dạng lặp lại AABB của 清楚 (rõ ràng): 请把字写得____的。",
+        "answer": "清清楚楚",
+        "explanation": "清楚 là tính từ 2 âm tiết lặp thành AABB: 清清楚楚."
+      },
+      {
+        "id": "g2-08-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Căn phòng dọn dẹp rất sạch sẽ gọn gàng (dùng lặp lại).",
+        "tokens": [
+          "房间",
+          "里面",
+          "干干净净",
+          "的"
+        ],
+        "answer": "房间里面干干净净的",
+        "explanation": "Tính từ lặp lại AABB làm vị ngữ thường có trợ từ 的 ở cuối câu."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-09",
+    "hskLevel": 2,
+    "category": "Phó từ & Trợ từ",
+    "topic": "Phó từ mức độ & phạm vi",
+    "title": "Phó từ mức độ 多, 好, 最 và phó từ phạm vi 一起",
+    "formula": "多/好 + Adj (+ 啊)! | 多 + Adj (hỏi)? | 最 + Adj/V tâm lý | (A跟B) + 一起 + V",
+    "explanationVi": "Nhóm phó từ này giúp biểu đạt cảm xúc, thứ hạng và hành động tập thể: (1) 多 và 好 đứng trước tính từ trong câu cảm thán mang nghĩa 'biết bao/quá đi mất' (这里多安静啊！ / 今天好热啊！). Riêng 多 còn đứng trước tính từ chỉ kích thước/khoảng cách để hỏi mức độ (多大, 多远, 多高, 多久). (2) 最 biểu thị mức độ cao nhất ('nhất'), đứng trước tính từ hoặc động từ tâm lý (最好, 最远, 最喜欢). (3) 一起 là phó từ phạm vi ('cùng nhau'), luôn đứng ngay trước động từ vị ngữ; nếu nêu rõ đi cùng ai, dùng cấu trúc A + 跟/和 + B + 一起 + V.",
+    "viComparison": "Tiếng Việt đặt 'cùng nhau' linh hoạt hơn ('chúng tôi đi ăn cùng nhau'), nhưng tiếng Trung BẮT BUỘC đặt 一起 trước động từ: 我们一起去吃饭 (không nói *我们去吃饭一起). Tương tự, 'đẹp quá!' đặt 'quá' sau tính từ, còn tiếng Trung đặt 多/好 trước tính từ: 多漂亮啊！",
+    "confusablePairs": [
+      {
+        "pair": "多 (phó từ) vs 多 (số từ ước lượng)",
+        "distinction": "多 đứng trước tính từ biểu thị mức độ cao hoặc để hỏi (多高, 多好看啊); 多 đứng giữa/sau số lượng từ biểu thị 'hơn' (十多个人, 三个多小时)."
+      },
+      {
+        "pair": "一起 vs 一块儿",
+        "distinction": "Cả hai đều có nghĩa 'cùng nhau' và đứng trước động từ; 一起 chuẩn mực phổ thông và xuất hiện trong HSK 2, 一块儿 thiên về khẩu ngữ miền Bắc."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "公园里的花多漂亮啊！我们一起拍张照片吧。",
+        "pinyin": "Gōngyuán lǐ de huā duō piàoliang a! Wǒmen yìqǐ pāi zhāng zhàopiàn ba.",
+        "vi": "Hoa trong công viên đẹp biết bao! Chúng ta cùng nhau chụp một tấm ảnh nhé."
+      },
+      {
+        "zh": "在这么多水果里，我最喜欢吃西瓜。",
+        "pinyin": "Zài zhème duō shuǐguǒ lǐ, wǒ zuì xǐhuan chī xīguā.",
+        "vi": "Trong nhiều loại hoa quả thế này, tôi thích ăn dưa hấu nhất."
+      },
+      {
+        "zh": "今天外边好冷，你多穿点儿衣服。",
+        "pinyin": "Jīntiān wàibian hǎo lěng, nǐ duō chuān diǎnr yīfu.",
+        "vi": "Hôm nay bên ngoài lạnh quá, bạn mặc thêm chút áo đi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-09-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu đặt 一起 đúng vị trí:",
+        "options": [
+          "周末我想跟你一起去看电影。",
+          "周末我想看电影跟你一起。",
+          "周末我一起想跟你去看电影。",
+          "周末我跟你看电影一起去。"
+        ],
+        "answer": "周末我想跟你一起去看电影。",
+        "explanation": "Cấu trúc chuẩn: A + 跟 + B + 一起 + Động từ."
+      },
+      {
+        "id": "g2-09-q2",
+        "type": "mcq",
+        "prompt": "Điền từ hỏi khoảng cách: 从你家到学校有____远？",
+        "options": [
+          "多",
+          "最",
+          "好",
+          "很"
+        ],
+        "answer": "多",
+        "explanation": "Hỏi mức độ kích thước/khoảng cách/tuổi tác dùng 多 + tính từ tích cực (多远, 多高, 多大)."
+      },
+      {
+        "id": "g2-09-q3",
+        "type": "fill",
+        "prompt": "Điền phó từ mức độ cao nhất: 他是我们班跑得____快的学生。",
+        "answer": "最",
+        "explanation": "最 + 快 diễn tả nhanh nhất."
+      },
+      {
+        "id": "g2-09-q4",
+        "type": "fill",
+        "prompt": "Điền phó từ cảm thán (dùng 多): 这里的空气____新鲜啊！",
+        "answer": "多",
+        "explanation": "多 + Adj + 啊！ dùng trong câu cảm thán ('trong lành biết bao!')."
+      },
+      {
+        "id": "g2-09-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Môn tôi thích học nhất là tiếng Hán.",
+        "tokens": [
+          "我",
+          "最",
+          "喜欢",
+          "学",
+          "汉语"
+        ],
+        "answer": "我最喜欢学汉语",
+        "explanation": "Phó từ 最 đứng ngay trước động từ tâm lý 喜欢."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-10",
+    "hskLevel": 2,
+    "category": "Phó từ & Trợ từ",
+    "topic": "Phó từ thời gian & tần suất",
+    "title": "Phó từ 还, 已经, 有时(候), 快, 快要, 正 và 常/经常",
+    "formula": "已经 + V/Adj + 了 | 正 + V (+ 呢) | 还 + V/Adj | 有时候 + S + V | 常/经常 + V",
+    "explanationVi": "Nhóm phó từ thời gian và tần suất HSK 2: (1) 已经 (đã) đứng trước động từ/tính từ, cuối câu thường có 了 để chốt trạng thái đã đạt được (我已经到家了). (2) 还2 biểu thị trạng thái/hành động vẫn tiếp diễn không đổi ('vẫn còn': 已经十点了，他还在工作). (3) 正 biểu thị hành động đang diễn ra ngay tại thời điểm nói ('đang': 我正吃饭呢). (4) 快 / 快要 chỉ sự việc sắp xảy ra trong thời gian rất gần (快下雨了). (5) 有时(候) nghĩa là 'có lúc, thỉnh thoảng', có thể đứng trước hoặc sau chủ ngữ. (6) 常 và 经常 đều nghĩa là 'thường xuyên'; 经常 là phó từ 2 âm tiết nên linh hoạt hơn (có thể đứng trước chủ ngữ hoặc làm định ngữ/vị ngữ: 经常的事), còn 常 thường chỉ đứng trước động từ.",
+    "viComparison": "Tiếng Việt dùng 'vẫn' đứng một mình, nhưng tiếng Trung hay kết hợp 还 + 在 (đang vẫn) hoặc 还 + 没 (vẫn chưa). Ngoài ra, với 已经, người Việt hay quên trợ từ 了 ở cuối câu; thực tế trong câu khẳng định 已经 hầu như đi kèm 了.",
+    "confusablePairs": [
+      {
+        "pair": "正 vs 正在",
+        "distinction": "正 nhấn mạnh chính thời điểm nói ('đúng lúc đang'), thường đi với 呢 ở cuối câu (我正想找你呢); 正在 nhấn mạnh quá trình diễn ra của hành động."
+      },
+      {
+        "pair": "常 vs 经常",
+        "distinction": "Đều mang nghĩa 'thường xuyên' trước động từ, nhưng 经常 có thể đứng đầu câu trước chủ ngữ (经常他一个人在家吃饭) và phủ định thường dùng 不常 chứ ít nói *不经常 trước động từ đơn ngắn."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "已经十二点了，你怎么还没睡觉？",
+        "pinyin": "Yǐjīng shí'èr diǎn le, nǐ zěnme hái méi shuìjiào?",
+        "vi": "Đã 12 giờ rồi, sao bạn vẫn chưa đi ngủ?"
+      },
+      {
+        "zh": "周末的时候，我经常去图书馆，有时候也去游泳。",
+        "pinyin": "Zhōumò de shíhou, wǒ jīngcháng qù túshūguǎn, yǒushíhou yě qù yóuyǒng.",
+        "vi": "Vào cuối tuần, tôi thường đến thư viện, thỉnh thoảng cũng đi bơi."
+      },
+      {
+        "zh": "他正做饭呢，你等一会儿再给他打电话吧。",
+        "pinyin": "Tā zhèng zuòfàn ne, nǐ děng yíhuìr zài gěi tā dǎ diànhuà ba.",
+        "vi": "Anh ấy đang nấu cơm đấy, bạn đợi lát nữa rồi gọi điện cho anh ấy nhé."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-10-q1",
+        "type": "mcq",
+        "prompt": "Chọn từ phù hợp hoàn thành câu: 外面____下着大雨呢，我们晚一点儿走吧。",
+        "options": [
+          "还",
+          "已经",
+          "常",
+          "快要"
+        ],
+        "answer": "还",
+        "explanation": "还 kết hợp với 着 biểu thị trạng thái mưa vẫn đang tiếp tục."
+      },
+      {
+        "id": "g2-10-q2",
+        "type": "mcq",
+        "prompt": "Câu nào dùng 已经 đúng ngữ pháp?",
+        "options": [
+          "火车已经开了，我们坐下一班吧。",
+          "火车已经还没开。",
+          "火车已经明天开了。",
+          "已经昨天我见过他了。"
+        ],
+        "answer": "火车已经开了，我们坐下一班吧。",
+        "explanation": "已经 + V + 了 diễn tả sự việc đã hoàn thành tính đến hiện tại; không dùng cho tương lai (明天) hay đi cùng 还没."
+      },
+      {
+        "id": "g2-10-q3",
+        "type": "fill",
+        "prompt": "Điền từ chỉ tần suất 'thỉnh thoảng / có lúc' (3 chữ): 他平时很忙，____周末也要加班。",
+        "answer": "有时候",
+        "explanation": "有时候 diễn tả thỉnh thoảng, có lúc."
+      },
+      {
+        "id": "g2-10-q4",
+        "type": "fill",
+        "prompt": "Điền phó từ 1 âm tiết chỉ hành động đang xảy ra ngay lúc nói: 你来得正好，我们____准备吃饭呢。",
+        "answer": "正",
+        "explanation": "正 + V + 呢 nhấn mạnh hành động đang diễn ra đúng lúc đó."
+      },
+      {
+        "id": "g2-10-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cô ấy thường xuyên đi xe đạp đi làm.",
+        "tokens": [
+          "她",
+          "经常",
+          "骑自行车",
+          "去上班"
+        ],
+        "answer": "她经常骑自行车去上班",
+        "explanation": "Phó từ tần suất 经常 đứng sau chủ ngữ 她 và trước cụm động từ liên động."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-11",
+    "hskLevel": 2,
+    "category": "Cấu trúc câu đặc biệt",
+    "topic": "Khung cố định trạng thái thời gian",
+    "title": "Khung cố định 要/快要/就要……了 và 都……了",
+    "formula": "(Thời gian) + 就要 + V + 了 | (S) + 要/快要 + V/Adj + 了 | 都 + Thời gian/Số lượng + 了",
+    "explanationVi": "HSK 2 có hai khung cố định rất thông dụng với 了 cuối câu: (1) 要/快要/就要……了 biểu thị sự việc sắp sửa xảy ra trong tương lai rất gần ('sắp... rồi'). Trong đó, 要……了 và 快要……了 KHÔNG đi kèm từ chỉ thời gian cụ thể đứng trước (*明天快要下雨了 sai); nếu muốn nêu mốc thời gian cụ thể như 明天, 下个月, 还有十分钟, bắt buộc dùng 就要……了 (明天就要考试了). (2) 都……了 nhấn mạnh thời gian đã muộn, tuổi đã cao hoặc số lượng/mức độ đã nhiều (hàm ý ngạc nhiên, nhắc nhở hoặc sốt ruột: 都十点了，快睡吧！ / 都这么大了，还哭呢！).",
+    "viComparison": "Tiếng Việt đều dịch là 'sắp... rồi' nên người học hay ghép 'ngày mai sắp thi rồi' thành *明天快要考试了. Quy tắc vàng trong tiếng Trung là có mốc thời gian cụ thể thì chỉ dùng 就要……了.",
+    "confusablePairs": [
+      {
+        "pair": "就要……了 vs 快要……了",
+        "distinction": "Có thời gian cụ thể (下个星期, 三点) thì bắt buộc dùng 就要……了 (下个星期就要放假了). Không có thời gian cụ thể dùng được cả 快要……了, 要……了, 就要……了."
+      },
+      {
+        "pair": "都……了 vs 已经……了",
+        "distinction": "已经……了 mang tính trần thuật khách quan ('đã...'); 都……了 mang sắc thái cảm xúc nhấn mạnh, thúc giục hoặc trách nhẹ ('đã... rồi kia đấy!')."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "快要下雨了，我们快跑回家吧。",
+        "pinyin": "Kuàiyào xià yǔ le, wǒmen kuài pǎo huí jiā ba.",
+        "vi": "Sắp mưa rồi, chúng ta mau chạy về nhà đi."
+      },
+      {
+        "zh": "下个月哥哥就要毕业了。",
+        "pinyin": "Xià ge yuè gēge jiùyào bìyè le.",
+        "vi": "Tháng sau anh trai sắp tốt nghiệp rồi."
+      },
+      {
+        "zh": "都八点半了，你怎么还在床上躺着？",
+        "pinyin": "Dōu bā diǎn bàn le, nǐ zěnme hái zài chuáng shang tǎngzhe?",
+        "vi": "Đã 8 giờ rưỡi rồi mà sao bạn vẫn còn nằm trên giường thế?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-11-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu ĐÚNG ngữ pháp khi có thời gian cụ thể 明天:",
+        "options": [
+          "明天我就要回国了。",
+          "明天我快要回国了。",
+          "明天我要回国了快。",
+          "我快要明天回国了。"
+        ],
+        "answer": "明天我就要回国了。",
+        "explanation": "Khi có từ chỉ thời gian cụ thể đứng trước (明天), chỉ dùng 就要……了, không dùng 快要……了."
+      },
+      {
+        "id": "g2-11-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu phù hợp với giọng thúc giục 'Đã 11 giờ đêm rồi, mau đi ngủ đi!':",
+        "options": [
+          "都晚上十一点了，快去睡觉吧！",
+          "就要晚上十一点了，快去睡觉吧！",
+          "还晚上十一点了，快去睡觉吧！",
+          "正晚上十一点了，快去睡觉吧！"
+        ],
+        "answer": "都晚上十一点了，快去睡觉吧！",
+        "explanation": "Khung 都……了 nhấn mạnh thời gian đã muộn kèm lời nhắc nhở."
+      },
+      {
+        "id": "g2-11-q3",
+        "type": "fill",
+        "prompt": "Hoàn thành khung nhấn mạnh tuổi tác: 你____二十岁了，应该学会自己做饭。",
+        "answer": "都",
+        "explanation": "都二十岁了 nhấn mạnh 'đã 20 tuổi rồi đấy'."
+      },
+      {
+        "id": "g2-11-q4",
+        "type": "fill",
+        "prompt": "Điền phó từ 2 âm tiết hoàn thành câu sắp xảy ra: 天黑了，____下雨了。",
+        "answer": "快要",
+        "explanation": "快要……了 (hoặc 要……了) dùng khi không có mốc thời gian cụ thể."
+      },
+      {
+        "id": "g2-11-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Còn 5 phút nữa là máy bay sắp cất cánh rồi.",
+        "tokens": [
+          "还有五分钟",
+          "飞机",
+          "就要",
+          "起飞",
+          "了"
+        ],
+        "answer": "还有五分钟飞机就要起飞了",
+        "explanation": "Có khoảng thời gian cụ thể 还有五分钟 nên dùng khung 就要……了."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-12",
+    "hskLevel": 2,
+    "category": "Phó từ & Trợ từ",
+    "topic": "Câu cầu khiến phủ định",
+    "title": "Phó từ phủ định 别 và câu cầu khiến ngăn cấm",
+    "formula": "别 + V (+ O) (+ 了)! | 别 + Adj (+ 了)!",
+    "explanationVi": "别 là phó từ phủ định dùng riêng cho câu cầu khiến để khuyên nhủ, đề nghị hoặc ngăn cấm ai đó đừng làm một việc gì ('đừng...'). Khi kết hợp thêm 了 ở cuối câu (别……了), ngữ khí nhấn mạnh yêu cầu dừng lại hành động đang xảy ra hoặc thôi không tiếp tục ý định đó nữa ('đừng... nữa'). 别 có thể đứng trước động từ (别吃, 别去), động từ ly hợp (别生气) và một số tính từ tâm lý mang tính khuyên nhủ (别着急, 别难过).",
+    "viComparison": "Tương đương trực tiếp với 'đừng' và 'đừng... nữa' trong tiếng Việt. Tuy nhiên người Việt hay nhầm dùng 不 hoặc 没 vào câu khuyên ngăn (ví dụ nói sai *不说话!); bắt buộc phải dùng 别 (hoặc 不要 trong văn cảnh trang trọng hơn).",
+    "confusablePairs": [
+      {
+        "pair": "别 vs 不 / 没",
+        "distinction": "不 và 没 dùng trong câu trần thuật/nghi vấn bình thường; 别 chuyên dùng trong câu cầu khiến ngăn cấm hoặc khuyên bảo ('đừng')."
+      },
+      {
+        "pair": "别去了 vs 别去",
+        "distinction": "别去 khuyên đừng đi nói chung; 别去了 có thêm 了 nhấn mạnh thay đổi kế hoạch hoặc dừng ý định đi ngay lúc này ('thôi đừng đi nữa')."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "外面下雨了，今天别骑车出去了。",
+        "pinyin": "Wàimiàn xià yǔ le, jīntiān bié qí chē chūqù le.",
+        "vi": "Bên ngoài mưa rồi, hôm nay đừng đạp xe ra ngoài nữa."
+      },
+      {
+        "zh": "上课了，大家别说话了。",
+        "pinyin": "Shàngkè le, dàjiā bié shuōhuà le.",
+        "vi": "Vào lớp rồi, mọi người đừng nói chuyện nữa."
+      },
+      {
+        "zh": "别着急，我再帮你找找钥匙。",
+        "pinyin": "Bié zháojí, wǒ zài bāng nǐ zhǎozhao yàoshi.",
+        "vi": "Đừng vội, để tôi tìm lại chìa khóa giúp bạn."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-12-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu khuyên nhủ ĐÚNG ngữ pháp:",
+        "options": [
+          "太晚了，别看电视了，快睡吧。",
+          "太晚了，没看电视了，快睡吧。",
+          "太晚了，不看电视了。",
+          "太晚了，没有别看电视。"
+        ],
+        "answer": "太晚了，别看电视了，快睡吧。",
+        "explanation": "Câu cầu khiến ngăn hành động đang diễn ra dùng 别 + V + 了."
+      },
+      {
+        "id": "g2-12-q2",
+        "type": "mcq",
+        "prompt": "Câu nào thích hợp khi muốn nhắc bạn 'Đừng quên mang hộ chiếu nhé'?",
+        "options": [
+          "别忘了带护照啊！",
+          "没忘了带护照啊！",
+          "不忘了带护照啊！",
+          "别忘带过护照啊！"
+        ],
+        "answer": "别忘了带护照啊！",
+        "explanation": "Cụm cố định rất phổ biến trong giao tiếp: 别忘了 + V (đừng quên làm gì)."
+      },
+      {
+        "id": "g2-12-q3",
+        "type": "fill",
+        "prompt": "Điền từ ngăn cấm vào câu: 医院里面____抽烟。(đừng)",
+        "answer": "别",
+        "explanation": "Dùng phó từ phủ định cầu khiến 别 trước động từ 抽烟."
+      },
+      {
+        "id": "g2-12-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành lời khuyên bình tĩnh: ____难过，下次还有机会。",
+        "answer": "别",
+        "explanation": "别 + tính từ tâm lý (难过/着急/客气) dùng để an ủi, khuyên nhủ."
+      },
+      {
+        "id": "g2-12-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Bạn đừng uống cà phê nữa, tối sẽ không ngủ được đâu.",
+        "tokens": [
+          "你",
+          "别",
+          "喝咖啡",
+          "了"
+        ],
+        "answer": "你别喝咖啡了",
+        "explanation": "Trật tự câu cầu khiến phủ định: Chủ ngữ (你) + 别 + Động từ/Tân ngữ (喝咖啡) + 了."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-13",
+    "hskLevel": 2,
+    "category": "Phó từ & Trợ từ",
+    "topic": "Phó từ liên kết & ngữ khí",
+    "title": "Phó từ 就, 再, 都, 还是 và cấu trúc đề nghị 还是……吧",
+    "formula": "先…，再… | (要是)…就… | 都 + V (cũng đều/thậm chí) | 还是 + V + 吧",
+    "explanationVi": "HSK 2 đào sâu các phó từ liên kết và ngữ khí: (1) 再2 biểu thị trình tự 'rồi sau đó mới làm gì' (chưa xảy ra), hay đi thành cặp 先……再…… (先洗手，再吃饭). (2) 就1 là phó từ liên kết hành động nối tiếp ngay sau điều kiện/thời gian trước đó (下课就回家), hoặc đi sau đại từ nghi vấn lặp lại (想吃什么就买什么). (3) 就2 là phó từ ngữ khí nhấn mạnh chính xác, khẳng định dứt khoát ('chính là': 这就是我的学校) hoặc chỉ số lượng ít/thời gian sớm. (4) 都2 nhấn mạnh sự bao hàm thậm chí ('đến cả... cũng': 我连汉字都认识了 / 谁都知道). (5) 还是1 biểu thị sự cân nhắc rồi chọn phương án tốt hơn ('vẫn nên, tốt hơn là'), đặc biệt phổ biến trong cấu trúc đề nghị mềm mỏng 还是……吧 (外面下雨了，我们还是打车回去吧).",
+    "viComparison": "Tiếng Việt dùng chung 'thì/liền' cho cả nhanh và muộn, nhưng tiếng Trung phân biệt rất rõ 就 (nhanh, sớm, thuận lợi) và 才 (muộn, chậm, khó khăn). Với 还是……吧, dịch tự nhiên sang tiếng Việt là 'thôi thì... đi / tốt hơn hết là... nhé'.",
+    "confusablePairs": [
+      {
+        "pair": "就 vs 才",
+        "distinction": "就 chỉ hành động xảy ra sớm, nhanh, dễ dàng (他七点就来了 = Mới 7 giờ anh ấy đã đến rồi); 才 chỉ hành động xảy ra muộn, chậm, phải có điều kiện mới xảy ra (他九点才来 = 9 giờ anh ấy mới đến)."
+      },
+      {
+        "pair": "再2 vs 又",
+        "distinction": "再 dùng cho hành động lặp lại hoặc nối tiếp CHƯA xảy ra (明天再来 / 吃完饭再走); 又 dùng cho hành động lặp lại ĐÃ xảy ra rồi (昨天他又来了)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我们先去银行换钱，再去超市买东西。",
+        "pinyin": "Wǒmen xiān qù yínháng huàn qián, zài qù chāoshì mǎi dōngxi.",
+        "vi": "Chúng ta đến ngân hàng đổi tiền trước, rồi hãy đi siêu thị mua đồ."
+      },
+      {
+        "zh": "坐公交车太慢了，我们还是坐地铁去吧。",
+        "pinyin": "Zuò gōngjiāochē tài màn le, wǒmen háishi zuò dìtiě qù ba.",
+        "vi": "Đi xe buýt chậm quá, chúng ta vẫn nên đi tàu điện ngầm đi."
+      },
+      {
+        "zh": "她每天早上六点就起床跑步了。",
+        "pinyin": "Tā měitiān zǎoshang liù diǎn jiù qǐchuáng pǎobù le.",
+        "vi": "Mỗi sáng mới 6 giờ cô ấy đã dậy chạy bộ rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-13-q1",
+        "type": "mcq",
+        "prompt": "Chọn từ đúng nối hai hành động tương lai: 我先做完作业，____跟你们一起玩儿。",
+        "options": [
+          "再",
+          "又",
+          "还",
+          "都"
+        ],
+        "answer": "再",
+        "explanation": "Mẫu 先……，再…… diễn tả làm việc A trước rồi mới làm việc B ở tương lai."
+      },
+      {
+        "id": "g2-13-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu đề xuất hợp lý nhất bằng 还是……吧:",
+        "options": [
+          "太晚了，今天你还是别回去了吧。",
+          "太晚了，今天你或者别回去了吧。",
+          "太晚了，今天你才别回去了吧。",
+          "太晚了，今天你再别回去了吧。"
+        ],
+        "answer": "太晚了，今天你还是别回去了吧。",
+        "explanation": "还是……吧 đưa ra lời khuyên/lựa chọn tốt hơn sau khi cân nhắc."
+      },
+      {
+        "id": "g2-13-q3",
+        "type": "fill",
+        "prompt": "Điền phó từ nhấn mạnh sớm/liền: 八点上课，他七点半____到教室了。",
+        "answer": "就",
+        "explanation": "7 giờ rưỡi đã đến trước giờ vào học 8 giờ -> dùng 就 để nhấn mạnh sự sớm."
+      },
+      {
+        "id": "g2-13-q4",
+        "type": "fill",
+        "prompt": "Điền phó từ ngữ khí nhấn mạnh 'chính là': 前面那栋白色的楼____是图书馆。",
+        "answer": "就",
+        "explanation": "就 + 是 dùng để xác nhận chính xác đối tượng ('chính là')."
+      },
+      {
+        "id": "g2-13-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Tốt hơn hết là chúng ta ở nhà ăn cơm đi.",
+        "tokens": [
+          "我们",
+          "还是",
+          "在家",
+          "吃饭",
+          "吧"
+        ],
+        "answer": "我们还是在家吃饭吧",
+        "explanation": "Khung đề nghị nhẹ nhàng: Chủ ngữ + 还是 + Địa điểm + Động từ + 吧."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-14",
+    "hskLevel": 2,
+    "category": "Phó từ & Trợ từ",
+    "topic": "Trợ từ kết cấu & Các loại cụm từ",
+    "title": "Phân biệt trợ từ kết cấu 的, 地, 得 và 3 loại cụm từ chức năng",
+    "formula": "Định ngữ + 的 + Danh từ | Trạng ngữ + 地 + Động từ | Động từ + 得 + Bổ ngữ",
+    "explanationVi": "Ba trợ từ kết cấu đều đọc là 'de' nhưng đảm nhiệm 3 vị trí ngữ pháp hoàn toàn khác nhau, gắn liền với 3 loại cụm từ chức năng cơ bản: (1) 的 đứng trước danh từ/cụm danh từ (名词性短语), nối định ngữ với trung tâm ngữ (认真的学生, 刚买的新书). (2) 地 đứng trước động từ/cụm động từ (动词性短语), nối trạng ngữ miêu tả cách thức với động từ (认真地听, 高兴地笑). (3) 得 đứng sau động từ hoặc tính từ để dẫn ra bổ ngữ mức độ/trạng thái, thường là cụm tính từ (形容词性短语) như 非常好, 特别快 (跑得很快, 写得非常漂亮).",
+    "viComparison": "Tiếng Việt không có 3 chữ phân tách chức năng tương ứng ('học sinh chăm chỉ', 'nghe chăm chú', 'viết rất đẹp' đều nối trực tiếp), nên người học rất dễ đánh nhầm chữ 的 thay cho 地 và 得. Hãy nhớ mẹo: trước Danh dùng 的, trước Động dùng 地, sau Động dùng 得.",
+    "confusablePairs": [
+      {
+        "pair": "的 vs 地 vs 得",
+        "distinction": "的 + Danh từ (好看的电影); Trạng ngữ + 地 + Động từ (认真地看书); Động từ + 得 + Tính từ (看得很认真)."
+      },
+      {
+        "pair": "Cụm danh từ vs Cụm động từ vs Cụm tính từ",
+        "distinction": "Cụm danh từ lấy danh từ làm trung tâm (我的中文老师); cụm động từ lấy động từ làm trung tâm (每天坐地铁去公司); cụm tính từ lấy tính từ làm trung tâm (非常干净)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "同学们都在认真地听老师讲课。",
+        "pinyin": "Tóngxuémen dōu zài rènzhēn de tīng lǎoshī jiǎngkè.",
+        "vi": "Các bạn học sinh đều đang chăm chú nghe thầy giáo giảng bài."
+      },
+      {
+        "zh": "他汉字写得又快又好看。",
+        "pinyin": "Tā Hànzì xiě de yòu kuài yòu hǎokàn.",
+        "vi": "Anh ấy viết chữ Hán vừa nhanh vừa đẹp."
+      },
+      {
+        "zh": "这是一件非常漂亮的红大衣。",
+        "pinyin": "Zhè shì yí jiàn fēicháng piàoliang de hóng dàyī.",
+        "vi": "Đây là một chiếc áo khoác đỏ vô cùng đẹp."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-14-q1",
+        "type": "mcq",
+        "prompt": "Chọn đúng thứ tự 3 trợ từ cho câu: 这位热情____大姐高兴____说，你汉语说____真不错！",
+        "options": [
+          "的 / 地 / 得",
+          "地 / 的 / 得",
+          "的 / 得 / 地",
+          "得 / 地 / 的"
+        ],
+        "answer": "的 / 地 / 得",
+        "explanation": "热情的 + 大姐 (trước danh từ dùng 的); 高兴地 + 说 (trước động từ dùng 地); 说 + 得真不错 (sau động từ dẫn bổ ngữ dùng 得)."
+      },
+      {
+        "id": "g2-14-q2",
+        "type": "mcq",
+        "prompt": "Cụm từ nào sau đây là cụm tính từ (形容词性短语)?",
+        "options": [
+          "非常漂亮",
+          "一本新书",
+          "看一场电影",
+          "认真地写"
+        ],
+        "answer": "非常漂亮",
+        "explanation": "非常漂亮 có trung tâm là tính từ 漂亮; 一本新书 là cụm danh từ; 看一场电影 và 认真地写 là cụm động từ."
+      },
+      {
+        "id": "g2-14-q3",
+        "type": "fill",
+        "prompt": "Điền trợ từ kết cấu thích hợp: 小狗高高兴兴____跑过来了。",
+        "answer": "地",
+        "explanation": "高高兴兴 là trạng ngữ đứng trước động từ 跑 nên dùng 地."
+      },
+      {
+        "id": "g2-14-q4",
+        "type": "fill",
+        "prompt": "Điền trợ từ kết cấu thích hợp: 今天大家玩____很开心。",
+        "answer": "得",
+        "explanation": "Sau động từ 玩 là bổ ngữ trạng thái 很开心 nên dùng 得."
+      },
+      {
+        "id": "g2-14-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cô ấy hát rất hay.",
+        "tokens": [
+          "她",
+          "唱歌",
+          "唱得",
+          "非常好听"
+        ],
+        "answer": "她唱歌唱得非常好听",
+        "explanation": "Động từ ly hợp 唱歌 lặp lại động từ 唱 rồi nối 得 + cụm tính từ 非常好听."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-15",
+    "hskLevel": 2,
+    "category": "Phó từ & Trợ từ",
+    "topic": "Trợ từ ngữ khí & Cụm 什么的",
+    "title": "Trợ từ ngữ khí cuối câu (呢, 吧, 的, 啊) và cụm cố định 什么的",
+    "formula": "Câu + 呢 / 吧 / 的 / 啊 | Danh từ 1、Danh từ 2 + 什么的",
+    "explanationVi": "Các trợ từ ngữ khí ở HSK 2 giúp câu giao tiếp tự nhiên và đúng sắc thái: (1) 呢4 đặt cuối câu trần thuật cùng 正/在/着 để chỉ hành động đang diễn ra hoặc khẳng định thực tế (外面下着雨呢). (2) 吧2 biểu thị sự suy đoán chưa chắc chắn ('chắc là') hoặc đề nghị nhẹ nhàng (你是新来的老师吧？). (3) 的2 đặt cuối câu khẳng định nhấn mạnh thái độ chắc chắn, đương nhiên (没关系的，你会好起来的). (4) 啊1 làm mềm giọng câu hỏi/cầu khiến hoặc tăng cảm xúc câu cảm thán (快进来啊！ / 真好吃啊！). (5) 什么的 đặt sau một hoặc vài ví dụ liệt kê để biểu thị 'vân vân, đại loại những thứ như thế' (水果、牛奶什么的).",
+    "viComparison": "Trợ từ ngữ khí tiếng Trung tương đương các từ cuối câu tiếng Việt như 'đấy, mà, nhé, nhỉ, cơ mà, à'. Cụm 什么的 dịch rất tự nhiên là 'này nọ / vân vân / đại loại thế' và chỉ dùng sau danh từ hoặc cụm động từ liệt kê trong văn nói.",
+    "confusablePairs": [
+      {
+        "pair": "吧 (suy đoán) vs 吗 (hỏi thông tin)",
+        "distinction": "吗 dùng khi người hỏi chưa biết câu trả lời (你是中国人吗？); 吧 dùng khi người nói đã đoán khoảng 70-80% và muốn xác nhận lại (你是中国人吧？)."
+      },
+      {
+        "pair": "的 (trợ từ ngữ khí cuối câu) vs 的 (sở hữu/định ngữ)",
+        "distinction": "的2 cuối câu không theo sau bởi danh từ nào, dùng để khẳng định thái độ (我知道的 / 没问题的)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "桌上有很多吃的，水果、面包、牛奶什么的都有。",
+        "pinyin": "Zhuō shang yǒu hěn duō chī de, shuǐguǒ, miànbāo, niúnǎi shénmede dōu yǒu.",
+        "vi": "Trên bàn có nhiều đồ ăn lắm, hoa quả, bánh mì, sữa vân vân thứ gì cũng có."
+      },
+      {
+        "zh": "别担心，明天天气会好的。",
+        "pinyin": "Bié dānxīn, míngtiān tiānqì huì hǎo de.",
+        "vi": "Đừng lo lắng, ngày mai thời tiết chắc chắn sẽ đẹp thôi."
+      },
+      {
+        "zh": "外边风这么大，你还出去啊？",
+        "pinyin": "Wàibian fēng zhème dà, nǐ hái chūqù a?",
+        "vi": "Bên ngoài gió to thế này mà bạn vẫn đi ra ngoài à?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-15-q1",
+        "type": "mcq",
+        "prompt": "Chọn cụm từ đúng để liệt kê chưa hết 'mua táo, chuối vân vân': 我想去超市买苹果、香蕉____。",
+        "options": [
+          "什么的",
+          "怎么的",
+          "多少的",
+          "一样的"
+        ],
+        "answer": "什么的",
+        "explanation": "什么的 đặt sau các danh từ liệt kê để biểu thị còn các thứ tương tự."
+      },
+      {
+        "id": "g2-15-q2",
+        "type": "mcq",
+        "prompt": "Chọn trợ từ phù hợp khi suy đoán: 他每天都看中国电影，很喜欢学汉语____？",
+        "options": [
+          "吧",
+          "呢",
+          "的",
+          "着"
+        ],
+        "answer": "吧",
+        "explanation": "Khi đưa ra câu hỏi phỏng đoán, dùng trợ từ ngữ khí 吧 ở cuối câu."
+      },
+      {
+        "id": "g2-15-q3",
+        "type": "fill",
+        "prompt": "Điền trợ từ ngữ khí chỉ trạng thái đang diễn ra: 别打扰他，他正准备考试____。",
+        "answer": "呢",
+        "explanation": "正 + V + 呢 là cấu trúc chuẩn diễn tả hành động đang diễn ra."
+      },
+      {
+        "id": "g2-15-q4",
+        "type": "fill",
+        "prompt": "Điền trợ từ cảm thán cuối câu: 这儿的风景真美____！",
+        "answer": "啊",
+        "explanation": "真 + Adj + 啊！ dùng để biểu thị sự khen ngợi, cảm thán."
+      },
+      {
+        "id": "g2-15-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cậu ấy thích xem đá bóng, chơi bóng rổ vân vân.",
+        "tokens": [
+          "他",
+          "喜欢",
+          "踢足球、",
+          "打篮球",
+          "什么的"
+        ],
+        "answer": "他喜欢踢足球、打篮球什么的",
+        "explanation": "什么的 đặt ngay sau danh sách hoạt động liệt kê."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-16",
+    "hskLevel": 2,
+    "category": "Giới từ & Liên từ",
+    "topic": "Giới từ chỉ hướng, nguồn & đối tượng",
+    "title": "Giới từ 从, 往, 给, 跟1 và liên từ 跟2",
+    "formula": "从 + Điểm xuất phát + V | 往 + Hướng + V | 给 + Đối tượng + V | A + 跟 + B + 一起 + V | N1 + 跟 + N2",
+    "explanationVi": "Nhóm giới từ và liên từ trọng tâm HSK 2: (1) 从1 dẫn ra mốc bắt đầu của thời gian hoặc nơi chốn (从八点开始, 从北京来); 从2 dẫn ra lộ trình đi qua (从这儿走过去). (2) 往 chỉ phương hướng hành động (往前看, 往南走). (3) 给 dẫn ra đối tượng tiếp nhận hoặc người được hưởng lợi ích của hành động (给我打电话, 给妈妈买礼物). (4) 跟1 là giới từ nối đối tượng cùng thực hiện hoặc tương tác (我跟他去, 你别跟她说), có thể bị phủ định ở trước 跟 (我没跟他说话). (5) 跟2 là liên từ nối hai danh từ/đại từ ngang hàng ('và': 老师跟学生都来了), không thể chèn trạng ngữ vào giữa.",
+    "viComparison": "Tiếng Việt đặt 'cho tôi' sau động từ ('gọi điện cho tôi', 'mua quà cho mẹ'), nhưng tiếng Trung BẮT BUỘC đặt 给 + Đối tượng TRƯỚC động từ: 给我打电话, 给妈妈买礼物. Tương tự, 'đi về phía trước' phải đặt 往 trước động từ: 往前走.",
+    "confusablePairs": [
+      {
+        "pair": "跟1 (Giới từ) vs 跟2 (Liên từ)",
+        "distinction": "Liên từ 跟2 nối 2 danh từ ngang hàng làm chủ/tân ngữ (爸爸跟妈妈都去); Giới từ 跟1 đặt trạng ngữ trước động từ và có thể đặt phó từ phủ định trước 跟 (爸爸不跟妈妈去)."
+      },
+      {
+        "pair": "从 vs 往",
+        "distinction": "从 chỉ điểm xuất phát hoặc đường đi qua ('từ...'); 往 chỉ hướng nhắm tới ('hướng về phía...'). Hay kết hợp: 从这儿往右拐."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "从这儿一直往前走，五分钟就到了。",
+        "pinyin": "Cóng zhèr yìzhí wǎng qián zǒu, wǔ fēnzhōng jiù dào le.",
+        "vi": "Từ đây cứ đi thẳng về phía trước, năm phút là tới."
+      },
+      {
+        "zh": "下班以后我顺便给女儿买了一件礼物。",
+        "pinyin": "Xiàbān yǐhòu wǒ shùnbiàn gěi nǚ'ér mǎile yí jiàn lǐwù.",
+        "vi": "Sau khi tan làm tôi tiện đường mua cho con gái một món quà."
+      },
+      {
+        "zh": "今天下课以后，我不跟他们一起去踢球了。",
+        "pinyin": "Jīntiān xiàkè yǐhòu, wǒ bù gēn tāmen yìqǐ qù tī qiú le.",
+        "vi": "Hôm nay sau khi tan học, tôi không đi đá bóng cùng họ nữa."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-16-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu diễn đạt đúng 'Tôi gọi điện thoại cho thầy giáo Vương':",
+        "options": [
+          "我给王老师打电话。",
+          "我打电话给王老师。",
+          "我往王老师打电话。",
+          "我从王老师打电话。"
+        ],
+        "answer": "我给王老师打电话。",
+        "explanation": "Cụm giới-tân 给 + đối tượng phải đứng trước động từ 打电话."
+      },
+      {
+        "id": "g2-16-q2",
+        "type": "mcq",
+        "prompt": "Trong câu '哥哥跟弟弟都很喜欢运动', từ 跟 đóng vai trò gì?",
+        "options": [
+          "Liên từ nối hai danh từ ngang hàng",
+          "Giới từ chỉ điểm xuất phát",
+          "Giới từ chỉ phương hướng",
+          "Động từ chính của câu"
+        ],
+        "answer": "Liên từ nối hai danh từ ngang hàng",
+        "explanation": "Ở đây 跟 nối 哥哥 và 弟弟 tương đương 和 ('và'), tạo thành chủ ngữ kép."
+      },
+      {
+        "id": "g2-16-q3",
+        "type": "fill",
+        "prompt": "Điền giới từ chỉ mốc thời gian bắt đầu: 我们____下星期一开始上新课。(từ)",
+        "answer": "从",
+        "explanation": "从 + mốc thời gian + 开始 diễn tả bắt đầu từ thời điểm nào."
+      },
+      {
+        "id": "g2-16-q4",
+        "type": "fill",
+        "prompt": "Điền giới từ chỉ phương hướng: 请____左看，那座红房子就是医院。",
+        "answer": "往",
+        "explanation": "往 + phương hướng + động từ (往左看 = nhìn sang trái)."
+      },
+      {
+        "id": "g2-16-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Ngày mai tôi đi xem phim cùng bạn bè.",
+        "tokens": [
+          "明天",
+          "我",
+          "跟朋友",
+          "一起",
+          "去看电影"
+        ],
+        "answer": "明天我跟朋友一起去看电影",
+        "explanation": "Trật tự chuẩn: Thời gian + Chủ ngữ + 跟 đối tượng + 一起 + Động từ."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-17",
+    "hskLevel": 2,
+    "category": "Thể của động tác",
+    "topic": "Thể tiếp diễn với 着",
+    "title": "Trợ từ động thái 着 và Câu tồn hiện (处所+V+着+N)",
+    "formula": "S + V + 着 (+ O) | V1 + 着 (+ O1) + V2 (+ O2) | Nơi chốn + V + 着 + (Số lượng) + N",
+    "explanationVi": "Trợ từ động thái 着 đặt ngay sau động từ biểu thị hai ý nghĩa tiếp diễn: (1) Trạng thái tồn tại liên tục sau khi hành động đã kết thúc, ví dụ cửa đã mở và đang ở trạng thái mở (门开着), áo đã mặc và đang ở trên người (他穿着一件红毛衣). (2) Hành động đang diễn ra liên tục, thường làm bối cảnh/phương thức cho hành động thứ hai theo mẫu V1 + 着 + V2 (他笑着说, 大家站着听). Phủ định dùng 没(有) + V + 着; nghi vấn chính phản dùng V + 着 + O + 没有？. Ngoài ra, 着 kết hợp tạo thành câu tồn hiện: Nơi chốn + Động từ + 着 + (Số lượng) + Danh từ (nhấn mạnh tại nơi đó đang có vật/người tồn tại ở trạng thái nào: 桌子上放着两本书, 墙上挂着一张画).",
+    "viComparison": "Tiếng Việt dùng chung từ 'đang' cho cả động tác đang làm và trạng thái giữ nguyên ('cửa đang mở', 'anh ấy đang mặc áo đỏ'). Trong tiếng Trung, mặc xong rồi và đang giữ trạng thái trên người dùng 穿着 chứ không dùng 正在穿 (正在穿 nghĩa là đang xỏ tay vào áo).",
+    "confusablePairs": [
+      {
+        "pair": "V + 着 vs 正在 + V",
+        "distinction": "正在 + V nhấn mạnh động tác đang tiến hành (他正在穿衣服 = Anh ấy đang mặc quần áo vào); V + 着 nhấn mạnh trạng thái duy trì (他穿着一件白衬衫 = Anh ấy đang mặc chiếc áo sơ mi trắng)."
+      },
+      {
+        "pair": "Câu tồn hiện (桌子上放着一本书) vs Câu có 在 (一本书在桌子上)",
+        "distinction": "Câu tồn hiện đặt nơi chốn ở đầu câu (không cần 在 ở đầu) để giới thiệu sự vật chưa xác định (一本书); nếu danh từ đã xác định thì dùng 那本书在桌子上."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "教室的门开着呢，我们进去吧。",
+        "pinyin": "Jiàoshì de mén kāizhe ne, wǒmen jìnqù ba.",
+        "vi": "Cửa phòng học đang mở đấy, chúng ta vào đi."
+      },
+      {
+        "zh": "墙上挂着一张中国地图。",
+        "pinyin": "Qiáng shang guàzhe yì zhāng Zhōngguó dìtú.",
+        "vi": "Trên tường đang treo một tấm bản đồ Trung Quốc."
+      },
+      {
+        "zh": "老师笑着对大家说：“欢迎你们！”",
+        "pinyin": "Lǎoshī xiàozhe duì dàjiā shuō: 'Huānyíng nǐmen!'",
+        "vi": "Thầy giáo mỉm cười nói với mọi người: 'Chào mừng các em!'"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-17-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu miêu tả đúng trạng thái 'Bệnh viện có một bác sĩ đang ngồi ở đó':",
+        "options": [
+          "办公室里坐着一位医生。",
+          "一位医生正在坐办公室里。",
+          "在办公室里坐着一位医生。",
+          "办公室里坐了一位医生着。"
+        ],
+        "answer": "办公室里坐着一位医生。",
+        "explanation": "Câu tồn hiện chuẩn: Nơi chốn (không có 在 phía trước) + Động từ + 着 + Số lượng + Danh từ."
+      },
+      {
+        "id": "g2-17-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu diễn đạt đúng 'Cậu ấy thích nằm nghe nhạc':",
+        "options": [
+          "他喜欢躺着听音乐。",
+          "他喜欢听着躺音乐。",
+          "他喜欢躺了听音乐。",
+          "他喜欢躺一躺听音乐。"
+        ],
+        "answer": "他喜欢躺着听音乐。",
+        "explanation": "Mẫu V1 + 着 + V2 diễn tả tư thế/phương thức khi thực hiện hành động V2."
+      },
+      {
+        "id": "g2-17-q3",
+        "type": "fill",
+        "prompt": "Điền trợ từ động thái phù hợp: 外面的灯还亮____，他还没睡吧。",
+        "answer": "着",
+        "explanation": "亮着 diễn tả trạng thái đèn đang sáng duy trì."
+      },
+      {
+        "id": "g2-17-q4",
+        "type": "fill",
+        "prompt": "Điền từ phủ định cho câu trạng thái: 窗户____开着，关着呢。",
+        "answer": "没",
+        "explanation": "Phủ định của V + 着 dùng 没 (hoặc 没有): 没开着."
+      },
+      {
+        "id": "g2-17-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Trên bàn có đặt một cốc cà phê nóng.",
+        "tokens": [
+          "桌子上",
+          "放着",
+          "一杯",
+          "热咖啡"
+        ],
+        "answer": "桌子上放着一杯热咖啡",
+        "explanation": "Câu tồn hiện: 桌子上 (nơi chốn) + 放着 (động từ+着) + 一杯热咖啡 (số lượng + danh từ)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-18",
+    "hskLevel": 2,
+    "category": "Thể của động tác",
+    "topic": "Thể kinh nghiệm với 过",
+    "title": "Trợ từ động thái 过 (Từng trải nghiệm trong quá khứ)",
+    "formula": "S + V + 过 (+ O) | Phủ định: S + 没(有) + V + 过 (+ O) | Hỏi: S + V + 过 (+ O) + 没有？",
+    "explanationVi": "过 đặt ngay sau động từ biểu thị chủ ngữ từng có trải nghiệm hoặc từng thực hiện hành động đó ít nhất một lần trong quá khứ, và hiện tại hành động đó đã chấm dứt (ví dụ: 我去过北京 = Tôi từng đến Bắc Kinh, nay không còn ở đó nữa). Hình thức phủ định bắt buộc dùng 没(有) + V + 过 (và vẫn giữ nguyên 过: 我没吃过北京烤鸭). Câu hỏi dùng 吗 hoặc ...没有 ở cuối câu (你学过汉语没有？).",
+    "viComparison": "Rất gần với từ 'từng' hoặc 'đã từng' trong tiếng Việt. Lưu ý lỗi phổ biến của người học: khi phủ định 'chưa từng đi', nhiều bạn bỏ mất chữ 过 (*我没去), điều này làm mất nghĩa 'chưa từng trải nghiệm'; phải giữ lại 过: 我没去过.",
+    "confusablePairs": [
+      {
+        "pair": "V + 过 vs V + 了",
+        "distinction": "过 nhấn mạnh kinh nghiệm từng trải trong quá khứ và hiện đã kết thúc (他来过我家 = Anh ấy từng ghé nhà tôi trước đây); 了 nhấn mạnh sự hoàn thành hoặc thay đổi trạng thái gắn với hiện tại (他来了 = Anh ấy đến rồi, hiện có thể vẫn đang ở đây)."
+      },
+      {
+        "pair": "没 + V + 过 vs 没 + V",
+        "distinction": "我没看那个电影 (hôm qua/lúc đó tôi không xem); 我没看过那个电影 (từ trước tới giờ tôi chưa từng xem bộ phim đó)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我吃过四川菜，虽然很辣，但是特别好吃。",
+        "pinyin": "Wǒ chīguo Sìchuāncài, suīrán hěn là, dànshì tèbié hǎochī.",
+        "vi": "Tôi từng ăn món Tứ Xuyên rồi, tuy rất cay nhưng đặc biệt ngon."
+      },
+      {
+        "zh": "你以前去过上海吗？",
+        "pinyin": "Nǐ yǐqián qùguo Shànghǎi ma?",
+        "vi": "Trước đây bạn đã từng đi Thượng Hải chưa?"
+      },
+      {
+        "zh": "我从来没见过这么大的雪。",
+        "pinyin": "Wǒ cónglái méi jiànguo zhème dà de xuě.",
+        "vi": "Tôi từ trước tới nay chưa từng thấy tuyết lớn như thế này."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-18-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu phủ định đúng cho 'Tôi chưa từng uống loại trà này':",
+        "options": [
+          "我没喝过这种茶。",
+          "我不喝过这种茶。",
+          "我没喝这种茶过。",
+          "我没喝了这种茶。"
+        ],
+        "answer": "我没喝过这种茶。",
+        "explanation": "Phủ định của thể kinh nghiệm là 没(有) + Động từ + 过 + Tân ngữ."
+      },
+      {
+        "id": "g2-18-q2",
+        "type": "mcq",
+        "prompt": "Câu nào nói về việc từng đi Nhật Bản nhưng hiện tại đã về rồi?",
+        "options": [
+          "姐姐去年去过日本。",
+          "姐姐去日本着。",
+          "姐姐正在去日本。",
+          "姐姐就要去日本了。"
+        ],
+        "answer": "姐姐去年去过日本。",
+        "explanation": "去过 diễn tả trải nghiệm đã xảy ra và kết thúc trong quá khứ."
+      },
+      {
+        "id": "g2-18-q3",
+        "type": "fill",
+        "prompt": "Điền trợ từ thích hợp hỏi kinh nghiệm: 你看____这本书没有？",
+        "answer": "过",
+        "explanation": "V + 过 + O + 没有？ dùng để hỏi đã từng làm việc gì chưa."
+      },
+      {
+        "id": "g2-18-q4",
+        "type": "fill",
+        "prompt": "Điền từ phủ định: 听说那个电影很好看，可惜我____看过。",
+        "answer": "没",
+        "explanation": "Phủ định trải nghiệm bắt buộc dùng 没 (hoặc 没有) trước động từ."
+      },
+      {
+        "id": "g2-18-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Trước đây anh ấy từng học tiếng Trung một năm.",
+        "tokens": [
+          "他",
+          "以前",
+          "学过",
+          "一年",
+          "汉语"
+        ],
+        "answer": "他以前学过一年汉语",
+        "explanation": "Trật tự: Chủ ngữ + Thời gian (以前) + Động từ + 过 + Thời lượng + Tân ngữ."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-19",
+    "hskLevel": 2,
+    "category": "Bổ ngữ",
+    "topic": "Bổ ngữ kết quả & Cụm động-bổ",
+    "title": "Bổ ngữ kết quả (动词 + 错/懂/好/会/完) và cụm động-bổ",
+    "formula": "V + 错/懂/好/会/完 (+ 了) (+ O) | Phủ định: 没(有) + V + 补语 (+ O)",
+    "explanationVi": "Cụm động-bổ (动补短语) gồm Động từ đứng trước và Bổ ngữ đứng ngay sau để nêu kết quả hoặc mức độ của hành động. Ở HSK 2, nhóm bổ ngữ kết quả cốt lõi gồm: 错 (sai: 写错 viết nhầm, 听错 nghe nhầm), 懂 (hiểu: 听懂 nghe hiểu, 看懂 đọc hiểu), 好 (xong/chuẩn bị xong: 做好 làm xong, 买好 mua sẵn), 会 (biết/thành thạo: 学会 học biết), 完 (hết/xong: 看完 xem hết, 吃完 ăn xong). Lưu ý: Giữa động từ và bổ ngữ kết quả không chèn 了 hay tân ngữ; 了 đứng sau bổ ngữ kết quả (写完了, 听懂了). Phủ định dùng 没(有) (trừ giả thiết điều kiện dùng 不), ví dụ 我没听懂.",
+    "viComparison": "Tiếng Việt cũng có kiểu 'nói nhầm', 'nghe hiểu', 'ăn xong', nhưng khi phủ định tiếng Việt thường tách hoặc dùng 'không' ('nghe không hiểu'), còn trong câu tường thuật sự việc đã qua tiếng Trung ưu tiên 没听懂, 没写完; dùng 不 để chỉ giả định hoặc nguyên tắc tương lai (不吃完不能玩儿).",
+    "confusablePairs": [
+      {
+        "pair": "做好 vs 做完",
+        "distinction": "做完 nhấn mạnh hoàn thành hết toàn bộ khối lượng (作业做完了 = làm hết bài tập rồi); 做好 nhấn mạnh hoàn tất đạt trạng thái sẵn sàng/tốt đẹp (晚饭做好了 = cơm tối nấu xong sẵn sàng rồi)."
+      },
+      {
+        "pair": "没写完 vs 写完了",
+        "distinction": "Phủ định bổ ngữ kết quả hầu như luôn dùng 没(有) đặt trước động từ và KHÔNG giữ 了 ở cuối (没写完, không nói *没写完了)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "不好意思，我听错了，能再说一遍吗？",
+        "pinyin": "Bù hǎoyìsi, wǒ tīngcuò le, néng zài shuō yí biàn ma?",
+        "vi": "Xin lỗi, tôi nghe nhầm rồi, bạn có thể nói lại một lần nữa không?"
+      },
+      {
+        "zh": "今天的作业很多，我还没写完呢。",
+        "pinyin": "Jīntiān de zuòyè hěn duō, wǒ hái méi xiěwán ne.",
+        "vi": "Bài tập hôm nay rất nhiều, tôi vẫn chưa viết xong."
+      },
+      {
+        "zh": "你真厉害，这么快就学会包饺子了！",
+        "pinyin": "Nǐ zhēn lìhai, zhème kuài jiù xuéhuì bāo jiǎozi le!",
+        "vi": "Bạn giỏi thật đấy, nhanh như vậy đã học được cách gói sủi cảo rồi!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-19-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu ĐÚNG ngữ pháp:",
+        "options": [
+          "老师讲得太快，我没听懂。",
+          "老师讲得太快，我听没懂。",
+          "老师讲得太快，我没听懂了。",
+          "老师讲得太快，我听懂没。"
+        ],
+        "answer": "老师讲得太快，我没听懂。",
+        "explanation": "Phủ định bổ ngữ kết quả đặt 没 trước động từ (没听懂) và lược bỏ 了."
+      },
+      {
+        "id": "g2-19-q2",
+        "type": "mcq",
+        "prompt": "Điền bổ ngữ kết quả thích hợp: 妈妈，饭已经做____了，快来吃吧。",
+        "options": [
+          "好",
+          "错",
+          "懂",
+          "会"
+        ],
+        "answer": "好",
+        "explanation": "做好 biểu thị nấu/làm xong và sẵn sàng để dùng."
+      },
+      {
+        "id": "g2-19-q3",
+        "type": "fill",
+        "prompt": "Điền bổ ngữ kết quả chỉ 'sai/nhầm': 这个汉字写____了，少了一笔。",
+        "answer": "错",
+        "explanation": "写错 nghĩa là viết sai/viết nhầm."
+      },
+      {
+        "id": "g2-19-q4",
+        "type": "fill",
+        "prompt": "Điền bổ ngữ kết quả chỉ 'học thành thạo/biết làm': 他学____了骑自行车。",
+        "answer": "会",
+        "explanation": "学会 nghĩa là học và biết làm/thành thạo một kỹ năng."
+      },
+      {
+        "id": "g2-19-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Quyển tiểu thuyết này tôi đã đọc xong rồi.",
+        "tokens": [
+          "这本小说",
+          "我",
+          "已经",
+          "看完",
+          "了"
+        ],
+        "answer": "这本小说我已经看完了",
+        "explanation": "Tân ngữ đưa lên đầu làm chủ đề, sau động từ là bổ ngữ kết quả 完 rồi mới đến 了."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-20",
+    "hskLevel": 2,
+    "category": "Bổ ngữ",
+    "topic": "Bổ ngữ xu hướng đơn giản",
+    "title": "Bổ ngữ xu hướng đơn giản (V+来/去 và V+上/下/进/出/过/回)",
+    "formula": "V + 来/去 | V + 上/下/进/出/过/回 | V + Tân ngữ nơi chốn + 来/去",
+    "explanationVi": "Bổ ngữ xu hướng đơn giản diễn tả hướng di chuyển của người hoặc vật: (1) V + 来/去 lấy vị trí người nói (hoặc điểm quy chiếu) làm chuẩn: 来 hướng gần lại phía người nói (过来, 进来); 去 hướng đi xa khỏi người nói (出去, 回去). (2) V + 上/下/进/出/过/回 diễn tả hướng chuyển động lên/xuống/vào/ra/qua/về (như 上楼, 下山, 进教室, 回家). Khi có tân ngữ chỉ nơi chốn kết hợp với 来/去, tân ngữ nơi chốn BẮT BUỘC đứng giữa động từ và 来/去 (回家去, 进房间来, không nói *回去了家). Nếu tân ngữ là đồ vật thông thường (không phải nơi chốn), có thể đứng trước hoặc sau 来/去 (买来一本书 / 买一本书来).",
+    "viComparison": "Tiếng Việt nói 'vào trong phòng đi' hay 'về nhà đây' không phụ thuộc chặt vào vị trí người nói như tiếng Trung. Người Việt hay mắc lỗi dịch từng chữ *来家 hoặc *回去了学校; phải đổi thành 回家来 / 回学校去.",
+    "confusablePairs": [
+      {
+        "pair": "进来 vs 进去",
+        "distinction": "Người nói đang ở TRONG phòng gọi người ngoài -> 进来 ('vào đây'); người nói đang ở NGOÀI phòng bảo người khác vào trong -> 进去 ('vào trong kia')."
+      },
+      {
+        "pair": "回学校去 vs 买来水果",
+        "distinction": "Tân ngữ nơi chốn (学校) luôn đứng trước 来/去 (回学校去); tân ngữ chỉ vật (水果) có thể đứng sau 来/去 (买来很多水果) hoặc trước 来/去 (买很多水果来)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "你在门外站着干什么？快进屋来吧。",
+        "pinyin": "Nǐ zài mén wài zhànzhe gàn shénme? Kuài jìn wū lái ba.",
+        "vi": "Bạn đứng ngoài cửa làm gì thế? Mau vào trong nhà đi."
+      },
+      {
+        "zh": "爸爸从超市买回很多水果。",
+        "pinyin": "Bàba cóng chāoshì mǎi huí hěn duō shuǐguǒ.",
+        "vi": "Bố mua rất nhiều hoa quả từ siêu thị mang về."
+      },
+      {
+        "zh": "时间不早了，我得回宿舍去了。",
+        "pinyin": "Shíjiān bù zǎo le, wǒ děi huí sùshè qù le.",
+        "vi": "Thời gian không còn sớm nữa, tôi phải về ký túc xá đây."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-20-q1",
+        "type": "mcq",
+        "prompt": "Bạn đang đứng trên tầng 3 gọi bạn mình ở dưới tầng 1 lên, bạn nói thế nào?",
+        "options": [
+          "快上来吧！",
+          "快上去吧！",
+          "快下来吧！",
+          "快下去吧！"
+        ],
+        "answer": "快上来吧！",
+        "explanation": "Hướng đi lên (上) và tiến lại gần phía người nói trên tầng 3 (来) -> 上来."
+      },
+      {
+        "id": "g2-20-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu đặt vị trí tân ngữ nơi chốn đúng:",
+        "options": [
+          "老师进教室来了。",
+          "老师进来教室了。",
+          "老师来进教室了。",
+          "老师教室进来了。"
+        ],
+        "answer": "老师进教室来了。",
+        "explanation": "Tân ngữ nơi chốn 教室 phải đặt giữa 进 và 来: 进教室来."
+      },
+      {
+        "id": "g2-20-q3",
+        "type": "fill",
+        "prompt": "Điền xu hướng phù hợp khi người nói ở trong nhà mời khách bước vào: 请____来坐吧。",
+        "answer": "进",
+        "explanation": "进 + 来 diễn tả bước từ ngoài vào chỗ người nói."
+      },
+      {
+        "id": "g2-20-q4",
+        "type": "fill",
+        "prompt": "Điền 来 hoặc 去: 他下星期要回老家____看父母。(người nói không ở quê của anh ấy)",
+        "answer": "去",
+        "explanation": "Đi về nơi khác xa chỗ người nói dùng 去: 回老家去."
+      },
+      {
+        "id": "g2-20-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cậu ấy mang một quyển sách đến rồi.",
+        "tokens": [
+          "他",
+          "带来",
+          "了",
+          "一本书"
+        ],
+        "answer": "他带来了一本书",
+        "explanation": "Động từ + Bổ ngữ xu hướng (带来) + 了 + Tân ngữ chỉ vật (一本书)."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-21",
+    "hskLevel": 2,
+    "category": "Bổ ngữ",
+    "topic": "Bổ ngữ xu hướng phức hợp",
+    "title": "Bổ ngữ xu hướng phức hợp (出来/出去/回来/回去/起来/下来/下去...)",
+    "formula": "V + 上/下/进/出/回/过/起 + 来/去 | V + 上/下/进/出/回/过 + Tân ngữ nơi chốn + 来/去",
+    "explanationVi": "Bổ ngữ xu hướng phức hợp ghép hướng cụ thể (上 lên, 下 xuống, 进 vào, 出 ra, 回 về, 过 qua, 起 lên/khởi) với 来 (lại gần người nói) hoặc 去 (ra xa người nói): 出来/出去, 过来/过去, 回来/回去, 进来/进去, 上来/上去, 下来/下去, và 起来 (lưu ý chỉ có 起来, không có *起去). Quy tắc vị trí tân ngữ cực kỳ quan trọng: (1) Tân ngữ nơi chốn BẮT BUỘC đặt ngay trước 来/去 (走进教室去, 跑上楼来, 飞回北京去). (2) Tân ngữ thông thường (đồ vật) có thể đặt sau toàn bộ bổ ngữ (拿出来一本书) hoặc trước 来/去 (拿出一本书来); nếu đã có 了 thì đặt 了 trước tân ngữ hoặc cuối câu (拿出来了一本书 / 拿出了一本书来).",
+    "viComparison": "Tiếng Việt cũng ghép hai hướng như 'chạy ra ngoài kia' (跑出去), 'đi lên đây' (走上来), nhưng khác ở chỗ tiếng Trung chẻ đôi cụm xu hướng khi có danh từ địa điểm: 'chạy vào trong phòng' = 跑进房间去 (chữ 去 lùi ra sau chữ 房间).",
+    "confusablePairs": [
+      {
+        "pair": "跑进教室去 vs 拿出一支笔来",
+        "distinction": "Với danh từ nơi chốn (教室), BẮT BUỘC đặt vào giữa (跑进教室去, sai nếu nói *跑进去教室). Với đồ vật (一支笔), đặt giữa hoặc đặt sau đều đúng (拿出一支笔来 / 拿出来一支笔)."
+      },
+      {
+        "pair": "站起来 vs 坐下来",
+        "distinction": "起来 chỉ hướng từ dưới lên / đứng thẳng dậy (và chỉ đi với 来); 下来 chỉ hướng từ trên xuống dưới (ngồi xuống)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "下课铃响了，同学们纷纷走出教室去。",
+        "pinyin": "Xiàkè líng xiǎng le, tóngxuémen fēnfēn zǒu chū jiàoshì qù.",
+        "vi": "Chuông hết giờ reo lên, các bạn học sinh lần lượt bước ra khỏi phòng học."
+      },
+      {
+        "zh": "他从包里拿出来一本词典。",
+        "pinyin": "Tā cóng bāo lǐ ná chūlái yì běn cídiǎn.",
+        "vi": "Cậu ấy lấy từ trong cặp ra một quyển từ điển."
+      },
+      {
+        "zh": "看到老师进来，大家都站起来了。",
+        "pinyin": "Kàndào lǎoshī jìnlái, dàjiā dōu zhàn qǐlái le.",
+        "vi": "Thấy thầy giáo bước vào, mọi người đều đứng dậy."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-21-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu đặt vị trí tân ngữ nơi chốn CHÍNH XÁC:",
+        "options": [
+          "哥哥跑上楼去了。",
+          "哥哥跑上去楼了。",
+          "哥哥上楼跑去了。",
+          "哥哥楼上跑去了。"
+        ],
+        "answer": "哥哥跑上楼去了。",
+        "explanation": "楼 là tân ngữ chỉ nơi chốn nên phải chèn vào giữa 上 và 去: 跑上楼去了."
+      },
+      {
+        "id": "g2-21-q2",
+        "type": "mcq",
+        "prompt": "Chọn bổ ngữ xu hướng phức hợp phù hợp: 看见那边有一辆出租车，我赶紧跑____。",
+        "options": [
+          "过去",
+          "过来",
+          "起来",
+          "下去"
+        ],
+        "answer": "过去",
+        "explanation": "Chạy về phía một điểm ở xa chỗ mình đang đứng ('那边') dùng 跑过去."
+      },
+      {
+        "id": "g2-21-q3",
+        "type": "fill",
+        "prompt": "Điền bổ ngữ xu hướng phức hợp cho 'đứng dậy': 请大家站____，跟我一起读。",
+        "answer": "起来",
+        "explanation": "站起来 nghĩa là đứng lên / đứng dậy."
+      },
+      {
+        "id": "g2-21-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu khi người nói ở trên tầng gọi người ở dưới mang hành lý lên: 你把箱子拿____吧。",
+        "answer": "上来",
+        "explanation": "Hướng từ dưới lên chỗ người nói dùng 上来."
+      },
+      {
+        "id": "g2-21-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cô ấy bước từ ngoài vào trong phòng (người nói đang ở ngoài).",
+        "tokens": [
+          "她",
+          "走",
+          "进",
+          "房间",
+          "去了"
+        ],
+        "answer": "她走进房间去了",
+        "explanation": "Cấu trúc chuẩn với tân ngữ nơi chốn: Động từ (走) + 进 + Nơi chốn (房间) + 去了."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-22",
+    "hskLevel": 2,
+    "category": "Bổ ngữ",
+    "topic": "Bổ ngữ trạng thái 得",
+    "title": "Bổ ngữ trạng thái (动词 + 得 + 形容词性短语)",
+    "formula": "S + V + 得 + (很/非常) + Adj | S + V + O + V + 得 + Adj | Phủ định: V + 得 + 不 + Adj",
+    "explanationVi": "Bổ ngữ trạng thái dùng trợ từ 得 nối sau động từ để đánh giá, miêu tả mức độ hoặc kết quả trạng thái của hành động ('làm việc gì như thế nào'). Cấu trúc cơ bản: S + V + 得 + Cụm tính từ (他跑得很快). Lưu ý hai quy tắc quan trọng: (1) Nếu động từ có tân ngữ đi kèm (như 说汉语, 写汉字, hoặc động từ ly hợp 睡觉, 唱歌), KHÔNG được đặt tân ngữ ngay trước 得 mà phải lặp lại động từ (他说汉语说得很好) hoặc đưa tân ngữ lên trước (他汉语说得很好). (2) Phủ định đặt 不 ở phần bổ ngữ sau 得 (他跑得不快), không đặt trước động từ (*他不跑得快 sai). (3) Câu hỏi chính phản dùng V + 得 + Adj 不 Adj？ (他写得好不好？).",
+    "viComparison": "Tiếng Việt nói 'cô ấy nói tiếng Trung rất tốt' nối thẳng, nhưng tiếng Trung tuyệt đối không được nói *她说汉语得很好; bắt buộc phải lặp động từ 说 (她说汉语说得很好) hoặc đảo 汉语 lên trước (她汉语说得很好).",
+    "confusablePairs": [
+      {
+        "pair": "说得很好 vs 能说得很好",
+        "distinction": "Động từ có bổ ngữ trạng thái 得 thường không thêm 能/可以 ở trước nếu đang đánh giá năng lực thực tế đã bộc lộ; nói thẳng 他汉语说得很好."
+      },
+      {
+        "pair": "他起得很早 vs 他没起很早",
+        "distinction": "Phủ định của bổ ngữ trạng thái phải giữ 得 và đặt 不 vào tính từ: 他起得不早 (không nói *他不/没起得早)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "她今天早上起得非常早。",
+        "pinyin": "Tā jīntiān zǎoshang qǐ de fēicháng zǎo.",
+        "vi": "Sáng nay cô ấy dậy rất sớm."
+      },
+      {
+        "zh": "大卫做中国菜做得真不错！",
+        "pinyin": "Dàwèi zuò Zhōngguócài zuò de zhēn búcuò!",
+        "vi": "David nấu món Trung Quốc rất ngon!"
+      },
+      {
+        "zh": "昨天我睡得不太好，今天有点儿累。",
+        "pinyin": "Zuótiān wǒ shuì de bú tài hǎo, jīntiān yǒudiǎnr lèi.",
+        "vi": "Hôm qua tôi ngủ không được ngon lắm, hôm nay hơi mệt."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-22-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu ĐÚNG ngữ pháp khi có tân ngữ:",
+        "options": [
+          "妹妹写汉字写得很漂亮。",
+          "妹妹写汉字得很漂亮。",
+          "妹妹写得很漂亮汉字。",
+          "妹妹很漂亮写汉字。"
+        ],
+        "answer": "妹妹写汉字写得很漂亮。",
+        "explanation": "Khi động từ mang tân ngữ 汉字, phải lặp lại động từ 写 trước 得: 写汉字写得很漂亮."
+      },
+      {
+        "id": "g2-22-q2",
+        "type": "mcq",
+        "prompt": "Chọn dạng phủ định đúng cho câu 'Anh ấy đến không muộn':",
+        "options": [
+          "他来得不晚。",
+          "他不来得晚。",
+          "他没来得晚。",
+          "他来没晚。"
+        ],
+        "answer": "他来得不晚。",
+        "explanation": "Phủ định bổ ngữ trạng thái đặt 不 ngay trước tính từ sau 得."
+      },
+      {
+        "id": "g2-22-q3",
+        "type": "fill",
+        "prompt": "Điền từ thích hợp hỏi mức độ hành động: 这家饭馆的菜做得怎么____？",
+        "answer": "样",
+        "explanation": "V + 得 + 怎么样？ dùng để hỏi hành động làm thế nào / ra sao."
+      },
+      {
+        "id": "g2-22-q4",
+        "type": "fill",
+        "prompt": "Điền từ còn thiếu khi lặp lại động từ: 他打篮球____得特别棒。",
+        "answer": "打",
+        "explanation": "Lặp lại động từ 打 trước 得: 打篮球打得特别棒."
+      },
+      {
+        "id": "g2-22-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Thầy giáo nói tiếng Việt rất lưu loát (流利).",
+        "tokens": [
+          "老师",
+          "越南语",
+          "说得",
+          "很流利"
+        ],
+        "answer": "老师越南语说得很流利",
+        "explanation": "Đưa tân ngữ 越南语 lên trước cụm 说得很流利 để tránh lỗi đặt tân ngữ trước 得."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-23",
+    "hskLevel": 2,
+    "category": "Bổ ngữ",
+    "topic": "Bổ ngữ số lượng",
+    "title": "Bổ ngữ thời lượng và Tính từ + Bổ ngữ số lượng",
+    "formula": "V + (了) + Thời lượng + (的) + O | V + O + V + Thời lượng | Adj + Số lượng cụ thể",
+    "explanationVi": "Bổ ngữ số lượng ở HSK 2 gồm hai dạng trọng tâm: (1) Bổ ngữ thời lượng biểu thị hành động kéo dài bao lâu. Nếu động từ không có tân ngữ, đặt thẳng thời lượng sau động từ (我睡了八个小时). Nếu có tân ngữ danh từ, đặt thời lượng trước tân ngữ (学了两年汉语, có thể thêm 的: 看了半个小时的书) hoặc lặp lại động từ (学汉语学了两年). Nếu tân ngữ là đại từ nhân xưng (他, 你), đại từ đứng trước thời lượng (等了他十分钟). Nếu thêm 了 ở cuối câu (我学了一年汉语了), nghĩa là 'đã học được 1 năm và vẫn đang học tiếp'. (2) Tính từ + Bổ ngữ số lượng diễn đạt mức chênh lệch cụ thể (thường dùng kèm so sánh hoặc nêu kích thước chênh lệch): 高两厘米 (cao hơn 2cm), 大三岁 (lớn hơn 3 tuổi), 贵十块钱 (đắt hơn 10 tệ).",
+    "viComparison": "Tiếng Việt đặt thời lượng sau tân ngữ ('học tiếng Trung hai năm'), còn tiếng Trung đặt thời lượng TRƯỚC tân ngữ danh từ: 学两年汉语 (hoặc lặp động từ 学汉语学了两年). Với đại từ ('đợi anh ấy 10 phút'), lại đặt đại từ trước thời lượng: 等了他十分钟.",
+    "confusablePairs": [
+      {
+        "pair": "我学了两年汉语 vs 我学了两年汉语了",
+        "distinction": "Một chữ 了 sau động từ thường chỉ việc đã hoàn tất trong quá khứ (hiện có thể không học nữa); hai chữ 了 (sau động từ và cuối câu) nhấn mạnh vẫn đang tiếp tục đến hiện tại."
+      },
+      {
+        "pair": "等了十分钟他 (SAI) vs 等了他十分钟 (ĐÚNG)",
+        "distinction": "Tân ngữ là đại từ nhân xưng luôn đứng giữa động từ và thời lượng."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我学汉语已经学了一年半了。",
+        "pinyin": "Wǒ xué Hànyǔ yǐjīng xuéle yì nián bàn le.",
+        "vi": "Tôi đã học tiếng Hán được một năm rưỡi rồi (và vẫn đang học)."
+      },
+      {
+        "zh": "我们在门口等了你二十多分钟了。",
+        "pinyin": "Wǒmen zài ménkǒu děngle nǐ èrshí duō fēnzhōng le.",
+        "vi": "Chúng tôi đã đợi bạn ở cổng hơn 20 phút rồi đấy."
+      },
+      {
+        "zh": "哥哥比我大五岁，也比我高十厘米。",
+        "pinyin": "Gēge bǐ wǒ dà wǔ suì, yě bǐ wǒ gāo shí límǐ.",
+        "vi": "Anh trai lớn hơn tôi 5 tuổi, cũng cao hơn tôi 10 xen-ti-mét."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-23-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu diễn đạt đúng 'Tôi đã xem ti vi một tiếng đồng hồ':",
+        "options": [
+          "我看了一个小时的电视。",
+          "我看了电视一个小时。",
+          "我一个小时看了电视。",
+          "我看了电视一个小时了是。"
+        ],
+        "answer": "我看了一个小时的电视。",
+        "explanation": "Thời lượng đứng giữa động từ và tân ngữ danh từ: V + 了 + Thời lượng + (的) + Tân ngữ."
+      },
+      {
+        "id": "g2-23-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu đúng khi tân ngữ là đại từ nhân xưng 她:",
+        "options": [
+          "小王找了她半天。",
+          "小王找了半天她。",
+          "小王半天找了她。",
+          "小王找她半天了是。"
+        ],
+        "answer": "小王找了她半天。",
+        "explanation": "Đại từ nhân xưng 她 đứng ngay sau động từ (找了) và trước bổ ngữ thời lượng (半天)."
+      },
+      {
+        "id": "g2-23-q3",
+        "type": "fill",
+        "prompt": "Điền lượng từ thời gian hoàn thành câu: 飞机晚点了，我们在机场等了两个____。",
+        "answer": "小时",
+        "explanation": "两个小时 (2 tiếng đồng hồ) dùng lượng từ 个 với 小时."
+      },
+      {
+        "id": "g2-23-q4",
+        "type": "fill",
+        "prompt": "Điền tính từ thích hợp với bổ ngữ số lượng: 这双鞋比那双____三十块钱。(đắt hơn)",
+        "answer": "贵",
+        "explanation": "A 比 B + 贵 + 30 tệ."
+      },
+      {
+        "id": "g2-23-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cậu ấy đã sống ở Bắc Kinh ba năm rồi (vẫn đang sống).",
+        "tokens": [
+          "他在北京",
+          "住了",
+          "三年",
+          "了"
+        ],
+        "answer": "他在北京住了三年了",
+        "explanation": "Hai chữ 了 (住了...了) diễn tả hành động kéo dài tới hiện tại."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-24",
+    "hskLevel": 2,
+    "category": "Cấu trúc câu đặc biệt",
+    "topic": "Câu so sánh",
+    "title": "Câu so sánh với 比 và 有/没有 (4 mẫu chuẩn HSK 2)",
+    "formula": "A 比 B + Adj (+ 一点儿/得多/Số lượng) | A 有/没有 B (+ 这么/那么) + Adj | A 比 B + V得 + Adj / A + V得 + 比 B + Adj",
+    "explanationVi": "HSK 2 hệ thống 4 mẫu câu so sánh cơ bản: (1) A 比 B + Adj: so sánh hơn đơn giản (今天比昨天冷). Chú ý TUYỆT ĐỐI KHÔNG dùng 很, 非常, 真 trước tính từ trong câu 比 (*今天比昨天很冷 sai). (2) A 比 B + Adj + Bổ ngữ mức độ/số lượng: nêu mức chênh lệch ít (一点儿/一些), nhiều (得多/多了), hoặc con số cụ thể (我比他高五厘米). Muốn nói 'càng... hơn nữa' dùng 更 hoặc 还 đặt trước tính từ (今天比昨天更冷). (3) A 有/没有 B (+ 这么/那么) + Adj: so sánh bằng hoặc kém hơn ('A bằng / không bằng B', thường dùng dạng phủ định 没有: 弟弟没有哥哥那么高). (4) So sánh hành động qua bổ ngữ trạng thái: dùng A 比 B + V + 得 + Adj (他比我跑得快) hoặc A + V + 得 + 比 B + Adj (他跑得比我快).",
+    "viComparison": "Lỗi kinh điển của người Việt là dịch 'hơn rất nhiều' thành *比...很多 hoặc *比...很大. Trong tiếng Trung, chữ 'rất' bị cấm trong câu 比; thay vào đó phải đặt 得多 hoặc 多了 ở SAU tính từ: 比昨天冷多了 / 大得多.",
+    "confusablePairs": [
+      {
+        "pair": "A 不比 B + Adj vs A 没有 B + Adj",
+        "distinction": "A 没有 B + Adj nghĩa là 'A không bằng B' (A < B); A 不比 B + Adj nghĩa là 'A không hơn gì B' (A <= B, bác bỏ lời khen A hơn B)."
+      },
+      {
+        "pair": "更 / 还 vs 很 / 非常",
+        "distinction": "Trong câu 比, ĐƯỢC dùng 更 / 还 trước tính từ (比昨天更冷), nhưng CẤM dùng 很 / 非常 / 太."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天的作业比昨天多得多。",
+        "pinyin": "Jīntiān de zuòyè bǐ zuótiān duō de duō.",
+        "vi": "Bài tập hôm nay nhiều hơn hôm qua rất nhiều."
+      },
+      {
+        "zh": "这条裙子没有那条那么好看。",
+        "pinyin": "Zhè tiáo qúnzi méiyǒu nà tiáo nàme hǎokàn.",
+        "vi": "Chiếc váy này không đẹp bằng chiếc kia."
+      },
+      {
+        "zh": "姐姐说汉语说得比我流利一点儿。",
+        "pinyin": "Jiějie shuō Hànyǔ shuō de bǐ wǒ liúlì yìdiǎnr.",
+        "vi": "Chị gái nói tiếng Hán lưu loát hơn tôi một chút."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-24-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu so sánh ĐÚNG ngữ pháp:",
+        "options": [
+          "北京的冬天比河内冷多了。",
+          "北京的冬天比河内很冷。",
+          "北京的冬天比河内非常冷。",
+          "北京的冬天比河内一点儿冷。"
+        ],
+        "answer": "北京的冬天比河内冷多了。",
+        "explanation": "Không dùng 很/非常 trong câu 比; 一点儿 hoặc 多了 phải đặt sau tính từ."
+      },
+      {
+        "id": "g2-24-q2",
+        "type": "mcq",
+        "prompt": "Câu nào tương đương nghĩa với 'Tôi chạy không nhanh bằng anh ấy'?",
+        "options": [
+          "我没有他跑得快。",
+          "我比他跑得快。",
+          "他没有我跑得快。",
+          "我不比他很慢。"
+        ],
+        "answer": "我没有他跑得快。",
+        "explanation": "A 没有 B + ... diễn tả A không bằng B."
+      },
+      {
+        "id": "g2-24-q3",
+        "type": "fill",
+        "prompt": "Điền từ thể hiện mức chênh lệch nhỏ ('một chút'): 西瓜比苹果贵____。",
+        "answer": "一点儿",
+        "explanation": "A 比 B + Adj + 一点儿 diễn tả hơn một chút."
+      },
+      {
+        "id": "g2-24-q4",
+        "type": "fill",
+        "prompt": "Điền phó từ thích hợp nhấn mạnh 'càng/lại càng' trước tính từ trong câu 比: 昨天很冷，今天比昨天____冷。",
+        "answer": "更",
+        "explanation": "更 (hoặc 还) có thể đứng trước tính từ trong câu so sánh 比."
+      },
+      {
+        "id": "g2-24-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cậu ấy viết chữ Hán đẹp hơn tôi nhiều.",
+        "tokens": [
+          "他",
+          "写汉字",
+          "写得",
+          "比我",
+          "好看多了"
+        ],
+        "answer": "他写汉字写得比我好看多了",
+        "explanation": "Mẫu so sánh hành động: Chủ ngữ + V + O + V得 + 比 B + Adj + 多了."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-25",
+    "hskLevel": 2,
+    "category": "Cấu trúc câu đặc biệt",
+    "topic": "Câu 是……的, Câu 是 & Câu 有",
+    "title": "Câu nhấn mạnh 是……的, Câu 是 chỉ đặc điểm và Câu 有 đạt mức",
+    "formula": "S + 是 + Thời gian/Nơi chốn/Cách thức/Tác nhân + V + 的 | S + 是 + Đặc điểm (+ 的) | S + 有 + Số lượng/Mức độ",
+    "explanationVi": "Ba cấu trúc câu đặc biệt rất hay dùng ở HSK 2: (1) Câu 是……的 dùng để nhấn mạnh bối cảnh (thời gian, địa điểm, phương thức, người thực hiện) của một sự việc ĐÃ XẢY RA. Phủ định dùng 不是……的 (不是昨天买的, không lược bỏ 不是). Khi có tân ngữ là danh từ, 的 thường đặt sau tân ngữ hoặc trước tân ngữ đều gặp, nhưng phổ biến trong HSK 2 là đặt cuối câu hoặc chen trước danh từ (我是去年来中国的 / 我是去年来的中国). (2) Câu 是字句2 dùng để mô tả tính chất, chất liệu hoặc đặc trưng (这张桌子是木头的 = cái bàn này làm bằng gỗ; 他是大眼睛). (3) Câu 有字句2 biểu thị số lượng, độ cao, tuổi tác đạt đến mức nào đó (他有一米八 = anh ấy cao 1m8; 这栋楼有二十层高).",
+    "viComparison": "Trong câu 'Tôi đến bằng máy bay', tiếng Việt không cần khung nhấn mạnh, nhưng khi đã biết người đó đã đến rồi và muốn hỏi/trả lời cách thức hay thời điểm đến, tiếng Trung dùng 是……的: 我是坐飞机来的. Ngoài ra, câu 有 đạt mức (有一米八) tương đương 'cao tới 1m8 / có tới...'.",
+    "confusablePairs": [
+      {
+        "pair": "我昨天买了这本书 vs 这本书是我昨天买的",
+        "distinction": "Câu đầu kể lại sự việc đã mua; câu sau nhấn mạnh thời điểm 'là vào hôm qua' (người nghe đã biết cuốn sách được mua)."
+      },
+      {
+        "pair": "有 (sở hữu) vs 有 (đạt mức)",
+        "distinction": "我有两本书 (sở hữu); 这条鱼有两斤重 (đạt trọng lượng 2 cân)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "我们是去年九月认识的。",
+        "pinyin": "Wǒmen shì qùnián jiǔyuè rènshi de.",
+        "vi": "Chúng tôi quen nhau vào tháng 9 năm ngoái."
+      },
+      {
+        "zh": "那件衣服不是在网上买的，是在商场买的。",
+        "pinyin": "Nà jiàn yīfu bú shì zài wǎngshang mǎi de, shì zài shāngchǎng mǎi de.",
+        "vi": "Chiếc áo đó không phải mua trên mạng, mà là mua ở trung tâm thương mại."
+      },
+      {
+        "zh": "这棵大树有十米高，这把椅子是木头的。",
+        "pinyin": "Zhè kē dàshù yǒu shí mǐ gāo, zhè bǎ yǐzi shì mùtou de.",
+        "vi": "Cây to này cao tới 10 mét, còn chiếc ghế này làm bằng gỗ."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-25-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu hỏi đúng về phương thức đi lại của chuyến đi đã qua:",
+        "options": [
+          "你是怎么来北京的？",
+          "你来北京是怎么吗？",
+          "你是来北京怎么的？",
+          "你没是怎么来北京的？"
+        ],
+        "answer": "你是怎么来北京的？",
+        "explanation": "Khung 是……的 đặt từ nghi vấn 怎么 (nhấn mạnh cách thức) ngay sau 是 và 的 ở cuối câu."
+      },
+      {
+        "id": "g2-25-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu phủ định đúng cho cấu trúc 是……的:",
+        "options": [
+          "我不是坐火车来的，是坐飞机来的。",
+          "我没是坐火车来的。",
+          "我是没坐火车来的。",
+          "我不坐火车来的。"
+        ],
+        "answer": "我不是坐火车来的，是坐飞机来的。",
+        "explanation": "Phủ định của 是……的 bắt buộc dùng 不是……的."
+      },
+      {
+        "id": "g2-25-q3",
+        "type": "fill",
+        "prompt": "Điền động từ chỉ mức đạt được: 我弟弟现在____一米七五了。",
+        "answer": "有",
+        "explanation": "有 + số đo lường diễn đạt chiều cao/trọng lượng đạt mức bao nhiêu."
+      },
+      {
+        "id": "g2-25-q4",
+        "type": "fill",
+        "prompt": "Điền trợ từ cuối khung nhấn mạnh: 这张照片是爸爸去年拍____。",
+        "answer": "的",
+        "explanation": "Khung 是……的 kết thúc bằng 的 khi nhấn mạnh chủ thể 爸爸 và thời gian 去年."
+      },
+      {
+        "id": "g2-25-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Cậu ấy đi tàu điện ngầm đến công ty (nhấn mạnh cách thức).",
+        "tokens": [
+          "他是",
+          "坐地铁",
+          "来公司的"
+        ],
+        "answer": "他是坐地铁来公司的",
+        "explanation": "Khung 是……的 bao lấy phương thức 坐地铁 và động từ 来公司."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-26",
+    "hskLevel": 2,
+    "category": "Câu phức & Thành phần câu",
+    "topic": "Thành phần câu & Chủ ngữ bị động ý nghĩa",
+    "title": "Chủ ngữ tiếp nhận (受事主语), Vị ngữ danh từ, Định ngữ dài & Câu chủ-vị làm vị ngữ",
+    "formula": "Vật + V + 了/完 | S + Cụm danh từ | (Cụm động/Chủ-vị) + 的 + N | Chủ đề lớn + (S2 + Vị ngữ 2)",
+    "explanationVi": "HSK 2 giới thiệu 4 cấu trúc thành phần câu linh hoạt: (1) Chủ ngữ tiếp nhận tác động (受事主语): Khi vật được nói đến đã xác định và người thực hiện không quan trọng, đưa thẳng vật làm chủ ngữ mà KHÔNG cần chữ 被 (作业写完了, 晚饭做好了). (2) Cụm danh từ làm vị ngữ: không cần 是 khi nói về tuổi tác, ngày tháng, thời tiết, giá cả, quê quán (今天星期五, 这本书三十块钱). (3) Động từ, cụm động từ hoặc cụm chủ-vị làm định ngữ phải có 的 nối với danh từ (刚才来的人, 妈妈做的菜). (4) Câu chủ-vị làm vị ngữ (主谓谓语句): Chủ ngữ lớn nêu chủ đề rộng, phần vị ngữ phía sau lại là một mệnh đề chủ-vị hoàn chỉnh (我头疼 / 这个地方我来过两次 / 他学习很认真).",
+    "viComparison": "Tiếng Việt cũng có câu chủ đề - thuyết ('Bức thư đó tôi đọc rồi' = 那封信我看了) và bỏ 'là' khi nói thứ ngày ('Hôm nay thứ Tư' = 今天星期三). Tuy nhiên tiếng Việt đặt định ngữ sau danh từ ('món mẹ nấu'), còn tiếng Trung đặt toàn bộ cụm định ngữ TRƯỚC 的 + danh từ: 妈妈做的菜.",
+    "confusablePairs": [
+      {
+        "pair": "我做的菜 vs 我做菜",
+        "distinction": "我做的菜 là cụm danh từ ('món ăn tôi nấu', có 的); 我做菜 là câu chủ-vị ('tôi nấu cơm')."
+      },
+      {
+        "pair": "苹果卖完了 vs 苹果把/被卖完了",
+        "distinction": "Ở HSK 2, với vật vô tri đã xác định ở đầu câu, nói tự nhiên nhất là 苹果卖完了 (chủ ngữ tiếp nhận tác động), không cần thêm 被."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "今天星期六，那件衣服两百块钱。",
+        "pinyin": "Jīntiān xīngqīliù, nà jiàn yīfu liǎng bǎi kuài qián.",
+        "vi": "Hôm nay thứ Bảy, chiếc áo kia giá hai trăm tệ."
+      },
+      {
+        "zh": "桌上的水果我都洗好了。",
+        "pinyin": "Zhuō shang de shuǐguǒ wǒ dōu xǐhǎo le.",
+        "vi": "Hoa quả trên bàn tôi đều đã rửa sạch xong hết rồi."
+      },
+      {
+        "zh": "朋友送给我的那本书非常有趣。",
+        "pinyin": "Péngyou sònggěi wǒ de nà běn shū fēicháng yǒuqù.",
+        "vi": "Cuốn sách mà bạn bè tặng cho tôi vô cùng thú vị."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-26-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu diễn đạt đúng 'Bộ phim tối qua tôi xem rất cảm động':",
+        "options": [
+          "昨晚我看的电影很感人。",
+          "电影昨晚我看很感人。",
+          "我看电影昨晚的很感人。",
+          "昨晚看我的电影很感人。"
+        ],
+        "answer": "昨晚我看的电影很感人。",
+        "explanation": "Cụm chủ-vị 昨晚我看 làm định ngữ bổ nghĩa cho 电影 phải đứng trước 的 + 电影."
+      },
+      {
+        "id": "g2-26-q2",
+        "type": "mcq",
+        "prompt": "Câu nào là câu có cụm danh từ làm vị ngữ (không cần 是)?",
+        "options": [
+          "我妹妹今年十八岁。",
+          "我妹妹喜欢跑步。",
+          "我妹妹在教室里。",
+          "我妹妹写完了作业。"
+        ],
+        "answer": "我妹妹今年十八岁。",
+        "explanation": "Cụm danh từ 十八岁 trực tiếp làm vị ngữ nêu tuổi tác của chủ ngữ 我妹妹."
+      },
+      {
+        "id": "g2-26-q3",
+        "type": "fill",
+        "prompt": "Điền trợ từ nối định ngữ động từ: 外面穿红衣服____人是我姐姐。",
+        "answer": "的",
+        "explanation": "Cụm động từ 穿红衣服 làm định ngữ đứng trước danh từ 人 cần trợ từ 的."
+      },
+      {
+        "id": "g2-26-q4",
+        "type": "fill",
+        "prompt": "Hoàn thành câu chủ ngữ tiếp nhận: 饭已经做____了，大家快来吃吧。",
+        "answer": "好",
+        "explanation": "饭 là chủ ngữ tiếp nhận hành động 做好 (đã nấu xong)."
+      },
+      {
+        "id": "g2-26-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Bộ phim này tôi chưa từng xem bao giờ.",
+        "tokens": [
+          "这个电影",
+          "我",
+          "没",
+          "看过"
+        ],
+        "answer": "这个电影我没看过",
+        "explanation": "Câu chủ-vị làm vị ngữ: Chủ đề lớn 这个电影 + mệnh đề 我没看过."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-27",
+    "hskLevel": 2,
+    "category": "Câu phức & Thành phần câu",
+    "topic": "Câu liên động, Kiêm ngữ & Hai tân ngữ",
+    "title": "Cụm chữ 的, Câu liên động, Câu kiêm ngữ (请/叫/让) và Hai tân ngữ với 给",
+    "formula": "Adj/V + 的 | S + V1 + V2 | S + 请/叫/让 + O1 + V2 | S + V + 给 + O1 + O2",
+    "explanationVi": "Các cấu trúc mở rộng cụm và vị ngữ ở HSK 2: (1) Cụm chữ 的 (的字短语): danh từ trung tâm bị lược bỏ khi ngữ cảnh đã rõ, phần trước + 的 đóng vai trò như một danh từ (我要红的 = tôi lấy cái màu đỏ; 吃的 = đồ ăn). (2) Câu liên động (连谓短语): một chủ ngữ thực hiện liên tiếp 2 hành động trở lên theo trình tự thời gian hoặc mục đích-phương thức (我坐飞机去北京 / 他去超市买苹果). Lưu ý 了 chỉ đặt sau động từ thứ hai khi toàn bộ chuỗi hoàn tất (他去书店买了一本书). (3) Câu kiêm ngữ (兼语句): S + 请/叫/让 + Tân ngữ 1 + Động từ 2 (+ Tân ngữ 2), trong đó O1 vừa là tân ngữ của 请/叫/让, vừa là chủ ngữ của V2 (老师请我回答问题, 妈妈叫我回家, 他让我等一下). (4) Câu hai tân ngữ với 给: Động từ (送、写、借、卖、教、带...) + 给 + Người nhận (O1) + Vật (O2) (朋友送给我一张卡片).",
+    "viComparison": "Cấu trúc liên động và kiêm ngữ khá tương đồng với tiếng Việt ('tôi đi siêu thị mua táo', 'mẹ bảo tôi về nhà'). Điểm cần chú ý: trong câu liên động, KHÔNG chia thì 了 ở động từ thứ nhất khi hành động thứ hai là mục đích (*他去了书店买一本书 sai -> 他去书店买了一本书).",
+    "confusablePairs": [
+      {
+        "pair": "请 vs 叫 vs 让",
+        "distinction": "请 mang sắc thái lịch sự ('mời, nhờ'); 叫 mang sắc thái gọi/bảo trong quan hệ thân mật hoặc trên dưới ('bảo, gọi'); 让 trung tính ('để, cho phép, bảo')."
+      },
+      {
+        "pair": "送给我一本书 vs 给她买一本书",
+        "distinction": "Động từ có sẵn hướng chuyển giao (送, 借, 寄, 卖) thường dùng mẫu V + 给 + O1 + O2 (送给我一本书); động từ không mang sẵn nghĩa trao tay như 买 dùng mẫu giới từ 给 + O1 + V + O2 (给她买一本书)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "桌子上有两个苹果，我要那个大的。",
+        "pinyin": "Zhuōzi shang yǒu liǎng ge píngguǒ, wǒ yào nàge dà de.",
+        "vi": "Trên bàn có hai quả táo, tôi lấy quả to kia."
+      },
+      {
+        "zh": "妈妈叫我放学以后去商店买一瓶牛奶。",
+        "pinyin": "Māma jiào wǒ fàngxué yǐhòu qù shāngdiàn mǎi yì píng niúnǎi.",
+        "vi": "Mẹ bảo tôi sau khi tan học thì đến cửa hàng mua một chai sữa."
+      },
+      {
+        "zh": "哥哥昨天寄给我几张北京的照片。",
+        "pinyin": "Gēge zuótiān jìgěi wǒ jǐ zhāng Běijīng de zhàopiàn.",
+        "vi": "Hôm qua anh trai đã gửi cho tôi mấy tấm ảnh Bắc Kinh."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-27-q1",
+        "type": "mcq",
+        "prompt": "Chọn câu liên động ĐÚNG ngữ pháp:",
+        "options": [
+          "他骑车去学校上课。",
+          "他去了学校上课了。",
+          "他骑了车去学校上课。",
+          "他去学校骑车上课。"
+        ],
+        "answer": "他骑车去学校上课。",
+        "explanation": "Trong câu liên động phương thức -> nơi chốn -> mục đích, phương thức 骑车 đi trước 去学校 và 上课; không thêm 了 vào động từ đầu."
+      },
+      {
+        "id": "g2-27-q2",
+        "type": "mcq",
+        "prompt": "Câu nào là câu kiêm ngữ đúng nghĩa 'Thầy giáo mời tôi lên bảng viết chữ Hán'?",
+        "options": [
+          "老师请我写汉字。",
+          "老师跟我请写汉字。",
+          "我请老师写汉字。",
+          "老师请写汉字我。"
+        ],
+        "answer": "老师请我写汉字。",
+        "explanation": "Cấu trúc kiêm ngữ: 主语 (老师) + 请 + O1 (我) + V2 (写汉字)."
+      },
+      {
+        "id": "g2-27-q3",
+        "type": "fill",
+        "prompt": "Điền trợ từ tạo cụm chữ 的 (ý chỉ 'cái màu trắng'): 这两件衣服，我比较喜欢白____。",
+        "answer": "的",
+        "explanation": "白的 là cụm chữ 的 thay thế cho 白的衣服."
+      },
+      {
+        "id": "g2-27-q4",
+        "type": "fill",
+        "prompt": "Điền giới/trợ từ nối hai tân ngữ: 老师教____我们很多生词。",
+        "answer": "给",
+        "explanation": "V + 给 + O1 (我们) + O2 (很多生词) diễn tả truyền đạt/trao cho ai cái gì."
+      },
+      {
+        "id": "g2-27-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Bố không cho tôi chơi game muộn quá.",
+        "tokens": [
+          "爸爸",
+          "不让",
+          "我",
+          "太晚",
+          "玩儿游戏"
+        ],
+        "answer": "爸爸不让我太晚玩儿游戏",
+        "explanation": "Câu kiêm ngữ phủ định: 爸爸 + 不让 + 我 + 太晚玩儿游戏."
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "g2-28",
+    "hskLevel": 2,
+    "category": "Câu phức & Thành phần câu",
+    "topic": "Câu lựa chọn & Câu phức liên kết",
+    "title": "Câu lựa chọn 还是 và Câu phức (虽然…但是…, 因为…所以…, 一…就…, 那)",
+    "formula": "(是)…还是…? | 虽然…，但是… | 因为…，所以… | 一 + V1 + 就 + V2 | 那，…",
+    "explanationVi": "Bài tổng hợp các câu phức trọng yếu của HSK 2: (1) Câu hỏi lựa chọn dùng (是)……，还是…… (你喝茶还是喝咖啡？); nếu nằm trong câu trần thuật có động từ nghi vấn như 知道, 问, 决定 vẫn dùng 还是 (我不知道他来还是不来). Còn 或者 chỉ dùng trong câu trần thuật lựa chọn bình thường. (2) Câu chuyển折: 虽然……，但是/可是…… ('tuy... nhưng...'). Lưu ý liên từ 但/但是 đứng đầu vế hai. (3) Câu nhân quả: 因为……，所以…… ('vì... cho nên...'). Nếu 因为1 đứng trước danh từ/cụm danh từ thì là giới từ (因为下雨，我没去), đứng trước mệnh đề thì là liên từ 因为2. (4) Câu rút gọn 一……就…… diễn tả hễ V1 xảy ra thì V2 lập tức nối tiếp ngay (他一回家就打开电脑) hoặc quy luật cố định (我一喝咖啡就睡不着). Nếu 2 chủ ngữ khác nhau, đặt 一 sau chủ ngữ 1 và 就 sau chủ ngữ 2 (老师一进来，大家就安静了). (5) Liên từ 那 đứng đầu vế hoặc câu sau mang nghĩa 'vậy thì...' (你不想去，那我们在家吧).",
+    "viComparison": "Tiếng Việt đặt 'một khi/vừa... là...' hoặc 'tuy... nhưng...' tương đối giống tiếng Trung. Nhưng hai điểm người Việt cực kỳ hay nhầm: (1) Dùng nhầm 或者 vào câu hỏi lựa chọn (*你喝茶或者喝咖啡？ là SAI, phải dùng 还是). (2) Dùng sai vị trí của 一 khi có hai chủ ngữ (*一老师进来，大家就... là SAI, 一 phải đứng SAU chủ ngữ 1: 老师一进来...).",
+    "confusablePairs": [
+      {
+        "pair": "还是 vs 或者",
+        "distinction": "还是 dùng trong câu hỏi lựa chọn (你去还是不去？) hoặc mệnh đề băn khoăn chưa rõ (我不知道选红的还是蓝的); 或者 chỉ dùng trong câu trần thuật thông thường (明天或者后天我去看你)."
+      },
+      {
+        "pair": "一……就…… (1 chủ ngữ) vs (2 chủ ngữ)",
+        "distinction": "1 chủ ngữ: S + 一 + V1 + 就 + V2 (我一到家就给你打电话). 2 chủ ngữ: S1 + 一 + V1，S2 + 就 + V2 (天一黑，街上的灯就亮了)."
+      }
+    ],
+    "examples": [
+      {
+        "zh": "虽然这件衣服有点儿贵，但是质量非常好。",
+        "pinyin": "Suīrán zhè jiàn yīfu yǒudiǎnr guì, dànshì zhìliàng fēicháng hǎo.",
+        "vi": "Tuy chiếc áo này hơi đắt một chút nhưng chất lượng vô cùng tốt."
+      },
+      {
+        "zh": "因为今天路上堵车，所以我迟到了十分钟。",
+        "pinyin": "Yīnwèi jīntiān lùshang dǔchē, suǒyǐ wǒ chídàole shí fēnzhōng.",
+        "vi": "Vì hôm nay trên đường tắc xe nên tôi đã đến muộn 10 phút."
+      },
+      {
+        "zh": "下课铃一响，同学们就走出教室了。",
+        "pinyin": "Xiàkè líng yì xiǎng, tóngxuémen jiù zǒu chū jiàoshì le.",
+        "vi": "Chuông tan học vừa reo lên, các bạn học sinh liền bước ra khỏi lớp."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g2-28-q1",
+        "type": "mcq",
+        "prompt": "Chọn từ đúng điền vào câu hỏi: 今天晚上我们出去吃，____在家做饭？",
+        "options": [
+          "还是",
+          "或者",
+          "因为",
+          "虽然"
+        ],
+        "answer": "还是",
+        "explanation": "Câu hỏi lựa chọn bắt buộc dùng 还是."
+      },
+      {
+        "id": "g2-28-q2",
+        "type": "mcq",
+        "prompt": "Chọn câu đúng với cấu trúc 一……就…… khi có hai chủ ngữ:",
+        "options": [
+          "妈妈一回来，小狗就跑过去。",
+          "一妈妈回来，小狗就跑过去。",
+          "妈妈一回来，就小狗跑过去。",
+          "妈妈回来一，小狗就跑过去。"
+        ],
+        "answer": "妈妈一回来，小狗就跑过去。",
+        "explanation": "Cả 一 và 就 đều là phó từ nên phải đứng SAU chủ ngữ của mỗi vế."
+      },
+      {
+        "id": "g2-28-q3",
+        "type": "fill",
+        "prompt": "Điền liên từ vế đối lập: 虽然外面下着雪，____屋里很暖和。",
+        "answer": "但是",
+        "explanation": "Cặp liên từ tương phản: 虽然……，但是……."
+      },
+      {
+        "id": "g2-28-q4",
+        "type": "fill",
+        "prompt": "Điền liên từ kết quả cho cặp câu: ____她每天练习，所以汉语进步很快。",
+        "answer": "因为",
+        "explanation": "Cặp nhân quả: 因为……，所以……."
+      },
+      {
+        "id": "g2-28-q5",
+        "type": "order",
+        "prompt": "Sắp xếp thành câu hoàn chỉnh: Vậy thì ngày mai chúng ta cùng nhau đi công viên nhé.",
+        "tokens": [
+          "那，",
+          "明天",
+          "我们",
+          "一起去",
+          "公园吧"
+        ],
+        "answer": "那，明天我们一起去公园吧",
+        "explanation": "Liên từ 那 đứng đầu câu để chuyển tiếp kết luận dựa trên tình huống vừa nói."
+      }
+    ],
+    "reviewed": false
+  }
+]
